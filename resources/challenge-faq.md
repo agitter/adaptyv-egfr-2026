@@ -1,0 +1,128 @@
+# Anthropic × Adaptyv Protein Design Competition FAQs
+
+We recommend providing this FAQs list to your Claudes. We expect to update this document throughout the competition as more FAQs emerge.
+
+## What classes of molecules can be designed and submitted?
+
+De novo proteins (including minibinders, larger proteins, and microbinders), nanobodies, and antibodies can be submitted. Importantly:
+- For single chain proteins, the minimum length is 10 amino acids and the maximum length is 250 amino acids.
+- For nanobodies/antibodies, we consider a design to be a nanobody/antibody if it is annotated as such by a tool like [ANARCI](https://github.com/oxpig/ANARCI). We advise participants who seek to design nanobodies and antibodies to use common framework regions as a starting point. For scFvs we may reformat to our preferred linker.
+
+## How will different classes of molecules be evaluated?
+
+We will stratify performance into five molecule categories:
+1. Protein minibinders: Proteins consisting of between 40 and 100 amino acids (inclusive)
+2. Large protein binders: Proteins consisting of >100 amino acids
+3. Protein microbinders: Proteins consisting of <40 amino acids
+4. Nanobodies
+5. Antibodies (formatted as either scFv or Fab, see Question 5)
+
+## What criteria will be used to determine the winners of the competition?
+
+The challenges in this protein design competition are multivariable, making it difficult to define a single metric for success. We expect to announce winners across categories within challenges. For example, consider the challenge of designing a mouse cross-reactive, pH-sensitive binder against a human target. We could announce winners for each of the following categories:
+- Highest affinity human binder against a functional epitope
+- Most mouse cross-reactive binder, measured for example using mouse affinity (with human affinity above a threshold)
+- Most pH-sensitive binder, measured for example using the ratio of affinities at different pH values (with affinity above a threshold)
+- Most pH-sensitive, mouse cross-reactive binder measured using a combination of the above criteria
+
+The primary goal of the competition is to show frontier protein design capabilities and this will be taken into account for assessing winning designs. For example, taking the examples above, pH-sensitive binder design is generally much harder than designing high-affinity binders, so a weak, but clearly pH-sensitive binder may be considered more impactful than a high-affinity binder that is not pH-sensitive. We will be mindful when selecting the winners to account for these challenge-specific difficulties.
+
+Another goal of the competition is to demonstrate therapeutic relevance so we recommend participants target functional epitopes.
+
+## How many designs should I submit?
+
+If you are part of track 1, you should submit at least 20 designs and at most 40 designs. If you are part of tracks 2 or 3, you should submit at most 20 designs.
+
+## How and where should I submit my designs? Should I submit any additional information with my designs? Can I submit anonymously?
+
+Submit your designs as a CSV ordered by how you would rank your molecules (top row higher) with, at minimum, the following columns: 
+- name: a unique identifier
+- sequence: the sequence of the designed protein
+  - For Fabs submit as a single sequence with VH followed by VL separated by a “:” (e.g. “{VH}:{VL}”). Use molecule_class to indicate whether you intend for the light chain to be kappa or lambda.
+- molecule_class: one of “protein”, “nanobody”, “scfv”, “fab_kappa”, “fab_lambda”
+
+We encourage participants to submit as much information as they are comfortable sharing, including metrics (e.g. ipTM, ipSAE, self-consistency, physics-based metrics, sequences liability scores), structure models from design and folding models, and methodologies (e.g. AI models, design models, folding models, strategies, provenance on how designs were generated). Participants are welcome to upload data to a shared repository (e.g. Google Drive, GitHub) and provide a link with their submission. One option is to ask your Claudes to write a methods paper and create a metadata package for submission.  Please note that all data and methodology submitted may be made publicly available.
+
+As described below in FAQ 8, for Tracks 2 and 3, we will provide the additional information you submit to Claude to help select designs. We expect that with more information, Claude can make more informed decisions. Please note that any use of embedded instructions or prompt injection may be deemed grounds for disqualification. 
+
+You can submit anonymously by making an anonymous Proteinbase account. If you later choose to deanonymize, you can. See FAQ 11 for more information.
+
+The submission portal can be found [here](https://proteinbase.com/competitions/anthropic-adaptyv-2026/submit).
+
+## When will problems be released? When should I submit my designs?
+
+We expect to release one problem every week on Monday at approximately 9:00 AM PDT starting September 28th, 2026 and ending October 26th, 2026. For each problem, participants have until 23:59 Anywhere on Earth (AoE, UTC−12) on the following Sunday to submit designs. Deadlines: Challenge 1, October 4; Challenge 2, October 11; Challenge 3, October 18; Challenge 4, October 25; Challenge 5, November 1.
+
+## How many designs will be screened?
+
+Per problem we expect to screen ~1500 designs (50% for Track 1, 25% for Track 2, and 25% for Track 3)
+
+## How will you select which designs are screened?
+
+There are some hard criteria or filters that will be used for all designs:
+- They must meet the criteria described in FAQs 1 and 2 for protein length and “nanobodyness/antibodyness”. They must also be unique (don’t submit the same design multiple times).
+- They must be de novo and zero-shot, defined as not having relied on an initial binder as a starting point and having adequate sequence- and structural-diversity (CDR sequence-diversity in the case of nanobodies/antibodies) from known proteins. You may not take an existing binder and modify it. Designs must be produced from scratch. You are encouraged to otherwise use any data available to you. For example, you may take known binders and use them to evaluate/calibrate design filtering metrics or to fine-tune/train models. We recommend you read Adaptyv’s [latest blog post on novelty.](https://www.adaptyvbio.com/blog/novelty)
+
+Beyond the hard criteria, designs will be selected as follows:
+- For Track 1 participants, their top 20 designs that pass filtering will be screened. We encourage Track 1 participants to send their sequences already ordered by the ranking method they (preferably) describe in their methods.
+- For Track 2 and 3 participants, all submitted designs will be pooled together along with submitted information and provided to Claude along with a design selection prompt written in advance by Anthropic and Adaptyv. The prompt will make selections based on predicted design quality and novelty, as well as method novelty. Per problem, a total of ~375 designs will be selected for each of tracks 2 and 3.
+- We have decided not to share the selection prompt in advance to avoid teams over-optimizing metrics that may or may not be well correlated with good designs. Given the diversity of challenges and the fact that most metrics do not account for the conditions we set (e.g., pH-sensitivity), this will avoid the final selection being biased by a single metric. We encourage participants to submit designs they think will fare best in each challenge, and submit them in a ranked order according to their preference or the ranking method (preferably) described in their methods.
+
+## How will I know if my designs were selected for screening?
+
+Once designs have been selected for a problem and DNA has been ordered, we will release a Collection on [Proteinbase](https://proteinbase.com/) containing the designs that were selected. We estimate this Collection will be available one week after the final competition challenge.
+
+## How do I submit my designs?
+
+You’ll first need to create a [Proteinbase account](https://proteinbase.com) (either an individual one or one for your team). Following this, you can directly submit a CSV with your sequences and fill in the submission form with your workflow details
+
+## What if I want to submit anonymously?
+
+This is allowed and you’ll only need to create an anonymous Proteinbase account. It is highly recommended to reveal your identity/company/university afterwards, but we understand that there are circumstances where this would not be possible.
+
+## What experimental data will be generated? When and how will experimental data be released?
+
+This competition measures binding and affinity, but with twists. In addition to binding against the human target, for some targets we plan to measure binding in acidic pH environments as well as against orthologs to measure cyno/mouse cross-reactivity. For the peptide-MHC complex we will screen against relevant off-targets. For the GPCR we only plan to screen for binding at this time. Specific conditions per challenge will be communicated in each challenge’s competition page once it is launched. 
+
+Data will be released on [Proteinbase](https://proteinbase.com/). We hope to complete experimental validation for each problem approximately one month after the submission window closes. The first set of data will be released in early November 2026. Please understand that experimental validation, especially when the problems are challenging, can face unexpected challenges and require re-runs to gain confidence. We will communicate any possible delays to the participants in our [Proteinbase Slack channel](https://join.slack.com/t/proteinbase/shared_invite/zt-3evw8fs9z-tU9ItWVvw4ySctUuPvIhLQ).
+
+## Do I have to use Claude? Can I use other AI tools?
+
+While we strongly encourage participants, especially those in Tracks 1 and 2, to use Claude, you may use other AI tools. Any AI tools or design models used can be disclosed in the submission form.
+
+## What happens to unused Claude or Modal credits after the competition?
+
+Unused credits expire at the end of the competition. Claude Max plans will expire approximately three months after the competition begins. We want to see what you can do with this compute so please use it!
+
+## What tools and resources may I use for design?
+
+Neither Anthropic nor Adaptyv seek to impose any additional restrictions on tools that can be used. As long as you can access the tool appropriately (e.g. you are not violating licenses), you may use the tool. You may use both externally available tools such as open-source folding and design models, or internal-only tools. For any commercially-licensed tools (e.g., Rosetta), we require that you own that specific license beforehand.
+
+In addition to the Claude and Modal credits provided for this competition, you may use any other resources (e.g. in-house GPU clusters) you have access to.
+
+## Who owns the IP for all designs and validated sequences?
+
+All validated sequences and experimental results will be released publicly in Proteinbase which is under an ODC-BY license. Submitted designs that were not selected or validated but are in a public Proteinbase Collection are still under the same ODC-BY license. Additional details on publication can be found in Section 6 of the [Official Competition Terms](https://proteinbase.com/competitions/anthropic-adaptyv-2026/terms).
+
+## Should I disclose any proprietary methods or tools?
+
+We recommend that all participants describe in detail the methods and tools they are using, linking to any papers, articles, technical reports that they based their work on. These details will be used when selecting designs to be validated, ensuring novel methods without prior experimental validation will be fairly represented in the competition. This information will be made public in the Proteinbase Collection, thus we understand if there are details that you will not prefer disclosing (e.g. a proprietary tool).
+
+## How will the data generated in this competition be used by Anthropic and Adaptyv?
+
+The goal of the competition is to advance the field of protein design and thus data and methodology generated and shared during this competition will be made publicly available on Proteinbase and accessible broadly for downstream uses. This was done previously with the [RBX1 competition](https://proteinbase.com/collections/gem-x-adaptyv-rbx1-binder-design-competition-submission-1-MrOsueW5Hi). 
+
+Inputs to and outputs from Claude will be governed by the Terms of Service applicable to the participant’s  Anthropic account.
+
+## Are there any resources you recommend we review?
+
+Some resources from our teams that we can point you to are:
+- [Adaptyv’s blog](https://www.adaptyvbio.com/blog), which includes posts about protein design, past competitions, and experimental validation, as well as the [EGFR competition post-analysis paper](https://www.biorxiv.org/content/10.1101/2025.04.17.648362v2).
+- [Proteinbase](https://proteinbase.com/), which hosts a large corpus of protein design data, including from past competitions
+- [Anthropic’s blog post on protein design](https://www.anthropic.com/research/Claude-accelerates-protein-design), which covers Claude’s ability to design de novo protein binders ([technical report](https://www-cdn.anthropic.com/30bf50e22a01388bb29bf077ee3f244531594b7a.pdf), [experimental data for the protein design campaign](https://huggingface.co/datasets/Anthropic/claude-protein-binder-design/tree/main))
+- [Anthropic’s blog post on uplifting biomolecular modeling](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling), which includes inference-optimized versions of popular open-source protein folding and design models ([code](https://github.com/anthropics/uplifting-biomolecular-modeling), [technical report](https://www-cdn.anthropic.com/e96b5807039a88168733d9687afe41dfbbd5de13.pdf))
+  - We strongly recommend you use the inference-optimized models to maximize GPU compute and review the significantly simplified binder design prompt in the technical report.
+
+## What if I have more questions?
+
+[Join us on the Proteinbase Slack channel](https://join.slack.com/t/proteinbase/shared_invite/zt-3evw8fs9z-tU9ItWVvw4ySctUuPvIhLQ)!
