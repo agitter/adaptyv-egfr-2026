@@ -1,0 +1,20 @@
+PROCESS_START 1791143664.8032026
+IMPORTS_DONE 1791143665.2830992
+ADD_H_START 2281
+ADD_H_DONE 7.953396797180176
+M00018_human6ARU refinement True seconds 54.9
+ADD_H_START 2281
+ADD_H_DONE 7.310353517532349
+Timeout (0:01:20)!
+Thread 0x00007f54af9ca780 (most recent call first):
+  File "/mnt/data/egfr_campaign/stage2/runtime/python/openmm/app/forcefield.py", line 639 in __init__
+  File "__init__", line ??? in __init__
+  File "/mnt/data/egfr_campaign/stage2/runtime/python/openmm/app/forcefield.py", line 1261 in createSystem
+  File "/mnt/data/egfr_campaign/stage3/code/fast_obc.py", line 68 in parameters
+  File "/mnt/data/egfr_campaign/stage3/code/fast_obc.py", line 83 in evaluate
+  File "/mnt/data/egfr_campaign/stage3/code/proton_ensemble.py", line 90 in probe
+  File "/mnt/data/egfr_campaign/stage3/code/refine_new.py", line 33 in run
+  File "/mnt/data/egfr_campaign/stage7/code/refine_one.py", line 22 in <module>
+M00018_human6ARU states 9 pH contrast 1.1645266815957314 2.248159066533269 seconds 16.7
+STRICT True omega_warnings 0
+RESULT {"candidate_id": "M00018", "species": "human6ARU", "status": "complete", "minimum_pH_contrast": 1.1645266815957314} seconds 81.17284202575684

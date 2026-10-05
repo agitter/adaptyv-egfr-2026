@@ -1,0 +1,211 @@
+{
+  "created_utc": "2026-10-04T19:58:05.003386+00:00",
+  "tasks": [
+    {
+      "tag": "M00000_mouse",
+      "script": "refine_one.py",
+      "args": [
+        "M00000",
+        "mouseAF"
+      ],
+      "timeout": 700
+    },
+    {
+      "tag": "M00018_mouse",
+      "script": "refine_one.py",
+      "args": [
+        "M00018",
+        "mouseAF"
+      ],
+      "timeout": 700
+    },
+    {
+      "tag": "M00021_mouse",
+      "script": "refine_one.py",
+      "args": [
+        "M00021",
+        "mouseAF"
+      ],
+      "timeout": 700
+    },
+    {
+      "tag": "M00015_mouse",
+      "script": "refine_one.py",
+      "args": [
+        "M00015",
+        "mouseAF"
+      ],
+      "timeout": 700
+    },
+    {
+      "tag": "M00003_mouse",
+      "script": "refine_one.py",
+      "args": [
+        "M00003",
+        "mouseAF"
+      ],
+      "timeout": 700
+    },
+    {
+      "tag": "M00008_mouse",
+      "script": "refine_one.py",
+      "args": [
+        "M00008",
+        "mouseAF"
+      ],
+      "timeout": 700
+    },
+    {
+      "tag": "M00014_mouse",
+      "script": "refine_one.py",
+      "args": [
+        "M00014",
+        "mouseAF"
+      ],
+      "timeout": 700
+    },
+    {
+      "tag": "M00019_mouse",
+      "script": "refine_one.py",
+      "args": [
+        "M00019",
+        "mouseAF"
+      ],
+      "timeout": 700
+    },
+    {
+      "tag": "M00020_mouse",
+      "script": "refine_one.py",
+      "args": [
+        "M00020",
+        "mouseAF"
+      ],
+      "timeout": 700
+    },
+    {
+      "tag": "M00022_mouse",
+      "script": "refine_one.py",
+      "args": [
+        "M00022",
+        "mouseAF"
+      ],
+      "timeout": 700
+    },
+    {
+      "tag": "M00000_unbound",
+      "script": "unbound_one.py",
+      "args": [
+        "M00000"
+      ],
+      "timeout": 600
+    },
+    {
+      "tag": "M00018_unbound",
+      "script": "unbound_one.py",
+      "args": [
+        "M00018"
+      ],
+      "timeout": 600
+    },
+    {
+      "tag": "M00021_unbound",
+      "script": "unbound_one.py",
+      "args": [
+        "M00021"
+      ],
+      "timeout": 600
+    },
+    {
+      "tag": "M00018_cluster",
+      "script": "cluster_one.py",
+      "args": [
+        "M00018"
+      ],
+      "timeout": 2200
+    },
+    {
+      "tag": "M00021_cluster",
+      "script": "cluster_one.py",
+      "args": [
+        "M00021"
+      ],
+      "timeout": 2200
+    },
+    {
+      "tag": "M00000_s198005_noextra",
+      "script": "dynamics_unrestrained_one.py",
+      "args": [
+        "M00000",
+        "198005"
+      ],
+      "timeout": 2400
+    },
+    {
+      "tag": "M00018_s198005_noextra",
+      "script": "dynamics_unrestrained_one.py",
+      "args": [
+        "M00018",
+        "198005"
+      ],
+      "timeout": 2400
+    },
+    {
+      "tag": "M00021_s198005_noextra",
+      "script": "dynamics_unrestrained_one.py",
+      "args": [
+        "M00021",
+        "198005"
+      ],
+      "timeout": 2400
+    },
+    {
+      "tag": "NATIVE_3EAK_s198005_noextra",
+      "script": "dynamics_unrestrained_one.py",
+      "args": [
+        "NATIVE_3EAK",
+        "198005"
+      ],
+      "timeout": 2400
+    },
+    {
+      "tag": "M00000_s198006_noextra",
+      "script": "dynamics_unrestrained_one.py",
+      "args": [
+        "M00000",
+        "198006"
+      ],
+      "timeout": 2400
+    },
+    {
+      "tag": "M00018_s198006_noextra",
+      "script": "dynamics_unrestrained_one.py",
+      "args": [
+        "M00018",
+        "198006"
+      ],
+      "timeout": 2400
+    },
+    {
+      "tag": "M00021_s198006_noextra",
+      "script": "dynamics_unrestrained_one.py",
+      "args": [
+        "M00021",
+        "198006"
+      ],
+      "timeout": 2400
+    },
+    {
+      "tag": "NATIVE_3EAK_s198006_noextra",
+      "script": "dynamics_unrestrained_one.py",
+      "args": [
+        "NATIVE_3EAK",
+        "198006"
+      ],
+      "timeout": 2400
+    }
+  ],
+  "max_concurrent_numeric_processes_including_existing": 8,
+  "max_anon_before_launch_bytes": 3704409292,
+  "individual_threads": 1,
+  "precondition": "Human batch finishes first; checkpoint evidence retained."
+}

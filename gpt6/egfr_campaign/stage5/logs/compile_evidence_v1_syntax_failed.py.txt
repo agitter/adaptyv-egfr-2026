@@ -1,0 +1,53 @@
+"""Compile observed results without converting proxies into binding claims.
+Requires completed postprocessing. Controls remain outside new-sequence counts.
+"""
+from pathlib import Path
+import json,hashlib,collections,datetime
+R=Path('/mnt/data/egfr_campaign');S=R/'stage5'
+def read(p):return json.loads(Path(p).read_text())
+def source(p):
+ p=Path(p);return {'path':str(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
+def model(path):
+ d=read(path);ip=S/'intermediate/independent_priors'/path.name;ind=read(ip)
+ coord=path.with_name(path.name.replace('_proton.json','_relaxed.pdb'))
+ ctx=read(S/'intermediate/context'/(coord.stem+'.json'))
+ scenarios=d['proton_model']['scenarios']
+ rep=[r for r in scenarios if r['solute_dielectric']==4.0 and r['kappa_nm_inverse']==1.25 and r['assumed_unbound_pKa']==6.3 and r['assumed_unbound_HIE_fraction']==.5]
+ assert len(rep)==1;rep=rep[0]
+ return {'source':source(path),'independent_prior_source':source(ip),'geometry_source':ctx['source'],'geometry_context_pass':ctx['combined_geometry_context_pass'],'histidine_sites':d['sites'],'microstates':d['microstate_count'],'tied_scenarios':len(scenarios),'tied_minimum_contrast_kcal':d['proton_model']['minimum_contrast_kcal'],'independent_scenarios':ind['scenario_count'],'independent_minimum_contrast_kcal':ind['minimum_contrast_kcal'],'all_independent_scenarios_acid_on':ind['all_acid_on'],'representative_declared_assumptions':{'solute_dielectric':4.,'kappa_nm_inverse':1.25,'unbound_His_pKa':6.3,'HIE_fraction':.5},'representative_acid_proxy_kcal':rep['low_pH']['conditional_binding_energy_kcal'],'representative_neutral_proxy_kcal':rep['high_pH']['conditional_binding_energy_kcal'],'representative_contrast_kcal':rep['contrast_kcal']}
+def main():
+ catalog=read(S/'reference/catalog_summary.json');nv=read(S/'reference/novelty_complete.json');nov={r['candidate_id']:r for r in nv['records']};records={};models=[]
+ for p in sorted((S/'intermediate/refined').glob('*_proton.json')):
+  cid=p.name.split('_')[0];species='mouse' if '_mouseAF_' in p.name else 'human';conformation='acid_refined' if '_acid_proton' in p.name else 'neutral_refined';r=model(p);r.update(candidate_id=cid,species=species,conformation=conformation);models.append(r);records.setdefault(cid,{'candidate_id':cid,'new_sequence':cid!='B00000','models':[]})['models'].append(r)
+ for cid,r in records.items():
+  d=read(S/'intermediate/designs'/f'{cid}.json');r['sequence']=d['sequence'];r['length']=len(d['sequence']);r['branch']=d['branch'];r['source']=source(S/'intermediate/designs'/f'{cid}.json)
+  if cid in nov:r['local_novelty_and_initial_gate']=nov[cid]
+  hm=[m['independent_minimum_contrast_kcal'] for m in r['models'] if m['species']=='human'];r['minimum_His_contrast_over_evaluated_human_geometries_kcal']=min(hm) if hm else None
+  cp=S/'intermediate/capped'/f'{cid}_human6ARU_capped_proton.json'
+  if cp.exists():
+   c=read(cp);r['target_cap_test']={'source':source(cp),'minimum_contrast_kcal':c['proton_model']['minimum_contrast_kcal'],'site_count':len(c['sites']),'scope':'His states only; not combined with all-carboxylate enumeration'}
+  r['mixed_acid_His_tests']=[]
+  for ap in sorted((S/'intermediate/independent_mixed_priors').glob(cid+'_*.json')):r['mixed_acid_His_tests'].append(read(ap))
+  u=S/'intermediate/unbound'/f'{cid}_free_audit.json'
+  if u.exists():r['unbound_local_minimization']=read(u)
+  r['experimental_criteria']={k:'UNVERIFIED' for k in ['human_binding','human_pH6p5_binding_with_pH7p4_nondetection','mouse_binding','folding_and_expression','official_novelty_acceptance']}
+ dyn=read(S/'reference/dynamics_analysis.json');assert dyn['complete'],dyn['missing'];gly=read(S/'reference/glycan_flexibility.json')
+ for d in dyn['aggregates']:
+  # Native control is kept separately from sequence candidates.
+  cid=d['candidate_id']
+  if cid in records:records[cid]['two_seed_dynamics']=d
+ for g in gly['binder_comparisons']:
+  if g['candidate_id'] in records:records[g['candidate_id']]['resolved_glycan_flexibility_stress']=g
+ for cid in ['B00000','H00011','H00020','H00021']:
+  assert records[cid]['mixed_acid_His_tests'],cid
+  assert 'unbound_local_minimization' in records[cid],cid
+  assert len(records[cid]['models'])==3,(cid,len(records[cid]['models']))
+ report={'date_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'checkpoint; not final100 submission','catalog':catalog,'novelty_summary':{k:v for k,v in nv.items() if k!='records'},'detailed_counts':{'new_neutral_human_sequences':sum(r['new_sequence'] and any(m['species']=='human' and m['conformation']=='neutral_refined' for m in r['models']) for r in records.values()),'new_neutral_human_geometry_context_pass':sum(r['new_sequence'] and any(m['species']=='human' and m['conformation']=='neutral_refined' and m['geometry_context_pass'] for m in r['models']) for r in records.values()),'human_neutral_models_including_control':sum(m['species']=='human' and m['conformation']=='neutral_refined' for m in models),'human_acid_models_including_control':sum(m['species']=='human' and m['conformation']=='acid_refined' for m in models),'mouse_models_including_control':sum(m['species']=='mouse' for m in models),'mouse_geometry_context_pass_including_control':sum(m['species']=='mouse' and m['geometry_context_pass'] for m in models),'all_geometry_context_models':len(models),'all_geometry_context_pass':sum(m['geometry_context_pass'] for m in models),'human_neutral_all_independent_priors_acid_on_including_control':sum(m['species']=='human' and m['conformation']=='neutral_refined' and m['all_independent_scenarios_acid_on'] for m in models)},'evidence_by_candidate':records,'dynamics':dyn,'glycan_flexibility':gly,'rules':read(S/'reference/rules_audit.json'),'limitations':['No experimental affinity, mouse binding or neutral-pH nondetection established.','Binding proxies omit entropy and full receptor/glycan/solvent/conformational ensembles.','Protonation scenarios are assumed priors, not predicted pKas or independent experiments.','Two 20-ps trajectories per sequence are not a folding benchmark or statistically established stabilization.','Current chemistry improvements are compared with matched C00003-derived B00000; not a global comparison with every prior lead, including C00009.','Local antibody numbering/search is not the official novelty classifier.']}
+ (S/'output/final_evidence_inventory.json').write_text(json.dumps(report,indent=2))
+ b=records['B00000'];base=b['mixed_acid_His_tests'][0]['minimum_contrast_kcal'];decisions=[]
+ for cid in ['H00011','H00020','H00021']:
+  r=records[cid];full=r['mixed_acid_His_tests'][0];delta=full['minimum_contrast_kcal']-base
+  decisions.append({'candidate_id':cid,'decision':'Retain for further evaluation as conditional pH improvement over matched C00003 parent' if delta>0 else 'Do not promote as a robust pH improvement','minimum_engineered_acid_scope_contrast_kcal':full['minimum_contrast_kcal'],'difference_from_matched_parent_kcal':delta,'human_geometry_pass':all(m['geometry_context_pass'] for m in r['models'] if m['species']=='human'),'mouse_geometry_pass':all(m['geometry_context_pass'] for m in r['models'] if m['species']=='mouse'),'no_claim_of_experimental_success':True,'no_thermal_trajectory_for_this_variant':True})
+ decisions += [{'candidate_id':'N3081002','decision':'EXCLUDE: local CDR3 identity reaches71.43%, exceeding local70% threshold'}, {'candidate_id':'N2070600','decision':'Do not claim stabilization from shortening; two-seed thermal comparison and mean retained-contact motion remain cautionary.'}, {'candidate_id':'N2091100','decision':'Do not promote from one favorable trajectory; more glycan-grid clashes and weaker conservative pH contrast than matched parent.'}, {'branch':'aggressive_H3_return_rebuild','decision':'Contact audit found loss of E106. Some sequences reverse acid-on direction. Preserve failed data; do not extrapolate from coarse scores.'}, {'candidate_id':'T3070400','decision':'Retain contact-preserving backbone alternative as unvalidated; no matched thermal or mouse evaluation completed.'}]
+ (S/'output/decision_ledger.json').write_text(json.dumps(decisions,indent=2));print(json.dumps(report['detailed_counts'],indent=2));print(json.dumps(decisions[:3],indent=2))
+if __name__=='__main__':main()

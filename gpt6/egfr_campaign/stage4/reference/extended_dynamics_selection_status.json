@@ -1,0 +1,49 @@
+{
+  "config": "/mnt/data/egfr_campaign/stage4/reference/extended_dynamics_selection.json",
+  "jobs": [
+    {
+      "name": "extended_NATIVE_3EAK",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/dynamics_extended.py",
+        "NATIVE_3EAK"
+      ],
+      "timeout": 2000
+    },
+    {
+      "name": "extended_S00028",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/dynamics_extended.py",
+        "S00028"
+      ],
+      "timeout": 2000
+    },
+    {
+      "name": "extended_MATCHED_C00003",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/dynamics_extended.py",
+        "MATCHED_C00003"
+      ],
+      "timeout": 2000
+    }
+  ],
+  "completed": [
+    {
+      "name": "extended_S00028",
+      "returncode": 0,
+      "seconds": 621.6784799098969,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/extended_S00028.log"
+    },
+    {
+      "name": "extended_NATIVE_3EAK",
+      "returncode": 0,
+      "seconds": 703.6141328811646,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/extended_NATIVE_3EAK.log"
+    },
+    {
+      "name": "extended_MATCHED_C00003",
+      "returncode": 0,
+      "seconds": 706.5973615646362,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/extended_MATCHED_C00003.log"
+    }
+  ]
+}

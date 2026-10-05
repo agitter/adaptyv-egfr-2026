@@ -1,0 +1,38 @@
+{
+  "required_original_archives": [
+    {
+      "filename": "resources.zip",
+      "sha256": "65bf7c62a70ef02dad83f926082a444c3a91d10a24003deb2b99434c07bc0d74",
+      "destination": "inputs/provided"
+    },
+    {
+      "filename": "egfr_inputs.zip",
+      "sha256": "ed9e9e6fbee34c3ee386cf1c33e33aaaf0e28fd2a0d053f2dbad797905750b18",
+      "destination": "inputs/transfer1"
+    },
+    {
+      "filename": "egfr_refinement_inputs.zip",
+      "sha256": "bd333ef25a5a68a03e130c78323e1a734b8df31c06d639551ca3adef5be3d2d9",
+      "destination": "inputs/transfer2"
+    }
+  ],
+  "earlier_checkpoint_provenance": {
+    "path": "/mnt/data/egfr_stage5_checkpoint.zip",
+    "sha256": "ea08cc85f23cba3bcd131310be634611c358fc95fc764ed83d3f17ce9a0856c5",
+    "entries": 6243,
+    "expanded_bytes": 370462899
+  },
+  "earlier_checkpoint_required_to_restore_this_archive": false,
+  "runtime_and_packages": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "biopython": "1.86",
+      "numba": "0.65.1",
+      "rapidfuzz": "3.14.3"
+    }
+  },
+  "original_input_payloads_not_duplicated": true
+}

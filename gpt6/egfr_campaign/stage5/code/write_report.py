@@ -1,0 +1,134 @@
+"""Write evidence-limited human-readable reports from the compiled ledger."""
+from pathlib import Path
+import json,datetime
+R=Path('/mnt/data/egfr_campaign');S=R/'stage5'
+def read(p):return json.loads(Path(p).read_text())
+def f(x):return f'{x:.3f}'
+def main():
+ e=read(S/'output/final_evidence_inventory.json');r=e['evidence_by_candidate'];n=e['novelty_summary'];d=e['detailed_counts'];dyn=e['dynamics'];b=r['B00000'];lead=['B00000','H00011','H00020','H00021']
+ def hm(cid,kind):return next(m for m in r[cid]['models'] if m['species']=='human' and m['conformation']==kind)
+ rows=[]
+ for cid in lead:
+  a=r[cid];mixed=a['mixed_acid_His_tests'][0];rows.append('| '+cid+' | '+' | '.join([f(hm(cid,'neutral_refined')['tied_minimum_contrast_kcal']),f(hm(cid,'neutral_refined')['independent_minimum_contrast_kcal']),f(hm(cid,'acid_refined')['independent_minimum_contrast_kcal']),f(a['target_cap_test']['minimum_contrast_kcal']),f(mixed['minimum_contrast_kcal'])])+' |')
+ thermal=[]
+ for a in dyn['aggregates']:
+  metric=a['mean_loop_CA_displacement_A'];thermal.append('| '+a['candidate_id']+' | '+' | '.join(f(v) for v in metric['values'])+' | '+f(metric['mean_of_trajectory_means'])+' |')
+ unbound=[]
+ for cid in lead:
+  u=r[cid]['unbound_local_minimization'];unbound.append(f"| {cid} | {f(u['displacements']['loop_CA_RMSD_A'])} | {f(u['potential_relaxation_kcal'])} | {u['geometry_audit']['pass']} |")
+ report=f'''# EGFR campaign: stage 5
+
+**Date:** October 2, 2026. **Status:** completed computational checkpoint, not the final ranked 100-sequence submission. **Phone-a-Friend:** two used, one unused.
+
+## Executive result
+
+The strongest gain is improved conditional pH contrast in three contact-chemistry variants, not demonstrated stabilization from shorter loops. Stage 5 generated **276 distinct new sequences** from **94 accepted rebuilt backbones** and focused side-chain changes. There were **13,439 backbone attempts**. Every new sequence has sequence/coordinate provenance and completed local novelty searches. The campaign now contains 1,802 distinct historical sequences including rejected experiments; that is not a successful-binder count.
+
+The new H00011/H00020/H00021 family retains an acid-on direction under independent histidine assumptions and expanded engineered-carboxylate sensitivity. H00011 and H00021 pass the checked human and mouse geometries. H00020 has favorable pH scores but fails the strict peptide-geometry check in its mouse model. They still lack experimental binding, neutral-pH nondetection, expression, and folding evidence. The absolute neutral-pH interaction proxies remain favorable. Their numerical improvements are modest and conditional, not established biological success or a global comparison with every earlier candidate.
+
+The shorter H2 loops did not establish improved stability in two matched-seed thermal comparisons. One sequence failed local antibody-loop novelty and is excluded. Aggressive H3 shortening removed a previously overlooked contact; the failed branch is preserved rather than silently relabeled a success.
+
+## 1. Rules and eligibility audit
+
+Track 3 allows at most **20** submissions; the requested 100 is a ranked reserve pool. The required official file is an ordered CSV with name, sequence, and molecule_class; the requested FASTA will be additional. Current single-chain candidates are 119-125 residues, within the 10-250 limit. Common nanobody frameworks are permitted, but an existing binder cannot be the design seed. Our lineage retains a generic framework and independently builds all binding loops; native loops appear only in controls. The official antibody classifier and novelty pipeline were not reproduced.
+
+The ranking priorities are human pH-selectivity, mouse binding, then human affinity. Human binding at pH 6.5 with no detectable binding at pH 7.4 is required; a positive model contrast alone does not pass it. Mouse pH switching is **not** required. Track 3 selection is not guaranteed. Names and metadata must contain no embedded instructions. Submitted methodology can be public, so opaque names do not guarantee secrecy. The deadline is **October 4, 2026, 23:59 AoE**, equivalent to **October 5, 06:59 America/Chicago**. Registration and personal eligibility/rights attestations remain the submitting person's responsibility.
+
+Sources: challenge/FAQ [1], novelty policy [2], terms [3]. The machine-readable audit preserves the exact checks and distinctions. No claim of official upload acceptance is made.
+
+## 2. Backbone rebuilding and sequence generation
+
+The unchanged control B00000 derives from our own stage-3 C00003, using its stage-4 matched refined coordinates, then receives the same new refinement as the stage-5 variants. It is not a new sequence and is never included in the candidate count.
+
+The first branch replaced H2 parent positions 55-65 or H3 positions 104-115 with independently initialized non-antibody torsion fragments and CCD closure. It retained the framework and intended contact anchors. There were 5,094 attempts and 62 accepted geometries. The shortest H2 and H3 replacements failed the closure/geometry filters. Sequence packing generated 110 charged-return variants and 95 neutral-return variants. The neutral branch was a deliberate comparison against charge-driven scoring bias, not an assumption that neutral chemistry would be better.
+
+A contact audit identified **parent E106 near receptor H358 ND1 at approximately 2.79 Angstrom**. The older two-carboxylate sensitivity focused on D54/E103 and did not include this site. H3 deletion had removed E106, explaining why some shortened designs lost or reversed the modeled acid-on direction. The corrected contact-preserving branch keeps positions 104-107, including E106/F107, and rebuilds only positions 108-115. It generated 50 distinct T designs from 32 retained backbones. Replacement lengths 4-6 had no accepted geometries; lengths 7-8 did. This does not prove shorter loops impossible.
+
+A separate beta-return construction pilot tested 3,200 additional backbones. None passed all filters. Reverse-coordinate construction passed bond/angle/torsion tests; failure therefore remains an observed finite-search result rather than evidence of a known coordinate-construction bug. Canonical-loop classification was considered but **not implemented**.
+
+The final 21 H variants target receptor histidine contact chemistry using finite rotamers and, for two proposals, continuous side-chain torsions optimized with Powell's method. H00011 is Y104E; H00020 adds E103Q to Y104E; H00021 also includes D54E. No experimental binder was used as a parent. The geometric contact objective was removed before all-atom evaluation. In particular, H00011's E104-to-H358 NE2 separation relaxes to about 4.16 Angstrom in one model; it is not established as a strong second hydrogen bond.
+
+## 3. Detailed pH comparison and its limits
+
+The principal comparison uses Amber99SB/OBC fixed-coordinate interaction-energy subtraction and explicit neutral histidine tautomers. All entries below are **conditional contrasts in kcal/mol**, defined as the neutral-pH proxy minus the acidic-pH proxy. Positive means acid-on within the stated model. They are not measured binding free energies, confidence intervals, or calibrated dissociation constants.
+
+| Model | Neutral geometry, 54 tied assumptions | Neutral geometry, 486 independent His assumptions | HIP-refined geometry, 486 assumptions | Capped target, 54 His assumptions | Expanded acids + independent priors |
+| --- | ---: | ---: | ---: | ---: | ---: |
+{chr(10).join(rows)}
+
+Independent assumptions at each histidine reduce the apparent improvements relative to the original tied-prior score. The two geometries are not alternative chances to cherry-pick the better number: the lower contrast remains relevant. The all-HIP refinement is a conditional structural hypothesis, not a claim that every interface histidine is protonated at pH 6.5.
+
+The expanded last column explicitly includes D54/E103/E106 for B00000; D54/E103/E104/E106 for H00011; and the three remaining engineered acids for H00020/H00021. H00011 requires **729 protonation/tautomer microstates and 39,366 combinations of independent prior assumptions**. The five-site models require 243 microstates and 13,122 combinations. Those are sensitivity scenarios, not independent experiments. The corresponding global tied-prior subset is recovered numerically to within rounding error. Proton-charge increments are independently checked.
+
+The same expanded three-acid calculation gives {f(r['N2070600']['mixed_acid_His_tests'][0]['minimum_contrast_kcal'])} for N2070600, {f(r['N2091100']['mixed_acid_His_tests'][0]['minimum_contrast_kcal'])} for N2091100, and {f(r['T3070400']['mixed_acid_His_tests'][0]['minimum_contrast_kcal'])} for the contact-preserving T3070400. Shortening therefore does not automatically improve proton coupling.
+
+Important boundaries: free pKas and tautomer populations are assumed rather than calculated; distant and receptor carboxylates are not all enumerated; water and conformational entropy are incomplete; target-capping and all-carboxylate tests were not combined into one exhaustive calculation. The target is cropped to residues 334-505 for forcefield calculations and checked against the full reference environment. The full three-objective biological requirement remains unverified.
+
+## 4. Matched thermal and local-relaxation tests
+
+Eight corrected thermal trajectories were completed: four structures, two predeclared MT19937 seeds each, two picoseconds warmup and 20 picoseconds production. This is **160 ps aggregate production and 176 ps including warmup**, not one long trajectory. Production contains neither target nor positional restraints, but chirality restraints remain. Temperature handling uses the previously audited synchronized velocity-Verlet/Andersen implementation. Earlier biased pilot trajectories remain excluded.
+
+The table gives mean loop C-alpha displacement after framework alignment. These two trajectory means are the independent units; individual frames are not treated as replicate experiments.
+
+| Structure | Seed 198005, Angstrom | Seed 198006, Angstrom | Mean of the two trajectories, Angstrom |
+| --- | ---: | ---: | ---: |
+{chr(10).join(thermal)}
+
+The analysis also compares only shared retained loop positions to avoid an advantage from deleting residues. Per-loop internal deformation and protected-contact residue motion are recorded separately. Different seeds give materially different outcomes. No p-value, folding free energy, or statistically established stabilization is claimed. These very short trajectories do not establish equilibrium behavior.
+
+The new H chemistry variants did **not** receive thermal trajectories. They received a matched 1,000-iteration-limit unbound local minimization, with no positional restraints and with chirality restraints. Its geometry checks passed:
+
+| Structure | Loop displacement, Angstrom | Local physical-potential relaxation, kcal/mol | Geometry pass |
+| --- | ---: | ---: | --- |
+{chr(10).join(unbound)}
+
+The lower motion of some variants in this local minimization is not a stability or entropy measurement. The different sequences' total potential energies must not be compared as folding energies.
+
+## 5. Human/mouse context, target sequence, and glycans
+
+{d['new_neutral_human_sequences']} new sequences received detailed neutral-geometry human calculations; {d['new_neutral_human_geometry_context_pass']} pass the combined strict geometry and fixed-context checks. Including the unchanged parent, four additional acid-refined human models and seven mouse models were also evaluated. Across all {d['all_geometry_context_models']} such models, {d['all_geometry_context_pass']} pass the combined context gate. Geometry checks are not a binding assay.
+
+H00011 and H00021 pass the checked mouse geometry and retain favorable mouse interaction-energy diagnostics. H00020 has favorable interaction diagnostics but its mouse peptide bond at positions 100-101 is 26.30 degrees from trans, beyond the predeclared 25-degree gate. Its local contact/bond-length checks had passed, but that did not establish the stricter peptide criterion. It is not promoted as a passing mouse model; the threshold was not loosened. Mouse H358 is conserved while human H383 is an arginine in the aligned mouse target. H00021 has an acid-off direction in some mouse model assumptions; it is **not rejected for that**, because mouse pH switching is not a challenge requirement. Actual mouse binding remains untested.
+
+A direct sequence re-audit finds both 172-residue forcefield crops match the supplied human/mouse reference sequences. Two differences elsewhere in 6ARU, at human positions 540 and 634, are outside the crop and approximately 39 and 61 Angstrom from the binder. Their cause is not inferred. N540 is in NLL, **not** an N-X-S/T sequon. The nearby reference sequons N352 and N361 have resolved sugars included in the checks.
+
+A classical glycan-flexibility stress test perturbs the root and first internal link of the **150 resolved glycan heavy atoms**, using the actual CIF connectivity. Of 144 grid models, 87 pass reference-environment and internal-geometry filters; all unperturbed glycans pass. Covalent bond lengths are preserved in all 144 proposals. In the 18 admissible N352 models, binder overlaps below 2 Angstrom occur in 6 for B00000, 4 each for H00011/H00020/H00021, 3 for N2070600, and 12 for N2091100. No corresponding overlaps occur at the other three checked glycan roots for these designs.
+
+This unweighted grid is **not a glycan population, probability of binding, or forcefield-based glycan free energy**. It flags the longer H2 redesign's greater vulnerability to plausible sugar motion. Unresolved glycans and full glycan ensembles are not invented or claimed to be modeled.
+
+## 6. Complete local novelty screening
+
+All 276 sequences completed Swiss-Prot, PDB, and augmented-antibody searches, with explicit query-ID verification and nine successful exact-reference positive controls across the three query groups. The indexed inputs contain 575,748 Swiss-Prot, 1,165,667 PDB, and 446,966 antibody records; the PDB archive includes nonprotein polymer records. These are record counts, not distinct proteins across datasets.
+
+All but **N3081002** pass the local CDR3 edit-identity threshold. That sequence reaches **71.43%** and is excluded. The screening reference has 203,818 reconstructed/provided CDR3 segments. There are 139 distinct candidate CDR3 queries. Of the new candidates, 231 pass initial sequence/geometry gates and 230 also pass this local CDR3 gate. These are screening survivors, not validated binders.
+
+The maximum reported whole-chain hit identities at at least 90% query coverage are 65.079% in Swiss-Prot and 73.950% in PDB/antibodies. A common antibody framework can be familiar while the binding loops are novel; no blanket Proteinbase level-4 designation is claimed. Official IMGT numbering, classifier outputs, and all patent database snapshots are not reproduced [2].
+
+Two operational failures were retained and resolved: the initial PDB positive control was a DNA record, replaced with the protein 101m_A; an interrupted antibody search was resumed using completed query blocks plus explicit remaining-query chunks. The initial nonzero batch exits remain in the logs. Recovery proofs show all final query sets and exact controls completed. No failed run is silently called successful.
+
+## 7. Tests, historical-method scope, and provenance
+
+Stage-5 coordinate, sequence, polynomial, and reproducibility checks passed **1,618/1,618**, with another 144 independent-histidine polynomial checks and 144 glycan bond-preservation checks. These implementation tests do not measure biological function. All 4,825 stage-4 checkpoint payload checksums were verified before continuation. Current source files, model coordinates, scores, protonation-state arrays, failed searches, seeds, and source hashes are retained.
+
+All scientific method classes used in this stage date to 2010 or earlier, using user-permitted current implementations and datasets. No modern protein generator, learned predictor/potential, or modern antibody-numbering pipeline was run. The prior excluded PCG64 exploration remains disclosed; current designs trace to the regenerated MT19937 lineage. A certificate claiming literally every historical exploratory operation complied would be false. See METHODS_AGE_AUDIT.md.
+
+The internal 276-sequence FASTA is **NOT_FOR_SUBMISSION**, includes rejected designs, and is not ranked. The final 100-candidate FASTA, public codenames, official ordered CSV, and top-20 subset remain pending. No third Phone-a-Friend request was used. Packaging is permitted only after every campaign worker finishes and the checkpoint is independently verified.
+
+## 8. Continuation decisions
+
+Retain H00011 and H00021 as conditional pH improvements over the matched C00003-derived parent, not as experimentally established leads. H00020 remains a human-pH hypothesis with a failed mouse peptide gate, not a fully geometry-passing candidate. Do not call the shortened H2 designs stabilized. Keep the E106-preserving T branch as an alternative for repair, but the otherwise promising T3070400 and T3080401 poses each clash with the fixed 1IVO context. Do not promote those poses or infer mouse/thermal behavior that was not evaluated. A final rank should include the earlier C00009 family under the same expanded scope before declaring a global winner, and should separate experimentally unknown properties from computed diagnostics. Broadening the evaluated distinct sequences remains necessary before an evidence-based 100-reserve ranking.
+
+The central unresolved requirement remains neutral-pH nondetection alongside acidic human binding and mouse binding. The correct next action is not to label favorable interaction proxies a pass. Evidence and exclusions are machine-readable in output/final_evidence_inventory.json and output/decision_ledger.json.
+
+## Sources
+
+[1] Official EGFR challenge and FAQ, checked October 2, 2026: https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/egfr
+
+[2] Proteinbase novelty definitions, checked October 2, 2026: https://www.adaptyvbio.com/blog/novelty
+
+[3] Official competition terms, checked October 2, 2026: https://proteinbase.com/competitions/anthropic-adaptyv-2026/terms
+
+Historical primary-source identifiers, dataset provenance, and actual method use are recorded separately in METHODS_AGE_AUDIT.md and reference/source_register.json. Results in this report are calculations from this campaign, not extracted measurements from the cited policy pages.
+'''
+ (S/'REPORT.md').write_text(report);Path('/mnt/data/egfr_stage5_report.md').write_text(report);print('Report written',len(report.split()),'words')
+if __name__=='__main__':main()

@@ -1,0 +1,27 @@
+{
+  "region": "T3",
+  "left_parent_anchor": 107,
+  "right_parent_anchor": 116,
+  "new_segment_length": 4,
+  "parent_segment_length": 8,
+  "tag": "T3_n04",
+  "seed": 200320384,
+  "rng": "MT19937",
+  "stats": {
+    "attempts": 1200,
+    "closed": 0,
+    "rama_pass": 0,
+    "self_steric_pass": 0,
+    "target_glycan_pass": 0,
+    "diverse": 0
+  },
+  "accepted": [],
+  "seconds": 9.404943704605103,
+  "parent_sequence_file": "/mnt/data/egfr_campaign/stage3/intermediate/designs/C00003.json",
+  "parent_sequence_sha256": "c426e082fa2f851b49838884fd2bc345dcef41ce7f6772f54e178716eddaa77a",
+  "parent_geometry_file": "/mnt/data/egfr_campaign/stage4/intermediate/matched_controls/intermediate/refined/C00003_human6ARU_relaxed.pdb",
+  "parent_geometry_sha256": "def60357c90d3e8c235e3d919ef6b09f180b9a09d5c58f2455aad7ec3a0dbb25",
+  "torsion_fragment_file": "/mnt/data/egfr_campaign/stage2/intermediate/nonbinder_torsion_fragments.npy",
+  "torsion_fragment_sha256": "4d85c333c5963803f3cd95f7ab7345f5c0dd75948d7fa27eb829cf1a98fdd44a",
+  "method": "CCD2003; non-antibody phi/psi fragments; own-design fixed anchors; no native antibody CDR"
+}

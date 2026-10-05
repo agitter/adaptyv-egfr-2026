@@ -1,0 +1,1042 @@
+{
+  "database": "antibodies_augmented",
+  "candidate_queries": 1,
+  "all_query_ids_verified": true,
+  "positive_control_exact_match": true,
+  "command": [
+    "/mnt/data/egfr_campaign/stage6/runtime/bin/blastp",
+    "-task",
+    "blastp",
+    "-query",
+    "/mnt/data/egfr_campaign/stage6/intermediate/blast/panel_supplement_antibodies_augmented.fasta",
+    "-db",
+    "/mnt/data/egfr_campaign/stage6/intermediate/blast/antibodies_augmented",
+    "-out",
+    "/mnt/data/egfr_campaign/stage6/intermediate/blast/panel_supplement_antibodies_augmented.tsv",
+    "-outfmt",
+    "7 qseqid sseqid pident length qlen slen qcovhsp evalue bitscore qstart qend sstart send",
+    "-max_target_seqs",
+    "50",
+    "-num_threads",
+    "2",
+    "-seg",
+    "no",
+    "-comp_based_stats",
+    "0",
+    "-word_size",
+    "3",
+    "-matrix",
+    "BLOSUM62",
+    "-evalue",
+    "0.001"
+  ],
+  "seconds": 9.603880167007446,
+  "query_sha256": "1577ba5dccd960b802d2d11e832dba102d4bc39e950a89ba28ddcf8608646cc1",
+  "result_sha256": "2ad94d338f979a32ba31a00e8ccba692ca98a9da341bd52b411571a25809314c",
+  "hits": {
+    "Q8c6b3716442415be21de": [
+      {
+        "subject": "71b47bda7d2b15e14b6acbf5cbd1cc1c805dc986fb541798a9ffde1c832e9e84",
+        "identity_pct": 67.46,
+        "alignment_length": 126,
+        "query_length": 121,
+        "subject_length": 127,
+        "query_coverage_pct": 99.0,
+        "evalue": 1.1e-49,
+        "bitscore": 155.0
+      },
+      {
+        "subject": "9a769e21174827d62eb70d77771fcab74dcf5e76b5c4448bd89b72e2ccc38d73",
+        "identity_pct": 68.0,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 3.95e-49,
+        "bitscore": 154.0
+      },
+      {
+        "subject": "84de30f460475044b80cc13dfda22ed10c1a842fedf7dfea440dc56e433f524d",
+        "identity_pct": 68.8,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 3.95e-49,
+        "bitscore": 154.0
+      },
+      {
+        "subject": "7b7b2576d456ba2ca8ce85f48236fd17b3bc0fb51f086cfbb943d98f7aaf3b79",
+        "identity_pct": 68.254,
+        "alignment_length": 126,
+        "query_length": 121,
+        "subject_length": 126,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.34e-49,
+        "bitscore": 154.0
+      },
+      {
+        "subject": "345d45f1b30f75930cf663d9ab481ca644dada0bd3c007734b0474d5f9cda286",
+        "identity_pct": 68.0,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.95e-49,
+        "bitscore": 154.0
+      },
+      {
+        "subject": "17dea8db557712ddc493c5d9efeb232a1cf0a6ff3e32a8d27e777a278e1e75f0",
+        "identity_pct": 69.048,
+        "alignment_length": 126,
+        "query_length": 121,
+        "subject_length": 120,
+        "query_coverage_pct": 100.0,
+        "evalue": 5.11e-49,
+        "bitscore": 154.0
+      },
+      {
+        "subject": "c392079c44ee6319a2adbd3f193dcd1bc53ff6c05161f37c51b5354ae913a2d4",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 121,
+        "query_coverage_pct": 100.0,
+        "evalue": 5.27e-49,
+        "bitscore": 154.0
+      },
+      {
+        "subject": "77375f538acf14e4187dbd8a73d96388eabf8bbe1184e31575608ab0a9436a1e",
+        "identity_pct": 68.0,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 5.61e-49,
+        "bitscore": 154.0
+      },
+      {
+        "subject": "50c062cc91e3df14f901a345b7a7eee674a8ea956abaa37d213b76e19e995d69",
+        "identity_pct": 68.504,
+        "alignment_length": 127,
+        "query_length": 121,
+        "subject_length": 125,
+        "query_coverage_pct": 100.0,
+        "evalue": 5.97e-49,
+        "bitscore": 154.0
+      },
+      {
+        "subject": "c8460fc855d31a0951c65e62386190e2fe54fc444907609fb67734b7a736b677",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 7.03e-49,
+        "bitscore": 153.0
+      },
+      {
+        "subject": "c085560ce8f8377ffe2b5651b13ad036c0afed53e7682dc518f7e6eb2d155fcc",
+        "identity_pct": 68.0,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 7.96e-49,
+        "bitscore": 153.0
+      },
+      {
+        "subject": "7db9ea321449960787f4a5d98216ba32bbb2f9c91d5f51fc70b34a63d0eeff2f",
+        "identity_pct": 69.048,
+        "alignment_length": 126,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 7.96e-49,
+        "bitscore": 153.0
+      },
+      {
+        "subject": "3bb5037198f2b858b8d6ab6e11f09be01b9de0d7b8156004c10a94d8fe96299c",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 100.0,
+        "evalue": 9.38e-49,
+        "bitscore": 153.0
+      },
+      {
+        "subject": "b2a7b51e122888d29efb09d261f6118af522973ec63e811c9fce19302c429f9e",
+        "identity_pct": 68.0,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 9.99e-49,
+        "bitscore": 153.0
+      },
+      {
+        "subject": "424a945256fbb912f8f95c919a91d2a462c32a56100b02a21d3f56a60f9b5a14",
+        "identity_pct": 66.667,
+        "alignment_length": 126,
+        "query_length": 121,
+        "subject_length": 120,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.03e-48,
+        "bitscore": 153.0
+      },
+      {
+        "subject": "bfbac90d2c158ac46808820a4d30434a2e4fe9cfbeddd54d46f0cc68d888c39e",
+        "identity_pct": 68.0,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 120,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.03e-48,
+        "bitscore": 153.0
+      },
+      {
+        "subject": "608e1d4d63cad7b1ece5c69ffdb093cb0f9c2566df2c66ab796d86652c669754",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 124,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.17e-48,
+        "bitscore": 153.0
+      },
+      {
+        "subject": "4aa0e062f56ff43b3984ccf172e7e3a5b2766657165a536417ced835c6f57d86",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.42e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "c62a1a9b7c2f7f20afe1f7c19571018bb8003dc57ba87d803b27d2d3ef0f0902",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 121,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.51e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "95af044f2d66fb443cb7caeaa98011344cbe0bb5790ef06f69c26d3f16adfdef",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.61e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "ff0c9df02479994c22b6cca9418631d41e396f3fad7c829c5b0d0d09ca3bf94e",
+        "identity_pct": 68.0,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 118,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.95e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "719a706fe32cc78a75ed8bb92b087cff2824b00c23bdbc9c0cfed81309848c96",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.01e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "9d00db63ac92323c21f763770386804bbe50a7167bd026f57ace3afa4cbb4cd5",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.01e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "ced31ad29b3b41c851ae4bac609a3a79a6df12cda6321d535bdc5377f126dab8",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.01e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "726025800ca5564febbbb2739eced025f7b05c1bd853d5d909a6c4a5bba49db0",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.01e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "b6906bf4ae08e4a3d8c5d60e1d8cc4ba930e8fc8c5ebccaee636771232b538f8",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 122,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.21e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "61e14e9d38ca8879ec008f52d8cec84305719b5d00203be609e838eacde56dc0",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.28e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "2f731b4b9dac0244737d48f3d21a215bba091290cbbbcc0674d145b119b3420d",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 116,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.6e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "5d80c327eb5f1afef810458107a5864978cd4abdeb2cc3188aa490e8fc33a9ed",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.86e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "2e37174eba1371db19ba2145e4ee8ebb1ae66d86e08699888603852ea4c9108b",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.86e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "fb01f104ce78da78f51128ced5c1ca446800274183f3f2628e14631b62759282",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.86e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "7cf81d9e6ab606e7419073bd605925dbcefb7728a1958ab57e95a323010a86c6",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.86e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "845467e7e77d618ed375b6a0b88e203e2ed5ff0c362a53451fd86316bf471f75",
+        "identity_pct": 65.6,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.86e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "9ac0239e4e4e0f88696a8d8369f350e0bc5a9510f70abb13ed7bf08bdfa797a8",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.86e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "e2376eeb6da7bb6d03ceba7ff07a9ca127e8ba1da39d58ee2496ac4aeab31f71",
+        "identity_pct": 66.667,
+        "alignment_length": 126,
+        "query_length": 121,
+        "subject_length": 120,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.95e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "99836024ed830dc60ba5d7da5dbd7128374d0be57b3357cee399be7313c130e2",
+        "identity_pct": 68.0,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 121,
+        "query_coverage_pct": 100.0,
+        "evalue": 3.04e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "a1b9e1c66781b52ab20c6e7ebb2d5452cd3c233fc761fd5f117c7172417b7891",
+        "identity_pct": 68.0,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 3.24e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "3aa5f097425d795908ba0002bee86fabf0396448e50be611f14563ea3866dc18",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 3.24e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "06ebed94f544ea482b753ace3c50fe157d85d74f3c72bef65ab488ae6f3f8ab2",
+        "identity_pct": 66.935,
+        "alignment_length": 124,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 3.24e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "e90afcad890d37b77022fae0f33b74ee9718487315a4d49085583b59678d9d1d",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 125,
+        "query_coverage_pct": 100.0,
+        "evalue": 3.44e-48,
+        "bitscore": 152.0
+      },
+      {
+        "subject": "ac995584eada53ad2a59e546e6e194dbe42fd4a7e0dbb18fd4dc2d63eb454941",
+        "identity_pct": 66.935,
+        "alignment_length": 124,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 100.0,
+        "evalue": 3.81e-48,
+        "bitscore": 151.0
+      },
+      {
+        "subject": "04fb72cb58ea60bf65398bb824bc0207977c94d2468bde6b81618094750594ce",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.06e-48,
+        "bitscore": 151.0
+      },
+      {
+        "subject": "fc86e1309e26dfb47c4ab02028a2bd11259cbd7ebd072511bc55f26a433814b5",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.06e-48,
+        "bitscore": 151.0
+      },
+      {
+        "subject": "2f8edf6a172e326b86b708a29770c51bc9ef29b1bbb4dc81a81630490847b998",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.06e-48,
+        "bitscore": 151.0
+      },
+      {
+        "subject": "fc589245cd7b237c3d69962c6be1b2ed8bcb774ba6944b6d1f33389f7d03f83c",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.06e-48,
+        "bitscore": 151.0
+      },
+      {
+        "subject": "2402a545fe94396cf6b15889d3e21977d5953ca013b84f8adc2712c05c5121a5",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.06e-48,
+        "bitscore": 151.0
+      },
+      {
+        "subject": "71929fcb7a058c5749790d980f14df61f11dacfbf498db251fe3392a675aba12",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.06e-48,
+        "bitscore": 151.0
+      },
+      {
+        "subject": "d9d4d2af14316bbb556708a6f930d251e5180ebb1daa2dcb01ed973b24e491a1",
+        "identity_pct": 65.6,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.06e-48,
+        "bitscore": 151.0
+      },
+      {
+        "subject": "e3df77d41873ab9c77981c8af816d9a22eb1b30ef9af3d007caf9ac003000588",
+        "identity_pct": 67.2,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 120,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.19e-48,
+        "bitscore": 151.0
+      },
+      {
+        "subject": "eea5904c685e16b60fc21463b0a77b3035d6730a7d0d0bab9232d59a49a7b24f",
+        "identity_pct": 66.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 121,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.32e-48,
+        "bitscore": 151.0
+      }
+    ],
+    "POSITIVE_CONTROL": [
+      {
+        "subject": "977a1b2cc548dd8a60e675395c2723164d0ef1f0003db66356f2c67945d905a8",
+        "identity_pct": 100.0,
+        "alignment_length": 129,
+        "query_length": 129,
+        "subject_length": 129,
+        "query_coverage_pct": 100.0,
+        "evalue": 8.63e-95,
+        "bitscore": 270.0
+      },
+      {
+        "subject": "f11da42ec19b7086c35cbff55dd76ec35a3054d101f66acfb07ef1c2cbc37df2",
+        "identity_pct": 99.029,
+        "alignment_length": 103,
+        "query_length": 129,
+        "subject_length": 124,
+        "query_coverage_pct": 80.0,
+        "evalue": 2.34e-73,
+        "bitscore": 216.0
+      },
+      {
+        "subject": "7d0f4091a78f6f529825448c4d1a3b671537dd6e16b7526855d4f057a179142d",
+        "identity_pct": 100.0,
+        "alignment_length": 101,
+        "query_length": 129,
+        "subject_length": 101,
+        "query_coverage_pct": 78.0,
+        "evalue": 1.85e-72,
+        "bitscore": 213.0
+      },
+      {
+        "subject": "c0ef61a9c3c7f1f587592fbd183ea5bd8b181f3eef62a6172734338f63c9384b",
+        "identity_pct": 99.0,
+        "alignment_length": 100,
+        "query_length": 129,
+        "subject_length": 100,
+        "query_coverage_pct": 78.0,
+        "evalue": 2.09e-71,
+        "bitscore": 210.0
+      },
+      {
+        "subject": "f5d3ed7d8e2bc15f8c45d883158b0da84551087a2c9c7beeb8ccafff918272b9",
+        "identity_pct": 83.051,
+        "alignment_length": 118,
+        "query_length": 129,
+        "subject_length": 124,
+        "query_coverage_pct": 91.0,
+        "evalue": 7.21e-68,
+        "bitscore": 202.0
+      },
+      {
+        "subject": "1b46e7e76424f20ddea4187626fdbf4065f7b6549301a6ed2ac9b47704ebedcf",
+        "identity_pct": 83.051,
+        "alignment_length": 118,
+        "query_length": 129,
+        "subject_length": 215,
+        "query_coverage_pct": 91.0,
+        "evalue": 1.37e-66,
+        "bitscore": 202.0
+      },
+      {
+        "subject": "23e796c8e0491d0a6e3a6eae9e6acff39893be9f2a7bff67e76165f101268fd6",
+        "identity_pct": 83.333,
+        "alignment_length": 114,
+        "query_length": 129,
+        "subject_length": 121,
+        "query_coverage_pct": 88.0,
+        "evalue": 2.19e-66,
+        "bitscore": 198.0
+      },
+      {
+        "subject": "e6ee12863a3d820ffa64386d0d316c341132cc3ee7b9e1a2ebf2e7f9c5eeea03",
+        "identity_pct": 83.193,
+        "alignment_length": 119,
+        "query_length": 129,
+        "subject_length": 125,
+        "query_coverage_pct": 91.0,
+        "evalue": 5.03e-66,
+        "bitscore": 197.0
+      },
+      {
+        "subject": "42c92e6858d24d0f2c59281a9b9cb6f6e7cf5a9ba60a989a6a98b4345a3dc13c",
+        "identity_pct": 86.364,
+        "alignment_length": 110,
+        "query_length": 129,
+        "subject_length": 121,
+        "query_coverage_pct": 84.0,
+        "evalue": 6.27e-66,
+        "bitscore": 197.0
+      },
+      {
+        "subject": "4b7392399126d7965d5b99e608aee7429ba36cc427ad85c5db3b727981691ba6",
+        "identity_pct": 87.037,
+        "alignment_length": 108,
+        "query_length": 129,
+        "subject_length": 122,
+        "query_coverage_pct": 84.0,
+        "evalue": 6.48e-66,
+        "bitscore": 197.0
+      },
+      {
+        "subject": "76321ae749099f6210fde029b6ff5654da7a56f66fa317a11af426323788bfb8",
+        "identity_pct": 83.898,
+        "alignment_length": 118,
+        "query_length": 129,
+        "subject_length": 122,
+        "query_coverage_pct": 91.0,
+        "evalue": 6.48e-66,
+        "bitscore": 197.0
+      },
+      {
+        "subject": "62d65d20a209ec2e175b1b385a21db80def1c7ba3534a34c4e9437b81ff8d5bb",
+        "identity_pct": 88.571,
+        "alignment_length": 105,
+        "query_length": 129,
+        "subject_length": 116,
+        "query_coverage_pct": 81.0,
+        "evalue": 7.59e-66,
+        "bitscore": 196.0
+      },
+      {
+        "subject": "b435daf3cb0c16fbdd8f1a0e5de0cdd80354aa422c7bfc1e3c53bc124c1b7ee1",
+        "identity_pct": 87.037,
+        "alignment_length": 108,
+        "query_length": 129,
+        "subject_length": 119,
+        "query_coverage_pct": 84.0,
+        "evalue": 8.35e-66,
+        "bitscore": 196.0
+      },
+      {
+        "subject": "212cefe3370da55c6d823c4abd143eabce83e9c5135df0147af7160f0865538d",
+        "identity_pct": 86.916,
+        "alignment_length": 107,
+        "query_length": 129,
+        "subject_length": 120,
+        "query_coverage_pct": 83.0,
+        "evalue": 1.23e-65,
+        "bitscore": 196.0
+      },
+      {
+        "subject": "a317d1368416edae89345ef66bb13a1b317f6bbc4d4f283f53007c7c9ee84567",
+        "identity_pct": 88.571,
+        "alignment_length": 105,
+        "query_length": 129,
+        "subject_length": 120,
+        "query_coverage_pct": 81.0,
+        "evalue": 1.23e-65,
+        "bitscore": 196.0
+      },
+      {
+        "subject": "949639216ecad010c429a93d60810fe1892477592a2362aad970a2ea2c1928f6",
+        "identity_pct": 86.111,
+        "alignment_length": 108,
+        "query_length": 129,
+        "subject_length": 129,
+        "query_coverage_pct": 84.0,
+        "evalue": 1.64e-65,
+        "bitscore": 196.0
+      },
+      {
+        "subject": "eb11bf676788d25fd08c7c9d7edf318ad23da09b53b0eb78ae57d39915506809",
+        "identity_pct": 86.111,
+        "alignment_length": 108,
+        "query_length": 129,
+        "subject_length": 119,
+        "query_coverage_pct": 84.0,
+        "evalue": 1.69e-65,
+        "bitscore": 196.0
+      },
+      {
+        "subject": "748f13f5f246aaec285d281b663a6be83ff4714b91acbe6826c8861e7adb5caa",
+        "identity_pct": 86.364,
+        "alignment_length": 110,
+        "query_length": 129,
+        "subject_length": 124,
+        "query_coverage_pct": 84.0,
+        "evalue": 1.98e-65,
+        "bitscore": 196.0
+      },
+      {
+        "subject": "76f240a023aa837e94f0323b50d489d59e8f24b47b4cb93be557cb4d8e7fd489",
+        "identity_pct": 82.203,
+        "alignment_length": 118,
+        "query_length": 129,
+        "subject_length": 124,
+        "query_coverage_pct": 91.0,
+        "evalue": 1.98e-65,
+        "bitscore": 196.0
+      },
+      {
+        "subject": "8dd71698d229367f18e27f42f1e79e4b5f03b496bc89ef953998f10ec28cc6fb",
+        "identity_pct": 83.898,
+        "alignment_length": 118,
+        "query_length": 129,
+        "subject_length": 120,
+        "query_coverage_pct": 91.0,
+        "evalue": 2.47e-65,
+        "bitscore": 195.0
+      },
+      {
+        "subject": "c1afac6bf9c2e7518fa4fda39beb2be74357730329628c9c6b28c369a7d04993",
+        "identity_pct": 88.679,
+        "alignment_length": 106,
+        "query_length": 129,
+        "subject_length": 110,
+        "query_coverage_pct": 81.0,
+        "evalue": 2.55e-65,
+        "bitscore": 195.0
+      },
+      {
+        "subject": "24424375d9470a10d59f9e16e054a42debc4502e3b703e7df384669c03ef78dc",
+        "identity_pct": 81.579,
+        "alignment_length": 114,
+        "query_length": 129,
+        "subject_length": 121,
+        "query_coverage_pct": 88.0,
+        "evalue": 2.55e-65,
+        "bitscore": 195.0
+      },
+      {
+        "subject": "643115688687cffd48ec6d95a200db92b7867950d256791f0cbb83eccff9e216",
+        "identity_pct": 88.679,
+        "alignment_length": 106,
+        "query_length": 129,
+        "subject_length": 111,
+        "query_coverage_pct": 81.0,
+        "evalue": 2.63e-65,
+        "bitscore": 195.0
+      },
+      {
+        "subject": "5de74e89e5544fd4136a46dc2bca45ff3175426d757885b6ce4530ea5fa70088",
+        "identity_pct": 86.111,
+        "alignment_length": 108,
+        "query_length": 129,
+        "subject_length": 119,
+        "query_coverage_pct": 84.0,
+        "evalue": 3.4e-65,
+        "bitscore": 195.0
+      },
+      {
+        "subject": "de8b3bcd113179d1837ec11aa3bb79d19d16a5234de1d9577a5739375c5210f2",
+        "identity_pct": 83.051,
+        "alignment_length": 118,
+        "query_length": 129,
+        "subject_length": 122,
+        "query_coverage_pct": 91.0,
+        "evalue": 3.75e-65,
+        "bitscore": 195.0
+      },
+      {
+        "subject": "9fee36073ab40e95af56ee295baf8f08b5dc38db0a09df6a7f35ab570d458125",
+        "identity_pct": 81.356,
+        "alignment_length": 118,
+        "query_length": 129,
+        "subject_length": 124,
+        "query_coverage_pct": 91.0,
+        "evalue": 4e-65,
+        "bitscore": 195.0
+      },
+      {
+        "subject": "c3370d3a956df829b2fbfade60ff5017c189992db24d3b641cc608be5337f21e",
+        "identity_pct": 83.929,
+        "alignment_length": 112,
+        "query_length": 129,
+        "subject_length": 127,
+        "query_coverage_pct": 87.0,
+        "evalue": 4.4e-65,
+        "bitscore": 195.0
+      },
+      {
+        "subject": "a5a9e3d1d277281ffc973e36ee19609fe5612c8041d70a39b892bf75593669d1",
+        "identity_pct": 83.929,
+        "alignment_length": 112,
+        "query_length": 129,
+        "subject_length": 117,
+        "query_coverage_pct": 84.0,
+        "evalue": 4.53e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "2e185285615f675a326c422833b1f13043d20746f2483f92ca24c4de6c70cfca",
+        "identity_pct": 81.579,
+        "alignment_length": 114,
+        "query_length": 129,
+        "subject_length": 141,
+        "query_coverage_pct": 88.0,
+        "evalue": 4.88e-65,
+        "bitscore": 195.0
+      },
+      {
+        "subject": "824d03c35a01279a92f4844bd2222fe11d58551a1994365a77419b925bf444b1",
+        "identity_pct": 82.203,
+        "alignment_length": 118,
+        "query_length": 129,
+        "subject_length": 124,
+        "query_coverage_pct": 91.0,
+        "evalue": 5.68e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "2d298f3527290e421f15213d2eb277353181e29dfdade31eb58bcd5948587347",
+        "identity_pct": 82.353,
+        "alignment_length": 119,
+        "query_length": 129,
+        "subject_length": 125,
+        "query_coverage_pct": 91.0,
+        "evalue": 5.86e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "e7e5d16d35d43c5afbf739a5d17fa397a58f0c31321c300e9ee301262d60fb88",
+        "identity_pct": 89.524,
+        "alignment_length": 105,
+        "query_length": 129,
+        "subject_length": 115,
+        "query_coverage_pct": 81.0,
+        "evalue": 6.03e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "bace2d1db64cf0bf1681560d4e4873dcf73f7cc4dff430fa6b721555ef619b18",
+        "identity_pct": 81.667,
+        "alignment_length": 120,
+        "query_length": 129,
+        "subject_length": 126,
+        "query_coverage_pct": 91.0,
+        "evalue": 6.05e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "83533a06ae5b194ecdf7bd97e268a4edce95314e3fce6454c548f2295ef55326",
+        "identity_pct": 88.571,
+        "alignment_length": 105,
+        "query_length": 129,
+        "subject_length": 116,
+        "query_coverage_pct": 81.0,
+        "evalue": 6.23e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "b84ecafa5038a20c0a7f82368ca9e5c7a434bf6bf0643b5907b3a2fc2034b34b",
+        "identity_pct": 88.462,
+        "alignment_length": 104,
+        "query_length": 129,
+        "subject_length": 116,
+        "query_coverage_pct": 81.0,
+        "evalue": 6.23e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "cc5b243335aa8bf1ebbe1653d0e69d5c700e42e3aa02a8c61608c933cb8c56e4",
+        "identity_pct": 91.089,
+        "alignment_length": 101,
+        "query_length": 129,
+        "subject_length": 116,
+        "query_coverage_pct": 78.0,
+        "evalue": 6.23e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "ccf763f423100731734dc0be918a48aba5eb54aed79974c47d02ebb6011d94b2",
+        "identity_pct": 91.089,
+        "alignment_length": 101,
+        "query_length": 129,
+        "subject_length": 118,
+        "query_coverage_pct": 78.0,
+        "evalue": 6.65e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "c4fa731057bdff4d0c655d5c1bd5c402250b42aed16dff85d1da8a0923f488d0",
+        "identity_pct": 83.929,
+        "alignment_length": 112,
+        "query_length": 129,
+        "subject_length": 118,
+        "query_coverage_pct": 87.0,
+        "evalue": 6.65e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "6615e5b8c2683d462848993078a37e044eeff2a23ab504407a78f878c5d92b8d",
+        "identity_pct": 85.185,
+        "alignment_length": 108,
+        "query_length": 129,
+        "subject_length": 119,
+        "query_coverage_pct": 84.0,
+        "evalue": 6.86e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "f07088a95bf8ef5c458e1180d8c58124f71a932c41d5f53744d162d8f68da190",
+        "identity_pct": 87.619,
+        "alignment_length": 105,
+        "query_length": 129,
+        "subject_length": 120,
+        "query_coverage_pct": 81.0,
+        "evalue": 7.09e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "9dba3947c86b8bb86e77fb8949e19692f73ca77a5cf1557afd6460c0c68025ad",
+        "identity_pct": 87.619,
+        "alignment_length": 105,
+        "query_length": 129,
+        "subject_length": 120,
+        "query_coverage_pct": 81.0,
+        "evalue": 7.09e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "5c18553d52d0b7ec2e479dd0425d0c7327971ec221d718bd95662cc1b92d03e1",
+        "identity_pct": 84.685,
+        "alignment_length": 111,
+        "query_length": 129,
+        "subject_length": 118,
+        "query_coverage_pct": 86.0,
+        "evalue": 9.44e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "3de60555d1bbb2cef07268503e71b2dea9840e7e2d41f31234d22a4bb333a26c",
+        "identity_pct": 82.203,
+        "alignment_length": 118,
+        "query_length": 129,
+        "subject_length": 119,
+        "query_coverage_pct": 91.0,
+        "evalue": 9.75e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "bc39120ab8817efaa035b27724d3daf89e91c344a401561533d2ae2c58f4dec6",
+        "identity_pct": 86.111,
+        "alignment_length": 108,
+        "query_length": 129,
+        "subject_length": 119,
+        "query_coverage_pct": 84.0,
+        "evalue": 9.75e-65,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "ba85fd11a8baf029cedff1e66fb094c3e65c555adfccd1d69711d9a9b9648a0a",
+        "identity_pct": 89.32,
+        "alignment_length": 103,
+        "query_length": 129,
+        "subject_length": 123,
+        "query_coverage_pct": 80.0,
+        "evalue": 1.11e-64,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "cfac0dabf4a46f9f292c723cdc7da099d937cf5d1704c2cd5272e9ed3a6d07b9",
+        "identity_pct": 86.239,
+        "alignment_length": 109,
+        "query_length": 129,
+        "subject_length": 123,
+        "query_coverage_pct": 84.0,
+        "evalue": 1.11e-64,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "4e41ce7f30c3e5824e11baddf701fda9a1f139c5c4d84fc1c1f13f41407a1964",
+        "identity_pct": 83.051,
+        "alignment_length": 118,
+        "query_length": 129,
+        "subject_length": 159,
+        "query_coverage_pct": 91.0,
+        "evalue": 1.24e-64,
+        "bitscore": 195.0
+      },
+      {
+        "subject": "d22782517a0ca11b589304b5e548dcc331728dc97307f027c2685568fa729f04",
+        "identity_pct": 81.148,
+        "alignment_length": 122,
+        "query_length": 129,
+        "subject_length": 128,
+        "query_coverage_pct": 91.0,
+        "evalue": 1.3e-64,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "e4b37212e6f34ca53cce9cda62ae3aa1dbf55c36a188a7e4714a7283a8370661",
+        "identity_pct": 79.508,
+        "alignment_length": 122,
+        "query_length": 129,
+        "subject_length": 128,
+        "query_coverage_pct": 91.0,
+        "evalue": 1.3e-64,
+        "bitscore": 194.0
+      },
+      {
+        "subject": "879644906315e0335346cd8985422954d36f8c5f82ebc77c4f884a668fa06f3b",
+        "identity_pct": 87.963,
+        "alignment_length": 108,
+        "query_length": 129,
+        "subject_length": 119,
+        "query_coverage_pct": 81.0,
+        "evalue": 1.38e-64,
+        "bitscore": 193.0
+      }
+    ]
+  }
+}

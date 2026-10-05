@@ -1,0 +1,29 @@
+{
+  "retrieved_utc": "2026-10-01T19:42:08Z",
+  "challenge_live_access": "success through browser; previous unavailable fetch is retained in initial plan history",
+  "sources": [
+    {
+      "url": "https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/egfr",
+      "verification": "Three biological objectives, pH6.5 versus7.4, 10-250 residues, track3 limit20, CSV name/sequence/molecule_class, generic frameworks allowed, zero-shot restriction confirmed."
+    },
+    {
+      "url": "https://www.adaptyvbio.com/blog/novelty",
+      "verification": "Antibody-specific CDRH3 edit-identity novelty threshold below70%; organizer uses its own numbering and databases, not reproduced exactly here."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11336709/",
+      "year": 2001,
+      "role": "Natural acid-on FcRn/Fc mechanism and independent positive-control data only; not a sequence/loop design seed."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19010777/",
+      "year": 2008,
+      "role": "Universal humanized VHH scaffold precedent and framework input; original CDRs removed."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1302268/",
+      "year": 2002,
+      "role": "Historical continuum-electrostatic protonation/conformational coupling and tautomer rationale. MCCE itself was not run; no claim our fixed-conformation method reproduces its validated pKa accuracy."
+    }
+  ]
+}

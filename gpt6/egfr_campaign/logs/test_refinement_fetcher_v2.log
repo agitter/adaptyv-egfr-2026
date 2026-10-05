@@ -1,0 +1,84 @@
+test_01_gzip (__main__.Tests.test_01_gzip) ... ok
+test_02_truncated_gzip (__main__.Tests.test_02_truncated_gzip) ... ok
+test_03_html_instead_of_gzip (__main__.Tests.test_03_html_instead_of_gzip) ... ok
+test_04_csv (__main__.Tests.test_04_csv) ... ok
+test_05_html_instead_of_csv (__main__.Tests.test_05_html_instead_of_csv) ... ok
+test_06_no_sequence_csv (__main__.Tests.test_06_no_sequence_csv) ... ok
+test_07_empty_csv (__main__.Tests.test_07_empty_csv) ... ok
+test_08_forcefield (__main__.Tests.test_08_forcefield) ... ok
+test_09_hydrogen_definitions (__main__.Tests.test_09_hydrogen_definitions) ... ok
+test_10_wrong_xml (__main__.Tests.test_10_wrong_xml) ... ok
+test_11_unresolved_include (__main__.Tests.test_11_unresolved_include) ... ok
+test_12_openmm_wheel (__main__.Tests.test_12_openmm_wheel) ... ok
+test_13_numpy_wheel (__main__.Tests.test_13_numpy_wheel) ... ok
+test_14_wheel_no_cpu (__main__.Tests.test_14_wheel_no_cpu) ... ok
+test_15_wheel_no_forcefield (__main__.Tests.test_15_wheel_no_forcefield) ... ok
+test_16_dependency_missing (__main__.Tests.test_16_dependency_missing) ... ok
+test_17_gpu_extra_not_required (__main__.Tests.test_17_gpu_extra_not_required) ... ok
+test_18_wrong_wheel_version (__main__.Tests.test_18_wrong_wheel_version) ... ok
+test_19_wheel_checksum (__main__.Tests.test_19_wheel_checksum) ... ok
+test_20_wheel_abi (__main__.Tests.test_20_wheel_abi) ... ok
+test_21_wheel_glibc (__main__.Tests.test_21_wheel_glibc) ... ok
+test_22_wheel_arm (__main__.Tests.test_22_wheel_arm) ... ok
+test_23_numpy_selector (__main__.Tests.test_23_numpy_selector) ... ok
+test_24_sequence_links (__main__.Tests.test_24_sequence_links) ... ok
+test_25_thera_csv_link (__main__.Tests.test_25_thera_csv_link) ... ok
+test_26_foreign_link (__main__.Tests.test_26_foreign_link) ... ok
+test_27_download_cache (__main__.Tests.test_27_download_cache) ... Downloading data.csv.gz (attempt 1)
+Using validated cached file: data.csv.gz
+ok
+test_28_bad_download_cleanup (__main__.Tests.test_28_bad_download_cleanup) ... Downloading bad.csv.gz (attempt 1)
+  Failed: SHA-256 differs from the publisher metadata
+Downloading bad.csv.gz (attempt 2)
+  Failed: SHA-256 differs from the publisher metadata
+ok
+test_29_full_workflow_and_cache (__main__.Tests.test_29_full_workflow_and_cache) ... Fetching offline MM runtime/dependency wheels, sequence-only novelty databases, classical parameter files, and one historical control.
+Nothing downloaded will be installed or executed. No antibody model archives are requested.
+Downloading openmm_pypi_metadata.json (attempt 1)
+Downloading openmm-8.4.0.post2-cp313-cp313-manylinux_2_34_x86_64.whl (attempt 1)
+Downloading numpy_pypi_metadata.json (attempt 1)
+Downloading numpy-2.3.5-cp313-cp313-manylinux_2_34_x86_64.whl (attempt 1)
+Downloading amber99sb.xml (attempt 1)
+Downloading amber99_obc.xml (attempt 1)
+Downloading hydrogens.xml (attempt 1)
+Downloading residues.xml (attempt 1)
+Downloading plabdab_landing.html (attempt 1)
+Downloading plabdab_paired.csv.gz (attempt 1)
+Downloading plabdab_unpaired.csv.gz (attempt 1)
+Downloading plabdab_nano_landing.html (attempt 1)
+Downloading plabdab_nano.csv.gz (attempt 1)
+Downloading therasabdab_landing.html (attempt 1)
+Downloading therasabdab.csv (attempt 1)
+Downloading 1I1A.pdb (attempt 1)
+Packaging /tmp/tmpuv65fkhl/out.zip
+DONE: /tmp/tmpuv65fkhl/out.zip
+Archive size: 0.0 MiB
+Upload egfr_refinement_inputs.zip even if some downloads failed; failure records are included.
+Fetching offline MM runtime/dependency wheels, sequence-only novelty databases, classical parameter files, and one historical control.
+Nothing downloaded will be installed or executed. No antibody model archives are requested.
+Using validated cached file: openmm_pypi_metadata.json
+Using validated cached file: openmm-8.4.0.post2-cp313-cp313-manylinux_2_34_x86_64.whl
+Using validated cached file: numpy_pypi_metadata.json
+Using validated cached file: numpy-2.3.5-cp313-cp313-manylinux_2_34_x86_64.whl
+Using validated cached file: amber99sb.xml
+Using validated cached file: amber99_obc.xml
+Using validated cached file: hydrogens.xml
+Using validated cached file: residues.xml
+Using validated cached file: plabdab_landing.html
+Using validated cached file: plabdab_paired.csv.gz
+Using validated cached file: plabdab_unpaired.csv.gz
+Using validated cached file: plabdab_nano_landing.html
+Using validated cached file: plabdab_nano.csv.gz
+Using validated cached file: therasabdab_landing.html
+Using validated cached file: therasabdab.csv
+Using validated cached file: 1I1A.pdb
+Packaging /tmp/tmpuv65fkhl/out.zip
+DONE: /tmp/tmpuv65fkhl/out.zip
+Archive size: 0.0 MiB
+Upload egfr_refinement_inputs.zip even if some downloads failed; failure records are included.
+ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.027s
+
+OK

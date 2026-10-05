@@ -1,0 +1,103 @@
+{
+  "source": "/mnt/data/egfr_campaign/stage5/intermediate/chemistry_acid_scope/intermediate/acid_ensemble/H00021_acid_histidine.json",
+  "source_sha256": "c5f7b2dd174fb56787d7dc12038824f4051815d1d25b133b859516e6c86b6582",
+  "sites": [
+    {
+      "residue_index": 24,
+      "chain": "A",
+      "pdb_residue_id": "25",
+      "partner": "target",
+      "nearest_partner_A": 3.8881082803852056,
+      "kind": "histidine"
+    },
+    {
+      "residue_index": 49,
+      "chain": "A",
+      "pdb_residue_id": "50",
+      "partner": "target",
+      "nearest_partner_A": 4.103804515324782,
+      "kind": "histidine"
+    },
+    {
+      "residue_index": 225,
+      "chain": "B",
+      "pdb_residue_id": "54",
+      "kind": "carboxylate",
+      "resname": "GLU",
+      "assumed_baseline_free_pKa": 4.4
+    },
+    {
+      "residue_index": 275,
+      "chain": "B",
+      "pdb_residue_id": "104",
+      "kind": "carboxylate",
+      "resname": "GLU",
+      "assumed_baseline_free_pKa": 4.4
+    },
+    {
+      "residue_index": 277,
+      "chain": "B",
+      "pdb_residue_id": "106",
+      "kind": "carboxylate",
+      "resname": "GLU",
+      "assumed_baseline_free_pKa": 4.4
+    }
+  ],
+  "microstates": 243,
+  "scenario_count": 13122,
+  "independent_prior_combinations_per_physical_model": 2187,
+  "physical_model_parameters": [
+    {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 0.0
+    },
+    {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25
+    },
+    {
+      "solute_dielectric": 2.0,
+      "kappa_nm_inverse": 0.0
+    },
+    {
+      "solute_dielectric": 2.0,
+      "kappa_nm_inverse": 1.25
+    },
+    {
+      "solute_dielectric": 4.0,
+      "kappa_nm_inverse": 0.0
+    },
+    {
+      "solute_dielectric": 4.0,
+      "kappa_nm_inverse": 1.25
+    }
+  ],
+  "minimum_contrast_kcal": 0.6654958913649054,
+  "maximum_contrast_kcal": 2.0099522453051986,
+  "all_scenarios_acid_on": true,
+  "worst_case": {
+    "physical_model_index": 5,
+    "site_pKas": [
+      6.8,
+      5.8,
+      4.4,
+      6.0,
+      6.0
+    ],
+    "site_HIE_fractions": [
+      0.2,
+      0.8,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "acid_proxy_kcal": -36.52680809758643,
+    "neutral_proxy_kcal": -35.86131220622153,
+    "contrast_kcal": 0.6654958913649054
+  },
+  "previous_tied_prior_maximum_error_kcal": 8.881784197001252e-16,
+  "tied_prior_comparisons": 324,
+  "array_file": "/mnt/data/egfr_campaign/stage5/intermediate/independent_mixed_priors/H00021_engineered_acids.npz",
+  "array_sha256": "3bd98a3fb898f28446c98989ba737e4d8e44155f0eb3fc2da1833a2eb6434eae",
+  "qualification": "Independent assumed free-pKas and tautomers, not measured/predicted pKas. Fixed heavy coordinates and incomplete ionizable-site coverage. Not confidence intervals, independent experiments, calibrated KD or neutral-pH nondetection."
+}

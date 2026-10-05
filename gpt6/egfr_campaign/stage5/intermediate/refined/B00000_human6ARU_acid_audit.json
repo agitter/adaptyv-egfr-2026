@@ -1,0 +1,46 @@
+{
+  "heavy_atom_count": 2279,
+  "severe_nonbonded_clashes": [],
+  "close_nonbonded_contacts_below_2p1A": [],
+  "stereochemical_inversions": [],
+  "bond_length_outliers": [],
+  "pass": true,
+  "initial_energy_kjmol": -38355.30706711108,
+  "final_energy_kjmol": -43372.03459593442,
+  "seconds": 64.06821513175964,
+  "iterations_limit": 600,
+  "restraints_in_energy": true,
+  "physical_claim": "geometry-only control; not binding or folding validation",
+  "alpha_centers": 260,
+  "beta_centers": 39,
+  "structural_histidine_condition": "acid",
+  "explicit_titrated_sites": [
+    {
+      "residue_index": 24,
+      "chain": "A",
+      "pdb_residue_id": "25",
+      "partner": "target",
+      "nearest_partner_A": 4.019534861149987
+    },
+    {
+      "residue_index": 49,
+      "chain": "A",
+      "pdb_residue_id": "50",
+      "partner": "target",
+      "nearest_partner_A": 4.2613031750862245
+    }
+  ],
+  "ca_rms_displacement_A": 0.10960514981442515,
+  "structural_hypothesis": "acid all-interface-HIP; pH dependence calculated separately",
+  "candidate_id": "B00000",
+  "species": "human6ARU",
+  "target_crop": [
+    334,
+    505
+  ],
+  "joint_refinement": true,
+  "glycan_obstacle_count": 150,
+  "postrefinement_full_receptor_outside_crop_min_A": 9.443165246775111,
+  "postrefinement_glycan_min_A": 3.8282835901505012,
+  "postrefinement_exclusion_pass": true
+}

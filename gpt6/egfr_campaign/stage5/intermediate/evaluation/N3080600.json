@@ -1,0 +1,68 @@
+{
+  "candidate_id": "N3080600",
+  "sequence_audit": {
+    "length": 121,
+    "format_pass": true,
+    "liabilities": {
+      "glycosylation_sequons": [],
+      "NG_motifs": [],
+      "DG_motifs": [],
+      "unpaired_cdr_cysteines": 0,
+      "max_repeat": 3,
+      "hydrophobic_runs": [],
+      "net_formal_charge_without_histidine": -3
+    },
+    "cdr_lengths": [
+      11,
+      15,
+      14
+    ]
+  },
+  "structure_audit": {
+    "human6ARU": {
+      "minimum_heavy_distance_A": 2.83449966994344,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 5.145314321720341
+    },
+    "mouseAF": {
+      "minimum_heavy_distance_A": 2.3458037360719253,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 2.8643507549925284
+    },
+    "1NQL": {
+      "minimum_heavy_distance_A": 2.9855411865294674,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.573030103546642
+    },
+    "1IVO": {
+      "minimum_heavy_distance_A": 2.173631220226864,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.503404093747882
+    },
+    "resolved_glycans": {
+      "min_heavy_distance_A": 3.8636214589328755,
+      "atoms_below_2A": 0
+    },
+    "alpha_inversions": [],
+    "peptide_bond_outliers": [],
+    "geometry_prefilter_pass": true
+  },
+  "sequence_coordinates_match": true,
+  "parent_hashes_match": true,
+  "framework_unchanged": true,
+  "protected_contact_atoms_unchanged": true,
+  "motif_CDR3_matches_design": true,
+  "duplicate_sequence": false,
+  "peptide_omega_warnings": [],
+  "pass": true,
+  "contact_audit": [
+    {
+      "binder_position": 54,
+      "binder_aa": "D",
+      "target_human_position": 383,
+      "target_aa": "H",
+      "min_NO_distance_A": 4.3411014456701436,
+      "target_conserved": false
+    }
+  ]
+}

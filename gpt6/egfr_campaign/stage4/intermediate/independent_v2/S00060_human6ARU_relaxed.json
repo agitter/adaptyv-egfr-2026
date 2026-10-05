@@ -1,0 +1,64 @@
+{
+  "candidate_id": "S00060",
+  "absolute_alpha_inversions": [],
+  "peptide_omega_warnings": [],
+  "actual_cystines": [
+    {
+      "positions": [
+        35,
+        73
+      ],
+      "SG_distance_A": 2.033359289451821,
+      "chi3_deg": 155.2755285247412,
+      "CB_S_S_angles_deg": [
+        105.61822133610647,
+        104.01534921539866
+      ],
+      "strain_gate_pass": false
+    },
+    {
+      "positions": [
+        22,
+        97
+      ],
+      "SG_distance_A": 2.029838663539551,
+      "chi3_deg": 66.49699995424814,
+      "CB_S_S_angles_deg": [
+        103.86549857192738,
+        104.56152258463548
+      ],
+      "strain_gate_pass": true
+    }
+  ],
+  "disulfide_strain_warnings": [
+    {
+      "positions": [
+        35,
+        73
+      ],
+      "SG_distance_A": 2.033359289451821,
+      "chi3_deg": 155.2755285247412,
+      "CB_S_S_angles_deg": [
+        105.61822133610647,
+        104.01534921539866
+      ],
+      "strain_gate_pass": false
+    }
+  ],
+  "intended_extra_pairs_present": true,
+  "pass": false,
+  "thresholds": {
+    "omega_max_deviation_from_trans_deg": 25,
+    "SS_A": [
+      1.9,
+      2.2
+    ],
+    "absolute_chi3_deviation_from90_max_deg": 35,
+    "CB_S_S_angles_deg": [
+      80,
+      130
+    ]
+  },
+  "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction.",
+  "source": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00060_human6ARU_relaxed.pdb"
+}

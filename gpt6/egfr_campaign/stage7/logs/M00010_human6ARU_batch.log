@@ -1,0 +1,16 @@
+PROCESS_START 1791143499.762516
+IMPORTS_DONE 1791143500.276618
+ADD_H_START 2279
+ADD_H_DONE 9.760045051574707
+M00010_human6ARU refinement True seconds 53.3
+ADD_H_START 2279
+ADD_H_DONE 6.678767204284668
+Timeout (0:01:20)!
+Thread 0x00007f3904ea5780 (most recent call first):
+  File "/mnt/data/egfr_campaign/stage3/code/fast_obc.py", line 84 in evaluate
+  File "/mnt/data/egfr_campaign/stage3/code/proton_ensemble.py", line 90 in probe
+  File "/mnt/data/egfr_campaign/stage3/code/refine_new.py", line 33 in run
+  File "/mnt/data/egfr_campaign/stage7/code/refine_one.py", line 22 in <module>
+M00010_human6ARU states 9 pH contrast 1.179980348044694 2.2527537082206415 seconds 15.3
+STRICT True omega_warnings 0
+RESULT {"candidate_id": "M00010", "species": "human6ARU", "status": "complete", "minimum_pH_contrast": 1.179980348044694} seconds 79.8091299533844

@@ -1,0 +1,61 @@
+[
+  {
+    "log": "novelty_tail.log",
+    "args": [
+      "/mnt/data/egfr_campaign/stage5/code/novelty_tail.py"
+    ]
+  },
+  {
+    "log": "human_T3070400.log",
+    "args": [
+      "/mnt/data/egfr_campaign/stage5/code/refine.py",
+      "T3070400",
+      "human6ARU"
+    ]
+  },
+  {
+    "log": "human_T3070900.log",
+    "args": [
+      "/mnt/data/egfr_campaign/stage5/code/refine.py",
+      "T3070900",
+      "human6ARU"
+    ]
+  },
+  {
+    "log": "human_T3080600.log",
+    "args": [
+      "/mnt/data/egfr_campaign/stage5/code/refine.py",
+      "T3080600",
+      "human6ARU"
+    ]
+  },
+  {
+    "log": "human_T3080401.log",
+    "args": [
+      "/mnt/data/egfr_campaign/stage5/code/refine.py",
+      "T3080401",
+      "human6ARU"
+    ]
+  },
+  {
+    "log": "blast_tail_swissprot.log",
+    "args": [
+      "/mnt/data/egfr_campaign/stage5/code/blast_tail.py",
+      "swissprot"
+    ]
+  },
+  {
+    "log": "blast_tail_pdb.log",
+    "args": [
+      "/mnt/data/egfr_campaign/stage5/code/blast_tail.py",
+      "pdb"
+    ]
+  },
+  {
+    "log": "blast_tail_antibodies_augmented.log",
+    "args": [
+      "/mnt/data/egfr_campaign/stage5/code/blast_tail.py",
+      "antibodies_augmented"
+    ]
+  }
+]

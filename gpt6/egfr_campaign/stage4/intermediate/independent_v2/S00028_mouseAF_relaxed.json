@@ -1,0 +1,50 @@
+{
+  "candidate_id": "S00028",
+  "absolute_alpha_inversions": [],
+  "peptide_omega_warnings": [],
+  "actual_cystines": [
+    {
+      "positions": [
+        57,
+        60
+      ],
+      "SG_distance_A": 2.041287338911404,
+      "chi3_deg": 71.01536415860208,
+      "CB_S_S_angles_deg": [
+        105.43334473631049,
+        104.16972495907164
+      ],
+      "strain_gate_pass": true
+    },
+    {
+      "positions": [
+        22,
+        97
+      ],
+      "SG_distance_A": 2.031084931754461,
+      "chi3_deg": 67.12052100893261,
+      "CB_S_S_angles_deg": [
+        104.40600505446247,
+        104.6637362856656
+      ],
+      "strain_gate_pass": true
+    }
+  ],
+  "disulfide_strain_warnings": [],
+  "intended_extra_pairs_present": true,
+  "pass": true,
+  "thresholds": {
+    "omega_max_deviation_from_trans_deg": 25,
+    "SS_A": [
+      1.9,
+      2.2
+    ],
+    "absolute_chi3_deviation_from90_max_deg": 35,
+    "CB_S_S_angles_deg": [
+      80,
+      130
+    ]
+  },
+  "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction.",
+  "source": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00028_mouseAF_relaxed.pdb"
+}

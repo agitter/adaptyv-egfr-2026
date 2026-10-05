@@ -1,0 +1,65 @@
+[
+  {
+    "id": "challenge_live",
+    "url": "https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/egfr",
+    "accessed_utc": "2026-10-04T19:55:47.230089+00:00",
+    "access_method": "web.run parsed HTML",
+    "observations": {
+      "deadline": "2026-10-06 23:59 AoE (UTC-12), explicitly extended in FAQ6",
+      "Chicago_deadline": "2026-10-07 06:59 CDT",
+      "track3_maximum": 20,
+      "single_chain_length": [
+        10,
+        250
+      ],
+      "csv_columns": [
+        "name",
+        "sequence",
+        "molecule_class"
+      ],
+      "molecule_class": "nanobody",
+      "biological_objectives": [
+        "human pH6.5 binding with no detectable pH7.4 binding",
+        "mouse binding",
+        "human affinity"
+      ],
+      "eligibility": "de novo zero-shot, generic antibody frameworks allowed, do not seed from an existing binder",
+      "unverified": "participant eligibility, rights, official novelty/classification and all experimental objectives"
+    }
+  },
+  {
+    "id": "novelty_live",
+    "url": "https://www.adaptyvbio.com/blog/novelty",
+    "accessed_utc": "2026-10-04T19:55:47.230089+00:00",
+    "access_method": "web.run parsed HTML",
+    "observations": "Intended antibody-like sequences use CDRH3 edit identity with novel-CDRH3 threshold below70percent, together with global similarity. Adaptyv classification/annotation/database pipeline is authoritative and was not reproduced locally."
+  },
+  {
+    "id": "gly_replacement1987",
+    "url": "https://doi.org/10.1073/pnas.84.19.6663",
+    "retrieved_abstract_url": "https://europepmc.org/article/MED/3477797",
+    "authors": [
+      "B.W.Matthews",
+      "H.Nicholson",
+      "W.J.Becktel"
+    ],
+    "year": 1987,
+    "title": "Enhanced protein thermostability from site-directed mutations that decrease the entropy of unfolding",
+    "role": "Scientific rationale only: geometry-compatible Gly replacement can reduce configurational entropy. No experimental stabilization magnitude is transferred to our candidates.",
+    "independently_retrieved_primary_abstract": "https://pmc.ncbi.nlm.nih.gov/articles/PMC299143/",
+    "retrieval_date": "2026-10-04",
+    "review_scope": "HTML abstract only; no PDF, table or figure analysis in this revision."
+  },
+  {
+    "id": "specificity2003",
+    "url": "https://doi.org/10.1073/pnas.2234277100",
+    "retrieved_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC263780/",
+    "authors": [
+      "J.M.Shifman",
+      "S.L.Mayo"
+    ],
+    "year": 2003,
+    "title": "Exploring the origins of binding specificity through the computational redesign of calmodulin",
+    "role": "Rationale for distinguishing affinity from specificity. No calmodulin sequence or structural motif is used as a design seed."
+  }
+]

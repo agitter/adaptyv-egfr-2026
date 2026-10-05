@@ -1,0 +1,61 @@
+{
+  "candidate_id": "M00021",
+  "seed": 198006,
+  "source_had_added_chirality_restraints": false,
+  "source_result": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00021_s198006/intermediate/dynamics/M00021_v2_s198006.json",
+  "source_result_sha256": "e11638e36589be9f48090faf7d482d30b596609eee96cf11b6950a7b6cc9d910",
+  "source_endpoint": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00021_s198006/intermediate/dynamics/M00021_v2_s198006_final.pdb",
+  "source_endpoint_sha256": "5c5ae0450cab8a587f43e192c6bd635455dffb74daf0df8650b83b43f07b8c4a",
+  "quenched_pdb": "/mnt/data/egfr_campaign/stage7/intermediate/endpoint_quench/M00021_s198006_noextra_quenched.pdb",
+  "quenched_pdb_sha256": "ce9a38359703cd5e9acc22da58b5441fb009560ef8d93b07d43eaae2ce6b60d8",
+  "forcefield": "Amber99SB2006/OBC2004",
+  "method": "500-iteration local energy minimization; HBonds constraints; no positional or added chirality restraints",
+  "initial_energy_kJ_mol": -13592.863696511413,
+  "final_energy_kJ_mol": -19653.740688199978,
+  "basic_geometry": {
+    "heavy_atom_count": 948,
+    "severe_nonbonded_clashes": [],
+    "close_nonbonded_contacts_below_2p1A": [],
+    "stereochemical_inversions": [],
+    "bond_length_outliers": [],
+    "pass": true
+  },
+  "strict_geometry": {
+    "candidate_id": "M00021",
+    "absolute_alpha_inversions": [],
+    "peptide_omega_warnings": [],
+    "actual_cystines": [
+      {
+        "positions": [
+          22,
+          97
+        ],
+        "SG_distance_A": 2.025638911553586,
+        "chi3_deg": 71.4421073774352,
+        "CB_S_S_angles_deg": [
+          102.4199231484449,
+          103.76547897440125
+        ],
+        "strain_gate_pass": true
+      }
+    ],
+    "disulfide_strain_warnings": [],
+    "intended_extra_pairs_present": true,
+    "pass": true,
+    "thresholds": {
+      "omega_max_deviation_from_trans_deg": 25,
+      "SS_A": [
+        1.9,
+        2.2
+      ],
+      "absolute_chi3_deviation_from90_max_deg": 35,
+      "CB_S_S_angles_deg": [
+        80,
+        130
+      ]
+    },
+    "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+  },
+  "seconds": 110.07921528816223,
+  "interpretation": "Phase-matched geometry diagnostic only. Energy and displacement are not folding free energies or binding affinity."
+}

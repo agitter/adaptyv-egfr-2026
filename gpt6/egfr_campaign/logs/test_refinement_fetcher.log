@@ -1,0 +1,19 @@
+PASS valid gzip CSV
+PASS truncated gzip rejected
+PASS HTML response rejected
+PASS only requested sequence links selected; relative links handled
+PASS foreign download host rejected
+PASS wheel and SHA-256 validation
+PASS publisher checksum mismatch rejected
+PASS remote CPython ABI selected rather than local downloader ABI
+Downloading download.csv.gz (attempt 1)
+Using validated cached file: download.csv.gz
+PASS streaming download and cache reuse
+Downloading mismatch.csv.gz (attempt 1)
+  Failed: SHA-256 differs from the publisher metadata
+Downloading mismatch.csv.gz (attempt 2)
+  Failed: SHA-256 differs from the publisher metadata
+PASS failed download is not published or left partial
+Packaging /tmp/tmputj1exqp/test.zip
+PASS archive preserves success and failure provenance
+TOTAL 11 tests passed; all network responses were fixtures

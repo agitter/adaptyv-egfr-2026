@@ -1,0 +1,31 @@
+{
+  "candidate_id": "M00000",
+  "source": "/mnt/data/egfr_campaign/stage7/intermediate/refined/M00000_human6ARU_relaxed.pdb",
+  "minimization_iterations_limit": 1000,
+  "position_restraints": false,
+  "chirality_restraints": true,
+  "energy_excludes_chirality_restraints": true,
+  "before_physical_potential_kcal": -4690.717208904999,
+  "after_physical_potential_kcal": -4699.88800070265,
+  "potential_relaxation_kcal": 9.170791797650963,
+  "geometry_audit": {
+    "heavy_atom_count": 943,
+    "severe_nonbonded_clashes": [],
+    "close_nonbonded_contacts_below_2p1A": [],
+    "stereochemical_inversions": [],
+    "bond_length_outliers": [],
+    "pass": true
+  },
+  "displacements": {
+    "framework_CA_RMSD_A": 0.17370047845724268,
+    "loop_CA_RMSD_A": 0.29295206811299984,
+    "CDR_CA_RMSD_A": [
+      0.26750796853279646,
+      0.31024196627846373,
+      0.29299254969625177
+    ],
+    "maximum_CA_displacement_A": 0.5449095499092551
+  },
+  "interpretation": "Local unbound reorganization diagnostic; not folding validation or binding entropy.",
+  "seconds": 79.86075472831726
+}

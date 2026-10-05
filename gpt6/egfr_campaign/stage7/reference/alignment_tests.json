@@ -1,0 +1,31 @@
+{
+  "tests": [
+    {
+      "test": "proper_rigid_rotation_and_translation_zero_loop_RMSD",
+      "pass": true
+    },
+    {
+      "test": "proper_rigid_rotation_and_translation_zero_framework_RMSD",
+      "pass": true
+    },
+    {
+      "test": "known_loop_only_displacement",
+      "pass": true
+    },
+    {
+      "test": "loop_displacement_does_not_drive_framework_fit",
+      "pass": true
+    },
+    {
+      "test": "correct_RMSD_normalization",
+      "pass": true
+    },
+    {
+      "test": "reflection_is_not_silently_treated_as_a_proper_rotation",
+      "pass": true
+    }
+  ],
+  "passed": 6,
+  "all_pass": true,
+  "qualification": "Mathematical implementation checks, not protein stability validation."
+}

@@ -1,0 +1,188 @@
+{
+  "historical_sources": [
+    {
+      "method": "CCD loop closure",
+      "year": 2003,
+      "doi": "10.1110/ps.0242703",
+      "use": "executed independent de novo loops; no antibody donor loop"
+    },
+    {
+      "method": "Generic VHH framework",
+      "year": 2008,
+      "doi": "10.1074/jbc.M806889200",
+      "structure": "3EAK",
+      "use": "framework only in ancestry; native loops exclusively controls"
+    },
+    {
+      "method": "Ramachandran geometry",
+      "year": 1963,
+      "use": "classical dihedral/steric heuristics, not a trained canonical classifier"
+    },
+    {
+      "method": "Canonical antibody loop structures",
+      "year": 1987,
+      "doi": "10.1016/0022-2836(87)90412-8",
+      "use": "considered rationale only; canonical classes not assigned or used as template labels"
+    },
+    {
+      "method": "Powell derivative-free optimization",
+      "year": 1964,
+      "doi": "10.1093/comjnl/7.2.155",
+      "use": "continuous carboxylate proposal torsions; objective removed for physical tests"
+    },
+    {
+      "method": "Amber99SB",
+      "year": 2006,
+      "doi": "10.1002/prot.21123",
+      "use": "all-atom physical potential"
+    },
+    {
+      "method": "OBC implicit solvation",
+      "year": 2004,
+      "doi": "10.1002/prot.20033",
+      "use": "fixed-coordinate interaction subtraction and minimization"
+    },
+    {
+      "method": "Wyman proton linkage",
+      "year": 1964,
+      "doi": "10.1016/S0065-3233(08)60190-4",
+      "use": "binding-polynomial arithmetic; free pKas are assumptions, not inferred values"
+    },
+    {
+      "method": "Atomic-detail continuum electrostatics precedent",
+      "year": 1990,
+      "doi": "10.1021/bi00496a010",
+      "use": "historical precedent only; its pKa-prediction procedure or accuracy not claimed"
+    },
+    {
+      "method": "Velocity-Verlet precedent",
+      "year": 1982,
+      "doi": "10.1063/1.442716",
+      "use": "synchronized positions/velocities; more precise than earlier shorthand Verlet1967"
+    },
+    {
+      "method": "RATTLE",
+      "year": 1983,
+      "doi": "10.1016/0021-9991(83)90014-1",
+      "use": "position and velocity constraints; primary article https://www.sciencedirect.com/science/article/pii/0021999183900141"
+    },
+    {
+      "method": "Andersen thermostat",
+      "year": 1980,
+      "doi": "10.1063/1.439486",
+      "use": "stochastic collisions; custom synchronized implementation"
+    },
+    {
+      "method": "MT19937",
+      "year": 1998,
+      "doi": "10.1145/272991.272995",
+      "use": "all new stochastic scientific steps"
+    },
+    {
+      "method": "Kabsch alignment",
+      "year": 1976,
+      "doi": "10.1107/S0567739476001873",
+      "use": "independently checked rigid framework fit"
+    },
+    {
+      "method": "Gapped BLAST",
+      "year": 1997,
+      "doi": "10.1093/nar/25.17.3389",
+      "use": "modern2.17 user-permitted implementation; composition adjustment disabled"
+    },
+    {
+      "method": "BLOSUM62",
+      "year": 1992,
+      "doi": "10.1073/pnas.89.22.10915",
+      "use": "sequence-search substitution matrix"
+    },
+    {
+      "method": "Levenshtein distance",
+      "year": 1965,
+      "english_translation_year": 1966,
+      "use": "exact edit identity; modern RapidFuzz implementation"
+    },
+    {
+      "method": "Rigid glycan-link torsion grid",
+      "year_upper_bound": 2010,
+      "use": "classical bond-axis rotations and geometry checks only; no modern glycan predictor or free-energy claim"
+    }
+  ],
+  "current_policy_urls": [
+    {
+      "url": "https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/egfr",
+      "sections": "objectives/ranking/requirements/FAQ1,5,8,13,15,16,17"
+    },
+    {
+      "url": "https://www.adaptyvbio.com/blog/novelty",
+      "section": "antibody-specific novelty"
+    },
+    {
+      "url": "https://proteinbase.com/competitions/anthropic-adaptyv-2026/terms",
+      "sections": "3,4,5,6,8"
+    },
+    {
+      "url": "https://proteinbase.com/competitions/anthropic-adaptyv-2026",
+      "section": "Track3 and human review"
+    }
+  ],
+  "web_access_notes": "Publisher DOI redirects for Swope1982 and Bashford1990 were attempted but unavailable; bibliographic metadata and historical primary references retained. No inaccessible article is claimed to have been fully read in this stage. Existing provided publications were inspected in earlier stages.",
+  "stage6_additions": [
+    {
+      "method": "Finite cluster expansion of protein energies",
+      "year": 2005,
+      "doi": "10.1103/PhysRevLett.95.148103",
+      "use": "Third-order explicit proton-state energy interpolation with held-out exact checks"
+    },
+    {
+      "method": "Protein energy cluster expansion",
+      "year": 2006,
+      "doi": "10.1371/journal.pcbi.0020063",
+      "use": "Historical precedent, not a downloaded modern model"
+    },
+    {
+      "method": "Exact finite tensor contraction / binding polynomial sum",
+      "year": "pre-2011 mathematical operation",
+      "use": "Modern numerical implementation, no learned inference"
+    }
+  ],
+  "current_rules": {
+    "checked_utc": "2026-10-02T21:10:56.665150+00:00",
+    "sources": {
+      "novelty": "https://www.adaptyvbio.com/blog/novelty",
+      "challenge_and_faq": "https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/egfr"
+    },
+    "track": 3,
+    "maximum_submitted_designs": 20,
+    "requested_ranked_reserve_pool": 100,
+    "length_inclusive": [
+      10,
+      250
+    ],
+    "submission_columns": [
+      "name",
+      "sequence",
+      "molecule_class"
+    ],
+    "molecule_class": "nanobody",
+    "novelty": {
+      "official_status": "PENDING ORGANIZER SUBMISSION ASSESSMENT",
+      "local_check": "Safeguard only; not an exact reconstruction of ProteinTyper",
+      "antibody_CDRH3_novel_cutoff_exclusive": 0.7,
+      "antibody_global_boundary": 0.7,
+      "level3": "Novel CDRH3; familiar framework",
+      "level4": "Novel CDRH3; global similarity below 70%",
+      "retain_framework": "Do not mutate conserved folding residues merely to force a novelty label",
+      "newer_organizer_tools": "Not run in this campaign; organizer-side assessment does not change our historical scientific methods restriction"
+    },
+    "objectives_in_priority_order": [
+      "Human binding at pH6.5 with no detectable human binding at pH7.4",
+      "Mouse EGFR binding by the same sequence; mouse pH switch not required",
+      "Human EGFR affinity"
+    ],
+    "experimental_status": "UNVERIFIED for every candidate",
+    "zero_shot_lineage": "Common framework only; all original binding loops replaced; no experimental binder used as design parent",
+    "public_metadata": "Opaque names are labels only, not a promise of secrecy; no embedded instructions",
+    "disclaimer": "Rule audit is not organizer acceptance, wet-lab validation or legal eligibility certification."
+  }
+}

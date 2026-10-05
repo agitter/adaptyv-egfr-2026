@@ -1,0 +1,41 @@
+{
+  "query_count": 366,
+  "stopped_processes": [
+    {
+      "pid": 1723,
+      "command": "sh /mnt/data/egfr_campaign/stage2/code/search_novelty.sh"
+    },
+    {
+      "pid": 2373,
+      "command": "/mnt/data/egfr_campaign/stage2/runtime/bin/blastp -query /mnt/data/egfr_campaign/stage2/intermediate/novelty/candidates.fasta -db /mnt/data/egfr_campaign/stage2/intermediate/blast/antibodies -out /mnt/data/egfr_campaign/stage2/intermediate/novelty/blast_antibodies.tsv -outfmt 6 qseqid sseqid pident length qlen slen qstart qend sstart send evalue bitscore qcovhsp -evalue 0.01 -max_target_seqs 20 -num_threads 2 -seg no"
+    }
+  ],
+  "searches": {
+    "swissprot": {
+      "rows": 7320,
+      "queries_with_hits": 366,
+      "reference_count": 575748,
+      "status": "complete",
+      "completion_evidence": "sequential set -e driver advanced to later search; all query identifiers present",
+      "maximum_percent_identity_among_hits_with_80pct_query_coverage": 75.0,
+      "interpretation": "Top-20 local BLAST hits; common antibody frameworks are expected. Not a full organizer novelty decision."
+    },
+    "pdb": {
+      "rows": 7320,
+      "queries_with_hits": 366,
+      "reference_count": 1165667,
+      "status": "complete",
+      "completion_evidence": "sequential set -e driver advanced to later search; all query identifiers present",
+      "maximum_percent_identity_among_hits_with_80pct_query_coverage": 74.194,
+      "interpretation": "Top-20 local BLAST hits; common antibody frameworks are expected. Not a full organizer novelty decision."
+    },
+    "antibodies": {
+      "rows": 0,
+      "queries_with_hits": 0,
+      "reference_count": 374451,
+      "status": "stopped_incomplete",
+      "partial_output": "intermediate/novelty/blast_antibodies.partial.tsv"
+    }
+  },
+  "reason_for_stopping": "Checkpoint boundary; broad antibody job uses superseded initial reference index. Exhaustive augmented CDR3 screen is complete. Repeat broad antibody search against augmented index after sequence redesign."
+}

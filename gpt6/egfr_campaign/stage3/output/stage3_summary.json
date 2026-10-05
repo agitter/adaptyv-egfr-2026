@@ -1,0 +1,134 @@
+{
+  "timestamp_utc": "2026-10-01T19:55:33.566863+00:00",
+  "stage": 3,
+  "not_final_submission": true,
+  "phone_a_friend_used": 2,
+  "total_sequence_structure_records": 1114,
+  "unique_sequences": 1097,
+  "duplicate_records_beyond_unique_sequences": 17,
+  "duplicate_sequence_groups": [
+    {
+      "sequence_sha256": "ce2386e5bcabf827ce21a1f1c603f1d93f43779e1e3d5a7008059ff527935434",
+      "candidate_ids": [
+        "B00001",
+        "B00002",
+        "B00003"
+      ]
+    },
+    {
+      "sequence_sha256": "aa2c258b94332854f71af8b0d4b6f6e8a920e47090085d04bf24c172d16ad4ee",
+      "candidate_ids": [
+        "B00004",
+        "B00005",
+        "B00006"
+      ]
+    },
+    {
+      "sequence_sha256": "514c04eba46b6e235f07a9200bdae3ceba9fc777ee867b71ad7fd15e489893a4",
+      "candidate_ids": [
+        "B00007",
+        "B00008",
+        "B00009"
+      ]
+    },
+    {
+      "sequence_sha256": "496ecc707eb4e29fff8b26cf3fc05fefb0c53ba4b9559e067109fd5eff54617e",
+      "candidate_ids": [
+        "B00010",
+        "B00011",
+        "B00012"
+      ]
+    },
+    {
+      "sequence_sha256": "b7d415867d016ee63636078341539dc299aafe700f825f95211a5531efb0e564",
+      "candidate_ids": [
+        "B00013",
+        "B00014",
+        "B00015",
+        "G00117_C04"
+      ]
+    },
+    {
+      "sequence_sha256": "161f8589c5faf274a6a07e1d3bce37decd4ea4b183fcfb5bc4b4a52ebf3d8044",
+      "candidate_ids": [
+        "B00016",
+        "B00017",
+        "B00018"
+      ]
+    },
+    {
+      "sequence_sha256": "f91ca905d9845aa05b5b6628205d95fa94a9b2a53d55c46d4d3c4afdc243dcdd",
+      "candidate_ids": [
+        "B00019",
+        "B00020",
+        "B00021"
+      ]
+    },
+    {
+      "sequence_sha256": "92f12a6c34c74b7e1649c8b34e1d4ef5afce54cdde174430b50592d227ebdd29",
+      "candidate_ids": [
+        "B00022",
+        "B00023",
+        "B00024"
+      ]
+    }
+  ],
+  "unique_CDR3": 1044,
+  "length_range": [
+    119,
+    127
+  ],
+  "sequence_structure_checks_pass": true,
+  "format_checks_per_record": 5,
+  "initial_geometry_pass": 1114,
+  "no_glycosylation_sequon": 1113,
+  "sequon_flagged_ids": [
+    "A00008"
+  ],
+  "native_human_detailed_evaluations": 49,
+  "native_human_acid_on_all_54": 27,
+  "native_refinement_geometry_pass": 49,
+  "native_refinement_full_receptor_glycan_pass": 49,
+  "native_human_backbones_with_omega_flag": 1,
+  "mouse_detailed_evaluations": 7,
+  "local_cdr3_screen": {
+    "candidates": 1114,
+    "unique_cdr3_queries": 1044,
+    "reference_cdr3": 203818,
+    "below_70pct": 1114,
+    "max_identity": 0.6470588235294117,
+    "distance_tests": [
+      [
+        "ARDYYGMDV",
+        "ARDYYGMDV",
+        0
+      ],
+      [
+        "ARDYYGMDV",
+        "ARDYFGMDV",
+        1
+      ],
+      [
+        "AAAA",
+        "YYYY",
+        4
+      ],
+      [
+        "HGDHGEYY",
+        "DHGEY",
+        3
+      ],
+      [
+        "",
+        "AAAA",
+        4
+      ]
+    ],
+    "positive_control_exact_match": true,
+    "seconds": 53.79230618476868,
+    "qualification": "Local, motif-based coverage only; not organizer eligibility certification."
+  },
+  "completed_whole_sequence_blast_records": 61,
+  "completed_whole_sequence_blast_unique_sequences": 60,
+  "no_experimental_binding_or_folding_validation": true
+}

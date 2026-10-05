@@ -1,0 +1,8 @@
+{
+  "pose_id": "G00039",
+  "branch": "two_nitrogen_negative_design",
+  "status": "failed",
+  "error": "ValueError('fixed framework/target collision')",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/egfr_campaign/stage3/code/clamp_design.py\", line 52, in run\n    t=candidate_table(rec,False,48,True);clamp=np.zeros((*t['one'].shape,len(HIST),2))\n  File \"/mnt/data/egfr_campaign/stage3/code/gated_design.py\", line 39, in candidate_table\n    if t['tree'].query(fixed_cloud)[0].min()<2.0:raise ValueError('fixed framework/target collision')\n                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: fixed framework/target collision\n",
+  "seconds": 0.17020249366760254
+}

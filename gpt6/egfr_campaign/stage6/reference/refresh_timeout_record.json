@@ -1,0 +1,6 @@
+{
+  "operation": "Intermediate audit/glycan/selection refresh under a 45-second container command limit",
+  "outcome": "Command timed out after intermediate files were produced; no biological conclusion taken from completion status.",
+  "recovery": "Completed the full refresh under a 120-second command limit, then independently validated final source sequences, gates, query coverage, and idempotent selection.",
+  "final_evidence": "/mnt/data/egfr_campaign/stage6/reference/final_postflight.json"
+}

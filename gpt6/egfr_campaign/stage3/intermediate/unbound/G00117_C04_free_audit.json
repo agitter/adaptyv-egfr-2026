@@ -1,0 +1,208 @@
+{
+  "candidate_id": "G00117_C04",
+  "source": "/mnt/data/egfr_campaign/stage3/intermediate/refined/G00117_C04_human6ARU_relaxed.pdb",
+  "minimization_iterations_limit": 1000,
+  "position_restraints": false,
+  "chirality_restraints": true,
+  "energy_excludes_chirality_restraints": true,
+  "before_physical_potential_kcal": -4494.628890986473,
+  "after_physical_potential_kcal": -4595.723281515826,
+  "potential_relaxation_kcal": 101.0943905293525,
+  "geometry_audit": {
+    "heavy_atom_count": 945,
+    "severe_nonbonded_clashes": [],
+    "close_nonbonded_contacts_below_2p1A": [],
+    "stereochemical_inversions": [],
+    "bond_length_outliers": [],
+    "pass": true
+  },
+  "displacements": {
+    "framework_CA_RMSD_A": 0.2997804214018551,
+    "loop_CA_RMSD_A": 0.5692252796818112,
+    "CDR_CA_RMSD_A": [
+      0.6216634603941512,
+      0.49316899863074515,
+      0.5942975069231125
+    ],
+    "maximum_CA_displacement_A": 1.1595197526870036
+  },
+  "interpretation": "Local unbound reorganization diagnostic; not folding validation or binding entropy.",
+  "NVE": {
+    "steps": 10000,
+    "timestep_ps": 0.001,
+    "initial_temperature_K": 300.0,
+    "rng": "MT19937",
+    "thermostat": null,
+    "algorithm": "Verlet 1967 with HBond constraints; no modern stochastic integrator",
+    "frames": [
+      {
+        "step": 0,
+        "potential_kj": -19220.481822950205,
+        "kinetic_kj": 5838.149150806078,
+        "total_kj": -13382.332672144126,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 0.2997804214018551,
+        "loop_CA_RMSD_A": 0.5692252796818112,
+        "CDR_CA_RMSD_A": [
+          0.6216634603941512,
+          0.49316899863074515,
+          0.5942975069231125
+        ],
+        "maximum_CA_displacement_A": 1.1595197526870036
+      },
+      {
+        "step": 1000,
+        "potential_kj": -16422.672520037904,
+        "kinetic_kj": 3066.6629056397046,
+        "total_kj": -13356.0096143982,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 0.8866631964184083,
+        "loop_CA_RMSD_A": 1.623460685683855,
+        "CDR_CA_RMSD_A": [
+          1.7770701480451598,
+          1.6082747088337237,
+          1.535352073311044
+        ],
+        "maximum_CA_displacement_A": 3.8975342432099693
+      },
+      {
+        "step": 2000,
+        "potential_kj": -16417.565490626253,
+        "kinetic_kj": 3062.488648085151,
+        "total_kj": -13355.076842541102,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 0.9976953775882175,
+        "loop_CA_RMSD_A": 1.919641186092339,
+        "CDR_CA_RMSD_A": [
+          2.2181417154233,
+          2.074282377624976,
+          1.5541984423642454
+        ],
+        "maximum_CA_displacement_A": 4.295871921364766
+      },
+      {
+        "step": 3000,
+        "potential_kj": -16330.348950997417,
+        "kinetic_kj": 2975.672884768744,
+        "total_kj": -13354.676066228672,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 0.9994784730564411,
+        "loop_CA_RMSD_A": 2.134442600691981,
+        "CDR_CA_RMSD_A": [
+          1.9602372595107664,
+          2.4658431308272233,
+          1.9290703439093666
+        ],
+        "maximum_CA_displacement_A": 4.503467295221946
+      },
+      {
+        "step": 4000,
+        "potential_kj": -16326.130046392105,
+        "kinetic_kj": 2971.0051752163145,
+        "total_kj": -13355.12487117579,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 0.8620377669674907,
+        "loop_CA_RMSD_A": 2.36262699937364,
+        "CDR_CA_RMSD_A": [
+          1.6033392031228118,
+          2.9283329179614044,
+          2.219905041765776
+        ],
+        "maximum_CA_displacement_A": 4.685601739163469
+      },
+      {
+        "step": 5000,
+        "potential_kj": -16299.945903120528,
+        "kinetic_kj": 2946.462884244612,
+        "total_kj": -13353.483018875915,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 0.6373818166274441,
+        "loop_CA_RMSD_A": 2.5646342975534604,
+        "CDR_CA_RMSD_A": [
+          1.1311117380665443,
+          3.0477095442275757,
+          2.7487553358515466
+        ],
+        "maximum_CA_displacement_A": 4.620172268230182
+      },
+      {
+        "step": 6000,
+        "potential_kj": -16320.968915516194,
+        "kinetic_kj": 2965.9933172385686,
+        "total_kj": -13354.975598277626,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 0.6378403363836882,
+        "loop_CA_RMSD_A": 2.96813832968012,
+        "CDR_CA_RMSD_A": [
+          1.2820266188551217,
+          3.6114258264837518,
+          3.1083911886682287
+        ],
+        "maximum_CA_displacement_A": 5.264419613754152
+      },
+      {
+        "step": 7000,
+        "potential_kj": -16359.563962020195,
+        "kinetic_kj": 3004.3356427171475,
+        "total_kj": -13355.228319303047,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 0.661102056166971,
+        "loop_CA_RMSD_A": 3.4681980608109093,
+        "CDR_CA_RMSD_A": [
+          1.1994826364800049,
+          4.699536167083093,
+          3.1810074870090235
+        ],
+        "maximum_CA_displacement_A": 6.254799115744175
+      },
+      {
+        "step": 8000,
+        "potential_kj": -16416.868682534936,
+        "kinetic_kj": 3061.629756651211,
+        "total_kj": -13355.238925883725,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 0.8669912086017566,
+        "loop_CA_RMSD_A": 4.121620059450966,
+        "CDR_CA_RMSD_A": [
+          2.1587251893254837,
+          5.65756063750278,
+          3.4647443376740004
+        ],
+        "maximum_CA_displacement_A": 8.202846756307668
+      },
+      {
+        "step": 9000,
+        "potential_kj": -16373.017185939016,
+        "kinetic_kj": 3018.8798427101433,
+        "total_kj": -13354.137343228873,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 1.0177275844182787,
+        "loop_CA_RMSD_A": 4.6447319898586965,
+        "CDR_CA_RMSD_A": [
+          2.5361687837869553,
+          6.562311539247638,
+          3.59415333226204
+        ],
+        "maximum_CA_displacement_A": 9.360074127691062
+      },
+      {
+        "step": 10000,
+        "potential_kj": -16358.280539346739,
+        "kinetic_kj": 3003.357347459461,
+        "total_kj": -13354.923191887277,
+        "geometry_pass": true,
+        "framework_CA_RMSD_A": 0.9780241901931198,
+        "loop_CA_RMSD_A": 4.945997027492605,
+        "CDR_CA_RMSD_A": [
+          2.3431455220688084,
+          7.254956473849537,
+          3.5469663747679276
+        ],
+        "maximum_CA_displacement_A": 10.414927538958882
+      }
+    ],
+    "total_energy_range_kj": 28.849653268211114,
+    "qualification": "Very short local trajectory, not convergence or a fold prediction."
+  },
+  "seconds": 1072.8234279155731
+}

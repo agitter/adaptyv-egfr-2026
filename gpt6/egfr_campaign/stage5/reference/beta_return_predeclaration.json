@@ -1,0 +1,24 @@
+{
+  "rationale": "Unbound trajectory warns shorter H2 can move more. Test an explicitly ideal-beta return end instead of unconstrained random loops. This is a structural hypothesis, not a canonical-loop or folding claim.",
+  "replacement_parent_positions": [
+    55,
+    65
+  ],
+  "new_lengths": [
+    9,
+    11
+  ],
+  "terminal_ideal_beta_residues": 3,
+  "phi_range_deg": [
+    -145,
+    -110
+  ],
+  "psi_range_deg": [
+    115,
+    150
+  ],
+  "initialization": "Standard internal peptide geometry; no native antibody CDR coordinates; own-design anchors retained",
+  "max_trials_per_length": 1600,
+  "max_retained_per_length": 16,
+  "gate_thresholds": "Unchanged closure/Ramachandran/steric/glycan gates"
+}

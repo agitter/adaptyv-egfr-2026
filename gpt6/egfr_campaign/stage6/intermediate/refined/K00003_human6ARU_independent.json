@@ -1,0 +1,36 @@
+{
+  "candidate_id": "K00003",
+  "absolute_alpha_inversions": [],
+  "peptide_omega_warnings": [],
+  "actual_cystines": [
+    {
+      "positions": [
+        22,
+        97
+      ],
+      "SG_distance_A": 2.035183775485645,
+      "chi3_deg": 77.69509776339271,
+      "CB_S_S_angles_deg": [
+        104.17567875079816,
+        104.94633728133434
+      ],
+      "strain_gate_pass": true
+    }
+  ],
+  "disulfide_strain_warnings": [],
+  "intended_extra_pairs_present": true,
+  "pass": true,
+  "thresholds": {
+    "omega_max_deviation_from_trans_deg": 25,
+    "SS_A": [
+      1.9,
+      2.2
+    ],
+    "absolute_chi3_deviation_from90_max_deg": 35,
+    "CB_S_S_angles_deg": [
+      80,
+      130
+    ]
+  },
+  "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+}

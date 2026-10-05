@@ -1,0 +1,679 @@
+{
+  "records": [
+    {
+      "candidate_id": "M00000",
+      "seed": 198005,
+      "added_chirality_restraints": true,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/dynamics/M00000_v2_s198005.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/dynamics/M00000_v2_s198005_final.pdb",
+      "final_structure_sha256": "adf536ec39bffa46dc9d3e6527299047253e12a5e41709eeb11b53de88962b4a",
+      "independent_audit": {
+        "candidate_id": "M00000",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 10,
+            "next_position": 11,
+            "omega_deg": 153.3145289060296,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              97
+            ],
+            "SG_distance_A": 1.9525273365563973,
+            "chi3_deg": 72.51882114346905,
+            "CB_S_S_angles_deg": [
+              110.39386647864201,
+              101.24022130048876
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "M00000",
+      "seed": 198006,
+      "added_chirality_restraints": true,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/dynamics/M00000_v2_s198006.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/dynamics/M00000_v2_s198006_final.pdb",
+      "final_structure_sha256": "7b4039a7eb116a1b01887e245a573dc16c03c2a8506566b55e7c569cf8103f11",
+      "independent_audit": {
+        "candidate_id": "M00000",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 93,
+            "next_position": 94,
+            "omega_deg": 149.62687106259284,
+            "next_is_proline": false
+          },
+          {
+            "previous_position": 123,
+            "next_position": 124,
+            "omega_deg": 154.50141772542668,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              97
+            ],
+            "SG_distance_A": 1.9935799457257692,
+            "chi3_deg": 96.90236349504204,
+            "CB_S_S_angles_deg": [
+              98.26006832810609,
+              100.20807168913194
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "NATIVE_3EAK",
+      "seed": 198005,
+      "added_chirality_restraints": true,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/dynamics/NATIVE_3EAK_v2_s198005.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/dynamics/NATIVE_3EAK_v2_s198005_final.pdb",
+      "final_structure_sha256": "3bcc923400785caf57c61a8c8cb3fc30e02163b83ee000b48f8732f7989596f8",
+      "independent_audit": {
+        "candidate_id": "NATIVE_3EAK",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 10,
+            "next_position": 11,
+            "omega_deg": 149.61622246664848,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              99
+            ],
+            "SG_distance_A": 2.052967121022641,
+            "chi3_deg": 55.14248561676084,
+            "CB_S_S_angles_deg": [
+              106.87074085708845,
+              108.33390174473992
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "NATIVE_3EAK",
+      "seed": 198006,
+      "added_chirality_restraints": true,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/dynamics/NATIVE_3EAK_v2_s198006.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/dynamics/NATIVE_3EAK_v2_s198006_final.pdb",
+      "final_structure_sha256": "e117f28974a792dd5350c8ba8ac5572f399ed353bf8a3d4456a27a4388d2eb24",
+      "independent_audit": {
+        "candidate_id": "NATIVE_3EAK",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 19,
+            "next_position": 20,
+            "omega_deg": 152.703790504639,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              99
+            ],
+            "SG_distance_A": 2.08642133808107,
+            "chi3_deg": 78.18751698641152,
+            "CB_S_S_angles_deg": [
+              99.07472861284974,
+              109.06983362048308
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "M00000",
+      "seed": 198005,
+      "added_chirality_restraints": false,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00000_s198005/intermediate/dynamics/M00000_v2_s198005.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00000_s198005/intermediate/dynamics/M00000_v2_s198005_final.pdb",
+      "final_structure_sha256": "3ab4e11c85b0b4a7c5517c9ff07678b26c159a53ac719ad248b97288008ce261",
+      "independent_audit": {
+        "candidate_id": "M00000",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 115,
+            "next_position": 116,
+            "omega_deg": -152.20480648221775,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              97
+            ],
+            "SG_distance_A": 1.9965304906261825,
+            "chi3_deg": 76.49480645132945,
+            "CB_S_S_angles_deg": [
+              109.51917208285275,
+              104.09689391392239
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "M00000",
+      "seed": 198006,
+      "added_chirality_restraints": false,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00000_s198006/intermediate/dynamics/M00000_v2_s198006.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00000_s198006/intermediate/dynamics/M00000_v2_s198006_final.pdb",
+      "final_structure_sha256": "52435ec2da7981903e95db5da3a48ef4d3cd9f541e5248ff0f82200f82837f9e",
+      "independent_audit": {
+        "candidate_id": "M00000",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 52,
+            "next_position": 53,
+            "omega_deg": -149.95560402696583,
+            "next_is_proline": false
+          },
+          {
+            "previous_position": 93,
+            "next_position": 94,
+            "omega_deg": 147.27214337976292,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              97
+            ],
+            "SG_distance_A": 2.039229756550259,
+            "chi3_deg": 78.29706978285718,
+            "CB_S_S_angles_deg": [
+              105.77240393455914,
+              99.43076686508378
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "M00018",
+      "seed": 198005,
+      "added_chirality_restraints": false,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00018_s198005/intermediate/dynamics/M00018_v2_s198005.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00018_s198005/intermediate/dynamics/M00018_v2_s198005_final.pdb",
+      "final_structure_sha256": "a7fe98917a6e67fd5f56ce72e10a7dd7e3ba816ad03cee225bfffe16a0d3db16",
+      "independent_audit": {
+        "candidate_id": "M00018",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 19,
+            "next_position": 20,
+            "omega_deg": 152.02063540085,
+            "next_is_proline": false
+          },
+          {
+            "previous_position": 34,
+            "next_position": 35,
+            "omega_deg": -150.5529991908197,
+            "next_is_proline": false
+          },
+          {
+            "previous_position": 52,
+            "next_position": 53,
+            "omega_deg": -154.48473870734514,
+            "next_is_proline": false
+          },
+          {
+            "previous_position": 60,
+            "next_position": 61,
+            "omega_deg": -152.76259593073013,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              97
+            ],
+            "SG_distance_A": 2.0067550921823987,
+            "chi3_deg": 69.80054214535218,
+            "CB_S_S_angles_deg": [
+              110.08576376012648,
+              104.92386325633213
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "M00018",
+      "seed": 198006,
+      "added_chirality_restraints": false,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00018_s198006/intermediate/dynamics/M00018_v2_s198006.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00018_s198006/intermediate/dynamics/M00018_v2_s198006_final.pdb",
+      "final_structure_sha256": "2f71ee1a2a49106bdea49442e0b5a660139fbbcc81470f4c87e6b74b4b16a201",
+      "independent_audit": {
+        "candidate_id": "M00018",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 45,
+            "next_position": 46,
+            "omega_deg": 151.0518259527603,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              97
+            ],
+            "SG_distance_A": 2.0358241574359983,
+            "chi3_deg": 71.2491112892379,
+            "CB_S_S_angles_deg": [
+              104.34627590787582,
+              99.72615247069787
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "M00021",
+      "seed": 198005,
+      "added_chirality_restraints": false,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00021_s198005/intermediate/dynamics/M00021_v2_s198005.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00021_s198005/intermediate/dynamics/M00021_v2_s198005_final.pdb",
+      "final_structure_sha256": "6f33e1977ecc41dfb7a83a4673211b8903df7896507b57aad4e42d084c91b3d5",
+      "independent_audit": {
+        "candidate_id": "M00021",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 51,
+            "next_position": 52,
+            "omega_deg": 150.6187839526431,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              97
+            ],
+            "SG_distance_A": 1.9972303322351164,
+            "chi3_deg": 78.02308246177687,
+            "CB_S_S_angles_deg": [
+              105.22729238292324,
+              101.37141926712532
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "M00021",
+      "seed": 198006,
+      "added_chirality_restraints": false,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00021_s198006/intermediate/dynamics/M00021_v2_s198006.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/M00021_s198006/intermediate/dynamics/M00021_v2_s198006_final.pdb",
+      "final_structure_sha256": "5c5ae0450cab8a587f43e192c6bd635455dffb74daf0df8650b83b43f07b8c4a",
+      "independent_audit": {
+        "candidate_id": "M00021",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 19,
+            "next_position": 20,
+            "omega_deg": 153.7311468847391,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              97
+            ],
+            "SG_distance_A": 2.1027707911229823,
+            "chi3_deg": 60.64407946473557,
+            "CB_S_S_angles_deg": [
+              103.0619869982403,
+              105.76508729815023
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "NATIVE_3EAK",
+      "seed": 198005,
+      "added_chirality_restraints": false,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/NATIVE_3EAK_s198005/intermediate/dynamics/NATIVE_3EAK_v2_s198005.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/NATIVE_3EAK_s198005/intermediate/dynamics/NATIVE_3EAK_v2_s198005_final.pdb",
+      "final_structure_sha256": "982a8a32aedc3f52af610a2aa03a845c7d3bdc429e490d8e1b6ea987317b187e",
+      "independent_audit": {
+        "candidate_id": "NATIVE_3EAK",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 10,
+            "next_position": 11,
+            "omega_deg": 152.62182474199238,
+            "next_is_proline": false
+          },
+          {
+            "previous_position": 21,
+            "next_position": 22,
+            "omega_deg": 152.97937383078437,
+            "next_is_proline": false
+          },
+          {
+            "previous_position": 80,
+            "next_position": 81,
+            "omega_deg": -146.68431386696298,
+            "next_is_proline": false
+          },
+          {
+            "previous_position": 95,
+            "next_position": 96,
+            "omega_deg": 150.78263890069852,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              99
+            ],
+            "SG_distance_A": 2.0575930112634007,
+            "chi3_deg": 55.68710441619262,
+            "CB_S_S_angles_deg": [
+              107.40516388925816,
+              103.80990006280196
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    },
+    {
+      "candidate_id": "NATIVE_3EAK",
+      "seed": 198006,
+      "added_chirality_restraints": false,
+      "result_source": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/NATIVE_3EAK_s198006/intermediate/dynamics/NATIVE_3EAK_v2_s198006.json",
+      "final_structure": "/mnt/data/egfr_campaign/stage7/intermediate/thermal_unrestrained/NATIVE_3EAK_s198006/intermediate/dynamics/NATIVE_3EAK_v2_s198006_final.pdb",
+      "final_structure_sha256": "8bb25634124930e90b29ed8f128269583cba0e3aeea206b9071df1a23c6e4d0b",
+      "independent_audit": {
+        "candidate_id": "NATIVE_3EAK",
+        "absolute_alpha_inversions": [],
+        "peptide_omega_warnings": [
+          {
+            "previous_position": 6,
+            "next_position": 7,
+            "omega_deg": 150.07269543030327,
+            "next_is_proline": false
+          },
+          {
+            "previous_position": 67,
+            "next_position": 68,
+            "omega_deg": 151.96611133964058,
+            "next_is_proline": false
+          },
+          {
+            "previous_position": 108,
+            "next_position": 109,
+            "omega_deg": 152.2645088285768,
+            "next_is_proline": false
+          }
+        ],
+        "actual_cystines": [
+          {
+            "positions": [
+              22,
+              99
+            ],
+            "SG_distance_A": 2.1244010920727767,
+            "chi3_deg": 69.50014307666052,
+            "CB_S_S_angles_deg": [
+              104.38948129916028,
+              103.34553151185352
+            ],
+            "strain_gate_pass": true
+          }
+        ],
+        "disulfide_strain_warnings": [],
+        "intended_extra_pairs_present": true,
+        "pass": false,
+        "thresholds": {
+          "omega_max_deviation_from_trans_deg": 25,
+          "SS_A": [
+            1.9,
+            2.2
+          ],
+          "absolute_chi3_deviation_from90_max_deg": 35,
+          "CB_S_S_angles_deg": [
+            80,
+            130
+          ]
+        },
+        "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+      }
+    }
+  ],
+  "strict_pass_count": 0,
+  "completed_endpoints": 12,
+  "scope": "Final all-atom endpoints only; no all-atom claim for intermediate CA-only saved frames."
+}

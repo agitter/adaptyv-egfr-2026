@@ -1,0 +1,8 @@
+{
+  "pose_id": "G00027",
+  "mixed_histidine_branch": false,
+  "status": "failed",
+  "error": "ValueError('fixed framework/glycan collision')",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/egfr_campaign/stage3/code/gated_design.py\", line 215, in run_pose\n    t=candidate_table(rec,allow_histidine);unique=set();count=0\n  File \"/mnt/data/egfr_campaign/stage3/code/gated_design.py\", line 40, in candidate_table\n    if GTREE.query(fixed_cloud)[0].min()<2.15:raise ValueError('fixed framework/glycan collision')\n                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: fixed framework/glycan collision\n",
+  "seconds": 0.1408097743988037
+}

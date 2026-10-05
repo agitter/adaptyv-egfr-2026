@@ -1,0 +1,40 @@
+{
+  "candidate_id": "S00017",
+  "source": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00017_human6ARU_relaxed.pdb",
+  "source_sha256": "0befeb9f82e9eb7bc832096dca71468b6901e31a4e328dd9ab53a61b8830e2da",
+  "static_reference_coordinate_comparisons": {
+    "human6ARU": {
+      "minimum_heavy_distance_A": 2.915595106928841,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.661354889512292
+    },
+    "mouseAF": {
+      "minimum_heavy_distance_A": 2.3267704869819763,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 2.8510057530185873
+    },
+    "1NQL": {
+      "minimum_heavy_distance_A": 2.6265877864088196,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.370409834599498
+    },
+    "1IVO": {
+      "minimum_heavy_distance_A": 2.311496154022869,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.451771166368299
+    },
+    "resolved_glycans": {
+      "min_heavy_distance_A": 3.8347106910095996,
+      "atoms_below_2A": 0
+    },
+    "alpha_inversions": [],
+    "peptide_bond_outliers": [],
+    "geometry_prefilter_pass": true
+  },
+  "same_species_full_context_with_refined_crop": {
+    "species": "human6ARU",
+    "minimum_heavy_distance_A": 2.8066289387804675,
+    "heavy_atoms_below2A": 0
+  },
+  "qualification": "Severe overlap filter only. Alternative receptor coordinates remain fixed; no conformational ensemble, glycans beyond resolved inputs, or induced-fit claim."
+}

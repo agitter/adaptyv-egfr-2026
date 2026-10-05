@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-01T21:59:27.490786+00:00",
+  "new_records": 63,
+  "new_unique_sequences": 63,
+  "new_length_range": [
+    125,
+    125
+  ],
+  "new_unique_cdr3": 9,
+  "stage3_plus4_records": 1177,
+  "stage3_plus4_unique": 1160,
+  "historical_all_stages_unique_including_rejected": 1526,
+  "historical_all_stages_records_including_rejected": 1543,
+  "human_detailed_unique_new": 14,
+  "human_geometry_clean_new": 9,
+  "human_all54_positive_new": 14,
+  "mouse_detailed_unique_new": 3,
+  "mouse_geometry_clean_new": 2,
+  "corrected_trajectory_count": 11,
+  "corrected_total_production_ps": 108.0,
+  "corrected_total_simulated_ps_including_warmup": 130.0,
+  "excluded_temperature_biased_pilot_count": 3,
+  "sequence_geometry_tests": 207,
+  "integrator_tests": [
+    {
+      "test": "harmonic oscillator relative energy range",
+      "value": 8.3336743571545e-05,
+      "pass": true
+    },
+    {
+      "test": "RATTLE bond constraint",
+      "value": 5.1201667905509396e-11,
+      "pass": true
+    },
+    {
+      "test": "RATTLE tangent velocity constraint",
+      "value": 4.1309231441004154e-19,
+      "pass": true
+    }
+  ],
+  "proton_polynomial_tests": 1200,
+  "qualification": "All scores and trajectory summaries are conditional model diagnostics; no experimental pass, folding validation, KD, kinetic rate or novelty-upload guarantee. Ranked100 pending."
+}

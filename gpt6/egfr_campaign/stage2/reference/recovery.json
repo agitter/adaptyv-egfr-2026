@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-01",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "missing_checkpoint": "egfr_stage1_checkpoint.zip not present in current runtime",
+  "recovered_archives": [
+    "egfr_campaign_checkpoint.zip",
+    "egfr_request2_audit.zip",
+    "egfr_inputs.zip",
+    "egfr_refinement_inputs.zip"
+  ],
+  "checks": [
+    {
+      "file": "1I1A.pdb",
+      "expected": "ba2c37154c0d22edfac41ea1cf42617cbcbb6a3c74b49cc02d22dc2d3519e451",
+      "actual": "ba2c37154c0d22edfac41ea1cf42617cbcbb6a3c74b49cc02d22dc2d3519e451",
+      "pass": true
+    },
+    {
+      "file": "amber99_obc.xml",
+      "expected": "767a2c0e8b423581c01c9cf5e6f6f5c71a3a1c65ab307c8782b7bc02f49d7a17",
+      "actual": "767a2c0e8b423581c01c9cf5e6f6f5c71a3a1c65ab307c8782b7bc02f49d7a17",
+      "pass": true
+    },
+    {
+      "file": "amber99sb.xml",
+      "expected": "186f8570413f2ad3efe923578fc53cc895006d50de4b612e9fc58977a914c092",
+      "actual": "186f8570413f2ad3efe923578fc53cc895006d50de4b612e9fc58977a914c092",
+      "pass": true
+    },
+    {
+      "file": "hydrogens.xml",
+      "expected": "413096cd3005ca5a638180e9cf623a8f6d574c81acf0e2c9d92b2bd26bb7658d",
+      "actual": "413096cd3005ca5a638180e9cf623a8f6d574c81acf0e2c9d92b2bd26bb7658d",
+      "pass": true
+    },
+    {
+      "file": "numpy-2.3.5-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "expected": "11e06aa0af8c0f05104d56450d6093ee639e15f24ecf62d417329d06e522e017",
+      "actual": "11e06aa0af8c0f05104d56450d6093ee639e15f24ecf62d417329d06e522e017",
+      "pass": true
+    },
+    {
+      "file": "numpy_pypi_metadata.json",
+      "expected": "26add04c77407fa4570d2cd4fe6dc966826b630f26822b9299957ae5fb816667",
+      "actual": "26add04c77407fa4570d2cd4fe6dc966826b630f26822b9299957ae5fb816667",
+      "pass": true
+    },
+    {
+      "file": "openmm-8.4.0.post2-cp313-cp313-manylinux_2_34_x86_64.whl",
+      "expected": "70cdd3309064b95bd304af1f195377e54b6f7060b15b37af725d15764b756b09",
+      "actual": "70cdd3309064b95bd304af1f195377e54b6f7060b15b37af725d15764b756b09",
+      "pass": true
+    },
+    {
+      "file": "openmm_pypi_metadata.json",
+      "expected": "d642fae97a89c7bbe311b239650d55f2543317609b0c3929fa02084cac6f3317",
+      "actual": "d642fae97a89c7bbe311b239650d55f2543317609b0c3929fa02084cac6f3317",
+      "pass": true
+    },
+    {
+      "file": "plabdab_landing.html",
+      "expected": "6dd90f3cc85ea4f4251cc63a47173b955a3fc2f1b010950ad1a911d6facfde6b",
+      "actual": "6dd90f3cc85ea4f4251cc63a47173b955a3fc2f1b010950ad1a911d6facfde6b",
+      "pass": true
+    },
+    {
+      "file": "plabdab_nano.csv.gz",
+      "expected": "8d2ff395895ef929307ecd8fad295a5b7a1947e970733832d5abd4ef130f496f",
+      "actual": "8d2ff395895ef929307ecd8fad295a5b7a1947e970733832d5abd4ef130f496f",
+      "pass": true
+    },
+    {
+      "file": "plabdab_nano_landing.html",
+      "expected": "dd666a6bcf6ee43d0caf04bd12f676c3d69ba17d3526b88a8d57dd704dac9519",
+      "actual": "dd666a6bcf6ee43d0caf04bd12f676c3d69ba17d3526b88a8d57dd704dac9519",
+      "pass": true
+    },
+    {
+      "file": "plabdab_paired.csv.gz",
+      "expected": "10f0fb3b82ddee09209adaff51340380294e3782ba90034af16c9f1d56c458a5",
+      "actual": "10f0fb3b82ddee09209adaff51340380294e3782ba90034af16c9f1d56c458a5",
+      "pass": true
+    },
+    {
+      "file": "plabdab_unpaired.csv.gz",
+      "expected": "fc1b726b6bad656021d32b7fb120f78e976f2fb1b908e3b3e61f26528715b448",
+      "actual": "fc1b726b6bad656021d32b7fb120f78e976f2fb1b908e3b3e61f26528715b448",
+      "pass": true
+    },
+    {
+      "file": "residues.xml",
+      "expected": "fd04c626e845eaeaa1053ebc88ea525ff9f8fe6d035b36361111ab4b2ed5cdb0",
+      "actual": "fd04c626e845eaeaa1053ebc88ea525ff9f8fe6d035b36361111ab4b2ed5cdb0",
+      "pass": true
+    },
+    {
+      "file": "therasabdab.csv",
+      "expected": "cc9402788297ed7b6ab3d676daa21953a6d28ebbd9cc78ec7248b19f74d49d6d",
+      "actual": "cc9402788297ed7b6ab3d676daa21953a6d28ebbd9cc78ec7248b19f74d49d6d",
+      "pass": true
+    },
+    {
+      "file": "therasabdab_landing.html",
+      "expected": "315b6767421490e64c977e021f1098874478643c034ac58afc4489a533bb586f",
+      "actual": "315b6767421490e64c977e021f1098874478643c034ac58afc4489a533bb586f",
+      "pass": true
+    }
+  ],
+  "numpy_version": "2.3.5"
+}

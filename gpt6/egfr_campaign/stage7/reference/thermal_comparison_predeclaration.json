@@ -1,0 +1,26 @@
+{
+  "recorded_utc": "2026-10-04T19:52:42.496985+00:00",
+  "selected_before_mutant_dynamics": [
+    "M00018",
+    "M00021"
+  ],
+  "fallback_if_geometry_failure": "M00015, selected on geometry only; do not choose using a favorable partial trajectory",
+  "control": "M00000, unchanged J00008 sequence given exactly the same refinement",
+  "external_fold_control": "NATIVE_3EAK; original CDRs never used as design seeds",
+  "seeds": [
+    198005,
+    198006
+  ],
+  "production_ps": 20.0,
+  "warmup_ps": 2.0,
+  "outcome": "Complete-production mean loop CA RMSD after framework alignment. Both replicate outcomes and per-CDR values must be reported; no selected early interval.",
+  "evidence_language": "Lower displacement is a short-stress-test result, not a folding free energy, equilibrium ensemble, thermostability measurement, or expression prediction. Two replicas do not establish statistical significance.",
+  "provisional_promotion_rule": {
+    "strict_geometry_both_species": true,
+    "expanded_protonation_all_assumptions_acid_on": true,
+    "maximum_conservative_contrast_loss_vs_matched_parent_kcal": 0.1,
+    "each_seed_mean_loop_RMSD_reduction_at_least_A": 0.15,
+    "no_official_novelty_claim": true
+  },
+  "contingency": "If the stricter thermal rule is not met, do not label a sequence stabilized. Model-supported candidates may still be reserves, with evidence separated from sequence novelty and biological validation."
+}

@@ -1,0 +1,226 @@
+MANIFEST TYPE: dict
+{
+  "created_utc": "2026-09-29T19:31:19Z",
+  "fetcher_version": 2,
+  "files": [
+    {
+      "filename": "ncbi-blast-2.17.0+-x64-linux.tar.gz",
+      "role": "Modern BLAST implementation for conventional sequence-similarity screening; Linux x86-64 container, not the downloader computer",
+      "required": true,
+      "requested_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast%2B/2.17.0/ncbi-blast-2.17.0%2B-x64-linux.tar.gz",
+        "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast%2B/LATEST/ncbi-blast-2.17.0%2B-x64-linux.tar.gz"
+      ],
+      "attempts": [],
+      "status": "downloaded",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast%2B/2.17.0/ncbi-blast-2.17.0%2B-x64-linux.tar.gz",
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast%2B/2.17.0/ncbi-blast-2.17.0%2B-x64-linux.tar.gz",
+      "retrieved_utc": "2026-09-29T19:31:04Z",
+      "http_headers": {
+        "Date": "Tue, 29 Sep 2026 19:30:43 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Tue, 01 Jul 2025 17:14:30 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "296006458",
+        "Cache-Control": "public, max-age=86400",
+        "Expires": "Tue, 06 Oct 2026 19:30:43 GMT",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET,POST,PUT,OPTIONS",
+        "Access-Control-Allow-Headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+        "Access-Control-Expose-Headers": "Content-Length, Content-Range, Content-Type",
+        "Connection": "close",
+        "Content-Type": "application/x-gzip"
+      },
+      "bytes": 296006458,
+      "sha256": "3888112d8207831aa47371d93583c601f058f88b5db22dc782438b039a3a411b",
+      "md5": "bdec166721de3b55f90a3badc83538e8",
+      "publisher_md5_match": true
+    },
+    {
+      "filename": "ncbi-blast-2.17.0+-x64-linux.tar.gz.md5",
+      "role": "Publisher checksum for the BLAST archive",
+      "required": false,
+      "requested_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast%2B/2.17.0/ncbi-blast-2.17.0%2B-x64-linux.tar.gz.md5",
+        "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast%2B/LATEST/ncbi-blast-2.17.0%2B-x64-linux.tar.gz.md5"
+      ],
+      "attempts": [],
+      "status": "downloaded",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast%2B/2.17.0/ncbi-blast-2.17.0%2B-x64-linux.tar.gz.md5",
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast%2B/2.17.0/ncbi-blast-2.17.0%2B-x64-linux.tar.gz.md5",
+      "retrieved_utc": "2026-09-29T19:31:05Z",
+      "http_headers": {
+        "Date": "Tue, 29 Sep 2026 19:31:05 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Tue, 01 Jul 2025 17:16:47 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "70",
+        "Cache-Control": "public, max-age=86400",
+        "Expires": "Tue, 06 Oct 2026 19:31:05 GMT",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET,POST,PUT,OPTIONS",
+ 
+
+1IVO.pdb
+HEADER    TRANSFERASE/SIGNALING PROTEIN           28-MAR-02   1IVO              
+TITLE     CRYSTAL STRUCTURE OF THE COMPLEX OF HUMAN EPIDERMAL GROWTH FACTOR AND 
+TITLE    2 RECEPTOR EXTRACELLULAR DOMAINS.                                      
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: EPIDERMAL GROWTH FACTOR RECEPTOR;                          
+COMPND   3 CHAIN: A, B;                                                         
+COMPND   4 FRAGMENT: EXTRACELLULAR DOMAINS I, II, II AND IV;                    
+COMPND   5 EC: 2.7.1.112;                                                       
+COMPND   6 ENGINEERED: YES;                                                     
+COMPND   7 MOL_ID: 2;                                                           
+COMPND   8 MOLECULE: EPIDERMAL GROWTH FACTOR;                                   
+COMPND   9 CHAIN: C, D;                                                         
+COMPND  10 FRAGMENT: RESIDUES 1-53;                                             
+COMPND  11 SYNONYM: EGF;                                                        
+COMPND  12 ENGINEERED: YES                                                      
+JRNL        AUTH   H.OGISO,R.ISHITANI,O.NUREKI,S.FUKAI,M.YAMANAKA,J.H.KIM,      
+JRNL        AUTH 2 K.SAITO,M.INOUE,M.SHIROUZU,S.YOKOYAMA                        
+JRNL        TITL   CRYSTAL STRUCTURE OF THE COMPLEX OF HUMAN EPIDERMAL GROWTH   
+JRNL        TITL 2 FACTOR AND RECEPTOR EXTRACELLULAR DOMAINS.                   
+JRNL        REF    CELL(CAMBRIDGE,MASS.)         V. 110   775 2002              
+
+1NQL.pdb
+HEADER    HORMONE/GROWTH FACTOR RECEPTOR          21-JAN-03   1NQL              
+TITLE     STRUCTURE OF THE EXTRACELLULAR DOMAIN OF HUMAN EPIDERMAL GROWTH FACTOR
+TITLE    2 (EGF) RECEPTOR IN AN INACTIVE (LOW PH) COMPLEX WITH EGF.             
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: EPIDERMAL GROWTH FACTOR RECEPTOR;                          
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 FRAGMENT: EXTRACELLULAR DOMAIN;                                      
+COMPND   5 ENGINEERED: YES;                                                     
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: EPIDERMAL GROWTH FACTOR;                                   
+COMPND   8 CHAIN: B;                                                            
+COMPND   9 SYNONYM: EGF, [CONTAINS: EPIDERMAL GROWTH FACTOR UROGASTRONE, ];     
+COMPND  10 ENGINEERED: YES                                                      
+JRNL        AUTH   K.M.FERGUSON,M.B.BERGER,J.M.MENDROLA,H.CHO,D.J.LEAHY,        
+JRNL        AUTH 2 M.A.LEMMON                                                   
+JRNL        TITL   EGF ACTIVATES ITS RECEPTOR BY REMOVING INTERACTIONS THAT     
+JRNL        TITL 2 AUTO-INHIBIT ECTODOMAIN DIMERIZATION                         
+JRNL        REF    MOL.CELL                      V.  11   507 2003              
+
+1YY9.pdb
+HEADER    IMMUNE SYSTEM/TRANSFERASE               24-FEB-05   1YY9              
+TITLE     STRUCTURE OF THE EXTRACELLULAR DOMAIN OF THE EPIDERMAL GROWTH FACTOR  
+TITLE    2 RECEPTOR IN COMPLEX WITH THE FAB FRAGMENT OF CETUXIMAB/ERBITUX/IMC-  
+TITLE    3 C225                                                                 
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: EPIDERMAL GROWTH FACTOR RECEPTOR;                          
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 FRAGMENT: UNP RESIDUES 25-642;                                       
+COMPND   5 SYNONYM: RECEPTOR TYROSINE-PROTEIN KINASE ERBB-1;                    
+COMPND   6 EC: 2.7.10.1;                                                        
+COMPND   7 ENGINEERED: YES;                                                     
+COMPND   8 MOL_ID: 2;                                                           
+COMPND   9 MOLECULE: CETUXIMAB FAB LIGHT CHAIN;                                 
+COMPND  10 CHAIN: C;                                                            
+COMPND  11 ENGINEERED: YES;                                                     
+COMPND  12 MOL_ID: 3;                                                           
+COMPND  13 MOLECULE: CETUXIMAB FAB HEAVY CHAIN;                                 
+COMPND  14 CHAIN: D;                                                            
+COMPND  15 ENGINEERED: YES                                                      
+JRNL        AUTH   S.LI,K.R.SCHMITZ,P.D.JEFFREY,J.J.W.WILTZIUS,P.KUSSIE,        
+JRNL        AUTH 2 K.M.FERGUSON                                                 
+JRNL        TITL   STRUCTURAL BASIS FOR INHIBITION OF THE EPIDERMAL GROWTH      
+JRNL        TITL 2 FACTOR RECEPTOR BY CETUXIMAB                                 
+JRNL        REF    CANCER CELL                   V.   7   301 2005              
+
+2A3D.pdb
+HEADER    THREE-HELIX BUNDLE                      01-APR-99   2A3D              
+TITLE     SOLUTION STRUCTURE OF A DE NOVO DESIGNED SINGLE CHAIN THREE-HELIX     
+TITLE    2 BUNDLE (A3D)                                                         
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: PROTEIN (DE NOVO THREE-HELIX BUNDLE);                      
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES                                                      
+JRNL        AUTH   S.T.WALSH,H.CHENG,J.W.BRYSON,H.RODER,W.F.DEGRADO             
+JRNL        TITL   SOLUTION STRUCTURE AND DYNAMICS OF A DE NOVO DESIGNED        
+JRNL        TITL 2 THREE-HELIX BUNDLE PROTEIN.                                  
+JRNL        REF    PROC.NATL.ACAD.SCI.USA        V.  96  5486 1999              
+
+1FSD.pdb
+HEADER    NOVEL SEQUENCE                          09-JUN-97   1FSD              
+TITLE     FULL SEQUENCE DESIGN 1 (FSD-1) OF BETA BETA ALPHA MOTIF, NMR, 41      
+TITLE    2 STRUCTURES                                                           
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: FULL SEQUENCE DESIGN 1 OF BETA BETA ALPHA MOTIF;           
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES                                                      
+JRNL        AUTH   B.I.DAHIYAT,S.L.MAYO                                         
+JRNL        TITL   DE NOVO PROTEIN DESIGN: FULLY AUTOMATED SEQUENCE SELECTION.  
+JRNL        REF    SCIENCE                       V. 278    82 1997              
+
+1L2Y.pdb
+HEADER    DE NOVO PROTEIN                         25-FEB-02   1L2Y              
+TITLE     NMR STRUCTURE OF TRP-CAGE MINIPROTEIN CONSTRUCT TC5B                  
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: TC5B;                                                      
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES                                                      
+JRNL        AUTH   J.W.NEIDIGH,R.M.FESINMEYER,N.H.ANDERSEN                      
+JRNL        TITL   DESIGNING A 20-RESIDUE PROTEIN.                              
+JRNL        REF    NAT.STRUCT.BIOL.              V.   9   425 2002              
+
+3DWT.pdb
+HEADER    IMMUNE SYSTEM                           23-JUL-08   3DWT              
+TITLE     STRUCTURE OF CABBCII-10 NANOBODY                                      
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: CABBCII-10;                                                
+COMPND   3 CHAIN: A, B, C, D, E, F, G, H;                                       
+COMPND   4 ENGINEERED: YES                                                      
+JRNL        AUTH   C.VINCKE,R.LORIS,D.SAERENS,S.MARTINEZ-RODRIGUEZ,             
+JRNL        AUTH 2 S.MUYLDERMANS,K.CONRATH                                      
+JRNL        TITL   GENERAL STRATEGY TO HUMANIZE A CAMELID SINGLE-DOMAIN         
+JRNL        TITL 2 ANTIBODY AND IDENTIFICATION OF A UNIVERSAL HUMANIZED         
+JRNL        TITL 3 NANOBODY SCAFFOLD.                                           
+JRNL        REF    J.BIOL.CHEM.                               2008              
+
+3EAK.pdb
+HEADER    IMMUNE SYSTEM                           26-AUG-08   3EAK              
+TITLE     NBBCII10 HUMANIZED (FGLA MUTANT)                                      
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: NBBCII10-FGLA;                                             
+COMPND   3 CHAIN: A, B;                                                         
+COMPND   4 ENGINEERED: YES;                                                     
+COMPND   5 MUTATION: YES                                                        
+JRNL        AUTH   C.VINCKE,R.LORIS,D.SAERENS,S.MARTINEZ-RODRIGUEZ,             
+JRNL        AUTH 2 S.MUYLDERMANS,K.CONRATH                                      
+JRNL        TITL   GENERAL STRATEGY TO HUMANIZE A CAMELID SINGLE-DOMAIN         
+JRNL        TITL 2 ANTIBODY AND IDENTIFICATION OF A UNIVERSAL HUMANIZED         
+JRNL        TITL 3 NANOBODY SCAFFOLD.                                           
+JRNL        REF    J.BIOL.CHEM.                               2008              
+
+3EBA.pdb
+HEADER    IMMUNE SYSTEM/HYDROLASE                 27-AUG-08   3EBA              
+TITLE     CABHUL6 FGLW MUTANT (HUMANIZED) IN COMPLEX WITH HUMAN LYSOZYME        
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: CABHUL6;                                                   
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES;                                                     
+COMPND   5 MUTATION: YES;                                                       
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: LYSOZYME C;                                                
+COMPND   8 CHAIN: B;                                                            
+COMPND   9 SYNONYM: 1,4-BETA-N-ACETYLMURAMIDASE C;                              
+COMPND  10 EC: 3.2.1.17;                                                        
+COMPND  11 ENGINEERED: YES                                                      
+JRNL        AUTH   C.VINCKE,R.LORIS,D.SAERENS,S.MARTINEZ-RODRIGUEZ,             
+JRNL        AUTH 2 S.MUYLDERMANS,K.CONRATH                                      
+JRNL        TITL   GENERAL STRATEGY TO HUMANIZE A CAMELID SINGLE-DOMAIN         
+JRNL        TITL 2 ANTIBODY AND IDENTIFICATION OF A UNIVERSAL HUMANIZED         
+JRNL        TITL 3 NANOBODY SCAFFOLD                                            
+JRNL        REF    J.BIOL.CHEM.                  V. 284  3273 2009              
+Python: 3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]
+CPU: 9
+MemTotal:        6090032 kB
+MemFree:         2852108 kB
+MemAvailable:    3621956 kB
+Buffers:            4764 kB
+Cached:           982312 kB
+

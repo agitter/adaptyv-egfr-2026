@@ -1,0 +1,71 @@
+{
+  "trajectory": "NATIVE_3EAK_v2_s198002",
+  "candidate_id": "NATIVE_3EAK",
+  "warmup_ps": 2.0,
+  "production_ps": 4.0,
+  "seed": 198002,
+  "global_loop_displacement_mean_A": 1.0686971425415503,
+  "loop_internal_deformation_mean_A": [
+    0.5209696868242221,
+    0.4964725165454688,
+    0.36586798348856703
+  ],
+  "loop_internal_deformation_final_A": [
+    0.4972659366661571,
+    0.5363224842743826,
+    0.5032777914711348
+  ],
+  "loop_intervals_zero_based_half_open": [
+    [
+      25,
+      38
+    ],
+    [
+      52,
+      67
+    ],
+    [
+      99,
+      117
+    ]
+  ],
+  "end_point_independent_geometry": {
+    "candidate_id": "NATIVE_3EAK",
+    "absolute_alpha_inversions": [],
+    "peptide_omega_warnings": [],
+    "actual_cystines": [
+      {
+        "positions": [
+          22,
+          99
+        ],
+        "SG_distance_A": 2.0903408812918505,
+        "chi3_deg": 70.00355854514287,
+        "CB_S_S_angles_deg": [
+          105.86478362286071,
+          102.43588459980525
+        ],
+        "strain_gate_pass": true
+      }
+    ],
+    "disulfide_strain_warnings": [],
+    "intended_extra_pairs_present": true,
+    "pass": true,
+    "thresholds": {
+      "omega_max_deviation_from_trans_deg": 25,
+      "SS_A": [
+        1.9,
+        2.2
+      ],
+      "absolute_chi3_deviation_from90_max_deg": 35,
+      "CB_S_S_angles_deg": [
+        80,
+        130
+      ]
+    },
+    "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+  },
+  "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+  "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+  "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+}

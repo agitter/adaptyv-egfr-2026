@@ -1,0 +1,323 @@
+{
+  "key": "stage3:G00067_C00",
+  "sequence": "QVQLVESGGGLVQPGGSLRLSCAASKTEYEGDLYRNWFRQAPGQGLEAVAGDTEQYQSDNYEYDKKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTTGERGGGREFEGGDGRKWGQGTLVTVS",
+  "source": "/mnt/data/egfr_campaign/stage3/intermediate/designs/G00067_C00.json",
+  "human": {
+    "site_count": 2,
+    "site_details": [
+      {
+        "partner": "T",
+        "position": 358,
+        "intrachain_shift": -0.13009665663368475,
+        "cross_charge_shift": -2.824925812844388,
+        "born_shift": 0.12962268960873521,
+        "hydration_occluded_fraction": 0.11428571428571428
+      },
+      {
+        "partner": "T",
+        "position": 383,
+        "intrachain_shift": -0.37308993686744957,
+        "cross_charge_shift": -5.026136027031287,
+        "born_shift": 0.3460266714131492,
+        "hydration_occluded_fraction": 0.3050847457627119
+      }
+    ],
+    "scenarios": [
+      {
+        "epsilon": 12.0,
+        "desolv_scale": 1.0,
+        "pka": 5.8,
+        "low": {
+          "binding_free_energy_surrogate": -21.89728444787726,
+          "free_protons": 0.4621788850482974,
+          "bound_protons": 1.9975719710895532,
+          "proton_uptake": 1.535393086041256,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -19.722454585295864,
+          "free_protons": 0.07506948246927828,
+          "bound_protons": 1.9810317094162935,
+          "proton_uptake": 1.9059622269470151,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 2.1748298625813973,
+        "log10_binding_ratio_surrogate": 1.5941614791323937
+      },
+      {
+        "epsilon": 12.0,
+        "desolv_scale": 1.0,
+        "pka": 6.3,
+        "low": {
+          "binding_free_energy_surrogate": -22.786463956503596,
+          "free_protons": 0.9542902554602146,
+          "bound_protons": 1.9992309191247297,
+          "proton_uptake": 1.044940663664515,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -20.986961877730497,
+          "free_protons": 0.21745017871794292,
+          "bound_protons": 1.993923266931479,
+          "proton_uptake": 1.7764730882135362,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 1.7995020787730986,
+        "log10_binding_ratio_surrogate": 1.3190442824772337
+      },
+      {
+        "epsilon": 12.0,
+        "desolv_scale": 1.0,
+        "pka": 6.8,
+        "low": {
+          "binding_free_energy_surrogate": -23.317136420243084,
+          "free_protons": 1.4688327108989236,
+          "bound_protons": 1.9997566679235996,
+          "proton_uptake": 0.530923957024676,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -22.1011505854652,
+          "free_protons": 0.5462881155846637,
+          "bound_protons": 1.998070389103776,
+          "proton_uptake": 1.4517822735191124,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 1.2159858347778858,
+        "log10_binding_ratio_surrogate": 0.8913238733409204
+      },
+      {
+        "epsilon": 20.0,
+        "desolv_scale": 1.0,
+        "pka": 5.8,
+        "low": {
+          "binding_free_energy_surrogate": -12.513527382311633,
+          "free_protons": 0.4621788850482974,
+          "bound_protons": 1.953160851627883,
+          "proton_uptake": 1.4909819665795858,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -10.496596632601232,
+          "free_protons": 0.07506948246927828,
+          "bound_protons": 1.7159488174491069,
+          "proton_uptake": 1.6408793349798285,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 2.0169307497104008,
+        "log10_binding_ratio_surrogate": 1.4784206169808378
+      },
+      {
+        "epsilon": 20.0,
+        "desolv_scale": 1.0,
+        "pka": 6.3,
+        "low": {
+          "binding_free_energy_surrogate": -13.384418097011814,
+          "free_protons": 0.9542902554602146,
+          "bound_protons": 1.9847186378898385,
+          "proton_uptake": 1.0304283824296239,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -11.641629167356069,
+          "free_protons": 0.21745017871794292,
+          "bound_protons": 1.889815733117492,
+          "proton_uptake": 1.672365554399549,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 1.7427889296557453,
+        "log10_binding_ratio_surrogate": 1.2774732523756585
+      },
+      {
+        "epsilon": 20.0,
+        "desolv_scale": 1.0,
+        "pka": 6.8,
+        "low": {
+          "binding_free_energy_surrogate": -13.909180096233422,
+          "free_protons": 1.4688327108989236,
+          "bound_protons": 1.9951186366329645,
+          "proton_uptake": 0.5262859257340409,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -12.71195524428743,
+          "free_protons": 0.5462881155846637,
+          "bound_protons": 1.9624474412765052,
+          "proton_uptake": 1.4161593256918414,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 1.1972248519459914,
+        "log10_binding_ratio_surrogate": 0.8775719763967746
+      },
+      {
+        "epsilon": 32.0,
+        "desolv_scale": 1.0,
+        "pka": 5.8,
+        "low": {
+          "binding_free_energy_surrogate": -7.338424515265485,
+          "free_protons": 0.4621788850482974,
+          "bound_protons": 1.7769567190511495,
+          "proton_uptake": 1.314777834002852,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -5.7466199605312225,
+          "free_protons": 0.07506948246927828,
+          "bound_protons": 1.2043244541312412,
+          "proton_uptake": 1.1292549716619629,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 1.5918045547342627,
+        "log10_binding_ratio_surrogate": 1.1668009287185697
+      },
+      {
+        "epsilon": 32.0,
+        "desolv_scale": 1.0,
+        "pka": 6.3,
+        "low": {
+          "binding_free_energy_surrogate": -8.131708597410379,
+          "free_protons": 0.9542902554602146,
+          "bound_protons": 1.9187515306239673,
+          "proton_uptake": 0.9644612751637527,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -6.601696731181923,
+          "free_protons": 0.21745017871794292,
+          "bound_protons": 1.5634560463737235,
+          "proton_uptake": 1.3460058676557805,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 1.530011866228456,
+        "log10_binding_ratio_surrogate": 1.1215065701101858
+      },
+      {
+        "epsilon": 32.0,
+        "desolv_scale": 1.0,
+        "pka": 6.8,
+        "low": {
+          "binding_free_energy_surrogate": -8.628950277684655,
+          "free_protons": 1.4688327108989236,
+          "bound_protons": 1.9729932590467,
+          "proton_uptake": 0.5041605481477764,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -7.514857497155977,
+          "free_protons": 0.5462881155846637,
+          "bound_protons": 1.8155608497434224,
+          "proton_uptake": 1.2692727341587586,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 1.1140927805286784,
+        "log10_binding_ratio_surrogate": 0.8166357403195935
+      },
+      {
+        "epsilon": 20.0,
+        "desolv_scale": 2.0,
+        "pka": 5.8,
+        "low": {
+          "binding_free_energy_surrogate": -12.04498764743986,
+          "free_protons": 0.4621788850482974,
+          "bound_protons": 1.941736490906513,
+          "proton_uptake": 1.4795576058582154,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -10.063551596814046,
+          "free_protons": 0.07506948246927828,
+          "bound_protons": 1.6638075058180581,
+          "proton_uptake": 1.5887380233487798,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 1.981436050625815,
+        "log10_binding_ratio_surrogate": 1.4524028199257246
+      },
+      {
+        "epsilon": 20.0,
+        "desolv_scale": 2.0,
+        "pka": 6.3,
+        "low": {
+          "binding_free_energy_surrogate": -12.911093380200287,
+          "free_protons": 0.9542902554602146,
+          "bound_protons": 1.9808568771863537,
+          "proton_uptake": 1.026566621726139,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -11.182636980597456,
+          "free_protons": 0.21745017871794292,
+          "bound_protons": 1.864828365292004,
+          "proton_uptake": 1.6473781865740609,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 1.7284563996028304,
+        "log10_binding_ratio_surrogate": 1.2669674341036283
+      },
+      {
+        "epsilon": 20.0,
+        "desolv_scale": 2.0,
+        "pka": 6.8,
+        "low": {
+          "binding_free_energy_surrogate": -13.43427386027595,
+          "free_protons": 1.4688327108989236,
+          "bound_protons": 1.9938707086753942,
+          "proton_uptake": 0.5250379977764705,
+          "microstates": 4
+        },
+        "high": {
+          "binding_free_energy_surrogate": -12.24200954102567,
+          "free_protons": 0.5462881155846637,
+          "bound_protons": 1.9531915478374253,
+          "proton_uptake": 1.4069034322527616,
+          "microstates": 4
+        },
+        "contrast_kcal_surrogate": 1.1922643192502793,
+        "log10_binding_ratio_surrogate": 0.8739358804080545
+      }
+    ],
+    "worst_contrast_kcal_surrogate": 1.1140927805286784,
+    "best_contrast_kcal_surrogate": 2.1748298625813973,
+    "all_scenarios_acid_on": true
+  },
+  "mouse": {
+    "site_count": 1,
+    "site_details": [
+      {
+        "partner": "T",
+        "position": 358,
+        "intrachain_shift": -0.4737797263264385,
+        "cross_charge_shift": -2.5304223222643856,
+        "born_shift": 0.060760635754094634,
+        "hydration_occluded_fraction": 0.05357142857142857
+      }
+    ],
+    "scenarios": [
+      {
+        "epsilon": 20.0,
+        "desolv_scale": 1.0,
+        "pka": 6.3,
+        "low": {
+          "binding_free_energy_surrogate": -15.50783726295597,
+          "free_protons": 0.5839795597358788,
+          "bound_protons": 0.9890936429731003,
+          "proton_uptake": 0.40511408323722153,
+          "microstates": 2
+        },
+        "high": {
+          "binding_free_energy_surrogate": -14.74647048832198,
+          "free_protons": 0.15017936077953953,
+          "bound_protons": 0.9194662209597882,
+          "proton_uptake": 0.7692868601802487,
+          "microstates": 2
+        },
+        "contrast_kcal_surrogate": 0.7613667746339896,
+        "log10_binding_ratio_surrogate": 0.5580857631650044
+      }
+    ],
+    "worst_contrast_kcal_surrogate": 0.7613667746339896,
+    "best_contrast_kcal_surrogate": 0.7613667746339896,
+    "all_scenarios_acid_on": true
+  },
+  "qualification": "Coarse triage only; known false-positive tendency. Cannot override detailed failure."
+}

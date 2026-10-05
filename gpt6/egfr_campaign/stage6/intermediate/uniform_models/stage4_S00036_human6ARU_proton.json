@@ -1,0 +1,161 @@
+{
+  "key": "stage4:S00036",
+  "stage": "stage4",
+  "id": "S00036",
+  "species": "human",
+  "model": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00036_human6ARU_proton.json",
+  "coordinate_source": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00036_human6ARU_relaxed.pdb",
+  "n_sites": 2,
+  "minimum_contrast": 0.9092295768424421,
+  "maximum_contrast": 2.2435158696258517,
+  "sequence_sha256": "15bbf171fc9ba5c1056781da6e15a1e046db04d78438ca1c75d21c0ba8cc3643",
+  "branch": "own_de_novo_loop_stabilization",
+  "acid_refined": false,
+  "sites": [
+    {
+      "residue_index": 24,
+      "chain": "A",
+      "pdb_residue_id": "25",
+      "partner": "target",
+      "nearest_partner_A": 3.898976372075107,
+      "human_position": 358
+    },
+    {
+      "residue_index": 49,
+      "chain": "A",
+      "pdb_residue_id": "50",
+      "partner": "target",
+      "nearest_partner_A": 4.219748363350602,
+      "human_position": 383
+    }
+  ],
+  "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGENDNPQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSGQGQYWGQGTLVTVS",
+  "design_source": "/mnt/data/egfr_campaign/stage4/intermediate/designs/S00036.json",
+  "acid_proxy": -34.384402619859394,
+  "neutral_proxy": -33.06290821139463,
+  "source_sha256": "8fb19d490a581afa624d2e9616f918ff92139626fd01560ea9478ca64b284f8d",
+  "design_sha256": "7287e2bc135bc2853d89b5fb0ad38b3bfb4d88350608ec73a5eb49fa8b3b3b65",
+  "strict_geometry": {
+    "candidate_id": "S00036",
+    "absolute_alpha_inversions": [],
+    "peptide_omega_warnings": [
+      {
+        "previous_position": 35,
+        "next_position": 36,
+        "omega_deg": 154.2174659713077,
+        "next_is_proline": false
+      }
+    ],
+    "actual_cystines": [
+      {
+        "positions": [
+          22,
+          97
+        ],
+        "SG_distance_A": 2.0301628013536175,
+        "chi3_deg": 67.78427888284455,
+        "CB_S_S_angles_deg": [
+          104.20287414808851,
+          104.48385786212428
+        ],
+        "strain_gate_pass": true
+      }
+    ],
+    "disulfide_strain_warnings": [],
+    "intended_extra_pairs_present": true,
+    "pass": false,
+    "thresholds": {
+      "omega_max_deviation_from_trans_deg": 25,
+      "SS_A": [
+        1.9,
+        2.2
+      ],
+      "absolute_chi3_deviation_from90_max_deg": 35,
+      "CB_S_S_angles_deg": [
+        80,
+        130
+      ]
+    },
+    "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+  },
+  "reference_geometry": {
+    "human6ARU": {
+      "minimum_heavy_distance_A": 2.8457525320656587,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.726245398382967
+    },
+    "mouseAF": {
+      "minimum_heavy_distance_A": 2.4475336779971406,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 2.9541374391187025
+    },
+    "1NQL": {
+      "minimum_heavy_distance_A": 2.6395874722557426,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.4718630282440905
+    },
+    "1IVO": {
+      "minimum_heavy_distance_A": 2.15857221701204,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.51417579911748
+    },
+    "resolved_glycans": {
+      "min_heavy_distance_A": 3.8299318231878106,
+      "atoms_below_2A": 0
+    },
+    "alpha_inversions": [],
+    "peptide_bond_outliers": [],
+    "geometry_prefilter_pass": true
+  },
+  "same_species_relaxed_context": {
+    "minimum_A": 2.81365971645471,
+    "atoms_below2A": 0
+  },
+  "sequence_audit": {
+    "length": 125,
+    "format_pass": true,
+    "liabilities": {
+      "glycosylation_sequons": [],
+      "NG_motifs": [],
+      "DG_motifs": [],
+      "unpaired_cdr_cysteines": 0,
+      "max_repeat": 3,
+      "hydrophobic_runs": [],
+      "net_formal_charge_without_histidine": -5
+    },
+    "cdr_lengths": [
+      11,
+      15,
+      18
+    ]
+  },
+  "minimizer_audit_present": true,
+  "minimizer_geometry_pass": true,
+  "combined_geometry_pass": false,
+  "independent_priors": {
+    "status": "complete",
+    "minimum_contrast_kcal": 0.9092295768424421,
+    "maximum_contrast_kcal": 2.2435158696258517,
+    "scenario_count": 486,
+    "all_acid_on": true,
+    "tied_subset_max_error_kcal": 0.0,
+    "worst_case": {
+      "pKas": [
+        5.8,
+        5.8
+      ],
+      "HIE_fractions": [
+        0.2,
+        0.2
+      ],
+      "physical": {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "delta_kcal_proxy": -28.337829784402988
+      },
+      "acid_proxy": -33.715008789001786,
+      "neutral_proxy": -32.805779212159344
+    },
+    "qualification": "Assumed independent priors; fixed-coordinate proxy, not calibrated affinity or nondetection."
+  }
+}

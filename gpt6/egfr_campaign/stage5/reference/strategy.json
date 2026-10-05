@@ -1,0 +1,50 @@
+{
+  "scientific_strategy": "Replace noncontact return segments with shorter independent CCD backbones while preserving own-designed D54/Y100/E103 starting contacts; compare charged vs neutral return chemistry, all-atom pH ensembles and matched unbound dynamics.",
+  "alternatives_rejected_or_deferred": [
+    "Do not recycle an existing experimentally known EGFR binder",
+    "Do not infer improved stability from Pro/Cys counts",
+    "Do not optimize only acidity, histidine count or initial coarse energy",
+    "Do not label shorter loops canonical without a canonical-class analysis",
+    "Do not convert interaction proxies into KD or assay detection claims"
+  ],
+  "references": [
+    {
+      "method": "CCD loop closure",
+      "year": 2003,
+      "doi": "10.1110/ps.0242703"
+    },
+    {
+      "method": "Sequence/loop geometry constraints motivation only; not canonical-template implementation",
+      "year": 1987,
+      "doi": "10.1016/0022-2836(87)90412-8"
+    },
+    {
+      "method": "Loop entropic-tension rationale, not guarantee of stabilization",
+      "year": 1990,
+      "doi": "10.1016/S0022-2836(05)80334-1"
+    },
+    {
+      "method": "Metropolis and simulated annealing",
+      "years": [
+        1953,
+        1983
+      ]
+    },
+    {
+      "method": "Amber99SB",
+      "year": 2006,
+      "doi": "10.1002/prot.21123"
+    },
+    {
+      "method": "OBC2 generalized Born",
+      "year": 2004,
+      "doi": "10.1002/prot.20033"
+    },
+    {
+      "method": "proton linkage",
+      "year": 1964,
+      "doi": "10.1016/S0065-3233(08)60190-4"
+    }
+  ],
+  "new_sequences_and_energies": "No inherited ranking scores. Parent control is not counted as new candidate."
+}

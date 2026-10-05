@@ -1,0 +1,810 @@
+{
+  "tests": [
+    {
+      "name": "explicit_stage4_output_root",
+      "pass": true
+    },
+    {
+      "name": "SG_CB_bond_preserved_-2.0",
+      "pass": true
+    },
+    {
+      "name": "backbone_unchanged_-2.0",
+      "pass": true
+    },
+    {
+      "name": "SG_CB_bond_preserved_-1.0",
+      "pass": true
+    },
+    {
+      "name": "backbone_unchanged_-1.0",
+      "pass": true
+    },
+    {
+      "name": "SG_CB_bond_preserved_0.0",
+      "pass": true
+    },
+    {
+      "name": "backbone_unchanged_0.0",
+      "pass": true
+    },
+    {
+      "name": "SG_CB_bond_preserved_1.0",
+      "pass": true
+    },
+    {
+      "name": "backbone_unchanged_1.0",
+      "pass": true
+    },
+    {
+      "name": "SG_CB_bond_preserved_2.0",
+      "pass": true
+    },
+    {
+      "name": "backbone_unchanged_2.0",
+      "pass": true
+    },
+    {
+      "name": "constraint_group_partition",
+      "pass": true
+    },
+    {
+      "name": "constraint_group_transitivity",
+      "pass": true
+    },
+    {
+      "name": "Maxwell_standard_variance",
+      "pass": true
+    },
+    {
+      "name": "MT_reproducibility",
+      "pass": true
+    },
+    {
+      "name": "RMSD_rigid_transform",
+      "pass": true
+    },
+    {
+      "name": "RMSD_detects_loop_move",
+      "pass": true
+    },
+    {
+      "name": "S00001_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00001_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00001_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00002_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00002_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00002_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00003_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00003_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00003_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00004_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00004_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00004_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00005_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00005_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00005_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00006_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00006_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00006_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00007_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00007_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00007_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00008_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00008_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00008_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00009_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00009_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00009_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00010_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00010_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00010_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00011_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00011_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00011_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00012_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00012_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00012_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00013_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00013_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00013_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00014_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00014_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00014_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00015_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00015_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00015_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00016_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00016_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00016_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00017_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00017_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00017_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00018_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00018_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00018_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00019_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00019_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00019_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00020_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00020_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00020_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00021_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00021_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00021_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00022_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00022_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00022_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00023_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00023_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00023_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00024_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00024_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00024_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00025_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00025_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00025_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00026_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00026_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00026_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00027_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00027_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00027_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00028_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00028_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00028_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00029_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00029_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00029_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00030_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00030_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00030_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00031_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00031_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00031_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00032_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00032_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00032_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00033_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00033_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00033_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00034_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00034_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00034_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00035_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00035_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00035_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00036_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00036_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00036_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00037_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00037_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00037_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00038_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00038_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00038_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00039_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00039_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00039_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00040_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00040_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00040_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00041_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00041_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00041_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00042_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00042_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00042_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00043_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00043_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00043_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00044_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00044_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00044_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00045_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00045_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00045_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00046_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00046_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00046_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00047_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00047_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00047_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00048_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00048_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00048_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00049_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00049_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00049_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00050_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00050_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00050_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00051_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00051_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00051_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00052_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00052_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00052_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00053_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00053_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00053_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00054_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00054_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00054_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00055_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00055_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00055_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00056_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00056_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00056_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00057_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00057_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00057_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00058_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00058_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00058_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00059_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00059_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00059_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00060_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00060_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00060_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "S00061_sequence_atoms_agree",
+      "pass": true
+    },
+    {
+      "name": "S00061_contacts_preserved",
+      "pass": true
+    },
+    {
+      "name": "S00061_score_invalid_until_rescored",
+      "pass": true
+    },
+    {
+      "name": "unique_generated_sequences",
+      "pass": true
+    }
+  ],
+  "passed": 201,
+  "total": 201
+}

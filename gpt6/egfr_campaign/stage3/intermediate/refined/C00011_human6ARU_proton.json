@@ -1,0 +1,1621 @@
+{
+  "source": "/mnt/data/egfr_campaign/stage3/intermediate/refined/C00011_human6ARU_relaxed.pdb",
+  "site_selection": "8-Angstrom interface cutoff",
+  "forced_sites": null,
+  "sites": [
+    {
+      "residue_index": 24,
+      "chain": "A",
+      "pdb_residue_id": "25",
+      "partner": "target",
+      "nearest_partner_A": 3.901762101922666,
+      "human_position": 358
+    },
+    {
+      "residue_index": 49,
+      "chain": "A",
+      "pdb_residue_id": "50",
+      "partner": "target",
+      "nearest_partner_A": 4.1385597132335805,
+      "human_position": 383
+    }
+  ],
+  "microstate_count": 9,
+  "microstates": [
+    {
+      "state": [
+        0,
+        0
+      ],
+      "variants": [
+        "HIE",
+        "HID",
+        "HIP"
+      ],
+      "energy": {
+        "states": [
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": 13.739380900959086
+          },
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": 15.582085984739406
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -16.787029266245757
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -14.944324182465435
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -32.050234349848175
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -30.20752926606786
+          }
+        ],
+        "LJ_kcal": -37.27449179595325,
+        "SA_kcal": -7.168236106200622,
+        "electrostatic_A_kcal": 61.05282033440969,
+        "electrostatic_B_kcal": [
+          -224.77671290053345,
+          -80.49290484053437
+        ],
+        "vacuum_cross_kcal": -163.723892566131,
+        "atoms": 4508,
+        "seconds": 0.8776581287384033,
+        "interpretation": "Matched-coordinate MM/GBSA interaction proxy; excludes binding entropy and unbound conformational reorganization."
+      }
+    },
+    {
+      "state": [
+        0,
+        1
+      ],
+      "variants": [
+        "HIE",
+        "HID",
+        "HIP"
+      ],
+      "energy": {
+        "states": [
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": 13.012814039762313
+          },
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": 14.862010649499151
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -17.195451034514523
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -15.346254424777687
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -32.29958357165294
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -30.450386961916106
+          }
+        ],
+        "LJ_kcal": -37.28064478729806,
+        "SA_kcal": -7.1649388612899605,
+        "electrostatic_A_kcal": 60.41653014855367,
+        "electrostatic_B_kcal": [
+          -231.6217716339216,
+          -86.82967709152729
+        ],
+        "vacuum_cross_kcal": -171.2052414853705,
+        "atoms": 4508,
+        "seconds": 0.8906838893890381,
+        "interpretation": "Matched-coordinate MM/GBSA interaction proxy; excludes binding entropy and unbound conformational reorganization."
+      }
+    },
+    {
+      "state": [
+        0,
+        2
+      ],
+      "variants": [
+        "HIE",
+        "HID",
+        "HIP"
+      ],
+      "energy": {
+        "states": [
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": 9.871845828218406
+          },
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": 12.913665560809438
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -19.727541317041954
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -16.68572158445092
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -34.52723488967213
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -31.485415157081107
+          }
+        ],
+        "LJ_kcal": -37.287895144883464,
+        "SA_kcal": -7.165485485892743,
+        "electrostatic_A_kcal": 59.198774290520724,
+        "electrostatic_B_kcal": [
+          -381.5987952084942,
+          -143.42431014661648
+        ],
+        "vacuum_cross_kcal": -322.40002091796714,
+        "atoms": 4509,
+        "seconds": 0.7872028350830078,
+        "interpretation": "Matched-coordinate MM/GBSA interaction proxy; excludes binding entropy and unbound conformational reorganization."
+      }
+    },
+    {
+      "state": [
+        1,
+        0
+      ],
+      "variants": [
+        "HIE",
+        "HID",
+        "HIP"
+      ],
+      "energy": {
+        "states": [
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -2.7771736522683144
+          },
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -0.968294291162088
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -25.015303634338593
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -23.20642427323237
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -36.13436862537373
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -34.32548926426751
+          }
+        ],
+        "LJ_kcal": -37.18585358997143,
+        "SA_kcal": -7.188457445180158,
+        "electrostatic_A_kcal": 44.47625996414056,
+        "electrostatic_B_kcal": [
+          -225.43529811244545,
+          -83.80004413782795
+        ],
+        "vacuum_cross_kcal": -180.9590381482996,
+        "atoms": 4508,
+        "seconds": 0.9855949878692627,
+        "interpretation": "Matched-coordinate MM/GBSA interaction proxy; excludes binding entropy and unbound conformational reorganization."
+      }
+    },
+    {
+      "state": [
+        1,
+        1
+      ],
+      "variants": [
+        "HIE",
+        "HID",
+        "HIP"
+      ],
+      "energy": {
+        "states": [
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -3.5036931985639823
+          },
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -1.688322004542213
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -25.423701804676362
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -23.60833061065459
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -36.38370610773255
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -34.568334913710785
+          }
+        ],
+        "LJ_kcal": -37.19200658131624,
+        "SA_kcal": -7.185159713511416,
+        "electrostatic_A_kcal": 43.84001721222476,
+        "electrostatic_B_kcal": [
+          -232.28040427975284,
+          -90.13683978784829
+        ],
+        "vacuum_cross_kcal": -188.44038706754432,
+        "atoms": 4508,
+        "seconds": 0.8466887474060059,
+        "interpretation": "Matched-coordinate MM/GBSA interaction proxy; excludes binding entropy and unbound conformational reorganization."
+      }
+    },
+    {
+      "state": [
+        1,
+        2
+      ],
+      "variants": [
+        "HIE",
+        "HID",
+        "HIP"
+      ],
+      "energy": {
+        "states": [
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -6.644093086459955
+          },
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -3.6360929770308505
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -27.955511840843972
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -24.947511731414863
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -38.61122121803598
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -35.603221108606874
+          }
+        ],
+        "LJ_kcal": -37.199256938901655,
+        "SA_kcal": -7.18570681074616,
+        "electrostatic_A_kcal": 42.62283750876803,
+        "electrostatic_B_kcal": [
+          -382.2580040089272,
+          -146.73159544062827
+        ],
+        "vacuum_cross_kcal": -339.6351665001343,
+        "atoms": 4509,
+        "seconds": 1.0498631000518799,
+        "interpretation": "Matched-coordinate MM/GBSA interaction proxy; excludes binding entropy and unbound conformational reorganization."
+      }
+    },
+    {
+      "state": [
+        2,
+        0
+      ],
+      "variants": [
+        "HIE",
+        "HID",
+        "HIP"
+      ],
+      "energy": {
+        "states": [
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -7.57669391691864
+          },
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -4.697812001694043
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -28.36604471658829
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -25.487162801363695
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -38.760720116423116
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -35.88183820119852
+          }
+        ],
+        "LJ_kcal": -37.204440580337334,
+        "SA_kcal": -7.185753309394484,
+        "electrostatic_A_kcal": 41.578701599339304,
+        "electrostatic_B_kcal": [
+          -373.11528735699596,
+          -147.69883339491
+        ],
+        "vacuum_cross_kcal": -331.53658575764445,
+        "atoms": 4509,
+        "seconds": 0.9432086944580078,
+        "interpretation": "Matched-coordinate MM/GBSA interaction proxy; excludes binding entropy and unbound conformational reorganization."
+      }
+    },
+    {
+      "state": [
+        2,
+        1
+      ],
+      "variants": [
+        "HIE",
+        "HID",
+        "HIP"
+      ],
+      "energy": {
+        "states": [
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -8.30287382387503
+          },
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -5.417497415738524
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -28.77427565656199
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -25.888899248425485
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -39.00997657290547
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -36.124600164768964
+          }
+        ],
+        "LJ_kcal": -37.21059357168214,
+        "SA_kcal": -7.182456352531134,
+        "electrostatic_A_kcal": 40.94280366537392,
+        "electrostatic_B_kcal": [
+          -379.96073834229384,
+          -154.03576558520538
+        ],
+        "vacuum_cross_kcal": -339.0179346768845,
+        "atoms": 4509,
+        "seconds": 0.7026271820068359,
+        "interpretation": "Matched-coordinate MM/GBSA interaction proxy; excludes binding entropy and unbound conformational reorganization."
+      }
+    },
+    {
+      "state": [
+        2,
+        2
+      ],
+      "variants": [
+        "HIE",
+        "HID",
+        "HIP"
+      ],
+      "energy": {
+        "states": [
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -11.438387923670854
+          },
+          {
+            "solute_dielectric": 1.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -7.360344098845248
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -31.303673626901602
+          },
+          {
+            "solute_dielectric": 2.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -27.225629802075996
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 0.0,
+            "delta_kcal_proxy": -41.23631647851697
+          },
+          {
+            "solute_dielectric": 4.0,
+            "kappa_nm_inverse": 1.25,
+            "delta_kcal_proxy": -37.15827265369137
+          }
+        ],
+        "LJ_kcal": -37.217843929267545,
+        "SA_kcal": -7.183001920456331,
+        "electrostatic_A_kcal": 39.73057140646149,
+        "electrostatic_B_kcal": [
+          -529.9432855159836,
+          -210.6324540321386
+        ],
+        "vacuum_cross_kcal": -490.21271410948344,
+        "atoms": 4510,
+        "seconds": 0.6895978450775146,
+        "interpretation": "Matched-coordinate MM/GBSA interaction proxy; excludes binding entropy and unbound conformational reorganization."
+      }
+    }
+  ],
+  "proton_model": {
+    "scenarios": [
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -9.326282694105736,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.977581688722256,
+          "proton_uptake": 1.6449066270891324
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -7.1431688012829095,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 1.843619618565044,
+          "proton_uptake": 1.794612883464372
+        },
+        "contrast_kcal": 2.183113892822826,
+        "conditional_log10_affinity_ratio": 1.6002337159220699
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -9.32290329941978,
+          "free_H_count": 0.33267506163312366,
+          "bound_H_count": 1.9831872286280947,
+          "proton_uptake": 1.6505121669949712
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -7.119167130459757,
+          "free_H_count": 0.04900673510067192,
+          "bound_H_count": 1.8792707632812131,
+          "proton_uptake": 1.8302640281805411
+        },
+        "contrast_kcal": 2.203736168960023,
+        "conditional_log10_affinity_ratio": 1.6153499504356652
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -9.319507376980749,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.9888476713185528,
+          "proton_uptake": 1.6561726096854292
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -7.094319320289059,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 1.9174550525839313,
+          "proton_uptake": 1.8684483174832593
+        },
+        "contrast_kcal": 2.2251880566916897,
+        "conditional_log10_affinity_ratio": 1.631074294516496
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -10.317313588422573,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.9928117443970517,
+          "proton_uptake": 1.219085384703338
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -8.379671304215256,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.9453477052286101,
+          "proton_uptake": 1.7981725929934633
+        },
+        "contrast_kcal": 1.9376422842073175,
+        "conditional_log10_affinity_ratio": 1.4203017638147768
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -10.316232183473595,
+          "free_H_count": 0.7737263596937137,
+          "bound_H_count": 1.9946268687233153,
+          "proton_uptake": 1.2209005090296015
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -8.371397597314651,
+          "free_H_count": 0.14717511223514687,
+          "bound_H_count": 1.9587259072810939,
+          "proton_uptake": 1.811550795045947
+        },
+        "contrast_kcal": 1.9448345861589438,
+        "conditional_log10_affinity_ratio": 1.425573758150905
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -10.315149089141633,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.9964476666940352,
+          "proton_uptake": 1.2227213070003216
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -8.363024449436283,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.9724266933205137,
+          "proton_uptake": 1.825251581085367
+        },
+        "contrast_kcal": 1.9521246397053496,
+        "conditional_log10_affinity_ratio": 1.4309174049089544
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -10.958340654511094,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9977167857376121,
+          "proton_uptake": 0.6654379365713681
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -9.546427541267082,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.9821184897922999,
+          "proton_uptake": 1.5805984719660968
+        },
+        "contrast_kcal": 1.4119131132440117,
+        "conditional_log10_affinity_ratio": 1.0349395765349232
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -10.957997387799756,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9982951374823323,
+          "proton_uptake": 0.6660162883160883
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -9.543733648322121,
+          "free_H_count": 0.401520017826203,
+          "bound_H_count": 1.986602805831477,
+          "proton_uptake": 1.585082788005274
+        },
+        "contrast_kcal": 1.4142637394776347,
+        "conditional_log10_affinity_ratio": 1.0366625976585306
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -10.957653950966515,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9988740625639754,
+          "proton_uptake": 0.6665952133977313
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -9.541029258409047,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.9911221057491075,
+          "proton_uptake": 1.5896020879229045
+        },
+        "contrast_kcal": 1.416624692557468,
+        "conditional_log10_affinity_ratio": 1.0383931884135433
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -5.328284589611425,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.853038386132451,
+          "proton_uptake": 1.5203633244993275
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -3.4898404725124674,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 1.3813467749649517,
+          "proton_uptake": 1.3323400398642797
+        },
+        "contrast_kcal": 1.8384441170989572,
+        "conditional_log10_affinity_ratio": 1.347588996933332
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -5.305982928776704,
+          "free_H_count": 0.33267506163312366,
+          "bound_H_count": 1.8863224455882084,
+          "proton_uptake": 1.5536473839550848
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -3.389204196810432,
+          "free_H_count": 0.04900673510067192,
+          "bound_H_count": 1.4715333440678118,
+          "proton_uptake": 1.4225266089671398
+        },
+        "contrast_kcal": 1.916778731966272,
+        "conditional_log10_affinity_ratio": 1.4050086726756548
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -5.282929731239616,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.9218697087472556,
+          "proton_uptake": 1.589194647114132
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -3.272847215382232,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 1.5893859271023796,
+          "proton_uptake": 1.5403791920017076
+        },
+        "contrast_kcal": 2.0100825158573836,
+        "conditional_log10_affinity_ratio": 1.4734008263312777
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -6.266030601289886,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.9488554285397255,
+          "proton_uptake": 1.1751290688460119
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -4.481904756384045,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.6921742538818931,
+          "proton_uptake": 1.5449991416467463
+        },
+        "contrast_kcal": 1.7841258449058408,
+        "conditional_log10_affinity_ratio": 1.307773423939261
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -6.258368006913952,
+          "free_H_count": 0.7737263596937137,
+          "bound_H_count": 1.9612676783582121,
+          "proton_uptake": 1.1875413186644983
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -4.434136520776215,
+          "free_H_count": 0.14717511223514687,
+          "bound_H_count": 1.75331929657207,
+          "proton_uptake": 1.6061441843369233
+        },
+        "contrast_kcal": 1.8242314861377373,
+        "conditional_log10_affinity_ratio": 1.337171065312415
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -6.250617778823071,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.9739647960363376,
+          "proton_uptake": 1.200238436342624
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -4.382858779454164,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.8235725168487196,
+          "proton_uptake": 1.6763974046135728
+        },
+        "contrast_kcal": 1.867758999368907,
+        "conditional_log10_affinity_ratio": 1.3690769564671348
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -6.888918074632091,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9832925745035939,
+          "proton_uptake": 0.6510137253373498
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -5.53300886573238,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.879976861261995,
+          "proton_uptake": 1.4784568434357919
+        },
+        "contrast_kcal": 1.3559092088997113,
+        "conditional_log10_affinity_ratio": 0.9938884265011777
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -6.88642620810461,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9874430729195802,
+          "proton_uptake": 0.6551642237533362
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -5.514861213562413,
+          "free_H_count": 0.401520017826203,
+          "bound_H_count": 1.9077110560408617,
+          "proton_uptake": 1.5061910382146586
+        },
+        "contrast_kcal": 1.3715649945421973,
+        "conditional_log10_affinity_ratio": 1.0053641979287327
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -6.883925116783613,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9916243360857109,
+          "proton_uptake": 0.6593454869194668
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -5.496217593569506,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.9369725182223603,
+          "proton_uptake": 1.5354525003961572
+        },
+        "contrast_kcal": 1.3877075232141065,
+        "conditional_log10_affinity_ratio": 1.0171967545012286
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -29.222719528092878,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.9267136822982,
+          "proton_uptake": 1.5940386206650765
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -27.212329205229253,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 1.5655130950851586,
+          "proton_uptake": 1.5165063599844866
+        },
+        "contrast_kcal": 2.010390322863625,
+        "conditional_log10_affinity_ratio": 1.4736264504505705
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -29.2137580559228,
+          "free_H_count": 0.33267506163312366,
+          "bound_H_count": 1.9412364211085427,
+          "proton_uptake": 1.6085613594754191
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -27.155788072293632,
+          "free_H_count": 0.04900673510067192,
+          "bound_H_count": 1.6397762174556532,
+          "proton_uptake": 1.5907694823549812
+        },
+        "contrast_kcal": 2.0579699836291674,
+        "conditional_log10_affinity_ratio": 1.5085025865969566
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -29.204721434555214,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.9560023915890754,
+          "proton_uptake": 1.6233273299559519
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -27.096287903528083,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 1.7217927001267452,
+          "proton_uptake": 1.6727859650260732
+        },
+        "contrast_kcal": 2.1084335310271314,
+        "conditional_log10_affinity_ratio": 1.5454926264829825
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -30.192675520741403,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.9759861150109808,
+          "proton_uptake": 1.2022597553172671
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -28.31958566417538,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.8289450666871838,
+          "proton_uptake": 1.681769954452037
+        },
+        "contrast_kcal": 1.873089856566022,
+        "conditional_log10_affinity_ratio": 1.372984502220764
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -30.189761689379345,
+          "free_H_count": 0.7737263596937137,
+          "bound_H_count": 1.9808394287276523,
+          "proton_uptake": 1.2071130690339387
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -28.29833505814477,
+          "free_H_count": 0.14717511223514687,
+          "bound_H_count": 1.8615289277792635,
+          "proton_uptake": 1.7143538155441167
+        },
+        "contrast_kcal": 1.8914266312345767,
+        "conditional_log10_affinity_ratio": 1.3864254523985606
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -30.18683989798794,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.9857192469625304,
+          "proton_uptake": 1.2119928872688168
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -28.27666342769723,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.8953999828247994,
+          "proton_uptake": 1.7482248705896526
+        },
+        "contrast_kcal": 1.9101764702907111,
+        "conditional_log10_affinity_ratio": 1.400169180897738
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -30.82683616061409,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9923177118722957,
+          "proton_uptake": 0.6600388627060516
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -29.436624324931007,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.9411704576360982,
+          "proton_uptake": 1.5396504398098951
+        },
+        "contrast_kcal": 1.3902118356830826,
+        "conditional_log10_affinity_ratio": 1.019032428426091
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -30.82590634527088,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9938804427425438,
+          "proton_uptake": 0.6616015935762998
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -29.429447041352024,
+          "free_H_count": 0.401520017826203,
+          "bound_H_count": 1.952896115182228,
+          "proton_uptake": 1.5513760973560249
+        },
+        "contrast_kcal": 1.3964593039188564,
+        "conditional_log10_affinity_ratio": 1.023611854787173
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -30.824975718873272,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.995445899475563,
+          "proton_uptake": 0.663167050309319
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -29.422221526734397,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.9647791883720958,
+          "proton_uptake": 1.5632591705458927
+        },
+        "contrast_kcal": 1.4027541921388753,
+        "conditional_log10_affinity_ratio": 1.0282260402406906
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -25.378381181160183,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.5999378469444345,
+          "proton_uptake": 1.267262785311311
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -24.06199960532705,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 0.8060180199513984,
+          "proton_uptake": 0.7570112848507266
+        },
+        "contrast_kcal": 1.3163815758331339,
+        "conditional_log10_affinity_ratio": 0.9649144680871506
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -25.328556838514267,
+          "free_H_count": 0.33267506163312366,
+          "bound_H_count": 1.6656935535461264,
+          "proton_uptake": 1.3330184919130028
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -23.88246075906972,
+          "free_H_count": 0.04900673510067192,
+          "bound_H_count": 0.9436515466963307,
+          "proton_uptake": 0.8946448115956588
+        },
+        "contrast_kcal": 1.4460960794445477,
+        "conditional_log10_affinity_ratio": 1.0599958666369447
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -25.27634500504615,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.7376606316758112,
+          "proton_uptake": 1.4049855700426876
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -23.67042943375533,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 1.1384920894731607,
+          "proton_uptake": 1.0894853543724887
+        },
+        "contrast_kcal": 1.6059155712908186,
+        "conditional_log10_affinity_ratio": 1.177144376458045
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -26.198764508356746,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.8434387282384275,
+          "proton_uptake": 1.0697123685447139
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -24.713198708871964,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.280146755077922,
+          "proton_uptake": 1.1329716428427752
+        },
+        "contrast_kcal": 1.4855657994847817,
+        "conditional_log10_affinity_ratio": 1.08892737450469
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -26.18009797460869,
+          "free_H_count": 0.7737263596937137,
+          "bound_H_count": 1.8721211492465952,
+          "proton_uptake": 1.0983947895528816
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -24.617318912209406,
+          "free_H_count": 0.14717511223514687,
+          "bound_H_count": 1.3831818181764421,
+          "proton_uptake": 1.2360067059412954
+        },
+        "contrast_kcal": 1.562779062399283,
+        "conditional_log10_affinity_ratio": 1.145525093496059
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -26.161089874337137,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.9018472320124755,
+          "proton_uptake": 1.128120872318762
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -24.512748039658813,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.5048282871399896,
+          "proton_uptake": 1.3576531749048428
+        },
+        "contrast_kcal": 1.6483418346783232,
+        "conditional_log10_affinity_ratio": 1.2082430458112452
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -26.776685595129027,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.946309345189081,
+          "proton_uptake": 0.6140304960228369
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -25.551079742835796,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.6631163442812575,
+          "proton_uptake": 1.2615963264550545
+        },
+        "contrast_kcal": 1.2256058522932314,
+        "conditional_log10_affinity_ratio": 0.8983753956762539
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -26.770390440205006,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9566021188085456,
+          "proton_uptake": 0.6243232696423016
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -25.509619676781526,
+          "free_H_count": 0.401520017826203,
+          "bound_H_count": 1.7200663611000757,
+          "proton_uptake": 1.3185463432738727
+        },
+        "contrast_kcal": 1.26077076342348,
+        "conditional_log10_affinity_ratio": 0.9241514564640242
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -26.764056149127757,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9670226366484775,
+          "proton_uptake": 0.6347437874822335
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -25.466498215164755,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.7815231275018997,
+          "proton_uptake": 1.3800031096756966
+        },
+        "contrast_kcal": 1.2975579339630023,
+        "conditional_log10_affinity_ratio": 0.9511166417455859
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -39.19969009004018,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.8562046171507387,
+          "proton_uptake": 1.5235295555176152
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -37.40108613986759,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 1.2614228634159712,
+          "proton_uptake": 1.2124161283152992
+        },
+        "contrast_kcal": 1.7986039501725912,
+        "conditional_log10_affinity_ratio": 1.3183859495920411
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -39.18301798291629,
+          "free_H_count": 0.33267506163312366,
+          "bound_H_count": 1.8826791040391286,
+          "proton_uptake": 1.5500040424060049
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -37.305525675717064,
+          "free_H_count": 0.04900673510067192,
+          "bound_H_count": 1.3735775276509117,
+          "proton_uptake": 1.3245707925502397
+        },
+        "contrast_kcal": 1.8774923071992262,
+        "conditional_log10_affinity_ratio": 1.3762115211862413
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -39.16609538892372,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.9099601830134336,
+          "proton_uptake": 1.57728512138031
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -37.200372861345315,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 1.5106102008466589,
+          "proton_uptake": 1.4616034657459869
+        },
+        "contrast_kcal": 1.9657225275784072,
+        "conditional_log10_affinity_ratio": 1.4408847266832934
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -40.13991569842473,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.9518240640807516,
+          "proton_uptake": 1.178097704387038
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -38.35479936444069,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.6781274442248506,
+          "proton_uptake": 1.5309523319897038
+        },
+        "contrast_kcal": 1.7851163339840426,
+        "conditional_log10_affinity_ratio": 1.3084994575298134
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -40.13441907776201,
+          "free_H_count": 0.7737263596937137,
+          "bound_H_count": 1.9609168749894583,
+          "proton_uptake": 1.1871905152957445
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -38.316303149059884,
+          "free_H_count": 0.14717511223514687,
+          "bound_H_count": 1.7345258526193128,
+          "proton_uptake": 1.587350740384166
+        },
+        "contrast_kcal": 1.8181159287021273,
+        "conditional_log10_affinity_ratio": 1.3326883302465558
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -40.12889572107162,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.9700985276654737,
+          "proton_uptake": 1.19637216797176
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -38.27641947766039,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.795132618674701,
+          "proton_uptake": 1.6479575064395542
+        },
+        "contrast_kcal": 1.8524762434112318,
+        "conditional_log10_affinity_ratio": 1.3578746177178456
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -40.76415699761116,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9844712926260377,
+          "proton_uptake": 0.6521924434597937
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -39.40490096183852,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.8838253723690133,
+          "proton_uptake": 1.4823053545428102
+        },
+        "contrast_kcal": 1.3592560357726384,
+        "conditional_log10_affinity_ratio": 0.9963416678190125
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -40.762394782349446,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9874264914170199,
+          "proton_uptake": 0.6551476422507758
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -39.39149425866241,
+          "free_H_count": 0.401520017826203,
+          "bound_H_count": 1.9053708791774293,
+          "proton_uptake": 1.5038508613512263
+        },
+        "contrast_kcal": 1.370900523687034,
+        "conditional_log10_affinity_ratio": 1.0048771373730854
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 0.0,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -40.76062983512053,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9903908656814224,
+          "proton_uptake": 0.6581120165151784
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -39.37792645463035,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.9274398962603216,
+          "proton_uptake": 1.5259198784341186
+        },
+        "contrast_kcal": 1.3827033804901845,
+        "conditional_log10_affinity_ratio": 1.0135286921374498
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -35.53752429991598,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.3255313686046375,
+          "proton_uptake": 0.992856306971514
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -34.66427330241352,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 0.4363491531385854,
+          "proton_uptake": 0.3873424180379135
+        },
+        "contrast_kcal": 0.8732509975024598,
+        "conditional_log10_affinity_ratio": 0.64009747419047
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -35.45583947711361,
+          "free_H_count": 0.33267506163312366,
+          "bound_H_count": 1.4249397983350878,
+          "proton_uptake": 1.092264736701964
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -34.42663014327712,
+          "free_H_count": 0.04900673510067192,
+          "bound_H_count": 0.5571374787636572,
+          "proton_uptake": 0.5081307436629853
+        },
+        "contrast_kcal": 1.0292093338364836,
+        "conditional_log10_affinity_ratio": 0.7544157371548078
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 5.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -35.36756153711347,
+          "free_H_count": 0.3326750616331236,
+          "bound_H_count": 1.5418349449956599,
+          "proton_uptake": 1.2091598833625363
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -34.103510116208085,
+          "free_H_count": 0.049006735100671904,
+          "bound_H_count": 0.7981027919938315,
+          "proton_uptake": 0.7490960568931596
+        },
+        "contrast_kcal": 1.264051420905382,
+        "conditional_log10_affinity_ratio": 0.926556195277785
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -36.22111657564326,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.710630517434777,
+          "proton_uptake": 0.9369041577410633
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -35.05177592780081,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 0.9062609437091262,
+          "proton_uptake": 0.7590858314739795
+        },
+        "contrast_kcal": 1.1693406478424464,
+        "conditional_log10_affinity_ratio": 0.8571327113200229
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -36.18884870372916,
+          "free_H_count": 0.7737263596937137,
+          "bound_H_count": 1.7584569807102393,
+          "proton_uptake": 0.9847306210165255
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -34.90522973927828,
+          "free_H_count": 0.14717511223514687,
+          "bound_H_count": 1.0403676479283623,
+          "proton_uptake": 0.8931925356932154
+        },
+        "contrast_kcal": 1.2836189644508735,
+        "conditional_log10_affinity_ratio": 0.9408993053748862
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.3,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -36.155646773573956,
+          "free_H_count": 0.7737263596937136,
+          "bound_H_count": 1.8091279899962007,
+          "proton_uptake": 1.035401630302487
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -34.73381297363593,
+          "free_H_count": 0.14717511223514684,
+          "bound_H_count": 1.2288925651241105,
+          "proton_uptake": 1.0817174528889637
+        },
+        "contrast_kcal": 1.4218337999380282,
+        "conditional_log10_affinity_ratio": 1.0422114909252151
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.2,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -36.740358271225226,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.8962593732618576,
+          "proton_uptake": 0.5639805240956135
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -35.674861211556056,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.4191777872013223,
+          "proton_uptake": 1.0176577693751192
+        },
+        "contrast_kcal": 1.0654970596691697,
+        "conditional_log10_affinity_ratio": 0.7810148268965327
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.5,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -36.72920181797435,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.91425468013886,
+          "proton_uptake": 0.581975830972616
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -35.605979756646406,
+          "free_H_count": 0.401520017826203,
+          "bound_H_count": 1.5074437322905148,
+          "proton_uptake": 1.1059237144643117
+        },
+        "contrast_kcal": 1.1232220613279438,
+        "conditional_log10_affinity_ratio": 0.8233275501171183
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "assumed_unbound_pKa": 6.8,
+        "assumed_unbound_HIE_fraction": 0.8,
+        "low_pH": {
+          "conditional_binding_energy_kcal": -36.71793735190186,
+          "free_H_count": 1.332278849166244,
+          "bound_H_count": 1.9326012484874084,
+          "proton_uptake": 0.6003223993211644
+        },
+        "high_pH": {
+          "conditional_binding_energy_kcal": -35.53253663704903,
+          "free_H_count": 0.40152001782620306,
+          "bound_H_count": 1.6082374428298278,
+          "proton_uptake": 1.2067174250036248
+        },
+        "contrast_kcal": 1.1854007148528325,
+        "conditional_log10_affinity_ratio": 0.8689048230703433
+      }
+    ],
+    "minimum_contrast_kcal": 0.8732509975024598,
+    "maximum_contrast_kcal": 2.2251880566916897,
+    "all_scenarios_acid_on": true,
+    "maximum_contrast_from_proton_count_kcal": 2.4556444274246596,
+    "caveat": "Unbound pKas/tautomer populations are assumed priors; neither absolute affinity nor neutral-pH nondetection is established."
+  },
+  "seconds": 17.65558433532715,
+  "method": "Amber99SB/OBC2, matched fixed-coordinate subtraction; explicit 3-state histidines; dielectric/salt/unbound-pKa/tautomer sensitivity"
+}

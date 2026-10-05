@@ -1,0 +1,7 @@
+ECR identity 0.8872785829307569
+human6ARU range 28 636
+Traceback (most recent call last):
+  File "/mnt/data/egfr_campaign/code/02_targets.py", line 23, in <module>
+    x['uniprot']=mp[i]; x['human_pos']=hm[mp[i]-1] if name=='mouseAF' else mp[i]
+                                       ~~^^^^^^^^^
+KeyError: 636

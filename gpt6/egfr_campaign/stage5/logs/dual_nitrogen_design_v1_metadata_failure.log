@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/data/egfr_campaign/stage5/code/dual_nitrogen_design.py", line 78, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/mnt/data/egfr_campaign/stage5/code/dual_nitrogen_design.py", line 46, in main
+    z=json.loads(q.read_text());history.setdefault(z['sequence'],[]).append(str(q))
+                                                   ~^^^^^^^^^^^^
+KeyError: 'sequence'

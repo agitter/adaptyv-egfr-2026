@@ -1,0 +1,37 @@
+{
+  "candidate_id": "S00022",
+  "absolute_alpha_inversions": [],
+  "peptide_omega_warnings": [],
+  "actual_cystines": [
+    {
+      "positions": [
+        22,
+        97
+      ],
+      "SG_distance_A": 2.0299088649493693,
+      "chi3_deg": 67.4442727577536,
+      "CB_S_S_angles_deg": [
+        104.24911363606385,
+        104.49325747054318
+      ],
+      "strain_gate_pass": true
+    }
+  ],
+  "disulfide_strain_warnings": [],
+  "intended_extra_pairs_present": true,
+  "pass": true,
+  "thresholds": {
+    "omega_max_deviation_from_trans_deg": 25,
+    "SS_A": [
+      1.9,
+      2.2
+    ],
+    "absolute_chi3_deviation_from90_max_deg": 35,
+    "CB_S_S_angles_deg": [
+      80,
+      130
+    ]
+  },
+  "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction.",
+  "source": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00022_human6ARU_relaxed.pdb"
+}

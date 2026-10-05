@@ -1,0 +1,20 @@
+{
+  "reason": "Full-library whole-antibody BLAST is dominated by common framework matches. Every CDR3 already receives exact-reference edit-distance screening; whole-sequence BLAST is restricted to designs actually receiving MM evaluation and the targeted charge-balance series. Partial all-library output is retained but not claimed complete.",
+  "time_utc": "2026-10-01T19:36:08Z",
+  "stopped_pids": [
+    {
+      "pid": 2627,
+      "command": "/mnt/data/egfr_campaign/stage2/runtime/bin/blastp -query /mnt/data/egfr_campaign/stage3/intermediate/novelty/candidates.fasta -db /mnt/data/egfr_campaign/stage2/intermediate/blast/antibodies_augmented -out /mnt/data/egfr_campaign/stage3/intermediate/novelty/antibodies_augmented_hits.tsv -outfmt 6 qseqid sseqid pident length qlen slen qcovhsp evalue bitscore qstart qend sstart send -max_target_seqs 10 -num_threads 2 -seg no -evalue 0.001 "
+    },
+    {
+      "pid": 2625,
+      "command": "sh /mnt/data/egfr_campaign/stage3/code/blast_new.sh "
+    },
+    {
+      "pid": 2586,
+      "command": "sh -c python /mnt/data/egfr_campaign/stage3/code/novelty_screen_new.py && sh /mnt/data/egfr_campaign/stage3/code/blast_new.sh "
+    }
+  ],
+  "partial_sha256": "af3ed621156c6e56dda990cc96444e208ee36f2e611ef3c2bfe98a2ee8afb63a",
+  "partial_bytes": 130547
+}

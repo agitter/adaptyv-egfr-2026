@@ -1,0 +1,124 @@
+{
+  "A00001": {
+    "geometry_pass_after_minimization": true,
+    "minimization_displacements": {
+      "framework_CA_RMSD_A": 0.27156228361948026,
+      "loop_CA_RMSD_A": 0.5529795459119828,
+      "CDR_CA_RMSD_A": [
+        0.3362959573960644,
+        0.7343544044590848,
+        0.49854897952587585
+      ],
+      "maximum_CA_displacement_A": 2.01383799703696
+    },
+    "physical_potential_relaxation_kcal": 68.44923267133345,
+    "potential_relaxation_is_not_binding_free_energy": true
+  },
+  "A00002": {
+    "geometry_pass_after_minimization": true,
+    "minimization_displacements": {
+      "framework_CA_RMSD_A": 0.2669296327099455,
+      "loop_CA_RMSD_A": 0.5974199389040823,
+      "CDR_CA_RMSD_A": [
+        0.3421341455555454,
+        0.7388884034165446,
+        0.6068041736093792
+      ],
+      "maximum_CA_displacement_A": 2.029047947289495
+    },
+    "physical_potential_relaxation_kcal": 76.61807805376884,
+    "potential_relaxation_is_not_binding_free_energy": true
+  },
+  "B00016": {
+    "geometry_pass_after_minimization": true,
+    "minimization_displacements": {
+      "framework_CA_RMSD_A": 0.28643725808654197,
+      "loop_CA_RMSD_A": 0.4887182025198485,
+      "CDR_CA_RMSD_A": [
+        0.5556282203503237,
+        0.46848399505332794,
+        0.4607417008840171
+      ],
+      "maximum_CA_displacement_A": 0.9164901077649373
+    },
+    "physical_potential_relaxation_kcal": 65.05861304823975,
+    "potential_relaxation_is_not_binding_free_energy": true
+  },
+  "C00003": {
+    "geometry_pass_after_minimization": true,
+    "minimization_displacements": {
+      "framework_CA_RMSD_A": 0.2451197369303943,
+      "loop_CA_RMSD_A": 0.44591272184080605,
+      "CDR_CA_RMSD_A": [
+        0.36862859967341866,
+        0.442719968531337,
+        0.4895636829793833
+      ],
+      "maximum_CA_displacement_A": 1.074514202102717
+    },
+    "physical_potential_relaxation_kcal": 40.52796397610473,
+    "potential_relaxation_is_not_binding_free_energy": true
+  },
+  "C00009": {
+    "geometry_pass_after_minimization": true,
+    "minimization_displacements": {
+      "framework_CA_RMSD_A": 0.2371207523489213,
+      "loop_CA_RMSD_A": 0.4377762484465538,
+      "CDR_CA_RMSD_A": [
+        0.35473434761241757,
+        0.4621009799215926,
+        0.4621960356800145
+      ],
+      "maximum_CA_displacement_A": 0.9732586332762767
+    },
+    "physical_potential_relaxation_kcal": 39.93834709960174,
+    "potential_relaxation_is_not_binding_free_energy": true
+  },
+  "G00053_C05": {
+    "geometry_pass_after_minimization": true,
+    "minimization_displacements": {
+      "framework_CA_RMSD_A": 0.3545189249948142,
+      "loop_CA_RMSD_A": 0.49694961218923944,
+      "CDR_CA_RMSD_A": [
+        0.4338897683882269,
+        0.5808083696130704,
+        0.45984623022869564
+      ],
+      "maximum_CA_displacement_A": 1.5725869125586598
+    },
+    "physical_potential_relaxation_kcal": 103.48948051531261,
+    "potential_relaxation_is_not_binding_free_energy": true
+  },
+  "G00117_C04": {
+    "geometry_pass_after_minimization": true,
+    "minimization_displacements": {
+      "framework_CA_RMSD_A": 0.2997804214018551,
+      "loop_CA_RMSD_A": 0.5692252796818112,
+      "CDR_CA_RMSD_A": [
+        0.6216634603941512,
+        0.49316899863074515,
+        0.5942975069231125
+      ],
+      "maximum_CA_displacement_A": 1.1595197526870036
+    },
+    "physical_potential_relaxation_kcal": 101.0943905293525,
+    "potential_relaxation_is_not_binding_free_energy": true,
+    "short_NVE": {
+      "duration_ps": 10.0,
+      "frames": 11,
+      "all_geometry_checks_pass": true,
+      "last_loop_RMSD_A": 4.945997027492605,
+      "last_CDR_RMSD_A": [
+        2.3431455220688084,
+        7.254956473849537,
+        3.5469663747679276
+      ],
+      "last_framework_RMSD_A": 0.9780241901931198,
+      "max_CA_displacement_A": 10.414927538958882,
+      "initial_to_1ps_total_energy_change_kJ": 26.323057745927144,
+      "post_1ps_energy_range_kJ": 2.5265955222839693,
+      "initial_to_final_kinetic_energy_ratio": 0.5144365568400706,
+      "interpretation": "Substantial loop motion is a warning, not stability validation. No thermostat/equilibration; not an equilibrated 300 K trajectory. Initial energy transient and short duration limit interpretation."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    {
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/blast_candidates.py",
+        "swissprot"
+      ],
+      "log": "blast_search_swissprot.log",
+      "returncode": 0,
+      "seconds": 65.01135277748108
+    },
+    {
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/blast_candidates.py",
+        "pdb"
+      ],
+      "log": "blast_search_pdb.log",
+      "returncode": 1,
+      "seconds": 230.03954768180847
+    },
+    {
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/blast_candidates.py",
+        "antibodies_augmented"
+      ],
+      "log": "blast_search_antibodies_augmented.log",
+      "returncode": -15,
+      "seconds": 556.141747713089
+    }
+  ],
+  "seconds": 622.1548044681549,
+  "all_finished": true
+}

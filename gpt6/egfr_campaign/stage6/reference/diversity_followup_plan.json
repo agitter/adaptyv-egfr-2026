@@ -1,0 +1,278 @@
+{
+  "name": "diversity_followup",
+  "concurrency": 2,
+  "selection": [
+    {
+      "candidate_id": "K00001",
+      "parent_key": "stage3:G00047_R07",
+      "pose": "G00047",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASNTRYDGETKDNWFRQAPGQGLEAVAEYYGYQRNDRSGYDDKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTGVKDEGSDGDGGKWGQGTLVTVS",
+      "coarse_selection_contrast": 1.042516913223169
+    },
+    {
+      "candidate_id": "K00002",
+      "parent_key": "stage3:G00067_R07",
+      "pose": "G00067",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASNTEYTGDLKRGWFRQAPGQGLEAVAGDYEDRREENYEYDRKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTTGESGGGRDFEGGDGRKWGQGTLVTVS",
+      "coarse_selection_contrast": 1.1327885504898347
+    },
+    {
+      "candidate_id": "K00003",
+      "parent_key": "stage3:G00106_C01",
+      "pose": "G00106",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASQTEESGETEIKWFRQAPGQGLEAVAGGYEYGYSGENYGKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCEGDTQWYGYSFKRYWGQGTLVTVS",
+      "coarse_selection_contrast": 0.8257185803954687
+    },
+    {
+      "candidate_id": "K00004",
+      "parent_key": "stage3:G00118_C05",
+      "pose": "G00118",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASNTEYSGDTQRLWFRQAPGQGLEAVANEDYYNEQYNQYYDKKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCEGQYQDYGDSQKRRWGQGTLVTVS",
+      "coarse_selection_contrast": 1.201795702109127
+    },
+    {
+      "candidate_id": "K00005",
+      "parent_key": "stage3:G00161_R06",
+      "pose": "G00161",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASFTQYYGETEIGWFRQAPGQGLEAVAGDKEEGRSGYYEGKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTGGQNGWYTYFDDYNQWGQGTLVTVS",
+      "coarse_selection_contrast": 1.1447607478549724
+    },
+    {
+      "candidate_id": "K00006",
+      "parent_key": "stage3:G00168_C01",
+      "pose": "G00168",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQEGTYNYGLWFRQAPGQGLEAVAEDTSGYWDQESQQKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGGYKYDRGEGQDQYWGQGTLVTVS",
+      "coarse_selection_contrast": 1.0013617850802206
+    },
+    {
+      "candidate_id": "K00007",
+      "parent_key": "stage3:G00181_C00",
+      "pose": "G00181",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASNKDYSGEQGGNWFRQAPGQGLEAVATNDYQGYQYSGDYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGYFGGEYRKDEGEGEGQYWGQGTLVTVS",
+      "coarse_selection_contrast": 1.200593111244249
+    },
+    {
+      "candidate_id": "K00008",
+      "parent_key": "stage3:G00271_C00",
+      "pose": "G00271",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASFDKYYGENYDGWFRQAPGQGLEAVAGTYTQSYQDYRGDKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGQEGGNGRYYNGEGNNEYWGQGTLVTVS",
+      "coarse_selection_contrast": 0.8769203213200312
+    },
+    {
+      "candidate_id": "K00009",
+      "parent_key": "stage3:G00277_C00",
+      "pose": "G00277",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGGEYGYNYQQGYSWFRQAPGQGLEAVAGFQDLSTGSQGYERDKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGQGGEEKYYTGTGEGQWWGQGTLVTVS",
+      "coarse_selection_contrast": 1.1962582882520696
+    },
+    {
+      "candidate_id": "K00010",
+      "parent_key": "stage3:G00369_C00",
+      "pose": "G00369",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASFKEQYGDDYINWFRQAPGQGLEAVAGYLYDLGDDYSGKGDKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGYRGGYYKLYRGEGGGEGWGQGTLVTVS",
+      "coarse_selection_contrast": 1.005512386397875
+    }
+  ],
+  "jobs": [
+    {
+      "id": "K00001_human6ARU",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00001",
+        "human6ARU"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00001_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00001",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00002_human6ARU",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00002",
+        "human6ARU"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00002_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00002",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00003_human6ARU",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00003",
+        "human6ARU"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00003_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00003",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00004_human6ARU",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00004",
+        "human6ARU"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00004_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00004",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00005_human6ARU",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00005",
+        "human6ARU"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00005_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00005",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00006_human6ARU",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00006",
+        "human6ARU"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00006_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00006",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00007_human6ARU",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00007",
+        "human6ARU"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00007_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00007",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00008_human6ARU",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00008",
+        "human6ARU"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00008_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00008",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00009_human6ARU",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00009",
+        "human6ARU"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00009_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00009",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00010_human6ARU",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00010",
+        "human6ARU"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "K00010_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "K00010",
+        "mouseAF"
+      ],
+      "timeout": 600
+    }
+  ]
+}

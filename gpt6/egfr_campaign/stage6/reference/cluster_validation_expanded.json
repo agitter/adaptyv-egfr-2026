@@ -1,0 +1,455 @@
+[
+  {
+    "source": "/mnt/data/egfr_campaign/stage5/intermediate/chemistry_acid_scope/intermediate/acid_ensemble/H00011_acid_histidine.json",
+    "sha256": "67bcd53bbc14dda713fc6e684418ac7e2f4e8fa7f7bfdba60e2416309b232cb6",
+    "site_count": 6,
+    "exact_summary": {
+      "minimum_contrast_kcal": 0.6971394727687397,
+      "maximum_contrast_kcal": 2.201371004774633,
+      "scenario_count": 39366,
+      "all_scenarios_acid_on": true,
+      "worst_case_site_priors": [
+        {
+          "kind": "histidine",
+          "pKa": 6.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "histidine",
+          "pKa": 5.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 5.6,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        }
+      ],
+      "worst_case_physical_index": 5,
+      "worst_case_acid_proxy_kcal": -35.83347879817022,
+      "worst_case_neutral_proxy_kcal": -35.13633932540148,
+      "qualification": "Exact polynomial for supplied energies and independently varied assumed priors. Not experimental binding or predicted free pKas."
+    },
+    "cluster_validation": [
+      {
+        "order": 2,
+        "basis_samples": 73,
+        "held_out_states": 656,
+        "max_energy_error_kcal": 1.3653111409842964,
+        "RMS_energy_error_kcal": 0.23949654871197076,
+        "max_contrast_error_kcal": 0.00026600901858042647,
+        "minimum_predicted_contrast_kcal": 0.6972361424762923,
+        "minimum_exact_contrast_kcal": 0.6971394727687397
+      },
+      {
+        "order": 3,
+        "basis_samples": 233,
+        "held_out_states": 496,
+        "max_energy_error_kcal": 0.006077820283465485,
+        "RMS_energy_error_kcal": 0.0007922170174307699,
+        "max_contrast_error_kcal": 5.200202153332611e-07,
+        "minimum_predicted_contrast_kcal": 0.6971394916827407,
+        "minimum_exact_contrast_kcal": 0.6971394727687397
+      }
+    ]
+  },
+  {
+    "source": "/mnt/data/egfr_campaign/stage5/intermediate/chemistry_acid_scope/intermediate/acid_ensemble/H00020_acid_histidine.json",
+    "sha256": "3dc91bfa495a99c8d24829d16530a84bdbc3c25e20ea6c6f70c9eb040357fa5d",
+    "site_count": 5,
+    "exact_summary": {
+      "minimum_contrast_kcal": 0.7091988290609308,
+      "maximum_contrast_kcal": 2.172965118965023,
+      "scenario_count": 13122,
+      "all_scenarios_acid_on": true,
+      "worst_case_site_priors": [
+        {
+          "kind": "histidine",
+          "pKa": 6.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "histidine",
+          "pKa": 5.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 5.6,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        }
+      ],
+      "worst_case_physical_index": 5,
+      "worst_case_acid_proxy_kcal": -35.37978719798897,
+      "worst_case_neutral_proxy_kcal": -34.67058836892804,
+      "qualification": "Exact polynomial for supplied energies and independently varied assumed priors. Not experimental binding or predicted free pKas."
+    },
+    "cluster_validation": [
+      {
+        "order": 2,
+        "basis_samples": 51,
+        "held_out_states": 192,
+        "max_energy_error_kcal": 1.395957713972436,
+        "RMS_energy_error_kcal": 0.2797572932803195,
+        "max_contrast_error_kcal": 0.0001913794565737703,
+        "minimum_predicted_contrast_kcal": 0.7092384963045362,
+        "minimum_exact_contrast_kcal": 0.7091988290609308
+      },
+      {
+        "order": 3,
+        "basis_samples": 131,
+        "held_out_states": 112,
+        "max_energy_error_kcal": 8.191088659259549e-05,
+        "RMS_energy_error_kcal": 1.130937370943033e-05,
+        "max_contrast_error_kcal": 5.884044362858276e-09,
+        "minimum_predicted_contrast_kcal": 0.7091988296238654,
+        "minimum_exact_contrast_kcal": 0.7091988290609308
+      }
+    ]
+  },
+  {
+    "source": "/mnt/data/egfr_campaign/stage5/intermediate/chemistry_acid_scope/intermediate/acid_ensemble/H00021_acid_histidine.json",
+    "sha256": "c5f7b2dd174fb56787d7dc12038824f4051815d1d25b133b859516e6c86b6582",
+    "site_count": 5,
+    "exact_summary": {
+      "minimum_contrast_kcal": 0.6654959176275739,
+      "maximum_contrast_kcal": 2.009952378175069,
+      "scenario_count": 13122,
+      "all_scenarios_acid_on": true,
+      "worst_case_site_priors": [
+        {
+          "kind": "histidine",
+          "pKa": 6.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "histidine",
+          "pKa": 5.8,
+          "HIE_fraction_if_histidine": 0.8
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 4.4,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        }
+      ],
+      "worst_case_physical_index": 5,
+      "worst_case_acid_proxy_kcal": -36.52680806183547,
+      "worst_case_neutral_proxy_kcal": -35.86131214420789,
+      "qualification": "Exact polynomial for supplied energies and independently varied assumed priors. Not experimental binding or predicted free pKas."
+    },
+    "cluster_validation": [
+      {
+        "order": 2,
+        "basis_samples": 51,
+        "held_out_states": 192,
+        "max_energy_error_kcal": 1.3917806766695833,
+        "RMS_energy_error_kcal": 0.27904803466709477,
+        "max_contrast_error_kcal": 0.00021623161542283498,
+        "minimum_predicted_contrast_kcal": 0.6655383857804225,
+        "minimum_exact_contrast_kcal": 0.6654959176275739
+      },
+      {
+        "order": 3,
+        "basis_samples": 131,
+        "held_out_states": 112,
+        "max_energy_error_kcal": 8.66437057567282e-05,
+        "RMS_energy_error_kcal": 1.2025507217189293e-05,
+        "max_contrast_error_kcal": 9.812482382187682e-09,
+        "minimum_predicted_contrast_kcal": 0.6654959181885332,
+        "minimum_exact_contrast_kcal": 0.6654959176275739
+      }
+    ]
+  },
+  {
+    "source": "/mnt/data/egfr_campaign/stage5/intermediate/three_acid_scope/intermediate/acid_ensemble/B00000_acid_histidine.json",
+    "sha256": "8819dd32565988a6b43b9dedfc51a486de430d7367bc07926a43c7a0ecaa943f",
+    "site_count": 5,
+    "exact_summary": {
+      "minimum_contrast_kcal": 0.6008965927856664,
+      "maximum_contrast_kcal": 2.171532095964536,
+      "scenario_count": 13122,
+      "all_scenarios_acid_on": true,
+      "worst_case_site_priors": [
+        {
+          "kind": "histidine",
+          "pKa": 5.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "histidine",
+          "pKa": 5.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 5.6,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        }
+      ],
+      "worst_case_physical_index": 5,
+      "worst_case_acid_proxy_kcal": -34.79101556469738,
+      "worst_case_neutral_proxy_kcal": -34.190118971911716,
+      "qualification": "Exact polynomial for supplied energies and independently varied assumed priors. Not experimental binding or predicted free pKas."
+    },
+    "cluster_validation": [
+      {
+        "order": 2,
+        "basis_samples": 51,
+        "held_out_states": 192,
+        "max_energy_error_kcal": 0.7440835798899741,
+        "RMS_energy_error_kcal": 0.14992082736614923,
+        "max_contrast_error_kcal": 0.0008381862338016077,
+        "minimum_predicted_contrast_kcal": 0.600981838520056,
+        "minimum_exact_contrast_kcal": 0.6008965927856664
+      },
+      {
+        "order": 3,
+        "basis_samples": 131,
+        "held_out_states": 112,
+        "max_energy_error_kcal": 6.708379353881355e-05,
+        "RMS_energy_error_kcal": 9.2428788767359e-06,
+        "max_contrast_error_kcal": 2.869324600140999e-08,
+        "minimum_predicted_contrast_kcal": 0.6008965942821547,
+        "minimum_exact_contrast_kcal": 0.6008965927856664
+      }
+    ]
+  },
+  {
+    "source": "/mnt/data/egfr_campaign/stage5/intermediate/three_acid_scope/intermediate/acid_ensemble/N2070600_acid_histidine.json",
+    "sha256": "a92ef39fda3c9f46c420feff391f9a733498aa6adda82fb28a3be0c95d93806e",
+    "site_count": 5,
+    "exact_summary": {
+      "minimum_contrast_kcal": 0.6012858828176775,
+      "maximum_contrast_kcal": 2.0733388142889018,
+      "scenario_count": 13122,
+      "all_scenarios_acid_on": true,
+      "worst_case_site_priors": [
+        {
+          "kind": "histidine",
+          "pKa": 5.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "histidine",
+          "pKa": 5.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 5.6,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        }
+      ],
+      "worst_case_physical_index": 5,
+      "worst_case_acid_proxy_kcal": -35.88745756157794,
+      "worst_case_neutral_proxy_kcal": -35.28617167876026,
+      "qualification": "Exact polynomial for supplied energies and independently varied assumed priors. Not experimental binding or predicted free pKas."
+    },
+    "cluster_validation": [
+      {
+        "order": 2,
+        "basis_samples": 51,
+        "held_out_states": 192,
+        "max_energy_error_kcal": 0.772024069891188,
+        "RMS_energy_error_kcal": 0.15500885796116742,
+        "max_contrast_error_kcal": 0.0005119785133009813,
+        "minimum_predicted_contrast_kcal": 0.6013658247318787,
+        "minimum_exact_contrast_kcal": 0.6012858828176775
+      },
+      {
+        "order": 3,
+        "basis_samples": 131,
+        "held_out_states": 112,
+        "max_energy_error_kcal": 6.802985281950669e-05,
+        "RMS_energy_error_kcal": 9.382152859226244e-06,
+        "max_contrast_error_kcal": 1.690278050858751e-08,
+        "minimum_predicted_contrast_kcal": 0.6012858842148887,
+        "minimum_exact_contrast_kcal": 0.6012858828176775
+      }
+    ]
+  },
+  {
+    "source": "/mnt/data/egfr_campaign/stage5/intermediate/three_acid_scope/intermediate/acid_ensemble/N2091100_acid_histidine.json",
+    "sha256": "0294a324d1c16cb384df41ba1224b7db0c901f3690ef280f7b21efac7f9f5863",
+    "site_count": 5,
+    "exact_summary": {
+      "minimum_contrast_kcal": 0.5685611350247584,
+      "maximum_contrast_kcal": 2.105811597374908,
+      "scenario_count": 13122,
+      "all_scenarios_acid_on": true,
+      "worst_case_site_priors": [
+        {
+          "kind": "histidine",
+          "pKa": 5.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "histidine",
+          "pKa": 5.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 5.6,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        }
+      ],
+      "worst_case_physical_index": 5,
+      "worst_case_acid_proxy_kcal": -35.433349586148395,
+      "worst_case_neutral_proxy_kcal": -34.86478845112364,
+      "qualification": "Exact polynomial for supplied energies and independently varied assumed priors. Not experimental binding or predicted free pKas."
+    },
+    "cluster_validation": [
+      {
+        "order": 2,
+        "basis_samples": 51,
+        "held_out_states": 192,
+        "max_energy_error_kcal": 0.716310926018707,
+        "RMS_energy_error_kcal": 0.1442419302660801,
+        "max_contrast_error_kcal": 0.0012068557923257117,
+        "minimum_predicted_contrast_kcal": 0.5686501716434407,
+        "minimum_exact_contrast_kcal": 0.5685611350247584
+      },
+      {
+        "order": 3,
+        "basis_samples": 131,
+        "held_out_states": 112,
+        "max_energy_error_kcal": 6.570437097508375e-05,
+        "RMS_energy_error_kcal": 9.028635816302505e-06,
+        "max_contrast_error_kcal": 4.134642228592611e-08,
+        "minimum_predicted_contrast_kcal": 0.5685611364962142,
+        "minimum_exact_contrast_kcal": 0.5685611350247584
+      }
+    ]
+  },
+  {
+    "source": "/mnt/data/egfr_campaign/stage5/intermediate/three_acid_scope/intermediate/acid_ensemble/T3070400_acid_histidine.json",
+    "sha256": "3c323e0208c8d4b841f0c509fa06db6eaffd095a42b632df4e0f9605af7aba3a",
+    "site_count": 5,
+    "exact_summary": {
+      "minimum_contrast_kcal": 0.6362491770072225,
+      "maximum_contrast_kcal": 2.2136344046073657,
+      "scenario_count": 13122,
+      "all_scenarios_acid_on": true,
+      "worst_case_site_priors": [
+        {
+          "kind": "histidine",
+          "pKa": 6.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "histidine",
+          "pKa": 5.8,
+          "HIE_fraction_if_histidine": 0.2
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 5.6,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        },
+        {
+          "kind": "carboxylate",
+          "pKa": 6.0,
+          "HIE_fraction_if_histidine": null
+        }
+      ],
+      "worst_case_physical_index": 5,
+      "worst_case_acid_proxy_kcal": -33.881003244767456,
+      "worst_case_neutral_proxy_kcal": -33.24475406776023,
+      "qualification": "Exact polynomial for supplied energies and independently varied assumed priors. Not experimental binding or predicted free pKas."
+    },
+    "cluster_validation": [
+      {
+        "order": 2,
+        "basis_samples": 51,
+        "held_out_states": 192,
+        "max_energy_error_kcal": 0.8430749822754784,
+        "RMS_energy_error_kcal": 0.1643490792886016,
+        "max_contrast_error_kcal": 0.016551121945213687,
+        "minimum_predicted_contrast_kcal": 0.636321095683769,
+        "minimum_exact_contrast_kcal": 0.6362491770072225
+      },
+      {
+        "order": 3,
+        "basis_samples": 131,
+        "held_out_states": 112,
+        "max_energy_error_kcal": 6.676313187270466e-05,
+        "RMS_energy_error_kcal": 8.942991492902402e-06,
+        "max_contrast_error_kcal": 3.8741912211648355e-07,
+        "minimum_predicted_contrast_kcal": 0.6362491780299209,
+        "minimum_exact_contrast_kcal": 0.6362491770072225
+      }
+    ]
+  }
+]

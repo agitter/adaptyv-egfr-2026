@@ -1,0 +1,99 @@
+{
+  "candidate_id": "S00002",
+  "sequence_audit": {
+    "length": 125,
+    "liabilities": {
+      "glycosylation_sequons": [],
+      "NG_motifs": [],
+      "DG_motifs": [],
+      "max_repeat": 3,
+      "hydrophobic_runs": [],
+      "net_formal_charge_without_histidine": -4
+    },
+    "cdr_lengths": [
+      11,
+      15,
+      18
+    ],
+    "legacy_no_extra_Cys_filter": true,
+    "format_pass": true,
+    "intended_cysteine_pairing_coverage_pass": true,
+    "native_pair_positions": [
+      22,
+      97
+    ],
+    "intended_extra_pairs": []
+  },
+  "structure_audit": {
+    "human6ARU": {
+      "minimum_heavy_distance_A": 2.8053370730425646,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.731458613348963
+    },
+    "mouseAF": {
+      "minimum_heavy_distance_A": 2.436076213471118,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 2.8212464963463764
+    },
+    "1NQL": {
+      "minimum_heavy_distance_A": 2.636529755047285,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.519132684173805
+    },
+    "1IVO": {
+      "minimum_heavy_distance_A": 2.1741731647942615,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.51981841440508
+    },
+    "resolved_glycans": {
+      "min_heavy_distance_A": 3.9350484889109034,
+      "atoms_below_2A": 0
+    },
+    "alpha_inversions": [],
+    "peptide_bond_outliers": [],
+    "geometry_prefilter_pass": true
+  },
+  "coordinate_sequence_match": true,
+  "parent_hash_match": true,
+  "proline_rings": [
+    {
+      "position": 14,
+      "N_CD_distance_A": 1.4568023201519138
+    },
+    {
+      "position": 29,
+      "N_CD_distance_A": 1.5375894160894934
+    },
+    {
+      "position": 42,
+      "N_CD_distance_A": 1.457357197120865
+    }
+  ],
+  "candidate_ion_pairs": [
+    {
+      "binder_position": 54,
+      "binder_aa": "D",
+      "target_human_position": 383,
+      "target_aa": "H",
+      "min_NO_distance_A": 4.293085896814587,
+      "target_conserved": false
+    },
+    {
+      "binder_position": 103,
+      "binder_aa": "E",
+      "target_human_position": 358,
+      "target_aa": "H",
+      "min_NO_distance_A": 4.36842941857302,
+      "target_conserved": true
+    },
+    {
+      "binder_position": 106,
+      "binder_aa": "E",
+      "target_human_position": 358,
+      "target_aa": "H",
+      "min_NO_distance_A": 3.000004963166703,
+      "target_conserved": true
+    }
+  ],
+  "audit_pass": true
+}

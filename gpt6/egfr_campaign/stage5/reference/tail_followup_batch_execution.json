@@ -1,0 +1,81 @@
+{
+  "tasks": [
+    {
+      "log": "novelty_tail.log",
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/novelty_tail.py"
+      ],
+      "returncode": 0,
+      "seconds": 28.00345492362976
+    },
+    {
+      "log": "human_T3070400.log",
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/refine.py",
+        "T3070400",
+        "human6ARU"
+      ],
+      "returncode": 0,
+      "seconds": 90.03958868980408
+    },
+    {
+      "log": "human_T3070900.log",
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/refine.py",
+        "T3070900",
+        "human6ARU"
+      ],
+      "returncode": 0,
+      "seconds": 105.06180191040039
+    },
+    {
+      "log": "human_T3080600.log",
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/refine.py",
+        "T3080600",
+        "human6ARU"
+      ],
+      "returncode": 0,
+      "seconds": 97.01879072189331
+    },
+    {
+      "log": "human_T3080401.log",
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/refine.py",
+        "T3080401",
+        "human6ARU"
+      ],
+      "returncode": 0,
+      "seconds": 102.06086373329163
+    },
+    {
+      "log": "blast_tail_swissprot.log",
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/blast_tail.py",
+        "swissprot"
+      ],
+      "returncode": 0,
+      "seconds": 22.007150411605835
+    },
+    {
+      "log": "blast_tail_pdb.log",
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/blast_tail.py",
+        "pdb"
+      ],
+      "returncode": 0,
+      "seconds": 62.01689100265503
+    },
+    {
+      "log": "blast_tail_antibodies_augmented.log",
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/blast_tail.py",
+        "antibodies_augmented"
+      ],
+      "returncode": 0,
+      "seconds": 291.07843685150146
+    }
+  ],
+  "seconds": 797.3113484382629,
+  "all_finished": true
+}

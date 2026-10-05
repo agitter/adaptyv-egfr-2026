@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-04T20:03:08.262897+00:00",
+  "original_panel": "stage6/output/egfr_ranked_100.fasta",
+  "retain_original_files_unchanged": true,
+  "pool_size": 100,
+  "submission_size": 20,
+  "new_sequences_considered": [
+    "M00003",
+    "M00008",
+    "M00014",
+    "M00015",
+    "M00018",
+    "M00019",
+    "M00020",
+    "M00021",
+    "M00022"
+  ],
+  "required_new_entry_gates": [
+    "standard sequence, no new sequon, no unrecorded framework edit",
+    "complete local novelty searches and CDRH3 safeguard",
+    "strict both-species minimized geometry and full receptor/glycan context",
+    "positive direction across independent human histidine assumptions"
+  ],
+  "front_of_panel_promotion": "Only prespecified M00018/M00021 if both full no-extra-chirality-restraint thermal comparisons meet all predeclared descriptive guardrails, expanded protonation is acid-on across all assumptions, loss versus matched parent is at most0.10kcal/mol, and all geometry/novelty safeguards pass. Rank such candidates by conservative expanded contrast, treating tiny energy differences as non-calibrated experimental priorities.",
+  "otherwise": "Do not call a variant stabilized or replace the original leader on that basis. Passing new variants can replace lowest-evidence tail reserves; failed stress tests stay explicit.",
+  "rest_of_panel": "Retain original top20 ordering except insertion of any strictly qualified promoted variants. Other qualified new entries follow original top20, ordered by expanded-evidence availability, human histidine contrast within narrower-evidence entries, and deterministic ID tie-break. Trim from original tail to keep exactly100.",
+  "diversity": "Reject repeated amino-acid sequences. Limit any CDRH3 to at most6 entries as in original release; report unique CDRH3 counts rather than claiming new binding-mode diversity.",
+  "name_policy": "Keep public names stable for retained old sequences; assign unrelated biochemical-pun names to new ones. File order, not the numerical text within older names, determines the revised rank.",
+  "no_claims": "All experimental affinity, pH specificity, mouse reactivity, expression/folding and official novelty/classification remain unverified."
+}

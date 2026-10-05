@@ -1,0 +1,50 @@
+{
+  "source": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00028_human6ARU_relaxed.pdb",
+  "capped_pdb": "/mnt/data/egfr_campaign/stage4/intermediate/capped/S00028_human6ARU_capped.pdb",
+  "species": "human6ARU",
+  "cap_source_positions": [
+    333,
+    506
+  ],
+  "cap_bonds": [
+    [
+      "ACE",
+      "C",
+      "ACE",
+      "CH3"
+    ],
+    [
+      "ACE",
+      "C",
+      "ACE",
+      "O"
+    ],
+    [
+      "ACE",
+      "C",
+      "ARG",
+      "N"
+    ],
+    [
+      "VAL",
+      "C",
+      "NME",
+      "N"
+    ],
+    [
+      "NME",
+      "C",
+      "NME",
+      "N"
+    ]
+  ],
+  "geometry_audit": {
+    "heavy_atom_count": 2274,
+    "severe_nonbonded_clashes": [],
+    "close_nonbonded_contacts_below_2p1A": [],
+    "stereochemical_inversions": [],
+    "bond_length_outliers": [],
+    "pass": true
+  },
+  "forcefield_parameterization_pass": true
+}

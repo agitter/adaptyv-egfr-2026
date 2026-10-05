@@ -1,0 +1,520 @@
+{
+  "checks": [
+    {
+      "test": "brute versus tensor n1 pH6.5 prior(0,) physical0",
+      "max_error_kcal": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH6.5 prior(0,) physical0",
+      "error": 1.2804995258575147e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH6.5 prior(0,) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH6.5 prior(0,) physical1",
+      "error": 4.160325556279432e-11,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH6.5 prior(4,) physical0",
+      "max_error_kcal": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH6.5 prior(4,) physical0",
+      "error": 4.102930772909019e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH6.5 prior(4,) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH6.5 prior(4,) physical1",
+      "error": 3.4474119392502445e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH6.5 prior(8,) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH6.5 prior(8,) physical0",
+      "error": 7.408616775617105e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH6.5 prior(8,) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH6.5 prior(8,) physical1",
+      "error": 1.9134312190249858e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH7.4 prior(0,) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH7.4 prior(0,) physical0",
+      "error": 7.404203812566568e-11,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH7.4 prior(0,) physical1",
+      "max_error_kcal": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH7.4 prior(0,) physical1",
+      "error": 6.353705409023469e-11,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH7.4 prior(4,) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH7.4 prior(4,) physical0",
+      "error": 2.0781245474443821e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH7.4 prior(4,) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH7.4 prior(4,) physical1",
+      "error": 1.2813718489046444e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH7.4 prior(8,) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH7.4 prior(8,) physical0",
+      "error": 1.815278899419681e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n1 pH7.4 prior(8,) physical1",
+      "max_error_kcal": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n1 pH7.4 prior(8,) physical1",
+      "error": 2.8120408779308548e-11,
+      "pass": true
+    },
+    {
+      "test": "constant energy gives zero pH contrast n1",
+      "pass": true
+    },
+    {
+      "test": "constant offset preserved n1",
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH6.5 prior(0, 0) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH6.5 prior(0, 0) physical0",
+      "error": 3.401397496993752e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH6.5 prior(0, 0) physical1",
+      "max_error_kcal": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH6.5 prior(0, 0) physical1",
+      "error": 9.111179588572327e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH6.5 prior(4, 1) physical0",
+      "max_error_kcal": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH6.5 prior(4, 1) physical0",
+      "error": 1.2133582472095839e-09,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH6.5 prior(4, 1) physical1",
+      "max_error_kcal": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH6.5 prior(4, 1) physical1",
+      "error": 1.4848950957713214e-09,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH6.5 prior(8, 2) physical0",
+      "max_error_kcal": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH6.5 prior(8, 2) physical0",
+      "error": 2.672543575332753e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH6.5 prior(8, 2) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH6.5 prior(8, 2) physical1",
+      "error": 2.9013424995838477e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH7.4 prior(0, 0) physical0",
+      "max_error_kcal": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH7.4 prior(0, 0) physical0",
+      "error": 3.687153637965679e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH7.4 prior(0, 0) physical1",
+      "max_error_kcal": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH7.4 prior(0, 0) physical1",
+      "error": 6.26726018304602e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH7.4 prior(4, 1) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH7.4 prior(4, 1) physical0",
+      "error": 3.8351256892443786e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH7.4 prior(4, 1) physical1",
+      "max_error_kcal": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH7.4 prior(4, 1) physical1",
+      "error": 3.719940466773153e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH7.4 prior(8, 2) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH7.4 prior(8, 2) physical0",
+      "error": 2.4335441994871587e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n2 pH7.4 prior(8, 2) physical1",
+      "max_error_kcal": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n2 pH7.4 prior(8, 2) physical1",
+      "error": 1.5739328729225122e-09,
+      "pass": true
+    },
+    {
+      "test": "constant energy gives zero pH contrast n2",
+      "pass": true
+    },
+    {
+      "test": "constant offset preserved n2",
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH6.5 prior(0, 0, 0) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH6.5 prior(0, 0, 0) physical0",
+      "error": 1.1106018882323099e-11,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH6.5 prior(0, 0, 0) physical1",
+      "max_error_kcal": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH6.5 prior(0, 0, 0) physical1",
+      "error": 1.0390170945839827e-09,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH6.5 prior(4, 1, 4) physical0",
+      "max_error_kcal": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH6.5 prior(4, 1, 4) physical0",
+      "error": 1.1487112788755027e-09,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH6.5 prior(4, 1, 4) physical1",
+      "max_error_kcal": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH6.5 prior(4, 1, 4) physical1",
+      "error": 1.9407775386781623e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH6.5 prior(8, 2, 8) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH6.5 prior(8, 2, 8) physical0",
+      "error": 1.9898074854474146e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH6.5 prior(8, 2, 8) physical1",
+      "max_error_kcal": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH6.5 prior(8, 2, 8) physical1",
+      "error": 2.5186877583571743e-09,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH7.4 prior(0, 0, 0) physical0",
+      "max_error_kcal": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH7.4 prior(0, 0, 0) physical0",
+      "error": 6.678223599121402e-11,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH7.4 prior(0, 0, 0) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH7.4 prior(0, 0, 0) physical1",
+      "error": 2.549109083538337e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH7.4 prior(4, 1, 4) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH7.4 prior(4, 1, 4) physical0",
+      "error": 1.4737309289580836e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH7.4 prior(4, 1, 4) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH7.4 prior(4, 1, 4) physical1",
+      "error": 5.983379347540563e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH7.4 prior(8, 2, 8) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH7.4 prior(8, 2, 8) physical0",
+      "error": 3.357251560087704e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n3 pH7.4 prior(8, 2, 8) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n3 pH7.4 prior(8, 2, 8) physical1",
+      "error": 5.431467497984954e-10,
+      "pass": true
+    },
+    {
+      "test": "constant energy gives zero pH contrast n3",
+      "pass": true
+    },
+    {
+      "test": "constant offset preserved n3",
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH6.5 prior(0, 0, 0, 0) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH6.5 prior(0, 0, 0, 0) physical0",
+      "error": 3.3613317684810795e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH6.5 prior(0, 0, 0, 0) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH6.5 prior(0, 0, 0, 0) physical1",
+      "error": 1.0047976062299568e-09,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH6.5 prior(4, 1, 4, 1) physical0",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH6.5 prior(4, 1, 4, 1) physical0",
+      "error": 1.2861819387310902e-09,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH6.5 prior(4, 1, 4, 1) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH6.5 prior(4, 1, 4, 1) physical1",
+      "error": 1.6073300745933494e-09,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH6.5 prior(8, 2, 8, 2) physical0",
+      "max_error_kcal": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH6.5 prior(8, 2, 8, 2) physical0",
+      "error": 4.0580624971475743e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH6.5 prior(8, 2, 8, 2) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH6.5 prior(8, 2, 8, 2) physical1",
+      "error": 6.1660651029527e-09,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH7.4 prior(0, 0, 0, 0) physical0",
+      "max_error_kcal": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH7.4 prior(0, 0, 0, 0) physical0",
+      "error": 3.761690958725694e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH7.4 prior(0, 0, 0, 0) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH7.4 prior(0, 0, 0, 0) physical1",
+      "error": 9.774845516341557e-11,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH7.4 prior(4, 1, 4, 1) physical0",
+      "max_error_kcal": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH7.4 prior(4, 1, 4, 1) physical0",
+      "error": 4.1433370623344956e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH7.4 prior(4, 1, 4, 1) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH7.4 prior(4, 1, 4, 1) physical1",
+      "error": 2.288051553778203e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH7.4 prior(8, 2, 8, 2) physical0",
+      "max_error_kcal": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH7.4 prior(8, 2, 8, 2) physical0",
+      "error": 1.9426410480249956e-10,
+      "pass": true
+    },
+    {
+      "test": "brute versus tensor n4 pH7.4 prior(8, 2, 8, 2) physical1",
+      "max_error_kcal": 0.0,
+      "pass": true
+    },
+    {
+      "test": "Wyman derivative n4 pH7.4 prior(8, 2, 8, 2) physical1",
+      "error": 3.2608762357000387e-09,
+      "pass": true
+    },
+    {
+      "test": "constant energy gives zero pH contrast n4",
+      "pass": true
+    },
+    {
+      "test": "constant offset preserved n4",
+      "pass": true
+    }
+  ],
+  "passed": 104,
+  "count": 104,
+  "all_pass": true,
+  "qualification": "Mathematical implementation tests, not validation of the physical energy model."
+}

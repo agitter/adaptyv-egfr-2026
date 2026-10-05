@@ -1,0 +1,26 @@
+{
+  "created_before_trajectories": true,
+  "selection_rule": "Highest conservative pH contrast in each neutral H2 replacement length, conditional on independently clean minimized geometry and full/alternate receptor context; unchanged equal-refinement and native controls. H3 and charged proposals do not retain comparable pH contrast.",
+  "candidate_ids": [
+    "B00000",
+    "N2070600",
+    "N2091100",
+    "NATIVE_3EAK"
+  ],
+  "seeds": [
+    198005,
+    198006
+  ],
+  "production_ps": 20.0,
+  "warmup_ps": 2.0,
+  "dynamics": "Same audited stage4 synchronized velocity Verlet/RATTLE and constraint-group Andersen collision protocol; MT19937; Amber99SB/OBC; no production positional restraints, chirality restraints remain",
+  "planned_readouts": [
+    "per-trajectory loop RMSD after framework alignment",
+    "retained parent-position contact-anchor CA displacement",
+    "separate CDR1/CDR2/CDR3 behavior",
+    "full loop backbone deformation excluding global orientation",
+    "endpoint sidechain-contact distances after framework alignment",
+    "independent endpoint chirality/clash/bond audit"
+  ],
+  "limitations": "Two short trajectories cannot establish equilibrium, thermodynamic stability, statistical significance, kinetics, oxidation yield or binding."
+}

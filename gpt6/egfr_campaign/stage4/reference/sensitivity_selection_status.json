@@ -1,0 +1,67 @@
+{
+  "config": "/mnt/data/egfr_campaign/stage4/reference/sensitivity_selection.json",
+  "jobs": [
+    {
+      "name": "sensitivity_S00028_acid",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/sensitivity.py",
+        "S00028",
+        "acid"
+      ],
+      "timeout": 1200
+    },
+    {
+      "name": "sensitivity_S00028_cap",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/sensitivity.py",
+        "S00028",
+        "cap"
+      ],
+      "timeout": 1200
+    },
+    {
+      "name": "sensitivity_MATCHED_C00003_acid",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/sensitivity.py",
+        "MATCHED_C00003",
+        "acid"
+      ],
+      "timeout": 1200
+    },
+    {
+      "name": "sensitivity_MATCHED_C00003_cap",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/sensitivity.py",
+        "MATCHED_C00003",
+        "cap"
+      ],
+      "timeout": 1200
+    }
+  ],
+  "completed": [
+    {
+      "name": "sensitivity_S00028_cap",
+      "returncode": 0,
+      "seconds": 36.83749508857727,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/sensitivity_S00028_cap.log"
+    },
+    {
+      "name": "sensitivity_S00028_acid",
+      "returncode": 0,
+      "seconds": 119.99498224258423,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/sensitivity_S00028_acid.log"
+    },
+    {
+      "name": "sensitivity_MATCHED_C00003_cap",
+      "returncode": 0,
+      "seconds": 34.11530351638794,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/sensitivity_MATCHED_C00003_cap.log"
+    },
+    {
+      "name": "sensitivity_MATCHED_C00003_acid",
+      "returncode": 0,
+      "seconds": 122.10563850402832,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/sensitivity_MATCHED_C00003_acid.log"
+    }
+  ]
+}

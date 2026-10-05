@@ -1,0 +1,205 @@
+{
+  "release_utc": "2026-10-02T21:47:25.541760+00:00",
+  "historical_sequence_records_including_duplicates_and_failures": 1857,
+  "historical_unique_sequences_including_failures": 1818,
+  "new_unique_sequences_this_stage": 16,
+  "stage6_sequence_structure_records": 37,
+  "stage6_detailed_models": 68,
+  "stage6_human_models": 31,
+  "stage6_mouse_models": 37,
+  "stage6_uniform_geometry_pass": 59,
+  "stage6_human_uniform_geometry_pass": 27,
+  "stage6_mouse_uniform_geometry_pass": 32,
+  "alternative_pose_human_pass_geometry_and_His_direction": [
+    "stage6:K00007"
+  ],
+  "cluster_models": 11,
+  "cluster_numerical_validation_pass": 11,
+  "cluster_max_held_out_energy_error_kcal": 0.007387275579205266,
+  "cluster_total_exact_energy_evaluations": 4850,
+  "unbound_local_checks": [
+    {
+      "candidate_id": "J00000",
+      "loop_displacement_A": 0.4739569633523965,
+      "potential_relaxation_kcal": 23.876774979963557,
+      "native_geometry_pass": true,
+      "independent_geometry_pass": true
+    },
+    {
+      "candidate_id": "J00001",
+      "loop_displacement_A": 0.44954966274410335,
+      "potential_relaxation_kcal": 18.88200494238481,
+      "native_geometry_pass": true,
+      "independent_geometry_pass": true
+    },
+    {
+      "candidate_id": "J00002",
+      "loop_displacement_A": 0.4376404990387546,
+      "potential_relaxation_kcal": 23.59194373991977,
+      "native_geometry_pass": true,
+      "independent_geometry_pass": true
+    },
+    {
+      "candidate_id": "J00003",
+      "loop_displacement_A": 0.37145753415524413,
+      "potential_relaxation_kcal": 18.215711166809342,
+      "native_geometry_pass": true,
+      "independent_geometry_pass": true
+    },
+    {
+      "candidate_id": "J00004",
+      "loop_displacement_A": 0.4279432702942043,
+      "potential_relaxation_kcal": 32.83083477013042,
+      "native_geometry_pass": true,
+      "independent_geometry_pass": true
+    },
+    {
+      "candidate_id": "J00005",
+      "loop_displacement_A": 0.5040849230696907,
+      "potential_relaxation_kcal": 25.825758299014524,
+      "native_geometry_pass": true,
+      "independent_geometry_pass": true
+    },
+    {
+      "candidate_id": "J00008",
+      "loop_displacement_A": 0.532931839914542,
+      "potential_relaxation_kcal": 31.842594385977463,
+      "native_geometry_pass": true,
+      "independent_geometry_pass": true
+    },
+    {
+      "candidate_id": "J00009",
+      "loop_displacement_A": 0.3938848356938634,
+      "potential_relaxation_kcal": 19.05084591695686,
+      "native_geometry_pass": true,
+      "independent_geometry_pass": true
+    },
+    {
+      "candidate_id": "J00010",
+      "loop_displacement_A": 0.4669141416840529,
+      "potential_relaxation_kcal": 28.306913240851827,
+      "native_geometry_pass": true,
+      "independent_geometry_pass": true
+    },
+    {
+      "candidate_id": "J00014",
+      "loop_displacement_A": 0.255340077126827,
+      "potential_relaxation_kcal": 12.444811441990169,
+      "native_geometry_pass": true,
+      "independent_geometry_pass": true
+    }
+  ],
+  "selected_panel": {
+    "utc": "2026-10-02T21:47:25.541760+00:00",
+    "count": 100,
+    "unique_sequences": 100,
+    "names_unique": 100,
+    "length_range": [
+      119,
+      127
+    ],
+    "top20_count": 20,
+    "molecule_class": "nanobody",
+    "evidence_tiers_all100": {
+      "0": 11,
+      "1": 14,
+      "2": 3,
+      "3": 72
+    },
+    "evidence_tiers_top20": {
+      "0": 11,
+      "1": 9
+    },
+    "distinct_CDR3s": 85,
+    "distinct_docking_pose_ids": 8,
+    "maximum_entries_per_CDR3": 6,
+    "local_CDR3_maximum_edit_identity": 0.5555555555555556,
+    "BLAST_databases_verified": [
+      "swissprot",
+      "pdb",
+      "antibodies_augmented"
+    ],
+    "BLAST_final_query_coverage_complete": true,
+    "ancestry_audit_all_pass": true,
+    "format_roundtrip_pass": true,
+    "selection_idempotent": true,
+    "glycan_screen_explicit_for_all_final_and_potential_candidates": true,
+    "all_three_biological_objectives": "UNVERIFIED",
+    "official_novelty_acceptance": "PENDING_ADAPTYV",
+    "batches": {
+      "human_factorial": {
+        "jobs": 21,
+        "finished": true,
+        "original_returncodes": {
+          "0": 21
+        }
+      },
+      "mouse_factorial": {
+        "jobs": 21,
+        "finished": true,
+        "original_returncodes": {
+          "0": 21
+        }
+      },
+      "cluster_acids": {
+        "jobs": 11,
+        "finished": true,
+        "original_returncodes": {
+          "0": 11
+        }
+      },
+      "diversity_followup": {
+        "jobs": 20,
+        "finished": true,
+        "original_returncodes": {
+          "0": 20
+        }
+      },
+      "matched_unbound": {
+        "jobs": 10,
+        "finished": true,
+        "original_returncodes": {
+          "1": 10
+        }
+      },
+      "mouse_completion": {
+        "jobs": 6,
+        "finished": true,
+        "original_returncodes": {
+          "0": 6
+        }
+      }
+    },
+    "unbound_postprocessing_error_and_recovery": "/mnt/data/egfr_campaign/stage6/reference/unbound_chain_audit_recovery.json",
+    "public_name_rng": "MT19937; seed 20061973; cosmetic naming only",
+    "files": {
+      "final_panel_private.json": {
+        "bytes": 4851822,
+        "sha256": "b6ff618f34ee80e32518aec95acc3a6bb1b198c049b129ee3c71561ddd4915b4"
+      },
+      "egfr_100_RESERVE_POOL_NOT_SINGLE_UPLOAD.csv": {
+        "bytes": 15894,
+        "sha256": "0f9b1906613fcf94aaa4fd51c3056e6d487dc0dd58c03c5f297995a909ea712f"
+      },
+      "egfr_ranked_100.fasta": {
+        "bytes": 15165,
+        "sha256": "03d88fc36fe88c85edf5a288d5d18a12b65c75314e4e152b32a705f58422ee59"
+      },
+      "egfr_track3_top20.csv": {
+        "bytes": 3225,
+        "sha256": "71029ff358eff9c47de65db329def25118178a7a8d04fddfa8fc3a6c0d357f95"
+      },
+      "egfr_track3_top20.fasta": {
+        "bytes": 3056,
+        "sha256": "82cb50f9030c451be0d8e26a16945fd2200c5e6f38e283bd14e77379e56ab1cc"
+      },
+      "private_codebook_and_evidence.tsv": {
+        "bytes": 36883,
+        "sha256": "5dc035d274108d205a0419d724e8786216144ec79b57cbcbdc30bab59c2f3a4e"
+      }
+    }
+  },
+  "candidates_in_otherwise_eligible_pool": 327,
+  "phone_a_friend_used": 2,
+  "phone_a_friend_unused": 1
+}

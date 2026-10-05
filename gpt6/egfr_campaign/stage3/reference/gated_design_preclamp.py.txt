@@ -1,0 +1,235 @@
+"""Classical, receptor-histidine-gated multistate CDR sequence design.
+
+Search energies are declared heuristics, not calibrated affinities. New terms
+repair omissions in stage 2: intraloop electrostatics, glycan exclusion,
+charge desolvation, sequon penalties, and asymmetric mouse positive design.
+All binding-loop sequences are initialized independently, never from a binder.
+"""
+from pathlib import Path
+import sys,json,time,math,copy
+import numpy as np
+from scipy.spatial import cKDTree
+from numba import njit
+R=Path('/mnt/data/egfr_campaign');S3=R/'stage3'
+sys.path[:0]=[str(R/'stage2/code'),str(R/'code')]
+from classical_design import *
+from design_search import target_context,serialize_design
+
+PRIOR={'A':.7,'D':.75,'E':.85,'F':1.2,'G':1.0,'H':1.4,'I':1.1,'K':1.1,'L':1.0,'N':.55,'P':1.0,'Q':.55,'R':1.1,'S':.25,'T':.45,'V':.95,'W':1.25,'Y':.45}
+GLY=json.loads((R/'stage2/intermediate/target_glycans.json').read_text())
+GXYZ=np.array([a['xyz'] for a in GLY]);GTREE=cKDTree(GXYZ)
+ALT=json.loads((O/'1NQL_aligned.json').read_text())
+OUTSIDE=np.array([p for r in ALT if not 334<=r['human_pos']<=505 for p in r['atoms'].values()]);OTREE=cKDTree(OUTSIDE)
+_z=1-2*(np.arange(60)+.5)/60;_phi=np.arange(60)*math.pi*(3-math.sqrt(5));_r=np.sqrt(1-_z*_z)
+SPHERE=np.stack([_r*np.cos(_phi),_r*np.sin(_phi),_z],axis=1)
+
+
+def ion_occlusion(center,own_tree,other_tree):
+    points=np.array(center)+3.*SPHERE
+    free=own_tree.query(points)[0]>2.0
+    covered=other_tree.query(points)[0]<2.8
+    return float(np.sum(free&covered)/max(int(free.sum()),1))
+
+
+def candidate_table(rec,allow_histidine=False,maxoptions=36):
+    bb,mask,seq,orig,pp,fixed=prepare_pose(rec)
+    targets,hpos,targ=target_context();sites=np.flatnonzero(mask)
+    fixed_cloud=np.array([p for a in fixed.values() for p in a.values()])
+    for t in targ:
+        if t['tree'].query(fixed_cloud)[0].min()<2.0:raise ValueError('fixed framework/target collision')
+    if GTREE.query(fixed_cloud)[0].min()<2.15:raise ValueError('fixed framework/glycan collision')
+    if OTREE.query(fixed_cloud)[0].min()<2.0:raise ValueError('fixed framework/alternative-domain collision')
+    opts=[];stats=[]
+    fixed_ions=[]
+    for j,a in fixed.items():
+        c=charge_center(seq[j],a)
+        if c is not None and seq[j]!='H':fixed_ions.append((c,CHARGES[seq[j]]))
+    for site in sites:
+        env=[]
+        for j,a in fixed.items():
+            if np.linalg.norm(bb[site,1]-bb[j,1])<16.:env.append(atom_data(seq[j],a))
+        for j in sites:
+            if j!=site and np.linalg.norm(bb[site,1]-bb[j,1])<16.:env.append(atom_data('A',{n:p for n,p in zip(BB,bb[j])}))
+        env=np.concatenate(env) if env else np.zeros((0,10));etree=cKDTree(env[:,:3])
+        local=[t['atoms'][t['tree'].query_ball_point(bb[site,1],15.)] for t in targ]
+        phi,psi=np.degrees(pp[site]);allowed='ADEFGIKLNPQRSTVWY'+('H' if allow_histidine else '')
+        if phi>20:allowed='G'
+        elif phi<-145 or psi>175:allowed='ADGNSYETQ'+('H' if allow_histidine else '')
+        cache=[]
+        for aa in allowed:
+            if aa=='P' and not -90<phi<-35:continue
+            for rot in range(len(LIB[aa]['xyz'])):
+                atoms=conformer(aa,rot,bb[site]);dat=atom_data(aa,atoms,LIB[aa]['names'])
+                if len(dat) and (GTREE.query(dat[:,:3])[0].min()<2.45 or OTREE.query(dat[:,:3])[0].min()<2.0):continue
+                rep,vw,hb=pair_score(dat,env)
+                if rep>14.:continue
+                one=rep+vw+hb+PRIOR[aa]
+                if aa=='G' and phi>20:one-=1.0
+                center=charge_center(aa,atoms);q=CHARGES.get(aa,0.)
+                if q and center is not None:
+                    # Classical intramolecular electrostatics were absent from stage 2.
+                    one+=sum(screened_charge(q,c,float(np.linalg.norm(center-p)),45.) for p,c in fixed_ions if np.linalg.norm(center-p)<18.)
+                if len(dat):
+                    distances=np.linalg.norm(dat[:,None,:3]-env[None,:,:3],axis=2)
+                    exposed=(distances<5.).sum(1)<4;buried=(distances<4.2).sum(1)>6
+                    one+=.10*float(np.sum(exposed*(dat[:,4]>0)))+.35*float(np.sum(buried*(dat[:,4]==0)))
+                ib=[];hshift=[];fields=[];burials=[];sterics=[]
+                for t,envt in zip(targ,local):
+                    rp,vw,hb=pair_score(dat,envt);sterics.append(rp)
+                    value=rp+1.15*vw+1.2*hb;hs=0.;tf=np.zeros(len(hpos));burial=0.
+                    if len(dat):
+                        dist=np.linalg.norm(dat[:,None,:3]-envt[None,:,:3],axis=2)
+                        # Bounded contact solvation regularizer, distinct from ion burial.
+                        contact=np.maximum(0.,1.-np.abs(dist-3.7)/1.3).sum(1)
+                        value-=.16*float(np.sum(np.minimum(contact,2.)*dat[:,4]))
+                    if center is not None:
+                        dist=np.linalg.norm(t['centers']-center,axis=1)
+                        potential=sum(screened_charge(1.,float(c),float(d),24.) for c,d in zip(t['charges'],dist) if d<18)
+                        burial=ion_occlusion(center,etree,t['tree'])
+                        if aa=='H':hs=potential+3.0*burial
+                        else:
+                            value+=q*potential+4.5*q*q*burial
+                            for k,h in enumerate(hpos):
+                                if h in t['hist']:
+                                    d=float(np.linalg.norm(center-t['hist'][h]));tf[k]+=screened_charge(q,1.,d,24.) if d<18 else 0.
+                    if len(dat):
+                        for k,h in enumerate(hpos):
+                            if h in t['hist']:
+                                dist=np.linalg.norm(dat[:,:3]-t['hist'][h],axis=1);tf[k]+=.10*float(np.sum(dist<5.0))
+                    ib.append(value);hshift.append(hs);fields.append(tf);burials.append(burial)
+                if max(sterics)>16.:continue
+                # Retain engineered His only when a close carboxylate contact exists.
+                if aa=='H':
+                    hn=np.array([atoms[n] for n in ['ND1','NE2']]);close=False
+                    for r in targets[0]:
+                        if r['aa'] not in 'DE':continue
+                        ox=np.array([r['atoms'][n] for n in CHARGE_NAMES[r['aa']] if n in r['atoms']])
+                        if len(ox) and np.linalg.norm(hn[:,None,:]-ox[None,:,:],axis=2).min()<3.35:close=True;break
+                    if not close or hshift[0]>-1.2:continue
+                acid=np.array(ib)+proton_free_energy(hshift,6.5)*(aa=='H')+proton_free_energy(np.array(fields),6.5).sum(1)
+                high=ib[0]+float(proton_free_energy(hshift[0],7.4))*(aa=='H')+float(proton_free_energy(np.array(fields)[0],7.4).sum())
+                pre=one+.85*max(acid)+.15*max(0.,acid[1]-acid[0])-2.8*(high-acid[0])
+                cache.append({'aa':aa,'rotamer':rot,'data':dat,'atoms':atoms,'one':one,'ib':ib,'hs':hshift,'tf':fields,'pre':pre,'center':center,'burial':burials})
+        cache.sort(key=lambda c:c['pre']);chosen=[];counts={}
+        for c in cache:
+            if counts.get(c['aa'],0)>=(4 if c['aa'] in 'DEYH' else 2):continue
+            chosen.append(c);counts[c['aa']]=counts.get(c['aa'],0)+1
+            if len(chosen)>=maxoptions:break
+        if not chosen:raise ValueError('No side chain at loop residue '+str(site+1))
+        opts.append(chosen);stats.append({'position':int(site+1),'allowed_rotamers':len(cache),'retained':len(chosen)})
+    n=len(opts);m=max(len(a) for a in opts)
+    one=np.full((n,m),1e5);ib=np.zeros((n,m,2));hs=ib.copy();tf=np.zeros((n,m,2,len(hpos)));aaidx=np.zeros((n,m),np.int64)
+    data=np.zeros((n,m,11,10));sizes=np.zeros((n,m),np.int64);nopt=np.array([len(a) for a in opts]);centers=np.zeros((n,m,3));qs=np.zeros((n,m))
+    for i,options in enumerate(opts):
+        for j,c in enumerate(options):
+            one[i,j]=c['one'];ib[i,j]=c['ib'];hs[i,j]=c['hs'];tf[i,j]=c['tf'];aaidx[i,j]=AA.index(c['aa']);sizes[i,j]=len(c['data']);data[i,j,:len(c['data'])]=c['data']
+            if c['center'] is not None:centers[i,j]=c['center'];qs[i,j]=CHARGES.get(c['aa'],0.)
+    pairs=make_pairs_ions(data,sizes,nopt,bb[sites,1],centers,qs)
+    intervals=[];starts=np.flatnonzero(np.diff(np.r_[False,mask,False]).astype(int))
+    for a,b in zip(starts[::2],starts[1::2]):intervals.append([int(a),int(b)])
+    return {'bb':bb,'mask':mask,'seq':seq,'orig':orig,'pp':pp,'fixed':fixed,'sites':sites,'opts':opts,'stats':stats,'one':one,'ib':ib,'hs':hs,'tf':tf,'aaidx':aaidx,'pair':pairs,'nopt':nopt,'hpos':hpos}
+
+
+@njit(cache=True)
+def make_pairs_ions(data,sizes,nopt,ca,centers,qs):
+    n=len(nopt);m=data.shape[1];tab=np.zeros((n,m,n,m),np.float32)
+    for i in range(n):
+        for j in range(i):
+            if np.linalg.norm(ca[i]-ca[j])>20.:continue
+            for u in range(nopt[i]):
+                for v in range(nopt[j]):
+                    rep,vw,hb=pair_score(data[i,u,:sizes[i,u]],data[j,v,:sizes[j,v]])
+                    value=rep+vw+hb
+                    if qs[i,u]*qs[j,v]!=0.:
+                        value+=screened_charge(qs[i,u],qs[j,v],np.linalg.norm(centers[i,u]-centers[j,v]),45.)
+                    tab[i,u,j,v]=value;tab[j,v,i,u]=value
+    return tab
+
+
+@njit(cache=True)
+def gated_objective(sel,one,pair,ib,hs,tf,aaidx,positions,mode=0):
+    fold=0.;raw=np.zeros(2);th=np.zeros((2,tf.shape[3]));hist=0;acid=0;basic=0;arom=0;gly=0;chem=0.
+    for i in range(len(sel)):
+        oi=sel[i];ai=aaidx[i,oi];fold+=one[i,oi]
+        for j in range(i):fold+=pair[i,oi,j,sel[j]]
+        hist+=int(ai==6);acid+=int(ai==2 or ai==3);basic+=int(ai==8 or ai==14);arom+=int(ai==4 or ai==18 or ai==19);gly+=int(ai==5)
+        for s in range(2):
+            raw[s]+=ib[i,oi,s]
+            for h in range(th.shape[1]):th[s,h]+=tf[i,oi,s,h]
+        if i+2<len(sel) and positions[i+2]==positions[i]+2:
+            a1=aaidx[i+1,sel[i+1]];a2=aaidx[i+2,sel[i+2]]
+            if ai==11 and a1!=12 and (a2==15 or a2==16):chem+=12. # N-X-S/T
+            if ai==aaidx[i+1,sel[i+1]]==aaidx[i+2,sel[i+2]]:chem+=.6
+        if i+1<len(sel) and positions[i+1]==positions[i]+1:
+            nxt=aaidx[i+1,sel[i+1]]
+            if (ai==11 or ai==2) and nxt==5:chem+=.45
+    low=np.zeros(2);high=0.;worst_switch=1e6
+    for pka in [5.9,6.4,6.9]:
+        la=raw.copy();hi=raw[0]
+        for i in range(len(sel)):
+            if aaidx[i,sel[i]]==6:
+                for s in range(2):la[s]+=proton_energy_numba(hs[i,sel[i],s],6.5,pka)
+                hi+=proton_energy_numba(hs[i,sel[i],0],7.4,pka)
+        for s in range(2):
+            for h in range(th.shape[1]):la[s]+=proton_energy_numba(th[s,h],6.5,pka)
+        for h in range(th.shape[1]):hi+=proton_energy_numba(th[0,h],7.4,pka)
+        worst_switch=min(worst_switch,hi-la[0]);low+=la/3.;high+=hi/3.
+    composition=.55*max(hist-2,0)**2+.60*max(acid-basic-5,0)**2+.3*max(arom-10,0)**2+.15*max(gly-12,0)**2
+    # Asymmetric species term: do not punish a stronger-binding mouse hypothesis.
+    worst=max(low[0],low[1]);mouse_shortfall=max(0.,low[1]-low[0])
+    if mode==0:ans=fold+.90*worst+.12*mouse_shortfall-4.0*min(worst_switch,3.)
+    elif mode==1:ans=fold+.70*worst+.12*mouse_shortfall-6.0*min(worst_switch,3.)
+    else:ans=fold+1.20*worst+.12*mouse_shortfall-3.0*min(worst_switch,3.)
+    return ans+composition+chem,fold,low[0],low[1],high,worst_switch,float(hist)
+
+
+@njit(cache=True)
+def anneal_gated(nopt,one,pair,ib,hs,tf,aaidx,positions,seed,mode,steps=7000):
+    np.random.seed(seed);sel=np.array([np.random.randint(k) for k in nopt]);value=gated_objective(sel,one,pair,ib,hs,tf,aaidx,positions,mode)[0];best=value;bs=sel.copy()
+    for step in range(steps):
+        i=np.random.randint(len(sel));old=sel[i];sel[i]=np.random.randint(nopt[i]);nv=gated_objective(sel,one,pair,ib,hs,tf,aaidx,positions,mode)[0]
+        temp=2.7*(.06/2.7)**(step/max(steps-1,1))
+        if nv<value or np.random.random()<math.exp(min(0.,(value-nv)/temp)):
+            value=nv
+            if nv<best:best=nv;bs=sel.copy()
+        else:sel[i]=old
+    sel=bs.copy()
+    for sweep in range(3):
+        changes=0
+        for i in range(len(sel)):
+            old=sel[i];val=gated_objective(sel,one,pair,ib,hs,tf,aaidx,positions,mode)[0];win=old
+            for j in range(nopt[i]):
+                sel[i]=j;nv=gated_objective(sel,one,pair,ib,hs,tf,aaidx,positions,mode)[0]
+                if nv<val:val=nv;win=j
+            sel[i]=win;changes+=old!=win
+        if not changes:break
+    return sel,gated_objective(sel,one,pair,ib,hs,tf,aaidx,positions,mode)
+
+
+def run_pose(rec,nruns=9,allow_histidine=False):
+    out=S3/'intermediate/designs';out.mkdir(parents=True,exist_ok=True);start=time.time();pid=rec['pose_id'];suffix='_mixed' if allow_histidine else '_receptor'
+    summary=out/(pid+suffix+'_summary.json')
+    if summary.exists():return json.loads(summary.read_text())
+    report={'pose_id':pid,'mixed_histidine_branch':allow_histidine}
+    try:
+        t=candidate_table(rec,allow_histidine);unique=set();count=0
+        for run in range(nruns):
+            mode=run%3;seed=19640000+int(pid[1:])*100+run+int(allow_histidine)*400000
+            selected,metrics=anneal_gated(t['nopt'],t['one'],t['pair'],t['ib'],t['hs'],t['tf'],t['aaidx'],t['sites'],seed,mode)
+            d=serialize_design(rec,t,selected,metrics,run,mode);d['candidate_id']=pid+('_M' if allow_histidine else '_R')+str(run).zfill(2);d['seed']=seed
+            if d['sequence'] in unique:continue
+            unique.add(d['sequence']);count+=1
+            d['campaign_stage']=3;d['ancestry']={'pose_record':rec,'CDR_sequence_initialization':'independent random discrete choices, no donor CDR sequence','framework_source':'generic 3EAK framework with all original CDRs removed'}
+            d['metrics']['ph_energy_contrast_surrogate']=float(metrics[5]);d['metrics']['contrast_definition']='minimum independent-site contrast over pKa 5.9/6.4/6.9, not a measured pH ratio'
+            d['search_corrections']=['intrabinder charges','explicit glycans','ion desolvation','asymmetric mouse positive design','sequon penalty'];d['branch']='mixed_histidine' if allow_histidine else 'receptor_histidine_only'
+            (out/(d['candidate_id']+'.json')).write_text(json.dumps(d))
+        report.update({'status':'completed','candidate_count':count,'site_stats':t['stats'],'seconds':time.time()-start})
+    except Exception as exc:
+        import traceback
+        report.update({'status':'failed','error':repr(exc),'traceback':traceback.format_exc(),'seconds':time.time()-start})
+    summary.write_text(json.dumps(report,indent=2));print(pid,suffix,report['status'],report.get('candidate_count',0),round(report['seconds'],2),report.get('error',''),flush=True)
+    return report
+
+if __name__=='__main__':
+    p=json.loads((S3/'intermediate/docking/poses.json').read_text());start=int(sys.argv[1]) if len(sys.argv)>1 else 0;count=int(sys.argv[2]) if len(sys.argv)>2 else 20;mix=bool(int(sys.argv[3])) if len(sys.argv)>3 else False
+    for rec in p[start:start+count]:run_pose(rec,9,mix)

@@ -1,0 +1,89 @@
+{
+  "method": "Gapped BLAST1997, BLOSUM621992; composition adjustment disabled; modern BLAST2.17.0 implementation allowed",
+  "indexes": [
+    {
+      "database": "swissprot",
+      "records": 575748,
+      "source": "/mnt/data/egfr_campaign/inputs/transfer1/legacy_fetch/uniprot_sprot.fasta.gz",
+      "source_sha256": "a9c3496aa727e61d25d9e1291c9ba28d2c2ad19c0e26569dc083d53ec4169536",
+      "normalized_fasta_sha256": "1372f18e218d761027616bf17479bcf450b30314fc0a8095fcb0e97e85d6ecf9",
+      "index_build": {
+        "command": [
+          "/mnt/data/egfr_campaign/stage7/runtime/bin/makeblastdb",
+          "-in",
+          "/mnt/data/egfr_campaign/stage7/intermediate/blast/swissprot.fasta",
+          "-out",
+          "/mnt/data/egfr_campaign/stage7/intermediate/blast/swissprot",
+          "-dbtype",
+          "prot",
+          "-blastdb_version",
+          "4"
+        ],
+        "returncode": 0,
+        "seconds": 6.180485725402832,
+        "log": "/mnt/data/egfr_campaign/stage7/logs/build_swissprot.log"
+      }
+    },
+    {
+      "database": "pdb",
+      "records": 1165667,
+      "source": "/mnt/data/egfr_campaign/inputs/transfer1/legacy_fetch/pdb_seqres.txt.gz",
+      "source_sha256": "48c854843aa2ba8e08b6a7f094b8a6c52b461971e3c85978b3f238de5928b1e8",
+      "normalized_fasta_sha256": "f915bdbd6533691893f9603112c47e632096c67b316f6f38ade4a15c36fae8c8",
+      "index_build": {
+        "command": [
+          "/mnt/data/egfr_campaign/stage7/runtime/bin/makeblastdb",
+          "-in",
+          "/mnt/data/egfr_campaign/stage7/intermediate/blast/pdb.fasta",
+          "-out",
+          "/mnt/data/egfr_campaign/stage7/intermediate/blast/pdb",
+          "-dbtype",
+          "prot",
+          "-blastdb_version",
+          "4"
+        ],
+        "returncode": 0,
+        "seconds": 10.090392589569092,
+        "log": "/mnt/data/egfr_campaign/stage7/logs/build_pdb.log"
+      }
+    },
+    {
+      "database": "antibodies_augmented",
+      "records": 446966,
+      "normalized_fasta_sha256": "9ed089138d2583b2e524f533556d2b9bee257ec252c5dfb0a9fec7e9a46e2cdf",
+      "source_map_sha256": "eb6b830966e9942fb2df6867bdfd446ad662690530321a5831b57e2c238554a9",
+      "index_build": {
+        "command": [
+          "/mnt/data/egfr_campaign/stage7/runtime/bin/makeblastdb",
+          "-in",
+          "/mnt/data/egfr_campaign/stage7/intermediate/blast/antibodies_augmented.fasta",
+          "-out",
+          "/mnt/data/egfr_campaign/stage7/intermediate/blast/antibodies_augmented",
+          "-dbtype",
+          "prot",
+          "-blastdb_version",
+          "4"
+        ],
+        "returncode": 0,
+        "seconds": 3.851580858230591,
+        "log": "/mnt/data/egfr_campaign/stage7/logs/build_antibodies_augmented.log"
+      }
+    }
+  ],
+  "searches": [],
+  "binary_archive_sha256": "3888112d8207831aa47371d93583c601f058f88b5db22dc782438b039a3a411b",
+  "executable_sha256": {
+    "blastp": "5ce267c04e4988c265357bfbedc64e809545b6fcfae7ff6775266fabbee8ba0e",
+    "makeblastdb": "c1ffdcf6f15d1d8d75377cc9f37afa42bc9fa06678903bad77c2641e60778fce"
+  },
+  "version": "blastp: 2.17.0+\n Package: blast 2.17.0, build Jul  1 2025 08:59:18\n",
+  "antibody_input_rows": {
+    "plabdab_paired.csv.gz": 176894,
+    "plabdab_unpaired.csv.gz": 673959,
+    "plabdab_nano.csv.gz": 4913,
+    "therasabdab.csv": 1133
+  },
+  "seconds": 40.4900324344635,
+  "complete": true,
+  "scope": "Offline reference indexes only; no candidate search in this script."
+}

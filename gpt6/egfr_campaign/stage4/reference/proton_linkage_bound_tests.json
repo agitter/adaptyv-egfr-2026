@@ -1,0 +1,42 @@
+{
+  "method": "Positive binding polynomials and proton-linkage identity; all coefficients arbitrary classical equilibrium weights.",
+  "test_count": 1200,
+  "pass": true,
+  "max_bound_violation": 5.329070518200751e-15,
+  "pH_low": 6.5,
+  "pH_high": 7.4,
+  "temperature_K": 300,
+  "bounds": [
+    {
+      "maximum_linked_protons": 1,
+      "maximum_acid_to_neutral_association_constant_ratio": 7.943282347242816,
+      "maximum_contrast_kcal_at300K": 1.2354408637237781
+    },
+    {
+      "maximum_linked_protons": 2,
+      "maximum_acid_to_neutral_association_constant_ratio": 63.09573444801933,
+      "maximum_contrast_kcal_at300K": 2.4708817274475563
+    },
+    {
+      "maximum_linked_protons": 3,
+      "maximum_acid_to_neutral_association_constant_ratio": 501.18723362727246,
+      "maximum_contrast_kcal_at300K": 3.7063225911713342
+    },
+    {
+      "maximum_linked_protons": 4,
+      "maximum_acid_to_neutral_association_constant_ratio": 3981.0717055349733,
+      "maximum_contrast_kcal_at300K": 4.941763454895113
+    }
+  ],
+  "qualification": "The two-site bound applies ONLY if binding changes proton uptake by at most two protons across this interval. It is not a universal protein limit; other titratable groups, coupled folding and state changes can change the model. The competition detection threshold is unspecified. These are thermodynamic bounds, not predicted candidate affinities.",
+  "sources": [
+    {
+      "year": 1964,
+      "doi": "10.1016/S0065-3233(08)60190-4"
+    },
+    {
+      "year": 1996,
+      "doi": "10.1016/S0006-3495(96)79403-1"
+    }
+  ]
+}

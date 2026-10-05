@@ -1,0 +1,128 @@
+{
+  "parent_file": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00008.json",
+  "parent_sha256": "5edeab2cbc3011247bf43a15d7a992545dba8a120c23ffdb57a91ddc3052d127",
+  "model_sources": {
+    "human": {
+      "path": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00008_human6ARU_relaxed.pdb",
+      "sha256": "6baf3ca07e18eb285754ea27420d32bfb24e157a8ca8646d1250bd01d027c084"
+    },
+    "mouse": {
+      "path": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00008_mouseAF_relaxed.pdb",
+      "sha256": "225ebc181e6c7bd154603d5861119b8cf18d3ba6106b53c337c5659a686b5f68"
+    },
+    "free": {
+      "path": "/mnt/data/egfr_campaign/stage6/intermediate/unbound/J00008_free_relaxed.pdb",
+      "sha256": "54cb69bc4c5ae6fc9f001d4d8cc0fd3ef1264ae93c85197eccd86c2c32b64532"
+    }
+  },
+  "edits": [
+    {},
+    {
+      "35": "A"
+    },
+    {
+      "51": "A"
+    },
+    {
+      "99": "A"
+    },
+    {
+      "102": "A"
+    },
+    {
+      "111": "A"
+    },
+    {
+      "113": "A"
+    },
+    {
+      "35": "S"
+    },
+    {
+      "99": "S"
+    },
+    {
+      "111": "S"
+    },
+    {
+      "113": "S"
+    },
+    {
+      "35": "A",
+      "111": "A"
+    },
+    {
+      "51": "A",
+      "111": "A"
+    },
+    {
+      "102": "A",
+      "111": "A"
+    },
+    {
+      "99": "A",
+      "102": "A",
+      "111": "A"
+    },
+    {
+      "35": "A",
+      "51": "A",
+      "111": "A"
+    },
+    {
+      "35": "A",
+      "102": "A",
+      "111": "A"
+    },
+    {
+      "51": "A",
+      "102": "A",
+      "111": "A"
+    },
+    {
+      "35": "A",
+      "51": "A",
+      "102": "A",
+      "111": "A"
+    },
+    {
+      "35": "A",
+      "51": "A",
+      "99": "A",
+      "102": "A",
+      "111": "A"
+    },
+    {
+      "35": "A",
+      "51": "A",
+      "99": "A",
+      "102": "A",
+      "111": "A",
+      "113": "A"
+    },
+    {
+      "35": "A",
+      "51": "A",
+      "102": "A",
+      "111": "S"
+    },
+    {
+      "35": "A",
+      "51": "A",
+      "102": "A",
+      "111": "A",
+      "113": "S"
+    }
+  ],
+  "methods": "Geometry-compatible Gly replacements; deterministic empirical rotamer enumeration; worst-case packing over human/mouse/free starting structures; unchanged-sequence matched-refinement control. Pre-2011 methods.",
+  "rationale_source": "https://doi.org/10.1073/pnas.84.19.6663",
+  "gates": {
+    "positive_phi_Gly_preserved": true,
+    "all_intended_pH_contact_identities_preserved": true,
+    "new_cysteines_or_prolines": false,
+    "new_glycosylation_sequons": false,
+    "minimization_iterations_each": 450,
+    "relaxed_geometry_omega_tolerance_deg": 25
+  },
+  "promotion_plan": "No claim of measured improvement. Require both-species strict geometry and retained acid-on direction. Expanded pH comparison for finalists. Thermal controls needed before claiming stress-test stabilization. Failures and unchanged parent retained."
+}

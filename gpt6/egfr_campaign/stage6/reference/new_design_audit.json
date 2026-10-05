@@ -1,0 +1,3436 @@
+[
+  {
+    "key": "stage6:J00000",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00000.json",
+    "design_sha256": "29a8cbcf58e12317db55bee50c4e5671ef9506d712db15c6f6083bd8a927590e",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNNDNQQSNYEEYKG",
+      "GGYGGEYQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -4
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "C00002",
+      "cdr3_query": "GGYGGEYQEFTGSGQGQY",
+      "closest_cdr3": {
+        "sequence": "GRGGYEFGIDY",
+        "sources": [
+          "plabdab_paired.csv.gz:row64112:heavy_sequence",
+          "plabdab_paired.csv.gz:row64113:heavy_sequence",
+          "plabdab_paired.csv.gz:row64114:heavy_sequence"
+        ]
+      },
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00001",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGENDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00001.json",
+    "design_sha256": "16a70d7bc903954fcc50abc4a05de65e279a2c4a515ac6d546de6d8fad12eb50",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GENDNQQSNYEEYKG",
+      "GGYGGEYQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -5
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "C00002",
+      "cdr3_query": "GGYGGEYQEFTGSGQGQY",
+      "closest_cdr3": {
+        "sequence": "GRGGYEFGIDY",
+        "sources": [
+          "plabdab_paired.csv.gz:row64112:heavy_sequence",
+          "plabdab_paired.csv.gz:row64113:heavy_sequence",
+          "plabdab_paired.csv.gz:row64114:heavy_sequence"
+        ]
+      },
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00002",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGEDDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00002.json",
+    "design_sha256": "8705b567c1438cb009401e374fa1e176763b340cc273c41e54ecfb330918d093",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GEDDNQQSNYEEYKG",
+      "GGYGGEYQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -6
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "C00002",
+      "cdr3_query": "GGYGGEYQEFTGSGQGQY",
+      "closest_cdr3": {
+        "sequence": "GRGGYEFGIDY",
+        "sources": [
+          "plabdab_paired.csv.gz:row64112:heavy_sequence",
+          "plabdab_paired.csv.gz:row64113:heavy_sequence",
+          "plabdab_paired.csv.gz:row64114:heavy_sequence"
+        ]
+      },
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00003",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00003.json",
+    "design_sha256": "9506bd4d4075896261f1944bfdc62d99121121b3c2be40e00199b0744ec8f31b",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNNDNQQSNYEEYKG",
+      "GGYGGEEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -5
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.754859357604852,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00011",
+      "cdr3_query": "GGYGGEEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00004",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00004.json",
+    "design_sha256": "d9af0f9d894b7d4bcc43f4f130ff2f8165fc41bd4fc760b7c1babe9e665f1ac1",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNNENQQSNYEEYKG",
+      "GGYGGQEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -4
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.572435221329027,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.634307035393432,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00020",
+      "cdr3_query": "GGYGGQEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00005",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGENDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00005.json",
+    "design_sha256": "c20f33c273294660fd9ed49164c2f89fb2ff1935e738df865d1e77b2e50a1e06",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GENDNQQSNYEEYKG",
+      "GGYGGEEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -6
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.754859357604852,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00011",
+      "cdr3_query": "GGYGGEEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00006",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNDDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00006.json",
+    "design_sha256": "36bc6bc059eeda747118a105f51037097b8e7f3a50ee3edb6a7e32b6e16dd41b",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNDDNQQSNYEEYKG",
+      "GGYGGEEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -6
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.754859357604852,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00011",
+      "cdr3_query": "GGYGGEEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00007",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNEDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00007.json",
+    "design_sha256": "dd6f9652e0ca4c4cebf819512988a13f6144b42bce38bef241fa03c744f46f05",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNEDNQQSNYEEYKG",
+      "GGYGGEEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -6
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.754859357604852,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00011",
+      "cdr3_query": "GGYGGEEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00008",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGEDDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00008.json",
+    "design_sha256": "5edeab2cbc3011247bf43a15d7a992545dba8a120c23ffdb57a91ddc3052d127",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GEDDNQQSNYEEYKG",
+      "GGYGGEEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -7
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.754859357604852,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00011",
+      "cdr3_query": "GGYGGEEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00009",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGEEDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00009.json",
+    "design_sha256": "d8aba114f28b43fc07cfaa6b87397b5fbb15c2cedeb64abec9cf97569605f890",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GEEDNQQSNYEEYKG",
+      "GGYGGEEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -7
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.754859357604852,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00011",
+      "cdr3_query": "GGYGGEEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00010",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGDNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00010.json",
+    "design_sha256": "aaa0d034464f7894e5196a48f65a8c4221cb43f76138d27ab9a283d9f0f08922",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GDNDNQQSNYEEYKG",
+      "GGYGGEEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -6
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.754859357604852,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00011",
+      "cdr3_query": "GGYGGEEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00011",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGENDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00011.json",
+    "design_sha256": "3fc02a93f2fae7b61e6b004260dc88e87aa8a0c0549df62e2d355376a7fa809b",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GENDNQQSNYEEYKG",
+      "GGYGGQEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -5
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00020",
+      "cdr3_query": "GGYGGQEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00012",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNEDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00012.json",
+    "design_sha256": "aba0d0821687deba20da86a863740570fef5a1df91a26856c4aea331b0f4383c",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNEDNQQSNYEEYKG",
+      "GGYGGQEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -5
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00020",
+      "cdr3_query": "GGYGGQEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00013",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGEDDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00013.json",
+    "design_sha256": "5b518737eeaa6e1878b664ee75813cb369acf82625e2c4bbdece9cd37ceb9181",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GEDDNQQSNYEEYKG",
+      "GGYGGQEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -6
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00020",
+      "cdr3_query": "GGYGGQEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00014",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGENENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00014.json",
+    "design_sha256": "c89cb3ab412592e4b2819970d4252f75a38da772e9f6d8668e32d4e6517c7b1c",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GENENQQSNYEEYKG",
+      "GGYGGEEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -6
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.572435221329027,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.634307035393432,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.754859357604852,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00011",
+      "cdr3_query": "GGYGGEEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00015",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGENENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00015.json",
+    "design_sha256": "242981102af39567dafb21e1e19fc537e9311bd2252219735fc064f638e6bce5",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GENENQQSNYEEYKG",
+      "GGYGGQEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -5
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.572435221329027,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.634307035393432,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00020",
+      "cdr3_query": "GGYGGQEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00016",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNDENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00016.json",
+    "design_sha256": "1af137139697071560c17d3351db20cce3068928e0cb13e60a9b54fdddbe9592",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNDENQQSNYEEYKG",
+      "GGYGGQEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -5
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.3726443900521477,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00020",
+      "cdr3_query": "GGYGGQEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00017",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGDNENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00017.json",
+    "design_sha256": "48981de04ae8ca7e844865c6937b64d3e7f4ecf53b8068a4b70b4981be6759c8",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GDNENQQSNYEEYKG",
+      "GGYGGQEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -5
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.572435221329027,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.634307035393432,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00020",
+      "cdr3_query": "GGYGGQEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00018",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGEDENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00018.json",
+    "design_sha256": "8e7fac037684830cb3aac7ec34b925dc51536a31e19b94b6dec220b7537dc6bf",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GEDENQQSNYEEYKG",
+      "GGYGGQEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -6
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.3726443900521477,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00020",
+      "cdr3_query": "GGYGGQEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00019",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGEEENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00019.json",
+    "design_sha256": "5d94b7fdeed12a1ca05207db87709de3e4b371b6bd867558117b546e996c978e",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GEEENQQSNYEEYKG",
+      "GGYGGQEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -6
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.3726443900521477,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00020",
+      "cdr3_query": "GGYGGQEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:J00020",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGDEDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQEQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/J00020.json",
+    "design_sha256": "fe122348302b6e64121346bf5312851f4d21f02fab00671056eb4a4c5c9dc1d1",
+    "length": 125,
+    "branch": "shared_backbone_factorial_contact_test",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GDEDNQQSNYEEYKG",
+      "GGYGGQEQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -6
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8543287519609177,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7088453492288345
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2871977740730944,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.915018235944227
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6558445965942274,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.417244563501312
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1789322368776096,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.448575954114063
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8059436363384593,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00020",
+      "cdr3_query": "GGYGGQEQEFTGSGQGQY",
+      "closest_sequence": "TKGGIQFTGSFYDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row45315:heavy_sequence",
+        "plabdab_unpaired.csv.gz:row493265",
+        "plabdab_unpaired.csv.gz:row493265:numbered_broad_endpoint"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:K00001",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASNTRYDGETKDNWFRQAPGQGLEAVAEYYGYQRNDRSGYDDKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTGVKDEGSDGDGGKWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/K00001.json",
+    "design_sha256": "f07559eb5c8cbda263527319878c58bc448eb174ac7e86a1fd3db41406ed6952",
+    "length": 121,
+    "branch": "receptor_histidine_only",
+    "pose_id": "G00047",
+    "CDRs": [
+      "NTRYDGETKDN",
+      "EYYGYQRNDRSGYDD",
+      "TGVKDEGSDGDGGK"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        111
+      ]
+    ],
+    "sequence_audit": {
+      "length": 121,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [
+          30,
+          106,
+          108
+        ],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -3
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        14
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8528412584069676,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.4145275553265035
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.44715215116809,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.0445559544885
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.972618661149306,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.972618661149306
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 3.07463926229645,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.179923171554839
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 4.422153796022512,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "G00047_R07",
+      "cdr3_query": "TGVKDEGSDGDGGK",
+      "closest_cdr3": {
+        "sequence": "GSRDSDGGGR",
+        "sources": [
+          "plabdab_unpaired.csv.gz:row654993",
+          "plabdab_unpaired.csv.gz:row654993:provided_numbered_variable_region:broad_endpoint"
+        ]
+      },
+      "edit_distance": 7,
+      "max_edit_identity": 0.5,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:K00002",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASNTEYTGDLKRGWFRQAPGQGLEAVAGDYEDRREENYEYDRKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTTGESGGGRDFEGGDGRKWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/K00002.json",
+    "design_sha256": "ed9ac40bb54ca1104b7f89cb87dfc8199090eebb50aa57fdc4b4af9b9af49f36",
+    "length": 125,
+    "branch": "receptor_histidine_only",
+    "pose_id": "G00067",
+    "CDRs": [
+      "NTEYTGDLKRG",
+      "GDYEDRREENYEYDR",
+      "TTGESGGGRDFEGGDGRK"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [
+          112
+        ],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -3
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.868671736241613,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.4319414774029062
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.5194884041185914,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.975026338665117
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.482633065724286,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.2587643003231963
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.999376668615788,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.999376668615788
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 2.592573981039654,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "G00067_R07",
+      "cdr3_query": "TTGESGGGRDFEGGDGRK",
+      "closest_cdr3": {
+        "sequence": "TRGESGYGRFDP",
+        "sources": [
+          "plabdab_unpaired.csv.gz:row492691",
+          "plabdab_unpaired.csv.gz:row492691:provided_numbered_variable_region:broad_endpoint"
+        ]
+      },
+      "edit_distance": 9,
+      "max_edit_identity": 0.5,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:K00003",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASQTEESGETEIKWFRQAPGQGLEAVAGGYEYGYSGENYGKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCEGDTQWYGYSFKRYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/K00003.json",
+    "design_sha256": "4a9c21b69151d1e282a909b47524c9b2ed9f02031aa2d4cc19eccffac75ac35c",
+    "length": 121,
+    "branch": "two_nitrogen_negative_design",
+    "pose_id": "G00106",
+    "CDRs": [
+      "QTEESGETEIK",
+      "GGYEYGYSGENYGKG",
+      "EGDTQWYGYSFKRY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        111
+      ]
+    ],
+    "sequence_audit": {
+      "length": 121,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -2
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        14
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.6802882854756103,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.8267388545634886
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.5617124787277152,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.5617124787277152
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.445723996892789,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.151268700388904
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.5242198390624826,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.1685849091945806
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.2372563856918193,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "G00106_C01",
+      "cdr3_query": "EGDTQWYGYSFKRY",
+      "closest_cdr3": {
+        "sequence": "VGDPQWGYGTRSFDY",
+        "sources": [
+          "plabdab_unpaired.csv.gz:row496800",
+          "plabdab_unpaired.csv.gz:row496800:provided_numbered_variable_region:validated_CDRH3"
+        ]
+      },
+      "edit_distance": 7,
+      "max_edit_identity": 0.5333333333333333,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:K00004",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASNTEYSGDTQRLWFRQAPGQGLEAVANEDYYNEQYNQYYDKKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCEGQYQDYGDSQKRRWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/K00004.json",
+    "design_sha256": "0815fa54847f52cb3cf526b6b4203b0da26a7604c301a812072add7987761be4",
+    "length": 121,
+    "branch": "two_nitrogen_negative_design",
+    "pose_id": "G00118",
+    "CDRs": [
+      "NTEYSGDTQRL",
+      "NEDYYNEQYNQYYDK",
+      "EGQYQDYGDSQKRR"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        111
+      ]
+    ],
+    "sequence_audit": {
+      "length": 121,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -2
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        14
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.6497080877477317,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.1336199451975837
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.6032988610659906,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.858959489801496
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.545852809241377,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.8431711463199245
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.4214925189910455,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.538993235950651
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 2.527591989017921,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "G00118_C05",
+      "cdr3_query": "EGQYQDYGDSQKRR",
+      "closest_cdr3": {
+        "sequence": "QQYGDSRT",
+        "sources": [
+          "plabdab_unpaired.csv.gz:row167041:provided_numbered_variable_region:broad_endpoint"
+        ]
+      },
+      "edit_distance": 7,
+      "max_edit_identity": 0.5,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:K00005",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASFTQYYGETEIGWFRQAPGQGLEAVAGDKEEGRSGYYEGKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTGGQNGWYTYFDDYNQWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/K00005.json",
+    "design_sha256": "91a2c5c55d0aeb9efc8de985d91f962e01ac430a9d079c15a6e66736e8d8dab6",
+    "length": 123,
+    "branch": "receptor_histidine_only",
+    "pose_id": "G00161",
+    "CDRs": [
+      "FTQYYGETEIG",
+      "GDKEEGRSGYYEGKG",
+      "TGGQNGWYTYFDDYNQ"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        113
+      ]
+    ],
+    "sequence_audit": {
+      "length": 123,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [
+          102
+        ],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -3
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        16
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.6695799296965874,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.301882566936079
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.506875162835468,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.8144684974808394
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 3.059399045590128,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.642152448315509
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.985813786708119,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.1518069057482885
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 4.674049538434216,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "G00161_R06",
+      "cdr3_query": "TGGQNGWYTYFDDYNQ",
+      "closest_cdr3": {
+        "sequence": "TGGRGYYFDY",
+        "sources": [
+          "plabdab_unpaired.csv.gz:row651342",
+          "plabdab_unpaired.csv.gz:row651342:provided_numbered_variable_region:validated_CDRH3",
+          "plabdab_unpaired.csv.gz:row651342:provided_numbered_variable_region:broad_endpoint"
+        ]
+      },
+      "edit_distance": 7,
+      "max_edit_identity": 0.5625,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:K00006",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQEGTYNYGLWFRQAPGQGLEAVAEDTSGYWDQESQQKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGGYKYDRGEGQDQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/K00006.json",
+    "design_sha256": "7d4981bd0731272ea1e1fc9a1fcd85c3effff751435fce9625e9213b16afa726",
+    "length": 123,
+    "branch": "two_nitrogen_negative_design",
+    "pose_id": "G00168",
+    "CDRs": [
+      "GSQEGTYNYGL",
+      "EDTSGYWDQESQQ",
+      "GGYGGGYKYDRGEGQDQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        63
+      ],
+      [
+        95,
+        113
+      ]
+    ],
+    "sequence_audit": {
+      "length": 123,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -4
+      },
+      "cdr_lengths": [
+        11,
+        13,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.6522644975459517,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.4025809889514926
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.545763990489103,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.7454885363679766
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.055030022781538,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.055030022781538
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1031767552066754,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.7592116175734773
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.1809607797857598,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "G00168_C01",
+      "cdr3_query": "GGYGGGYKYDRGEGQDQY",
+      "closest_cdr3": {
+        "sequence": "AGGGGYYASGYGLDY",
+        "sources": [
+          "plabdab_unpaired.csv.gz:row300559",
+          "plabdab_unpaired.csv.gz:row300559:provided_numbered_variable_region:validated_CDRH3",
+          "plabdab_unpaired.csv.gz:row300559:provided_numbered_variable_region:broad_endpoint"
+        ]
+      },
+      "edit_distance": 8,
+      "max_edit_identity": 0.5555555555555556,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:K00007",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASNKDYSGEQGGNWFRQAPGQGLEAVATNDYQGYQYSGDYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGYFGGEYRKDEGEGEGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/K00007.json",
+    "design_sha256": "1a4de0365a5033b3b545a327336ba8cb4fee5913da6e59fe9682f8ede1e2b8eb",
+    "length": 125,
+    "branch": "two_nitrogen_negative_design",
+    "pose_id": "G00181",
+    "CDRs": [
+      "NKDYSGEQGGN",
+      "TNDYQGYQYSGDYKG",
+      "GYFGGEYRKDEGEGEGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -3
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.7339344982490275,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 5.392615962630762
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.656760159627838,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.8847737534324094
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.5578294917234703,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.911908000556287
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.695206334936072,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.754351433461527
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 4.249743912415601,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "G00181_C00",
+      "cdr3_query": "GYFGGEYRKDEGEGEGQY",
+      "closest_cdr3": {
+        "sequence": "GRDEGLGGY",
+        "sources": [
+          "plabdab_unpaired.csv.gz:row60427",
+          "plabdab_unpaired.csv.gz:row60427:provided_numbered_variable_region:validated_CDRH3",
+          "plabdab_unpaired.csv.gz:row60427:provided_numbered_variable_region:broad_endpoint"
+        ]
+      },
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:K00008",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASFDKYYGENYDGWFRQAPGQGLEAVAGTYTQSYQDYRGDKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGQEGGNGRYYNGEGNNEYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/K00008.json",
+    "design_sha256": "0d1a3ceee6dc52e399272286ecb078ebb8e2133ee96367ea4680bf26eb7eaabb",
+    "length": 123,
+    "branch": "two_nitrogen_negative_design",
+    "pose_id": "G00271",
+    "CDRs": [
+      "FDKYYGENYDG",
+      "GTYTQSYQDYRGD",
+      "GQEGGNGRYYNGEGNNEY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        63
+      ],
+      [
+        95,
+        113
+      ]
+    ],
+    "sequence_audit": {
+      "length": 123,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [
+          101,
+          106
+        ],
+        "DG_motifs": [
+          35
+        ],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -3
+      },
+      "cdr_lengths": [
+        11,
+        13,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8175273290679788,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.5743477913979484
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.4906519273508017,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.462915512887059
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.209368487751693,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.3513437202134995
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.796847573134578,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.48243061422583
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 2.5281908694897965,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "G00271_C00",
+      "cdr3_query": "GQEGGNGRYYNGEGNNEY",
+      "closest_cdr3": {
+        "sequence": "AREGGSGSYYNGFDY",
+        "sources": [
+          "plabdab_paired.csv.gz:row77938:heavy_sequence",
+          "plabdab_paired.csv.gz:row77939:heavy_sequence",
+          "plabdab_paired.csv.gz:row77940:heavy_sequence"
+        ]
+      },
+      "edit_distance": 9,
+      "max_edit_identity": 0.5,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:K00009",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGGEYGYNYQQGYSWFRQAPGQGLEAVAGFQDLSTGSQGYERDKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGQGGEEKYYTGTGEGQWWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/K00009.json",
+    "design_sha256": "23c9dd5fdf8fdc572662d254c4b15cb29b803a04ed43d5ce84894ebba468400c",
+    "length": 127,
+    "branch": "two_nitrogen_negative_design",
+    "pose_id": "G00277",
+    "CDRs": [
+      "GGEYGYNYQQGYS",
+      "GFQDLSTGSQGYERD",
+      "GGQGGEEKYYTGTGEGQW"
+    ],
+    "intervals": [
+      [
+        25,
+        38
+      ],
+      [
+        52,
+        67
+      ],
+      [
+        99,
+        117
+      ]
+    ],
+    "sequence_audit": {
+      "length": 127,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -3
+      },
+      "cdr_lengths": [
+        13,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.7124640754296676,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.374380879520323
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.625279680169568,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.5762314644125923
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.4393933976586193,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.467695271456104
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.141493019829443,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.317381970619118
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8600270855641154,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "G00277_C00",
+      "cdr3_query": "GGQGGEEKYYTGTGEGQW",
+      "closest_cdr3": {
+        "sequence": "AAGGDIYYGGSPQW",
+        "sources": [
+          "plabdab_nano.csv.gz:row719:provided_CDRH3"
+        ]
+      },
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:K00010",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASFKEQYGDDYINWFRQAPGQGLEAVAGYLYDLGDDYSGKGDKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGYRGGYYKLYRGEGGGEGWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/K00010.json",
+    "design_sha256": "c4cb95a517406c5aaf28025c860604d53ac0be0ec098337194634caeda502e71",
+    "length": 125,
+    "branch": "two_nitrogen_negative_design",
+    "pose_id": "G00369",
+    "CDRs": [
+      "FKEQYGDDYIN",
+      "GYLYDLGDDYSGKGD",
+      "GYRGGYYKLYRGEGGGEG"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -2
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.4893602882304915,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.2272794239900477
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.253116161697885,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.253116161697885
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.634734564468644,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 3.321975339372478
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.450368107040767,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.635655301679956
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.114106104558876,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "G00369_C00",
+      "cdr3_query": "GYRGGYYKLYRGEGGGEG",
+      "closest_cdr3": {
+        "sequence": "GAGKGYYKDYRGYEY",
+        "sources": [
+          "plabdab_nano.csv.gz:row310",
+          "plabdab_nano.csv.gz:row310:provided_CDRH3",
+          "plabdab_nano.csv.gz:row953"
+        ]
+      },
+      "edit_distance": 9,
+      "max_edit_identity": 0.5,
+      "local_cdr3_identity_below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage3/intermediate/novelty/candidate_cdr3_screen_augmented.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:L00001",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEAQWFRQAPGQGLEAVAAENDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSAQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/L00001.json",
+    "design_sha256": "8d8879b04ffdf8b73e0cc9bd7870e9456b057160585b69cc4607bac42d8f4bc2",
+    "length": 125,
+    "branch": "own_de_novo_loop_stabilization",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEAQ",
+      "AENDNQQSNYEEYKG",
+      "GGYGGEYQEFTGSAQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -5
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 3.023521090384396,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.6578447169676975
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.4202302350713083,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.9444285576867495
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.630102432495567,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.366903721075361
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.605635519362462,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.438944091539774
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.7446000857891164,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "S00014",
+      "cdr3_query": "GGYGGEYQEFTGSAQGQY",
+      "closest_sequence": "GRGGYEFGIDY",
+      "closest_sources": [
+        "plabdab_paired.csv.gz:row64112:heavy_sequence",
+        "plabdab_paired.csv.gz:row64113:heavy_sequence",
+        "plabdab_paired.csv.gz:row64114:heavy_sequence"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage4/intermediate/novelty/stage4_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:L00002",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQDFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/L00002.json",
+    "design_sha256": "9aa304181e8a1c1156494d75f80ec23bcbc8a76d9199cc6bc57e391862ed5302",
+    "length": 125,
+    "branch": "own_design_dual_histidine_nitrogen_contact_hypothesis",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNNDNQQSNYEEYKG",
+      "GGYGGEYQDFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -4
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8565443404741715,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.724004504225573
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.295510164767196,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.907937536010166
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.514681491749972,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.432278163942746
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1761033178259837,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.452456095241885
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.816731309360272,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00018",
+      "cdr3_query": "GGYGGEYQDFTGSGQGQY",
+      "closest_sequence": "AGLGGDEYWDFFFGQNY",
+      "closest_sources": [
+        "plabdab_unpaired.csv.gz:row187269",
+        "plabdab_unpaired.csv.gz:row187269:numbered_broad_endpoint",
+        "plabdab_unpaired.csv.gz:row187269:provided_numbered_validated_CDRH3"
+      ],
+      "edit_distance": 9,
+      "max_edit_identity": 0.5,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:L00003",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFQYNPPQFYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/L00003.json",
+    "design_sha256": "dd3829303077460f808f7a27499e2acbd1dcbb4537a9310f91ecc19ae06cb2fe",
+    "length": 125,
+    "branch": "shortened_CCD_contact_preserving_H3_tail",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNNDNQQSNYEEYKG",
+      "GGYGGEYQEFQYNPPQFY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -4
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8208346446523467,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.6654459756498845
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.279697184948303,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.906108386903109
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.4420735607939767,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.3757589922645925
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.1829348727115514,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.434903445175345
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8311058252429944,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "T3080600",
+      "cdr3_query": "GGYGGEYQEFQYNPPQFY",
+      "closest_sequence": "AKGGEYYGYNYPFDY",
+      "closest_sources": [
+        "plabdab_unpaired.csv.gz:row119977",
+        "plabdab_unpaired.csv.gz:row119977:numbered_broad_endpoint",
+        "plabdab_unpaired.csv.gz:row119977:provided_numbered_validated_CDRH3"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/tail_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:L00004",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFLGYVGFLWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/L00004.json",
+    "design_sha256": "deaeaa458cf8b11bb1f6b72ba8e1fc307a8b717f92add99f8b7922c4fcdd67eb",
+    "length": 124,
+    "branch": "shortened_CCD_contact_preserving_H3_tail",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNNDNQQSNYEEYKG",
+      "GGYGGEYQEFLGYVGFL"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        114
+      ]
+    ],
+    "sequence_audit": {
+      "length": 124,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -4
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        17
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.765769532108248,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.639800395644955
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.2827683760784567,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.914582397818057
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.2876348010336955,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.2413686006743685
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.236700631694431,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.2830104844690045
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8098060474844124,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "T3070900",
+      "cdr3_query": "GGYGGEYQEFLGYVGFL",
+      "closest_sequence": "GGGGCFVGYHEF",
+      "closest_sources": [
+        "plabdab_unpaired.csv.gz:row1719:numbered_broad_endpoint"
+      ],
+      "edit_distance": 9,
+      "max_edit_identity": 0.47058823529411764,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/tail_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:L00005",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGENENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQYQEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/L00005.json",
+    "design_sha256": "619d5e9e9bb51d82c0d9aa9d1202729be13b5cd253c54dafcc680eb94ada4e95",
+    "length": 125,
+    "branch": "own_design_dual_histidine_nitrogen_contact_hypothesis",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GENENQQSNYEEYKG",
+      "GGYGGQYQEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -4
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.8325710966936883,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.7328176004556965
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.446290266979586,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.8828407853995945
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6356258190418704,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.441721315549755
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.2261884361903017,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.5162745741807395
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.8333259913285795,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00006",
+      "cdr3_query": "GGYGGQYQEFTGSGQGQY",
+      "closest_sequence": "ARGGYFGSGSNY",
+      "closest_sources": [
+        "plabdab_unpaired.csv.gz:row336411",
+        "plabdab_unpaired.csv.gz:row336411:provided_numbered_validated_CDRH3",
+        "plabdab_unpaired.csv.gz:row398287"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  },
+  {
+    "key": "stage6:L00006",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQYEEFTGSGQGQYWGQGTLVTVS",
+    "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/L00006.json",
+    "design_sha256": "5fe4ccebe4b53d5e8e192cab0861a71e0f035c0768b1dad6c40a517088fc058b",
+    "length": 125,
+    "branch": "own_design_dual_histidine_nitrogen_contact_hypothesis",
+    "pose_id": "G00117",
+    "CDRs": [
+      "GSQSGTYDEGQ",
+      "GNNENQQSNYEEYKG",
+      "GGYGGQYEEFTGSGQGQY"
+    ],
+    "intervals": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "sequence_audit": {
+      "length": 125,
+      "format_pass": true,
+      "liabilities": {
+        "glycosylation_sequons": [],
+        "NG_motifs": [],
+        "DG_motifs": [],
+        "unpaired_cdr_cysteines": 0,
+        "max_repeat": 3,
+        "hydrophobic_runs": [],
+        "net_formal_charge_without_histidine": -4
+      },
+      "cdr_lengths": [
+        11,
+        15,
+        18
+      ]
+    },
+    "initial_geometry": {
+      "human6ARU": {
+        "minimum_heavy_distance_A": 2.82662962079493,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.743200129141635
+      },
+      "mouseAF": {
+        "minimum_heavy_distance_A": 2.274248919422841,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 2.7791329540756093
+      },
+      "1NQL": {
+        "minimum_heavy_distance_A": 2.6456991897456064,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.599649820387568
+      },
+      "1IVO": {
+        "minimum_heavy_distance_A": 2.2304406697016765,
+        "heavy_atoms_below_2A": 0,
+        "minimum_backbone_distance_A": 4.555773646273737
+      },
+      "resolved_glycans": {
+        "min_heavy_distance_A": 3.84360067614429,
+        "atoms_below_2A": 0
+      },
+      "alpha_inversions": [],
+      "peptide_bond_outliers": [],
+      "geometry_prefilter_pass": true
+    },
+    "initial_context_pass": true,
+    "local_novelty_pass": true,
+    "local_novelty": {
+      "candidate_id": "H00014",
+      "cdr3_query": "GGYGGQYEEFTGSGQGQY",
+      "closest_sequence": "ARGGYFGSGSNY",
+      "closest_sources": [
+        "plabdab_unpaired.csv.gz:row336411",
+        "plabdab_unpaired.csv.gz:row336411:provided_numbered_validated_CDRH3",
+        "plabdab_unpaired.csv.gz:row398287"
+      ],
+      "edit_distance": 10,
+      "max_edit_identity": 0.4444444444444444,
+      "below_70pct": true,
+      "source": "/mnt/data/egfr_campaign/stage5/intermediate/novelty/chemistry_cdr3_screen.json"
+    },
+    "novelty_method": "Exact CDR3 sequence equality to an already screened campaign CDR3; source retained. Not official IMGT numbering."
+  }
+]

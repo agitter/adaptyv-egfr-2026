@@ -1,0 +1,24 @@
+{
+  "priority_order": [
+    "human acidic-selective binding/no detectable neutral binding",
+    "mouse cross-reactivity",
+    "human affinity"
+  ],
+  "format": {
+    "min_length": 10,
+    "max_length": 250,
+    "track3_max_upload": 20,
+    "requested_ranked_pool": 100,
+    "actual_submission_format": "CSV(name,sequence,molecule_class)",
+    "requested_deliverable": "FASTA plus compatible CSV; pending"
+  },
+  "all_stage4_sequences_length": 125,
+  "common_framework_allowed": true,
+  "no_existing_binder_seed": true,
+  "current_designs_derive_from_own_de_novo_parents": true,
+  "local_novelty_not_official_acceptance": true,
+  "biological_criteria_experimentally_established": false,
+  "neutral_no_detection_established": false,
+  "phone_a_friend_used": 2,
+  "phone_a_friend_remaining": 1
+}

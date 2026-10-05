@@ -1,0 +1,16 @@
+{
+  "old_protocol": "leapfrog stored half-step velocities were Maxwell refreshed without time synchronization",
+  "observed_pilot_production_temperatures_K": [
+    309.3952,
+    311.3236,
+    311.9632
+  ],
+  "fix": "Use synchronized velocity-Verlet plus RATTLE-style projection with the same collision rule. Correct native CDR masks to the historical framework deletion regions.",
+  "historical_methods": [
+    "velocity Verlet pre1983",
+    "RATTLE1983",
+    "Andersen1980",
+    "MT199371998"
+  ],
+  "pilot_outputs": "retained, excluded from corrected comparison"
+}

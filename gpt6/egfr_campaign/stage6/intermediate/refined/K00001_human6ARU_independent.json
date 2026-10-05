@@ -1,0 +1,49 @@
+{
+  "candidate_id": "K00001",
+  "absolute_alpha_inversions": [],
+  "peptide_omega_warnings": [
+    {
+      "previous_position": 26,
+      "next_position": 27,
+      "omega_deg": -152.59795555421977,
+      "next_is_proline": false
+    },
+    {
+      "previous_position": 64,
+      "next_position": 65,
+      "omega_deg": 152.43826957459672,
+      "next_is_proline": false
+    }
+  ],
+  "actual_cystines": [
+    {
+      "positions": [
+        22,
+        97
+      ],
+      "SG_distance_A": 2.0292722833567693,
+      "chi3_deg": 70.568494623843,
+      "CB_S_S_angles_deg": [
+        103.01411618565045,
+        104.18495700351207
+      ],
+      "strain_gate_pass": true
+    }
+  ],
+  "disulfide_strain_warnings": [],
+  "intended_extra_pairs_present": true,
+  "pass": false,
+  "thresholds": {
+    "omega_max_deviation_from_trans_deg": 25,
+    "SS_A": [
+      1.9,
+      2.2
+    ],
+    "absolute_chi3_deviation_from90_max_deg": 35,
+    "CB_S_S_angles_deg": [
+      80,
+      130
+    ]
+  },
+  "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+}

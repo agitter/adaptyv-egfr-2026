@@ -1,0 +1,40 @@
+{
+  "candidate_id": "J00009",
+  "absolute_alpha_inversions": [],
+  "peptide_omega_warnings": [],
+  "actual_cystines": [
+    {
+      "positions": [
+        22,
+        97
+      ],
+      "SG_distance_A": 2.022914234464718,
+      "chi3_deg": 68.51134296194314,
+      "CB_S_S_angles_deg": [
+        103.96472235127564,
+        103.86685094281086
+      ],
+      "strain_gate_pass": true
+    }
+  ],
+  "disulfide_strain_warnings": [],
+  "intended_extra_pairs_present": true,
+  "pass": true,
+  "thresholds": {
+    "omega_max_deviation_from_trans_deg": 25,
+    "SS_A": [
+      1.9,
+      2.2
+    ],
+    "absolute_chi3_deviation_from90_max_deg": 35,
+    "CB_S_S_angles_deg": [
+      80,
+      130
+    ]
+  },
+  "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction.",
+  "exported_chain_id": "A",
+  "source": "/mnt/data/egfr_campaign/stage6/intermediate/unbound/J00009_free_relaxed.pdb",
+  "source_sha256": "fad3d11118f88adf2fb1919727931b669878e10838a3dcccac5ac58fbd114470",
+  "correction": "Inspect the actual single exported chain rather than assuming the complex chain B. No energy or coordinate change."
+}

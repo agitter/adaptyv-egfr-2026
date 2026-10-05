@@ -1,0 +1,103 @@
+{
+  "timestamp_utc": "2026-10-01T22:00:04.921606+00:00",
+  "campaign_workers_running": [],
+  "all_stage4_current_python_sources_parse": true,
+  "python_sources_parsed": 36,
+  "source_names": [
+    "add_histidine_candidates.py",
+    "analyze_trajectories.py",
+    "audit_final_context.py",
+    "audit_refined.py",
+    "blast_campaign.py",
+    "blast_followup.py",
+    "checkpoint_postflight.py",
+    "compile_novelty.py",
+    "compile_results.py",
+    "dynamics.py",
+    "dynamics_extended.py",
+    "evaluate_designs.py",
+    "final_proline_comparison.py",
+    "histidine_matched_controls.py",
+    "inspect_loops.py",
+    "launch_final_proline.py",
+    "launch_tasks.py",
+    "make_checkpoint.py",
+    "matched_control.py",
+    "novelty_screen.py",
+    "patch_analysis_controls.py",
+    "patch_dynamics_v2.py",
+    "probe_histidine_opportunities.py",
+    "proton_linkage_bound.py",
+    "refine_acid_candidate.py",
+    "refine_candidate.py",
+    "sensitivity.py",
+    "stabilize_design.py",
+    "summarize_partial.py",
+    "surface_comparison.py",
+    "test_integrator.py",
+    "test_stage4.py",
+    "trajectory_contacts.py",
+    "verify_checkpoint.py",
+    "write_reference_records.py",
+    "write_report.py"
+  ],
+  "completed_task_batches": {
+    "sensitivity_selection_status.json": {
+      "expected": 4,
+      "completed_successfully": 4
+    },
+    "dynamics_mutant_selection_status.json": {
+      "expected": 3,
+      "completed_successfully": 3
+    },
+    "dynamics_controls_selection_status.json": {
+      "expected": 3,
+      "completed_successfully": 3
+    },
+    "histidine_refinement_selection_status.json": {
+      "expected": 2,
+      "completed_successfully": 2
+    },
+    "extended_dynamics_selection_status.json": {
+      "expected": 3,
+      "completed_successfully": 3
+    },
+    "dynamics_corrected_selection_status.json": {
+      "expected": 3,
+      "completed_successfully": 3
+    },
+    "histidine_control_selection_status.json": {
+      "expected": 2,
+      "completed_successfully": 2
+    },
+    "human_selection_status.json": {
+      "expected": 12,
+      "completed_successfully": 12
+    },
+    "focused_refinement_selection_status.json": {
+      "expected": 6,
+      "completed_successfully": 6
+    }
+  },
+  "final_single_proline_task_completed": true,
+  "memory_events": {
+    "low": 0,
+    "high": 0,
+    "max": 15920,
+    "oom": 0,
+    "oom_kill": 0,
+    "oom_group_kill": 0
+  },
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "package_metadata": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "biopython": "1.86",
+    "rapidfuzz": "3.14.3",
+    "numba": "0.65.1",
+    "openmm": "not in base metadata; campaign-local runtime recorded separately"
+  },
+  "phone_a_friend_used": 2,
+  "checkpoint_only_not_final_submission": true
+}

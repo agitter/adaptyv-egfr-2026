@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-10-04T19:58:04.424533+00:00",
+  "before_any_mutant_thermal_trajectory": true,
+  "reason": "Gly-to-Ala/Ser adds a stereocenter. The inherited optional artificial chirality-restraint potential would add restraints specifically to the replacements, confounding apparent stabilization.",
+  "primary_test": "Run unchanged parent M00000, prespecified M00018 and M00021, and native control with the identical historical dynamics protocol but chirality=False. The standard Amber improper terms remain. Positional restraints are absent in production.",
+  "replicates": [
+    198005,
+    198006
+  ],
+  "production_ps": 20,
+  "warmup_ps": 2,
+  "existing_restrained_controls": "Retain all four already-running parent/native trajectories as diagnostic controls; do not compare unrestrained mutants against these as the primary evidence.",
+  "decision_rule": "Use the unchanged provisional criteria in thermal_comparison_predeclaration.json, now on complete matched no-extra-chirality-restraint trajectories. These short tests cannot establish equilibrium folding or thermostability.",
+  "input_isolation": "Each thermal job receives hash-verified private copies of its inputs to avoid concurrent output-file preparation."
+}

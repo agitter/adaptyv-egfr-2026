@@ -1,0 +1,99 @@
+{
+  "name": "mouse_completion",
+  "concurrency": 2,
+  "selection": "Six existing candidates with passing detailed human geometry and positive human pH contrast; before these mouse results. No sequence generation.",
+  "candidates": [
+    {
+      "candidate_id": "L00001",
+      "source_key": "stage4:S00048",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEAQWFRQAPGQGLEAVAAENDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSAQGQYWGQGTLVTVS"
+    },
+    {
+      "candidate_id": "L00002",
+      "source_key": "stage5:H00018",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQDFTGSGQGQYWGQGTLVTVS"
+    },
+    {
+      "candidate_id": "L00003",
+      "source_key": "stage5:T3080600",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFQYNPPQFYWGQGTLVTVS"
+    },
+    {
+      "candidate_id": "L00004",
+      "source_key": "stage5:T3070900",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFLGYVGFLWGQGTLVTVS"
+    },
+    {
+      "candidate_id": "L00005",
+      "source_key": "stage5:H00007",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGENENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQYQEFTGSGQGQYWGQGTLVTVS"
+    },
+    {
+      "candidate_id": "L00006",
+      "source_key": "stage5:H00016",
+      "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNENQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGQYEEFTGSGQGQYWGQGTLVTVS"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "L00001_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "L00001",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "L00002_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "L00002",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "L00003_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "L00003",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "L00004_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "L00004",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "L00005_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "L00005",
+        "mouseAF"
+      ],
+      "timeout": 600
+    },
+    {
+      "id": "L00006_mouseAF",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/refine_one.py",
+        "L00006",
+        "mouseAF"
+      ],
+      "timeout": 600
+    }
+  ]
+}

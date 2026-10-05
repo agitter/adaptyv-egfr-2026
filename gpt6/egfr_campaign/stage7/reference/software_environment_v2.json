@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-04T20:28:23.727740+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "machine": "x86_64",
+  "libc": [
+    "glibc",
+    "2.41"
+  ],
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "biopython": "1.86",
+    "numba": "0.65.1",
+    "rapidfuzz": "3.14.3",
+    "openmm": "8.4.0.post2",
+    "openpyxl": "3.1.5"
+  },
+  "cpu_quota": "800000 100000",
+  "memory_limit_bytes": 4294967296,
+  "scientific_worker_thread_limits": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENMM_CPU_THREADS": "1",
+    "OpenMM_CPU_platform_default_Threads": "1"
+  },
+  "scientific_RNG": "MT19937",
+  "modern_implementations_permitted": true
+}

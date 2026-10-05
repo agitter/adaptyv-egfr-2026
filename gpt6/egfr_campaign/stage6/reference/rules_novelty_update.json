@@ -1,0 +1,39 @@
+{
+  "checked_utc": "2026-10-02T21:10:56.665150+00:00",
+  "sources": {
+    "novelty": "https://www.adaptyvbio.com/blog/novelty",
+    "challenge_and_faq": "https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/egfr"
+  },
+  "track": 3,
+  "maximum_submitted_designs": 20,
+  "requested_ranked_reserve_pool": 100,
+  "length_inclusive": [
+    10,
+    250
+  ],
+  "submission_columns": [
+    "name",
+    "sequence",
+    "molecule_class"
+  ],
+  "molecule_class": "nanobody",
+  "novelty": {
+    "official_status": "PENDING ORGANIZER SUBMISSION ASSESSMENT",
+    "local_check": "Safeguard only; not an exact reconstruction of ProteinTyper",
+    "antibody_CDRH3_novel_cutoff_exclusive": 0.7,
+    "antibody_global_boundary": 0.7,
+    "level3": "Novel CDRH3; familiar framework",
+    "level4": "Novel CDRH3; global similarity below 70%",
+    "retain_framework": "Do not mutate conserved folding residues merely to force a novelty label",
+    "newer_organizer_tools": "Not run in this campaign; organizer-side assessment does not change our historical scientific methods restriction"
+  },
+  "objectives_in_priority_order": [
+    "Human binding at pH6.5 with no detectable human binding at pH7.4",
+    "Mouse EGFR binding by the same sequence; mouse pH switch not required",
+    "Human EGFR affinity"
+  ],
+  "experimental_status": "UNVERIFIED for every candidate",
+  "zero_shot_lineage": "Common framework only; all original binding loops replaced; no experimental binder used as design parent",
+  "public_metadata": "Opaque names are labels only, not a promise of secrecy; no embedded instructions",
+  "disclaimer": "Rule audit is not organizer acceptance, wet-lab validation or legal eligibility certification."
+}

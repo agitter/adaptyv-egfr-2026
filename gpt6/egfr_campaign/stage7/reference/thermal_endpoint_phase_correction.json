@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-10-04T20:19:15.147281+00:00",
+  "complete_unrestrained_trajectories_at_recording": 0,
+  "trigger": "All four completed added-chirality control endpoints, including both experimental native-fold controls, exceed the 25-degree minimized-peptide threshold at one or more bonds during thermal motion. No alpha inversions or gross bond failure is implied by this angular threshold.",
+  "raw_control_pass_count": 0,
+  "raw_control_count": 4,
+  "interpretation": "A minimized-structure peptide gate cannot be applied blindly to a single thermal frame. Preserve every raw failure as a diagnostic, not evidence of loss of fold.",
+  "correction": "Apply the unchanged strict numerical geometry thresholds after identically quenching each of the twelve final endpoints with Amber99SB/OBC, 500 minimizer iterations, no added positional or chirality restraints. Require this phase-matched check for new-candidate promotion. The already declared loop-motion and pH criteria remain unchanged.",
+  "no_variant_endpoint_outcome_used_to_choose_correction": true
+}

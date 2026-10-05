@@ -1,0 +1,607 @@
+{
+  "intermediate/capped/C00003_human6ARU_capped_proton.json": {
+    "microstates": 9,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": 0.8540112008579541,
+    "maximum_contrast_kcal": 2.1812210909951544,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 25,
+        "chain": "A",
+        "pdb_residue_id": "25",
+        "partner": "target",
+        "nearest_partner_A": 3.8905561620416194,
+        "human_position": 358
+      },
+      {
+        "residue_index": 50,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 4.200292162457274,
+        "human_position": 383
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 1.7517779146640766
+    },
+    "representative_human_acid_proxy_kcal": -6.4569450528729275,
+    "representative_human_neutral_proxy_kcal": -4.705167138208851
+  },
+  "intermediate/capped/C00009_human6ARU_capped_proton.json": {
+    "microstates": 9,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": 0.9430498455927534,
+    "maximum_contrast_kcal": 2.233018724817084,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 25,
+        "chain": "A",
+        "pdb_residue_id": "25",
+        "partner": "target",
+        "nearest_partner_A": 3.8918736169099817,
+        "human_position": 358
+      },
+      {
+        "residue_index": 50,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 4.202196003282095,
+        "human_position": 383
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 1.8086855608859898
+    },
+    "representative_human_acid_proxy_kcal": -6.120289397885024,
+    "representative_human_neutral_proxy_kcal": -4.311603836999034
+  },
+  "intermediate/capped/G00117_C04_human6ARU_capped_proton.json": {
+    "microstates": 9,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": 0.5935997262024983,
+    "maximum_contrast_kcal": 1.235216449633871,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 25,
+        "chain": "A",
+        "pdb_residue_id": "25",
+        "partner": "target",
+        "nearest_partner_A": 3.893476242382898,
+        "human_position": 358
+      },
+      {
+        "residue_index": 50,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 5.372712280589757,
+        "human_position": 383
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 0.9658869767133202
+    },
+    "representative_human_acid_proxy_kcal": -6.107329282526677,
+    "representative_human_neutral_proxy_kcal": -5.1414423058133565
+  },
+  "intermediate/acid_ensemble/C00003_acid_histidine.json": {
+    "microstates": 81,
+    "scenario_count": 162,
+    "minimum_contrast_kcal": 0.7657020858944392,
+    "maximum_contrast_kcal": 2.1879879695442748,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 24,
+        "chain": "A",
+        "pdb_residue_id": "25",
+        "partner": "target",
+        "nearest_partner_A": 3.8905561620416194,
+        "kind": "histidine"
+      },
+      {
+        "residue_index": 49,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 4.200292162457274,
+        "kind": "histidine"
+      },
+      {
+        "residue_index": 225,
+        "chain": "B",
+        "pdb_residue_id": "54",
+        "kind": "carboxylate",
+        "resname": "ASP",
+        "assumed_baseline_free_pKa": 4.0
+      },
+      {
+        "residue_index": 274,
+        "chain": "B",
+        "pdb_residue_id": "103",
+        "kind": "carboxylate",
+        "resname": "GLU",
+        "assumed_baseline_free_pKa": 4.4
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_histidine_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "assumed_acid_pKa_offset": 0.0,
+      "contrast_kcal": 1.772977885417454
+    },
+    "representative_human_acid_proxy_kcal": -5.940352874776032,
+    "representative_human_neutral_proxy_kcal": -4.167374989358578
+  },
+  "intermediate/acid_ensemble/C00009_acid_histidine.json": {
+    "microstates": 243,
+    "scenario_count": 162,
+    "minimum_contrast_kcal": 0.8549479430101812,
+    "maximum_contrast_kcal": 2.2277428208915406,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 24,
+        "chain": "A",
+        "pdb_residue_id": "25",
+        "partner": "target",
+        "nearest_partner_A": 3.8918736169099817,
+        "kind": "histidine"
+      },
+      {
+        "residue_index": 49,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 4.202196003282095,
+        "kind": "histidine"
+      },
+      {
+        "residue_index": 223,
+        "chain": "B",
+        "pdb_residue_id": "52",
+        "kind": "carboxylate",
+        "resname": "GLU",
+        "assumed_baseline_free_pKa": 4.4
+      },
+      {
+        "residue_index": 225,
+        "chain": "B",
+        "pdb_residue_id": "54",
+        "kind": "carboxylate",
+        "resname": "ASP",
+        "assumed_baseline_free_pKa": 4.0
+      },
+      {
+        "residue_index": 274,
+        "chain": "B",
+        "pdb_residue_id": "103",
+        "kind": "carboxylate",
+        "resname": "GLU",
+        "assumed_baseline_free_pKa": 4.4
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_histidine_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "assumed_acid_pKa_offset": 0.0,
+      "contrast_kcal": 1.8162200992143722
+    },
+    "representative_human_acid_proxy_kcal": -6.190093548746945,
+    "representative_human_neutral_proxy_kcal": -4.373873449532573
+  },
+  "intermediate/acid_ensemble/G00117_C04_acid_histidine.json": {
+    "microstates": 81,
+    "scenario_count": 162,
+    "minimum_contrast_kcal": 0.5768365586912676,
+    "maximum_contrast_kcal": 1.260434044543338,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 24,
+        "chain": "A",
+        "pdb_residue_id": "25",
+        "partner": "target",
+        "nearest_partner_A": 3.893476242382898,
+        "kind": "histidine"
+      },
+      {
+        "residue_index": 49,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 5.372712280589757,
+        "kind": "histidine"
+      },
+      {
+        "residue_index": 225,
+        "chain": "B",
+        "pdb_residue_id": "54",
+        "kind": "carboxylate",
+        "resname": "ASP",
+        "assumed_baseline_free_pKa": 4.0
+      },
+      {
+        "residue_index": 274,
+        "chain": "B",
+        "pdb_residue_id": "103",
+        "kind": "carboxylate",
+        "resname": "GLU",
+        "assumed_baseline_free_pKa": 4.4
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_histidine_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "assumed_acid_pKa_offset": 0.0,
+      "contrast_kcal": 0.9824952550425845
+    },
+    "representative_human_acid_proxy_kcal": -6.244619536596035,
+    "representative_human_neutral_proxy_kcal": -5.262124281553451
+  },
+  "intermediate/common_sites/A00002_human6ARU_common_proton.json": {
+    "microstates": 27,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": 0.3453152519360163,
+    "maximum_contrast_kcal": 2.6311521064453594,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 36,
+        "chain": "A",
+        "pdb_residue_id": "37",
+        "partner": "target",
+        "nearest_partner_A": 4.724345483768103,
+        "human_position": 370
+      },
+      {
+        "residue_index": 49,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 8.880230064587295,
+        "human_position": 383
+      },
+      {
+        "residue_index": 99,
+        "chain": "A",
+        "pdb_residue_id": "100",
+        "partner": "target",
+        "nearest_partner_A": 3.823048260223786,
+        "human_position": 433
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 0.7749465612835227
+    },
+    "representative_human_acid_proxy_kcal": 14.536952017001353,
+    "representative_human_neutral_proxy_kcal": 15.311898578284875
+  },
+  "intermediate/common_sites/A00008_human6ARU_common_proton.json": {
+    "microstates": 27,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": 0.7479279210800378,
+    "maximum_contrast_kcal": 2.6523434299861286,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 36,
+        "chain": "A",
+        "pdb_residue_id": "37",
+        "partner": "target",
+        "nearest_partner_A": 4.606517719492682,
+        "human_position": 370
+      },
+      {
+        "residue_index": 49,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 8.900645117068759,
+        "human_position": 383
+      },
+      {
+        "residue_index": 99,
+        "chain": "A",
+        "pdb_residue_id": "100",
+        "partner": "target",
+        "nearest_partner_A": 3.836261559122376,
+        "human_position": 433
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 1.0037621293634054
+    },
+    "representative_human_acid_proxy_kcal": 15.54218348627786,
+    "representative_human_neutral_proxy_kcal": 16.545945615641266
+  },
+  "intermediate/common_sites/C00003_human6ARU_four_target_sites_proton.json": {
+    "microstates": 81,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": 0.8530036372019367,
+    "maximum_contrast_kcal": 2.445847468532234,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 24,
+        "chain": "A",
+        "pdb_residue_id": "25",
+        "partner": "target",
+        "nearest_partner_A": 3.8905561620416194,
+        "human_position": 358
+      },
+      {
+        "residue_index": 36,
+        "chain": "A",
+        "pdb_residue_id": "37",
+        "partner": "target",
+        "nearest_partner_A": 16.435574564036397,
+        "human_position": 370
+      },
+      {
+        "residue_index": 49,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 4.200292162457274,
+        "human_position": 383
+      },
+      {
+        "residue_index": 99,
+        "chain": "A",
+        "pdb_residue_id": "100",
+        "partner": "target",
+        "nearest_partner_A": 23.833747659568775,
+        "human_position": 433
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 1.730988770071261
+    },
+    "representative_human_acid_proxy_kcal": -6.123468617341405,
+    "representative_human_neutral_proxy_kcal": -4.392479847270144
+  },
+  "intermediate/common_sites/C00009_human6ARU_four_target_sites_proton.json": {
+    "microstates": 81,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": 0.9473819601649893,
+    "maximum_contrast_kcal": 2.584812697570954,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 24,
+        "chain": "A",
+        "pdb_residue_id": "25",
+        "partner": "target",
+        "nearest_partner_A": 3.8918736169099817,
+        "human_position": 358
+      },
+      {
+        "residue_index": 36,
+        "chain": "A",
+        "pdb_residue_id": "37",
+        "partner": "target",
+        "nearest_partner_A": 16.410819479843177,
+        "human_position": 370
+      },
+      {
+        "residue_index": 49,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 4.202196003282095,
+        "human_position": 383
+      },
+      {
+        "residue_index": 99,
+        "chain": "A",
+        "pdb_residue_id": "100",
+        "partner": "target",
+        "nearest_partner_A": 23.8145552866309,
+        "human_position": 433
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 1.7867338158746855
+    },
+    "representative_human_acid_proxy_kcal": -5.693121632748062,
+    "representative_human_neutral_proxy_kcal": -3.906387816873376
+  },
+  "intermediate/common_sites/P00024_07_human6ARU_common_proton.json": {
+    "microstates": 243,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": -0.5885680458829121,
+    "maximum_contrast_kcal": 2.4657787286405544,
+    "all_scenarios_acid_on": false,
+    "sites": [
+      {
+        "residue_index": 36,
+        "chain": "A",
+        "pdb_residue_id": "37",
+        "partner": "target",
+        "nearest_partner_A": 4.549289834688483,
+        "human_position": 370
+      },
+      {
+        "residue_index": 49,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 8.741149867151345,
+        "human_position": 383
+      },
+      {
+        "residue_index": 99,
+        "chain": "A",
+        "pdb_residue_id": "100",
+        "partner": "target",
+        "nearest_partner_A": 3.7904032107415624,
+        "human_position": 433
+      },
+      {
+        "residue_index": 279,
+        "chain": "B",
+        "pdb_residue_id": "108",
+        "partner": "binder",
+        "nearest_partner_A": 4.974080970390406
+      },
+      {
+        "residue_index": 280,
+        "chain": "B",
+        "pdb_residue_id": "109",
+        "partner": "binder",
+        "nearest_partner_A": 7.141887443106333
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 0.2676889870047745
+    },
+    "representative_human_acid_proxy_kcal": 18.293441386204197,
+    "representative_human_neutral_proxy_kcal": 18.56113037320897
+  },
+  "intermediate/refined/C00003_human6ARU_acid_proton.json": {
+    "microstates": 9,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": 1.1540126206444015,
+    "maximum_contrast_kcal": 2.224923065601608,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 24,
+        "chain": "A",
+        "pdb_residue_id": "25",
+        "partner": "target",
+        "nearest_partner_A": 3.6391094034117857,
+        "human_position": 358
+      },
+      {
+        "residue_index": 49,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 4.086093641854027,
+        "human_position": 383
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 1.86064992073476
+    },
+    "representative_human_acid_proxy_kcal": -8.51723288576993,
+    "representative_human_neutral_proxy_kcal": -6.65658296503517
+  },
+  "intermediate/refined/C00009_human6ARU_acid_proton.json": {
+    "microstates": 9,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": 1.2087377688076373,
+    "maximum_contrast_kcal": 2.2513707697711425,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 24,
+        "chain": "A",
+        "pdb_residue_id": "25",
+        "partner": "target",
+        "nearest_partner_A": 3.6314903620965326,
+        "human_position": 358
+      },
+      {
+        "residue_index": 49,
+        "chain": "A",
+        "pdb_residue_id": "50",
+        "partner": "target",
+        "nearest_partner_A": 4.0960430295591355,
+        "human_position": 383
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 1.8907575975394115
+    },
+    "representative_human_acid_proxy_kcal": -7.666648166774472,
+    "representative_human_neutral_proxy_kcal": -5.77589056923506
+  },
+  "intermediate/refined/G00053_C05_human6ARU_acid_proton.json": {
+    "microstates": 9,
+    "scenario_count": 54,
+    "minimum_contrast_kcal": 0.7477777832815367,
+    "maximum_contrast_kcal": 1.5806735286235423,
+    "all_scenarios_acid_on": true,
+    "sites": [
+      {
+        "residue_index": 36,
+        "chain": "A",
+        "pdb_residue_id": "37",
+        "partner": "target",
+        "nearest_partner_A": 6.86739179019226,
+        "human_position": 370
+      },
+      {
+        "residue_index": 99,
+        "chain": "A",
+        "pdb_residue_id": "100",
+        "partner": "target",
+        "nearest_partner_A": 3.6009304353180704,
+        "human_position": 433
+      }
+    ],
+    "representative_assumptions": {
+      "solute_dielectric": 1.0,
+      "kappa_nm_inverse": 1.25,
+      "assumed_unbound_pKa": 6.3,
+      "assumed_unbound_HIE_fraction": 0.5,
+      "contrast_kcal": 1.0347539179291871
+    },
+    "representative_human_acid_proxy_kcal": -15.081652725552201,
+    "representative_human_neutral_proxy_kcal": -14.046898807623014
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "issue": "OpenMM PDB serialization relabels isolated binder chain B as A unless keepIds is requested. The old contact audit requested chain B and its cardinality assertion stopped execution.",
+  "correction": "Read all atoms of the one-chain free-binder end point, assert residue count matches the reference and sequence. No scientific contact outputs were produced by the failed call.",
+  "source_snapshot": "reference/trajectory_contacts_v1_chain_id_assumption.py"
+}

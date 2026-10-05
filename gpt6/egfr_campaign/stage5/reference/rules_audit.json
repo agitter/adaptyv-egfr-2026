@@ -1,0 +1,66 @@
+{
+  "checked_date": "2026-10-02",
+  "track": 3,
+  "submission_count_max": 20,
+  "user_requested_ranked_reserve_pool": 100,
+  "length_min": 10,
+  "length_max": 250,
+  "single_chain_class": "nanobody",
+  "ordered_csv_required_columns": [
+    "name",
+    "sequence",
+    "molecule_class"
+  ],
+  "FASTA_is_user_deliverable_not_official_required_upload_format": true,
+  "human_target": "EGFR P00533-1 residues25-645",
+  "functional_epitope_recommended_not_required": "domainIII",
+  "human_conditions_pH": [
+    6.5,
+    7.4
+  ],
+  "required_biological_properties": [
+    "human EGFR affinity",
+    "mouse EGFR binding",
+    "human binding at6.5 and no detectable binding at7.4"
+  ],
+  "priority": [
+    "pH-selectivity",
+    "mouse cross-reactivity",
+    "human affinity"
+  ],
+  "mouse_pH_switch_required": false,
+  "assay_nondetection_threshold_published_on_challenge_page": false,
+  "zero_shot": "No initial experimentally known binder seed. Common antibody/nanobody frameworks encouraged; our original antigen-binding loops deleted, new loops independently built. Own untested design refinements are not known-binder redesigns.",
+  "no_duplicate_sequences": true,
+  "novelty": "Local CDRH3 edit-identity<70% screening plus whole-chain BLAST. Modern organizer classifier/numbering and exact patent snapshots not reproduced.",
+  "names": "Unique opaque public codenames; no instructions or prompt-injection in names or metadata. Codenames do not make sequences or methods confidential.",
+  "deadline": "2026-10-04T23:59:00-12:00",
+  "deadline_UTC": "2026-10-05T11:59:00Z",
+  "deadline_America_Chicago": "2026-10-05T06:59:00-05:00",
+  "registration_and_personal_eligibility": "Submitting human must complete required registration and eligibility/rights/consent attestations. Not inferred from files. No automated account submission.",
+  "open_track_tools": "Claude optional; modern assistant and user-authorized language/library implementations disclosed. No modern scientific protein generator/predictor used.",
+  "license": "Submitted associated data and tested results can be public; user controls manual upload. Locally retained inputs keep source provenance.",
+  "selection_not_guaranteed": true,
+  "safety_screening": "Organizer sequence screening before synthesis is independent of local sequence/format checks.",
+  "phone_a_friend_used": 2,
+  "phone_a_friend_remaining": 1,
+  "sources": [
+    {
+      "url": "https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/egfr",
+      "sections": "objectives/ranking/requirements/FAQ1,5,8,13,15,16,17"
+    },
+    {
+      "url": "https://www.adaptyvbio.com/blog/novelty",
+      "section": "antibody-specific novelty"
+    },
+    {
+      "url": "https://proteinbase.com/competitions/anthropic-adaptyv-2026/terms",
+      "sections": "3,4,5,6,8"
+    },
+    {
+      "url": "https://proteinbase.com/competitions/anthropic-adaptyv-2026",
+      "section": "Track3 and human review"
+    }
+  ],
+  "discrepancy_handling": "Main page and terms mention different expected Track1 testing allocations than FAQ; not material to Track3 cap. Use challenge-specific cap20 and no guaranteed Track3 testing."
+}

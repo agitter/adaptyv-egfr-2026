@@ -1,0 +1,18 @@
+PROCESS_START 1791143408.4929044
+IMPORTS_DONE 1791143408.9094155
+ADD_H_START 2279
+ADD_H_DONE 9.412198543548584
+M00007_human6ARU refinement True seconds 60.7
+ADD_H_START 2279
+Timeout (0:01:20)!
+Thread 0x00007f405f7b7780 (most recent call first):
+  File "/mnt/data/egfr_campaign/stage2/runtime/python/openmm/openmm.py", line 16337 in minimize
+  File "/mnt/data/egfr_campaign/stage2/runtime/python/openmm/app/modeller.py", line 1103 in addHydrogens
+  File "/mnt/data/egfr_campaign/stage7/code/refine_one.py", line 17 in _timed_h
+  File "/mnt/data/egfr_campaign/stage3/code/proton_ensemble.py", line 79 in probe
+  File "/mnt/data/egfr_campaign/stage3/code/refine_new.py", line 33 in run
+  File "/mnt/data/egfr_campaign/stage7/code/refine_one.py", line 22 in <module>
+ADD_H_DONE 8.498128414154053
+M00007_human6ARU states 9 pH contrast 1.1765001035001035 2.2517366516079793 seconds 18.2
+STRICT True omega_warnings 0
+RESULT {"candidate_id": "M00007", "species": "human6ARU", "status": "complete", "minimum_pH_contrast": 1.1765001035001035} seconds 89.72552108764648

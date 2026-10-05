@@ -1,0 +1,68 @@
+{
+  "tests": [
+    {
+      "test": "direct OBC2 vs OpenMM Reference matched subtraction",
+      "direct": 12.173739196901273,
+      "openmm": 12.17373997928371,
+      "absolute_error_kcal": 7.823824361707921e-07,
+      "pass": true
+    },
+    {
+      "test": "1000 nm separated-partner control",
+      "value_kcal": -0.014806167810346927,
+      "pass": true
+    },
+    {
+      "test": "translation and partner exchange invariance",
+      "max_difference_kJ": 3.7971403799019754e-11,
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "seconds": 6.63930344581604,
+  "baseline_evaluation": {
+    "states": [
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 0.0,
+        "delta_kcal_proxy": 12.173739196901273
+      },
+      {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "delta_kcal_proxy": 16.46126631140522
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 0.0,
+        "delta_kcal_proxy": -24.05166449921622
+      },
+      {
+        "solute_dielectric": 2.0,
+        "kappa_nm_inverse": 1.25,
+        "delta_kcal_proxy": -19.764137384712274
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 0.0,
+        "delta_kcal_proxy": -42.16436634727497
+      },
+      {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "delta_kcal_proxy": -37.876839232771026
+      }
+    ],
+    "LJ_kcal": -46.12035488878578,
+    "SA_kcal": -8.18924272136726,
+    "electrostatic_A_kcal": 72.45080739223499,
+    "electrostatic_B_kcal": [
+      -467.2529468196465,
+      -131.5395737539876
+    ],
+    "vacuum_cross_kcal": -394.80213942739334,
+    "atoms": 4466,
+    "seconds": 2.0556561946868896,
+    "interpretation": "Matched-coordinate MM/GBSA interaction proxy; excludes binding entropy and unbound conformational reorganization."
+  }
+}

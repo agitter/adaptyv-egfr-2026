@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/data/egfr_campaign/stage5/code/blast_candidates.py", line 26, in <module>
+    if __name__=='__main__':run(sys.argv[1])
+                            ~~~^^^^^^^^^^^^^
+  File "/mnt/data/egfr_campaign/stage5/code/blast_candidates.py", line 24, in run
+    control=any(h['identity_pct']==100 and h['query_coverage_pct']==100 for h in hits['POSITIVE_CONTROL']);assert control,'Exact-reference positive control failed'
+                                                                                                                  ^^^^^^^
+AssertionError: Exact-reference positive control failed

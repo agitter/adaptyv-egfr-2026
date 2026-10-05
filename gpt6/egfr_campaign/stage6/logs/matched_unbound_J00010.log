@@ -1,0 +1,9 @@
+J00010 unbound True {'framework_CA_RMSD_A': 0.2659370316650536, 'loop_CA_RMSD_A': 0.4669141416840529, 'CDR_CA_RMSD_A': [0.4928407883865872, 0.46926983356231244, 0.4482907520642408], 'maximum_CA_displacement_A': 0.7664099176992865} potential relaxation 28.306913240851827 seconds 196.8
+Traceback (most recent call last):
+  File "/mnt/data/egfr_campaign/stage6/code/unbound_one.py", line 9, in <module>
+    d=json.loads((S/'intermediate/designs'/f'{cid}.json').read_text());p=S/'intermediate/unbound'/f'{cid}_free_relaxed.pdb';a=audit(p,d);(S/'intermediate/unbound'/f'{cid}_free_independent.json').write_text(json.dumps(a,indent=2));print('UNBOUND STRICT',cid,a['pass'],flush=True)
+                                                                                                                              ~~~~~^^^^^
+  File "/mnt/data/egfr_campaign/stage4/code/audit_refined.py", line 15, in audit
+    p=app.PDBFile(str(path));xyz=np.asarray(p.positions.value_in_unit(u.angstrom));rows=[{a.name:xyz[a.index] for a in r.atoms()} for r in p.topology.residues() if r.chain.id==chain];assert len(rows)==len(design['sequence']);inversions=[];omega=[];cystines=[];strain=[]
+                                                                                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

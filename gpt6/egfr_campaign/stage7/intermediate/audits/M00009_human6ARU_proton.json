@@ -1,0 +1,163 @@
+{
+  "key": "stage7:M00009",
+  "id": "M00009",
+  "stage": "stage7",
+  "species": "human",
+  "model": "/mnt/data/egfr_campaign/stage7/intermediate/refined/M00009_human6ARU_proton.json",
+  "coordinate_source": "/mnt/data/egfr_campaign/stage7/intermediate/refined/M00009_human6ARU_relaxed.pdb",
+  "design_source": "/mnt/data/egfr_campaign/stage7/intermediate/designs/M00009.json",
+  "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGEDDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEEQEFTGSSQGQYWGQGTLVTVS",
+  "sequence_sha256": "081b86ecedc7b813d10f6a16aebca874e98ec9fbb7f4d984fc020a989e324284",
+  "source_sha256": "f7a7a153210bff64edc85da70665bd84edb52fbc2ae3efa3a403c7cf589a08f6",
+  "design_sha256": "739fc4ec67c0e65d1f436687e36adcfa6b0dec2267f75eaff067eff03b4c75b0",
+  "strict_geometry": {
+    "candidate_id": "M00009",
+    "absolute_alpha_inversions": [],
+    "peptide_omega_warnings": [],
+    "actual_cystines": [
+      {
+        "positions": [
+          22,
+          97
+        ],
+        "SG_distance_A": 2.0269812529966806,
+        "chi3_deg": 66.43267056607866,
+        "CB_S_S_angles_deg": [
+          104.04585093566213,
+          104.20860572262902
+        ],
+        "strain_gate_pass": true
+      }
+    ],
+    "disulfide_strain_warnings": [],
+    "intended_extra_pairs_present": true,
+    "pass": true,
+    "thresholds": {
+      "omega_max_deviation_from_trans_deg": 25,
+      "SS_A": [
+        1.9,
+        2.2
+      ],
+      "absolute_chi3_deviation_from90_max_deg": 35,
+      "CB_S_S_angles_deg": [
+        80,
+        130
+      ]
+    },
+    "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+  },
+  "reference_geometry": {
+    "human6ARU": {
+      "minimum_heavy_distance_A": 2.886760113773051,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.736300182185751
+    },
+    "mouseAF": {
+      "minimum_heavy_distance_A": 2.378847795242299,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 3.2635195331162397
+    },
+    "1NQL": {
+      "minimum_heavy_distance_A": 2.679890323399723,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.3214972039450865
+    },
+    "1IVO": {
+      "minimum_heavy_distance_A": 2.164861669764526,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.294182426212206
+    },
+    "resolved_glycans": {
+      "min_heavy_distance_A": 3.4208227548544343,
+      "atoms_below_2A": 0
+    },
+    "alpha_inversions": [],
+    "peptide_bond_outliers": [],
+    "geometry_prefilter_pass": true
+  },
+  "same_species_relaxed_context": {
+    "minimum_A": 2.809143819742955,
+    "atoms_below2A": 0
+  },
+  "sequence_audit": {
+    "length": 125,
+    "format_pass": true,
+    "liabilities": {
+      "glycosylation_sequons": [],
+      "NG_motifs": [],
+      "DG_motifs": [],
+      "unpaired_cdr_cysteines": 0,
+      "max_repeat": 3,
+      "hydrophobic_runs": [],
+      "net_formal_charge_without_histidine": -7
+    },
+    "cdr_lengths": [
+      11,
+      15,
+      18
+    ]
+  },
+  "minimizer_audit_present": true,
+  "minimizer_geometry_pass": true,
+  "combined_geometry_pass": true,
+  "independent_priors": {
+    "status": "complete",
+    "minimum_contrast_kcal": 1.0298554327221723,
+    "maximum_contrast_kcal": 2.252902933048743,
+    "scenario_count": 486,
+    "all_acid_on": true,
+    "tied_subset_max_error_kcal": 0.0,
+    "worst_case": {
+      "pKas": [
+        6.8,
+        5.8
+      ],
+      "HIE_fractions": [
+        0.2,
+        0.2
+      ],
+      "physical": {
+        "solute_dielectric": 4.0,
+        "kappa_nm_inverse": 1.25,
+        "delta_kcal_proxy": -30.183356653995343
+      },
+      "acid_proxy": -36.44204467638281,
+      "neutral_proxy": -35.412189243660634
+    },
+    "qualification": "Assumed independent priors; fixed-coordinate proxy, not calibrated affinity or nondetection."
+  },
+  "glycan_grid": {
+    "source": "/mnt/data/egfr_campaign/stage5/intermediate/glycan_flexibility/admissible_resolved_glycans.npz",
+    "source_sha256": "45650a897f8f0c028d59e9bde8506779cf46d9320f3eafaa1d6f5fa2805a6efa",
+    "by_root": [
+      {
+        "root": "352",
+        "count": 18,
+        "overlaps": 3,
+        "fraction": 0.16666666666666666
+      },
+      {
+        "root": "361",
+        "count": 6,
+        "overlaps": 0,
+        "fraction": 0.0
+      },
+      {
+        "root": "413",
+        "count": 7,
+        "overlaps": 0,
+        "fraction": 0.0
+      },
+      {
+        "root": "444",
+        "count": 56,
+        "overlaps": 0,
+        "fraction": 0.0
+      }
+    ],
+    "maximum_overlap_fraction": 0.16666666666666666,
+    "pass": true,
+    "qualification": "Unweighted finite glycan conformer stress test, not a probability."
+  },
+  "combined_context_and_glycan_pass": true
+}

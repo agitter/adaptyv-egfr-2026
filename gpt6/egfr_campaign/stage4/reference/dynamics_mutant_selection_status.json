@@ -1,0 +1,58 @@
+{
+  "config": "/mnt/data/egfr_campaign/stage4/reference/dynamics_mutant_selection.json",
+  "jobs": [
+    {
+      "name": "dyn_S00017_v2",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/dynamics.py",
+        "S00017",
+        "198002",
+        "4",
+        "2"
+      ],
+      "timeout": 1200
+    },
+    {
+      "name": "dyn_S00022_v2",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/dynamics.py",
+        "S00022",
+        "198002",
+        "4",
+        "2"
+      ],
+      "timeout": 1200
+    },
+    {
+      "name": "dyn_S00028_v2",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/dynamics.py",
+        "S00028",
+        "198002",
+        "4",
+        "2"
+      ],
+      "timeout": 1200
+    }
+  ],
+  "completed": [
+    {
+      "name": "dyn_S00017_v2",
+      "returncode": 0,
+      "seconds": 194.63406014442444,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/dyn_S00017_v2.log"
+    },
+    {
+      "name": "dyn_S00022_v2",
+      "returncode": 0,
+      "seconds": 194.81567978858948,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/dyn_S00022_v2.log"
+    },
+    {
+      "name": "dyn_S00028_v2",
+      "returncode": 0,
+      "seconds": 195.80255794525146,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/dyn_S00028_v2.log"
+    }
+  ]
+}

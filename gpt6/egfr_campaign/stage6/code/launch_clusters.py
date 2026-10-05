@@ -1,0 +1,5 @@
+from pathlib import Path
+import json,subprocess,sys,os
+S=Path('/mnt/data/egfr_campaign/stage6');ids=['J00000','J00001','J00002','J00003','J00004','J00005','J00006','J00008','J00009','J00010','J00014']
+plan={'name':'cluster_acids','concurrency':4,'selection':'All five unchanged-sequence controls and six high-His-contrast combinations; before any new expanded-acid results. Not selected using mouse pH direction.','historical_source':'https://doi.org/10.1371/journal.pcbi.0020063','jobs':[{'id':cid,'command':[sys.executable,str(S/'code/cluster_acids.py'),cid],'timeout':2400} for cid in ids]}
+p=S/'reference/cluster_acids_plan.json';p.write_text(json.dumps(plan,indent=2));log=open(S/'logs/cluster_acids_manager.log','w');env=os.environ.copy();env.update(OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1',OPENMM_CPU_THREADS='1');proc=subprocess.Popen([sys.executable,str(S/'code/run_batch.py'),str(p)],stdout=log,stderr=subprocess.STDOUT,stdin=subprocess.DEVNULL,start_new_session=True,env=env);(S/'reference/cluster_acids_pid.json').write_text(json.dumps({'pid':proc.pid,'plan':str(p)}));print('Started',len(ids),'cluster evaluations',proc.pid)

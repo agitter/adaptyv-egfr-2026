@@ -1,0 +1,11 @@
+{
+  "prior_result": "All 3600 trials at4/5/6 residues failed closure/Ramachandran gates. Do not relax gates to force candidates.",
+  "next_lengths": [
+    7,
+    8
+  ],
+  "attempts_each": 1800,
+  "max_retained_each": 16,
+  "rationale": "A one-residue deletion or same-length backbone redesign can retain Y104/Q105/E106/F107 without the damage observed in aggressive H3 shortening.",
+  "selection_rule": "At most two geometry-distinct initial gate survivors at each length; novelty and full-target checks before physical promotion."
+}

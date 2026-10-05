@@ -1,0 +1,1300 @@
+{
+  "created_utc": "2026-09-29T20:01:14Z",
+  "files": [
+    {
+      "path": "STATE.md",
+      "bytes": 7838,
+      "sha256": "e1bc0b03213aa76a2c2a076cc48ae4e90a391f56a0e51c0be97341570f2afcae",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/00_ingest.py",
+      "bytes": 1611,
+      "sha256": "816f1a90f5d2d124de119f70e90da7add24e6289eb48f6074bce1ac931d597cc",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/01_prepare.py",
+      "bytes": 2119,
+      "sha256": "313a2827b801dd76f235e9aca7d195d180c2be4eb355261c837f4e174e8829c8",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/02_targets.py",
+      "bytes": 3884,
+      "sha256": "9e31a9c85488ba13562074dbbc3caa56c56d64911e8f689ea4c8694e7885a83b",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/02_targets_v1_failed.py",
+      "bytes": 3840,
+      "sha256": "0e0a5c4b12403191d060ec471ce984aee55a2a36c48cbaf68481e09208884d71",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/03_loops.py",
+      "bytes": 4200,
+      "sha256": "4f34cf9961f3c1ecfec58fca915aede14751fc7159b4056b5e6d602e6ac3c27d",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/04_rotamers_and_cdr_db.py",
+      "bytes": 2589,
+      "sha256": "855c24fc7cd61ba9982c5a8cbb7c0f1634bb7b275dd320c3f5fe5d273ff0a4e3",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/05_dock.py",
+      "bytes": 8327,
+      "sha256": "4cb5c656e237956bcdac19f9fb3d17388ce3d4f3540a8310b3576b3ea3746961",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/05_dock_v1_failed.py",
+      "bytes": 8237,
+      "sha256": "f46f11fce9f15b92d658a5ee7f8588573dda1a297852965b11ce0ad7c3bac996",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.backbone_atoms-59.py313.1.nbc",
+      "bytes": 256494,
+      "sha256": "ca2fcef82ab81cee740af135074802e0a1814881f366952e59b42d94976e43c0",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.backbone_atoms-59.py313.nbi",
+      "bytes": 1588,
+      "sha256": "2d85c663f017ee11c28a2a1880e1197c9325b5ba348919c5efc077af0bd67757",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.ccd-36.py313.1.nbc",
+      "bytes": 241908,
+      "sha256": "55075fca00a61d7236e9627bd18c8808816b1ff1801e4e4e024e2762b79f8487",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.ccd-36.py313.nbi",
+      "bytes": 1764,
+      "sha256": "5cf3645047b6e92387649f3a3e526dd03266537ded7888507bb4593fcce93d55",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.cpython-313.pyc",
+      "bytes": 10909,
+      "sha256": "44ee1233b4b46363df8e0f86d3eefa9c20889f07114f6bc18a9e16ba7b0294dd",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.dihedral-12.py313.1.nbc",
+      "bytes": 89570,
+      "sha256": "8da15421ea52c968661e16866093570653a7627ca19d918fea43b7d24c8f6269",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.dihedral-12.py313.nbi",
+      "bytes": 1589,
+      "sha256": "36435b719a72e979cd71cacc32a233a6b56f1c077db094fba4f430dbc4e8cd30",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.loop_clashes-87.py313.1.nbc",
+      "bytes": 85494,
+      "sha256": "e1fd5d01a14038771dfdd09743074e6abf255bf49534f39779d65fe73499a8d8",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.loop_clashes-87.py313.nbi",
+      "bytes": 1770,
+      "sha256": "0f7e7df8f99609a85e8b104b8778141b8bcf1ace9095a1006a1924e3a1e15fd2",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.make_chain-23.py313.1.nbc",
+      "bytes": 289549,
+      "sha256": "5ee46b9d538bf1ded6589b91b3ee37ceb71af331aece4f41358178c72891c9df",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.make_chain-23.py313.nbi",
+      "bytes": 1655,
+      "sha256": "52982cf71803cfccee1bc9daff46ac51da4c94dd7bd230ce9ef951e8d9d14107",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.place-18.py313.1.nbc",
+      "bytes": 84250,
+      "sha256": "f063a68cbc535f534807fc8e33886d46f1fb1c41707b604608baf1ffb3f143a2",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.place-18.py313.nbi",
+      "bytes": 1590,
+      "sha256": "9b48eafbd4814c2bf897fccfebfe1439f6589c4cd1e56d6c2a604c5df27427c7",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.rama_quality-72.py313.1.nbc",
+      "bytes": 69839,
+      "sha256": "275cf307a5887a5c362d2d63cd4d9809b2849ea92930a8e5e1349dffd6916dad",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.rama_quality-72.py313.nbi",
+      "bytes": 1586,
+      "sha256": "bd65c53070cab1848b3db4c5631984a16f35ce0a821b0758cc5c29cca979eb03",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.unit-8.py313.1.nbc",
+      "bytes": 31698,
+      "sha256": "5477be84292440dac6892031255c596acf97c0786e00a3a74f97ccbee8a2faed",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/__pycache__/legacy_geometry.unit-8.py313.nbi",
+      "bytes": 1577,
+      "sha256": "c53ebfb0dddeb5594b5db703826853fc8e379ffcb7c593006a1899f65f36c5b7",
+      "included": false,
+      "reason": "regenerable compiled cache"
+    },
+    {
+      "path": "code/fetch_egfr_inputs.py",
+      "bytes": 11955,
+      "sha256": "09cc177ce5510d4e44cbf32ca892203e6581f4c1efea05055c33155e7cdf56a4",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/fetch_egfr_refinement_inputs.py",
+      "bytes": 15413,
+      "sha256": "c447e09f027a751eb29973cf8418b85a8d43d095fd6b6637b763656feda6d256",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/fetch_legacy_inputs.py",
+      "bytes": 8646,
+      "sha256": "db0ff0a3e4a1523682855d305472637f1e3a64aa39c9581d493bd81a41c41954",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/legacy_geometry.py",
+      "bytes": 4368,
+      "sha256": "4571d60b6aeb48df38a429fe08819c22ca397193b7226bfd2ffd7ef497fc4c3d",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/make_checkpoint.py",
+      "bytes": 2397,
+      "sha256": "0ea60e91396acd8cb4cb0bd77fce944de6b6ef71b46499bec291c8858ca7383f",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "code/test_refinement_fetcher.py",
+      "bytes": 4538,
+      "sha256": "55c057f03844f1c76783b7c5330cb6605cf534a0ce6cbd712521670779afe5ec",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "databases/pdb.phr",
+      "bytes": 145042256,
+      "sha256": "239e2b2a4eab67ae05af18d6b635bf4d189bd5f144fb90232e39ecc3efc7139b",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    },
+    {
+      "path": "databases/pdb.pin",
+      "bytes": 9325448,
+      "sha256": "c4b7e735849d8f726cd5b82f3a8cbc5e6c3d6e4601a31a1a3a4a227b2205bae6",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    },
+    {
+      "path": "databases/pdb.pjs",
+      "bytes": 407,
+      "sha256": "d5f3b14e948d26ea52ec257bfcfa8fbe6e7fc5f15f7bb1069ad2203f0d1cdf69",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    },
+    {
+      "path": "databases/pdb.psq",
+      "bytes": 338513184,
+      "sha256": "ee283b265c9b0e741c95fd8929d8a2efbdadf26e63cd723ee365e833d970e570",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    },
+    {
+      "path": "databases/swissprot.phr",
+      "bytes": 111926291,
+      "sha256": "dc34fc2c96eb27b0f4b2fcbd5dff989bf0ed18e617792866fcd0bda756fd4e6b",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    },
+    {
+      "path": "databases/swissprot.pin",
+      "bytes": 4606104,
+      "sha256": "e31c448d1ef232f5f6f5808c626f2d9d7a59b42e2682018b2e0ba99c6073a838",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    },
+    {
+      "path": "databases/swissprot.pjs",
+      "bytes": 436,
+      "sha256": "0aa8c11584e4ddab714a1034ac10ad56352f9aa7a3a86ac13de68a62162941a4",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    },
+    {
+      "path": "databases/swissprot.psq",
+      "bytes": 209593592,
+      "sha256": "fd8e666adbf7a26a5767c47e4dc22765f5350a850c938bdcd65de666452cb72b",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    },
+    {
+      "path": "inputs/provided/6ARU.cif",
+      "bytes": 1548867,
+      "sha256": "6cb216f09a7af6eae45a3f1b7745589ed955e2d65155e1b5f3261e3b88c1e110",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/provided/AF-Q01279-F1-model_v6.cif",
+      "bytes": 1132686,
+      "sha256": "3bc1b688244943670e585a4821cce35f25fd2dfbfbcbf8403180e847b98a157d",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase.html",
+      "bytes": 232151,
+      "sha256": "766fd4c4b7e267930247888298d57a50c53d6bce2060f13c05d58f538078d618",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/073c8db39775896d.js.download",
+      "bytes": 201038,
+      "sha256": "a0bf134649ef868e677abed1e250be90232f445e5b1673dfc0189099896f1021",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/07e12c5e9776741b.js.download",
+      "bytes": 571275,
+      "sha256": "5638fa092cf1cc06c2eb6ba50ba20383c89f2479f08a5482d6fc708164444562",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/0a13517b6c08cd49.css",
+      "bytes": 68404,
+      "sha256": "f21652bb842fb024155325305c8b92ed742319e45b9701abc08734df363ff884",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/11e7633161f653fb.js.download",
+      "bytes": 283,
+      "sha256": "49f4dbe698ae93fd9e7176122f5fcbf80211b0f8e59f84978bd860db71e005c1",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/2bd9e11fbfdb7a28.css",
+      "bytes": 126354,
+      "sha256": "9fca12e1d779118ce3225797006619dc4e1781c5b9ce4850eb18449d6a9ff505",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/2ccfb892ba382d50.js.download",
+      "bytes": 40813,
+      "sha256": "e7eee829d590562d43a9d71b0b3e3a1694f47a155f12cd7429bf99a1e19db4d9",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/2f12b56d3b55f5b3.js.download",
+      "bytes": 913,
+      "sha256": "1bf9b480aeee4144110d04a61429bb131d49889ddfd6c9e52e90f7157afa2e25",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/35a4582ab12635b7.js.download",
+      "bytes": 24946,
+      "sha256": "d072d0e6258378ddb3dcad908b866cc2f78c824101f7bd1e158779e80d320a0e",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/3fb599b818773514.js.download",
+      "bytes": 30033,
+      "sha256": "3328f2ae1a6ce6ec113c99969cd06935fa8fa92f889d9db6014b0c60b6e242f1",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/52d7c9c63676e78b.js.download",
+      "bytes": 214878,
+      "sha256": "80eb50e8e8170aa1547362a6bf3f263edda0c72bffc8c725b0378e9d50b27848",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/5dd8c276040b1cf9.js.download",
+      "bytes": 27960,
+      "sha256": "28d5009ba9a5b20fcb31ec33b631dd0a3719bd36d00289af3cb7ea826c939522",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/6f4dc9a37da560ce.js.download",
+      "bytes": 85619,
+      "sha256": "f54481460d51c2c3c1aa0602d08846cd89a4dae0d64d0c8249fed745b49f939d",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/731e3642d657f22d.css",
+      "bytes": 5114,
+      "sha256": "5a111f80e59b579c7c1c461552e6c30311e46bc84443eb6b7d2fe695c3dfe71c",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/91404d264224f8f4.js.download",
+      "bytes": 21805,
+      "sha256": "1a305e43973bb095de6a53df0c4fa8c42a2f6a7ab846f390205da8a97a3a838c",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/9149303bc2b15713.js.download",
+      "bytes": 791,
+      "sha256": "e2d908ee557ea897a493db67ea5aaee7b83505ccd8aeed7d2896f67cdb81ae01",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/9e8c2dbaad77781e.js.download",
+      "bytes": 45420,
+      "sha256": "ddcefa8b0845792569e5d832b78c01dff434652c52c02027b6a9661e1d51c861",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/9ff41c70c43f4020.js.download",
+      "bytes": 67350,
+      "sha256": "1f64553314c5ed8fd1680b58d464367a6c0692a68aecd8d4c1acbb29eb784411",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/a1fd2bbf10f2eb53.css",
+      "bytes": 3001,
+      "sha256": "cea3ae6d369a24a4db5af31e74666020b921ac015d50fae940f48aa9b46d4026",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/a321353275963c1b.js.download",
+      "bytes": 15448,
+      "sha256": "4b3adf9b0c34983dc6c3273eeeb19f27a114ffabf05f96b916f257c225be23f2",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/a48a6b663bae4c60.js.download",
+      "bytes": 29851,
+      "sha256": "4a749762fee11d9add5d957e92085a171ef6b4b0bcbfca4261de951fb4515745",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/a6dad97d9634a72d.js.download",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/b340541a82565d9c.js.download",
+      "bytes": 24610,
+      "sha256": "429b40d3c2c486de8f829fe00a19642b1acf89d8c471336f976ebb6b08bfa0e0",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/b79b6c22fc4f0f0b.js.download",
+      "bytes": 34846,
+      "sha256": "3b5e559ced9f2fd4be194f4208712eee9ea75edcddeb2d57262c43f1a5c9d8d4",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/babae01cdb28bce6.js.download",
+      "bytes": 227551,
+      "sha256": "a83ed6b26c6805e2714bbb4c03b70263e9a4dacd82919e46c00d04f7ef0ecfce",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/cartoon.svg",
+      "bytes": 7027,
+      "sha256": "71ce23ad6f8134d28796a50e473f91c160d2b17fd043a0b00b4eb95c61276e3f",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/cb0b07abb22e817b.js.download",
+      "bytes": 1308,
+      "sha256": "3871e4d2b25d6cedd73911529f6732208d869022022519faac91e1e8fec73611",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/config.js.download",
+      "bytes": 2526,
+      "sha256": "16a0592f01fcad30bd2df7d8aa60997754bf4df44f29160efb1d55ea6826e6fb",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/d69e8bc92a4bf0d9.js.download",
+      "bytes": 32691,
+      "sha256": "e54e647cd29dbfee593425e60931653e4301f2194f22323acf9fbd3439f9ed14",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/dead-clicks-autocapture.js.download",
+      "bytes": 23836,
+      "sha256": "329a35bc14da77ed695e687c0da929f911cbb2beb13e9cf097806587dc054297",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/efadae870490dcb7.js.download",
+      "bytes": 57223,
+      "sha256": "4076305d6ec4a97d02faaacdded7f6170b0b240912f20e5fb1c0f6f43749aaaf",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/exception-autocapture.js.download",
+      "bytes": 17484,
+      "sha256": "ea578b9d92738da891f81537f1fdb2226ab45f016828ef2b909b38fde9219904",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/molstar-bundle.js.download",
+      "bytes": 7372848,
+      "sha256": "c9eb7460200b366c09f9f3bd758d3549695710cb7e272ffa195ce91a32dcdb0a",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/posthog-recorder.js.download",
+      "bytes": 214876,
+      "sha256": "08f2fd7278d38690c7207aa5693dd3045e69ab63f941852187d204a7f814f169",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/script.js.download",
+      "bytes": 12567,
+      "sha256": "c703720710415599d2f0b3f31fbfda63e34d6d19e730bada78b9b92197564f5b",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/surface.svg",
+      "bytes": 5400,
+      "sha256": "1ae7e3a6df601612aa9f9c14965068e252a19512c4f350da7723c049a048ed97",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/surveys.js.download",
+      "bytes": 104672,
+      "sha256": "bab5c896894a164c8a6ff38cd6433f05a1f30617613b4bdb620c4bb69417e06f",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/turbopack-591e03a4fef1cbc4.js.download",
+      "bytes": 10422,
+      "sha256": "0a77e05a5ec5418452eee6b2adc2cf85b97cec179e5b648b50e7609171ce3b8b",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Challenge 01 EGFR Proteinbase_files/web-vitals.js.download",
+      "bytes": 11042,
+      "sha256": "3c6ab8a4e21f4d7c63d523109e480930845952e816dd27d4a0bbf215865f107e",
+      "included": false,
+      "reason": "saved web-page asset reproducible from resources.zip"
+    },
+    {
+      "path": "inputs/provided/Liu2022.pdf",
+      "bytes": 2523610,
+      "sha256": "8d57c4b878bd2deb5088d806c9e61a278b16f1802246bcfb390d5a7809a864e2",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/provided/Shanehsazzadeh2026.pdf",
+      "bytes": 9614562,
+      "sha256": "2361bb06922f18db55f76ad5da0ed6e6150df24b2aadbc30fd4ff3c54d32d4b0",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/provided/challenge-faq.md",
+      "bytes": 14373,
+      "sha256": "8963c1cc2014f05accf5fb2e1606e9ffc7fa20b49645e1bf27bc4675557736e1",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/fetch_egfr_inputs.py",
+      "bytes": 11955,
+      "sha256": "09cc177ce5510d4e44cbf32ca892203e6581f4c1efea05055c33155e7cdf56a4",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/1FSD.pdb",
+      "bytes": 1698489,
+      "sha256": "7a5cc0453fcf83ac809ed794d79b917eddffabf91d7327236a8735fa4363a7b2",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/1FSD.pdb.provenance.json",
+      "bytes": 1204,
+      "sha256": "7f73ec023a9bc9343215efa3c2d868a2097149700fce84dd60328e89b1200a0e",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/1IVO.pdb",
+      "bytes": 815346,
+      "sha256": "379b94ebbbb3c0653c85edc13bd2d9dddda5c553e95e7558560f5153c89c6e2f",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/1IVO.pdb.provenance.json",
+      "bytes": 1221,
+      "sha256": "aec93c64df07604b5a6657c8d9ec741aac0676c6907d332bde2bd46f278c19e8",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/1L2Y.pdb",
+      "bytes": 959202,
+      "sha256": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/1L2Y.pdb.provenance.json",
+      "bytes": 1203,
+      "sha256": "8e09f97e5c75b7335280dc46d1203b897a70d5b72e9971a912b0ce44f1045651",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/1NQL.pdb",
+      "bytes": 494019,
+      "sha256": "6705f8d6dbd63fcb1e2e2c5d05f61342e8c86628c366d8a1a91856838acd32e6",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/1NQL.pdb.provenance.json",
+      "bytes": 1221,
+      "sha256": "3507adc0638a8edb005cd80724190652eac703676069e341ec7d450542a62841",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/1YY9.pdb",
+      "bytes": 752571,
+      "sha256": "e574b33a287c4100ff35f8346a6eadba1486d4a90464f4344f3189115f6d5fa8",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/1YY9.pdb.provenance.json",
+      "bytes": 1216,
+      "sha256": "ca6c1b747855ca15303d3789b74245bc8ebdca2aaff671c3254c48f4025c08e3",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/2A3D.pdb",
+      "bytes": 105705,
+      "sha256": "e005168c6fd31f5e11f036206ed4cbb5769b7ccf021c9a251d753901e595311f",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/2A3D.pdb.provenance.json",
+      "bytes": 1203,
+      "sha256": "ca6f32551820cf5dd3b366132032eb95994bb94c7c42afef98d1fdcfe00c763b",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/3DWT.pdb",
+      "bytes": 687042,
+      "sha256": "401fe7eebe1f84037805d1be67df3f6a156e38ed4ed7d5afffa4366dddd50c4c",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/3DWT.pdb.provenance.json",
+      "bytes": 1221,
+      "sha256": "c2d522379fb51f88d4078bf1be9c8aa207e86e23bcf56157f6a8a81e7e17d0ce",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/3EAK.pdb",
+      "bytes": 208413,
+      "sha256": "6aa99fa43e5d9da305a5f52f18b3cf48ad7c49c14c7a0faadb3e4fcadcbf9147",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/3EAK.pdb.provenance.json",
+      "bytes": 1223,
+      "sha256": "1936aec9ff0229a5d7fabff1c2617f348eea5c1afa0b9d313cee302e08350176",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/3EBA.pdb",
+      "bytes": 216270,
+      "sha256": "d8d63fcdcf470c18908c0cc74744f9fa384006c76d4c3cc429aba131a6c7b57e",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/3EBA.pdb.provenance.json",
+      "bytes": 1223,
+      "sha256": "1545466807a246d80cdbc2f8f38e2f2732d7f295674e3ea5f6f8f1bf5bc27ed6",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/download_v2.log",
+      "bytes": 1904,
+      "sha256": "1e5cae708034aa3d8f9dd088d7d8e0a01d3754f33a09a88ba5974a672aab5c72",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/manifest_v2.json",
+      "bytes": 21386,
+      "sha256": "9245a3f62a47a93e0e88964f7da9459a4d7cbda2616233b001617f1737436474",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/ncbi-blast-2.17.0+-x64-linux.tar.gz",
+      "bytes": 296006458,
+      "sha256": "3888112d8207831aa47371d93583c601f058f88b5db22dc782438b039a3a411b",
+      "included": false,
+      "reason": "retained in original egfr_inputs.zip"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/ncbi-blast-2.17.0+-x64-linux.tar.gz.md5",
+      "bytes": 70,
+      "sha256": "d0aea78ecb801aab347fb73a2a6d176673a6864c318369a83eb58e5b7a928eb8",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/ncbi-blast-2.17.0+-x64-linux.tar.gz.md5.provenance.json",
+      "bytes": 1614,
+      "sha256": "2e6bc7cb780cb19072324ebdbdde47883e9df85abb496d0d18a0b916f8ac1012",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/ncbi-blast-2.17.0+-x64-linux.tar.gz.provenance.json",
+      "bytes": 1726,
+      "sha256": "a27ab42e4e403b70e177ceb492a611b7094e535ca6ba6b10cc909cf254471e10",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/pdb_seqres.txt.gz",
+      "bytes": 67128902,
+      "sha256": "48c854843aa2ba8e08b6a7f094b8a6c52b461971e3c85978b3f238de5928b1e8",
+      "included": false,
+      "reason": "retained in original egfr_inputs.zip"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/pdb_seqres.txt.gz.provenance.json",
+      "bytes": 1334,
+      "sha256": "0849893d85dc21933ce8ff0cfd561f4f76dee20b5f52e581446fae1afd59e229",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/uniprot_reldate.txt",
+      "bytes": 151,
+      "sha256": "733913b362b641ac2d8de42a6220e794abde0e47d57d6feb57e442c6bf3dac6e",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/uniprot_reldate.txt.provenance.json",
+      "bytes": 1197,
+      "sha256": "e04602952e0a24fc7c6538b0dcdd7b676edbe0bc711b4d40549cf557bb656845",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/uniprot_release_readme.txt",
+      "bytes": 3918,
+      "sha256": "e7604f957cd32b59ba9fe06b86e4fb5c3be1cc9969294676f116af3b470365ae",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/uniprot_release_readme.txt.provenance.json",
+      "bytes": 1111,
+      "sha256": "838d297597d9344487e9ae943e92f193cab7b5bb8d07e9b98e5a18ce1a3c89a4",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/uniprot_sprot.fasta.gz",
+      "bytes": 93801562,
+      "sha256": "a9c3496aa727e61d25d9e1291c9ba28d2c2ad19c0e26569dc083d53ec4169536",
+      "included": false,
+      "reason": "retained in original egfr_inputs.zip"
+    },
+    {
+      "path": "inputs/transfer1/legacy_fetch/uniprot_sprot.fasta.gz.provenance.json",
+      "bytes": 1365,
+      "sha256": "362221a251704294ff13e42a98a9abca52f8a24fb4fbbfdae242bbd734b4614b",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/1FSD_chainA.json",
+      "bytes": 18386,
+      "sha256": "505db16528b3f2718371788b4f3d8ec293c339ff5451f825986171d59a5c38af",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/1IVO_aligned.json",
+      "bytes": 320701,
+      "sha256": "8d2fcd4a72b5ddd991492f795d3b0900168aead85662911d9376f35b30001cbd",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/1IVO_chainA.json",
+      "bytes": 292060,
+      "sha256": "bb70c631911b5a4fe4fa6910c60a6d7b4fc42affc26a77ed17ffa9be967ed5c7",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/1L2Y_chainA.json",
+      "bytes": 11699,
+      "sha256": "2e31ea8209918bd8dd31576b9d8872bc654fa11c3a0422269623abb6b1f36b5f",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/1NQL_aligned.json",
+      "bytes": 376376,
+      "sha256": "b160466ef3a7b135f3e7b55c382cb896b48a9559066b1a86a2ef5adcdd0dbfdc",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/1NQL_chainA.json",
+      "bytes": 348004,
+      "sha256": "27c2c010c2dbf25ef8e3c89300fb91f4cad633be658d5ffb3763fc6d2cf1e942",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/1YY9_aligned.json",
+      "bytes": 381607,
+      "sha256": "f3cf0cf7fe82f73d992a9331908dc40aaeb65a691e3a7fab56a6e9a0541cd6b6",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/1YY9_chainA.json",
+      "bytes": 348087,
+      "sha256": "5b576e0c90c2a0c13b182bc57be680acca1163865833b2047a8782f8c3ccb572",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/2A3D_chainA.json",
+      "bytes": 42702,
+      "sha256": "e7ba48f2530425ba2668ee70fcc17ddbddf509de46828bf4224fa6e41b83216a",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/3DWT_chainA.json",
+      "bytes": 70598,
+      "sha256": "51a0ab7518929fb4d833e81ea7e886758d47d84e0eb758f5757364312f3885c6",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/3EAK_chainA.json",
+      "bytes": 70134,
+      "sha256": "224d0dc2bc42c1ca87c9261e922adb16ca4d90a8f5fbf0ac048ba49e9fc9b919",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/3EBA_chainA.json",
+      "bytes": 67358,
+      "sha256": "b025d274a39e10252a12336387aaedc7cfddeba425c383f5b94280a463f1f065",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/Liu2022.txt",
+      "bytes": 69503,
+      "sha256": "ff97b48aeca288045664caf7606deb52a8d6005663d7ac188515af4e1c8c3d34",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/Liu2022_p1.png",
+      "bytes": 299177,
+      "sha256": "795277e0faf878d239c0fd2ab76250afcc547d6ab0afca46ef11b740042d763d",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/P00533.fasta",
+      "bytes": 1233,
+      "sha256": "085b3403b752351c71bcd266a2d7aa3373ca37eb16af23e8623a3088e0de8613",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/Q01279.fasta",
+      "bytes": 1233,
+      "sha256": "56a8cb0347533b25c61bb4f383f560aa5137c36cedd75e0785fbd7668fd071fe",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/Shanehsazzadeh2026.txt",
+      "bytes": 95630,
+      "sha256": "043e100d5b58d97bd340af703b18e7a3c21e50925e5202cf0d8866feb93642ad",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/Shanehsazzadeh2026_p1.png",
+      "bytes": 199351,
+      "sha256": "7e28d3345bedce0d7cc75f59070ae0a0eab953eb3f3c9c8f2e9395a861e7d1d1",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/challenge_saved.txt",
+      "bytes": 17385,
+      "sha256": "84260559041c418d844f0a337609a5db8f3ac06ef7e072a7773e4dcfd38d774c",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/docking/poses.json",
+      "bytes": 304484,
+      "sha256": "73e571b41e820c2d390ce40aaab261047865b7113a3ab86a11d2106648f7f977",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/docking/poses_checkpoint.json",
+      "bytes": 296315,
+      "sha256": "04bddbfb981f30770863a20b0aeb72215ee236701957f8b073f2669d9d9ecf89",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/empirical_rotamers.json",
+      "bytes": 66514,
+      "sha256": "a5d2a9276d746d0ecaae3601e051bf1a77924f91ff787fbf4d5f1d4d0fa951fd",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/framework_only.json",
+      "bytes": 44375,
+      "sha256": "c738c7fd757ef8b76da52a3e2482bfa9b4529527d6f689703ee35a4fc876b859",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/human6ARU_aligned.json",
+      "bytes": 409681,
+      "sha256": "b0e7bd3d140d373ff762147d60195cc9c502dc7263975be304e06890e1204375",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/human6ARU_chainA.json",
+      "bytes": 350330,
+      "sha256": "8b5535fa391882d79ab33eb518198767bc2b51ada02ac70178dbdf59deb05011",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/human6ARU_glycans.json",
+      "bytes": 20870,
+      "sha256": "39a608e22562d1a5881220844359fbaae5a4ae3ee1a474b40e42fff17728bcfc",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/human_mouse_map.npy",
+      "bytes": 19456,
+      "sha256": "f8743300b2709f479049e1ef8df4679e4259d99739c813d336c50a756e070956",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/known_cdrh3.jsonl",
+      "bytes": 382159,
+      "sha256": "fe94e0a218cca7186f454c128a2fe5827349cbf9a37cf02aad1053da5e5b4ae6",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/loops/H111.npz",
+      "bytes": 12818,
+      "sha256": "0915e14ae0ddda14bba02971668b77dcfe0dcc158c753891d74633038170928c",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/loops/H113.npz",
+      "bytes": 15028,
+      "sha256": "63a9f0cf67515f6d3f0ef5052d6c30169f7cc1e0e763405138d9bbf5f5086a85",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/loops/H213.npz",
+      "bytes": 57106,
+      "sha256": "d9dec1bc9d2bdb4d328d86c96e7b35fc23e7a4374df6097998d93d04b6e30e99",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/loops/H215.npz",
+      "bytes": 55916,
+      "sha256": "6afb7067d6c47f4d2a9feced2f385271805dc72fdd321e8f56dac3a6103add42",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/loops/H314.npz",
+      "bytes": 27494,
+      "sha256": "29960639f2416a78a039fc63c0997acb95e106582c92226cf31aab72acae4814",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/loops/H316.npz",
+      "bytes": 31338,
+      "sha256": "b1c784bbf916e054fa4e3b2afc0bb1792f84dfa3237ca2ca5d50ea98958e09c2",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/loops/H318.npz",
+      "bytes": 40096,
+      "sha256": "ecc2ce7071a1ebe9cc10474da95e086f8b309a35dc38454368e18df668391283",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/loops/H320.npz",
+      "bytes": 28281,
+      "sha256": "c0c9446ffef5ae55dd5591eb7d8b624f75f7e238a4473b66cfb1e4a9c01e5a47",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/mouseAF_aligned.json",
+      "bytes": 393556,
+      "sha256": "8aeb04c90dbee9e7992f6d2feba4cf4ea8782d42514deb07715033ad3c913787",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/mouseAF_chainA.json",
+      "bytes": 715498,
+      "sha256": "7123f22b522c6a5c2bc50f8c34559fc4fa33de76e24934bd3030f400c14112c3",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/nonbinder_torsion_fragments.npy",
+      "bytes": 117152,
+      "sha256": "4d85c333c5963803f3cd95f7ab7345f5c0dd75948d7fa27eb829cf1a98fdd44a",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "intermediate/pdb.fasta",
+      "bytes": 410147083,
+      "sha256": "f915bdbd6533691893f9603112c47e632096c67b316f6f38ade4a15c36fae8c8",
+      "included": false,
+      "reason": "decompress from transferred dataset"
+    },
+    {
+      "path": "intermediate/swissprot.fasta",
+      "bytes": 288201213,
+      "sha256": "1372f18e218d761027616bf17479bcf450b30314fc0a8095fcb0e97e85d6ecf9",
+      "included": false,
+      "reason": "decompress from transferred dataset"
+    },
+    {
+      "path": "logs/00_ingest.log",
+      "bytes": 14533,
+      "sha256": "db1d00063ae2f5a218647f89eb19bba6c07892249ab6396cb7ac428cecb7f34a",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/01_prepare.log",
+      "bytes": 3812,
+      "sha256": "728ee06eddb3ddd9a0e842ab8df614adde8ea2cfe865714a2823b9f0b52b116e",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/02_targets.log",
+      "bytes": 310,
+      "sha256": "3ae6db22af9366dfd4cb076710a2702ed049cb4cc496a9a61e1280b6dedcc73c",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/02_targets_retry.log",
+      "bytes": 1117,
+      "sha256": "271669e038ce6d7c3553978607d95075b174965fc296c4e818260eebe9a84101",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/03_loops.log",
+      "bytes": 793,
+      "sha256": "72e03e868f8329857152a77ff5f3e58a7f9be1c51d95d9078406c287f59402f7",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/03_loops.pid",
+      "bytes": 4,
+      "sha256": "5d76741f7528c218b4804915bad794c35c718b9de360fbc3b07f1a4233545b50",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/04_rotamers_and_cdr_db.log",
+      "bytes": 289,
+      "sha256": "cdb6e960fed29d0c30cc3a24a7b6ff08d290b7975c4417a821514c4778ff91c7",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/04_rotamers_and_cdr_db.pid",
+      "bytes": 5,
+      "sha256": "157d77a81eefe3c9855d1f87a8722aa24a9627b0d359f089cca81a773ca35d5f",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/05_dock.log",
+      "bytes": 331,
+      "sha256": "4ed3db89e57ecf50a76a58153ba899047a0aa4fd57e9652d036b9350db46ec49",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/05_dock.pid",
+      "bytes": 5,
+      "sha256": "cb18e60f0f95e7509670cc9606fb30e3d7ad7eefc8c4bec7147abcfa0d88c482",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/05_dock_v2.log",
+      "bytes": 1024,
+      "sha256": "24b032233bdc08db768f2d4d1a2a84db767bc0617b9fb3267d62d9a064a6fb6a",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/makeblastdb_pdb.log",
+      "bytes": 688,
+      "sha256": "15bd536b83582295c4fa9f7d8808af2bb5135906cf00c9292ad2c81fc9369e4e",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/makeblastdb_swissprot.log",
+      "bytes": 324,
+      "sha256": "df611634eda0ce09beb6b0b6d3d622985056edd234a473e90e5e45fd0158f1da",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "logs/test_refinement_fetcher.log",
+      "bytes": 839,
+      "sha256": "27110223bc9190b3086968916653b91575e6cdf3caea4674d450614eb2702cba",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "reference/cdr_database_stats.json",
+      "bytes": 167,
+      "sha256": "d74612c4b6eed01e63b588634cee5fe975938e3c1abcb92865c9ab19ed0aa43e",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "reference/docking_stats.json",
+      "bytes": 194,
+      "sha256": "77cd516ce8b24a3d77e7e78c4f6c12c870d1c1a9d92709281bd516757f0d37cb",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "reference/framework_definition.json",
+      "bytes": 1143,
+      "sha256": "619837efcce927fda93fbc2170d91308fde82da969d219a7041d534d6dd2e78a",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "reference/glycosylation_sequons.json",
+      "bytes": 225,
+      "sha256": "f15359d064be4c34768910763b4eff085d0536807b9c4a7527a401e2208fc066",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "reference/input_manifest.json",
+      "bytes": 14856,
+      "sha256": "de7b77d422f7b015ca40f9bf709e8c5fb2be11e531d40bfa5558ac934b804226",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "reference/loop_generation_stats.json",
+      "bytes": 1226,
+      "sha256": "c51014ab0a93d23dff11091b79d83554d337beae217442da7d9b307a21997eb9",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "reference/refinement_fetcher_test_results.json",
+      "bytes": 566,
+      "sha256": "7498c275b5be20d6e19b23dad6daf0b4b32040cfd2bd682fd19fa7eabbaf921f",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "reference/research_sources.json",
+      "bytes": 4600,
+      "sha256": "0fed5ed2004aef4e743e30287f87c3f0b0446748eac9fba12b33022175505d5e",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "reference/structure_inventory.json",
+      "bytes": 10586,
+      "sha256": "1ad866687466b149cb7b14a41bac9bfb814b9d105ca70d92b35525815979fa9a",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "reference/target_alignment.json",
+      "bytes": 2570,
+      "sha256": "58f1784d30e59a052fa7a3b357816577104d1b996beb1c393319f8bca8682338",
+      "included": true,
+      "reason": "included"
+    },
+    {
+      "path": "tools/ncbi-blast-2.17.0+/bin/blastdbcmd",
+      "bytes": 31670200,
+      "sha256": "7b7985134ac696b2f28428baf8a210554c4e2d6c38cc1dfdd46d207dc4cc762f",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    },
+    {
+      "path": "tools/ncbi-blast-2.17.0+/bin/blastp",
+      "bytes": 36053120,
+      "sha256": "5ce267c04e4988c265357bfbedc64e809545b6fcfae7ff6775266fabbee8ba0e",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    },
+    {
+      "path": "tools/ncbi-blast-2.17.0+/bin/makeblastdb",
+      "bytes": 26516464,
+      "sha256": "c1ffdcf6f15d1d8d75377cc9f37afa42bc9fa06678903bad77c2641e60778fce",
+      "included": false,
+      "reason": "rebuild from transferred software/data"
+    }
+  ]
+}

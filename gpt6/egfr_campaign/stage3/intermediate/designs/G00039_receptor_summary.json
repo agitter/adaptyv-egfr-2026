@@ -1,0 +1,8 @@
+{
+  "pose_id": "G00039",
+  "mixed_histidine_branch": false,
+  "status": "failed",
+  "error": "ValueError('fixed framework/target collision')",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/egfr_campaign/stage3/code/gated_design.py\", line 215, in run_pose\n    t=candidate_table(rec,allow_histidine);unique=set();count=0\n  File \"/mnt/data/egfr_campaign/stage3/code/gated_design.py\", line 39, in candidate_table\n    if t['tree'].query(fixed_cloud)[0].min()<2.0:raise ValueError('fixed framework/target collision')\n                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: fixed framework/target collision\n",
+  "seconds": 0.17866992950439453
+}

@@ -1,0 +1,934 @@
+[
+  {
+    "trajectory": "C00003_v2_s198002",
+    "candidate_id": "C00003",
+    "warmup_ps": 2.0,
+    "production_ps": 4.0,
+    "seed": 198002,
+    "global_loop_displacement_mean_A": 1.4938022393872332,
+    "loop_internal_deformation_mean_A": [
+      0.77860388703178,
+      1.0936220025197687,
+      1.048838951386965
+    ],
+    "loop_internal_deformation_final_A": [
+      1.084149752903954,
+      1.3398581951958475,
+      1.5628860725542846
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "C00003",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [
+        {
+          "previous_position": 18,
+          "next_position": 19,
+          "omega_deg": 150.54983125200965,
+          "next_is_proline": false
+        },
+        {
+          "previous_position": 27,
+          "next_position": 28,
+          "omega_deg": 154.2386034630757,
+          "next_is_proline": false
+        }
+      ],
+      "actual_cystines": [
+        {
+          "positions": [
+            22,
+            97
+          ],
+          "SG_distance_A": 1.9986608016369345,
+          "chi3_deg": 53.32630556827667,
+          "CB_S_S_angles_deg": [
+            109.80446669501282,
+            100.78497636670124
+          ],
+          "strain_gate_pass": false
+        }
+      ],
+      "disulfide_strain_warnings": [
+        {
+          "positions": [
+            22,
+            97
+          ],
+          "SG_distance_A": 1.9986608016369345,
+          "chi3_deg": 53.32630556827667,
+          "CB_S_S_angles_deg": [
+            109.80446669501282,
+            100.78497636670124
+          ],
+          "strain_gate_pass": false
+        }
+      ],
+      "intended_extra_pairs_present": true,
+      "pass": false,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  },
+  {
+    "trajectory": "C00009_v2_s198002",
+    "candidate_id": "C00009",
+    "warmup_ps": 2.0,
+    "production_ps": 4.0,
+    "seed": 198002,
+    "global_loop_displacement_mean_A": 1.2503909939991047,
+    "loop_internal_deformation_mean_A": [
+      0.6750431145493662,
+      0.8478303327162295,
+      0.7792550830226126
+    ],
+    "loop_internal_deformation_final_A": [
+      0.8782377649916517,
+      0.9309280943914238,
+      0.765498290467584
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "C00009",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [
+        {
+          "previous_position": 77,
+          "next_position": 78,
+          "omega_deg": 149.72013210274477,
+          "next_is_proline": false
+        }
+      ],
+      "actual_cystines": [
+        {
+          "positions": [
+            22,
+            97
+          ],
+          "SG_distance_A": 2.0744526989064083,
+          "chi3_deg": 66.50842476264755,
+          "CB_S_S_angles_deg": [
+            110.86544675578168,
+            109.63233929548889
+          ],
+          "strain_gate_pass": true
+        }
+      ],
+      "disulfide_strain_warnings": [],
+      "intended_extra_pairs_present": true,
+      "pass": false,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  },
+  {
+    "trajectory": "MATCHED_C00003_v2_s198002",
+    "candidate_id": "MATCHED_C00003",
+    "warmup_ps": 2.0,
+    "production_ps": 4.0,
+    "seed": 198002,
+    "global_loop_displacement_mean_A": 1.3947113063305037,
+    "loop_internal_deformation_mean_A": [
+      0.6970154321729213,
+      1.1201657700292529,
+      0.899710173458834
+    ],
+    "loop_internal_deformation_final_A": [
+      0.7896923438584748,
+      1.3392725306945037,
+      1.1944154015888397
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "C00003",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [],
+      "actual_cystines": [
+        {
+          "positions": [
+            22,
+            97
+          ],
+          "SG_distance_A": 1.9858290460157961,
+          "chi3_deg": 58.15201638143276,
+          "CB_S_S_angles_deg": [
+            108.11493380115547,
+            101.47894738516156
+          ],
+          "strain_gate_pass": true
+        }
+      ],
+      "disulfide_strain_warnings": [],
+      "intended_extra_pairs_present": true,
+      "pass": true,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  },
+  {
+    "trajectory": "MATCHED_C00003_v2_s198003",
+    "candidate_id": "MATCHED_C00003",
+    "warmup_ps": 2.0,
+    "production_ps": 20.0,
+    "seed": 198003,
+    "global_loop_displacement_mean_A": 1.7316382265351875,
+    "loop_internal_deformation_mean_A": [
+      0.7485811952426061,
+      1.0438836049653006,
+      1.221819047682948
+    ],
+    "loop_internal_deformation_final_A": [
+      0.7176317860011683,
+      1.3558738352491362,
+      1.5091239627667588
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "C00003",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [
+        {
+          "previous_position": 120,
+          "next_position": 121,
+          "omega_deg": -154.337749116824,
+          "next_is_proline": false
+        }
+      ],
+      "actual_cystines": [
+        {
+          "positions": [
+            22,
+            97
+          ],
+          "SG_distance_A": 2.043417725282822,
+          "chi3_deg": 65.10879379383063,
+          "CB_S_S_angles_deg": [
+            97.80821915700592,
+            103.43487966515166
+          ],
+          "strain_gate_pass": true
+        }
+      ],
+      "disulfide_strain_warnings": [],
+      "intended_extra_pairs_present": true,
+      "pass": false,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  },
+  {
+    "trajectory": "NATIVE_3EAK_v2_s198002",
+    "candidate_id": "NATIVE_3EAK",
+    "warmup_ps": 2.0,
+    "production_ps": 4.0,
+    "seed": 198002,
+    "global_loop_displacement_mean_A": 1.0686971425415503,
+    "loop_internal_deformation_mean_A": [
+      0.5209696868242221,
+      0.4964725165454688,
+      0.36586798348856703
+    ],
+    "loop_internal_deformation_final_A": [
+      0.4972659366661571,
+      0.5363224842743826,
+      0.5032777914711348
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        38
+      ],
+      [
+        52,
+        67
+      ],
+      [
+        99,
+        117
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "NATIVE_3EAK",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [],
+      "actual_cystines": [
+        {
+          "positions": [
+            22,
+            99
+          ],
+          "SG_distance_A": 2.0903408812918505,
+          "chi3_deg": 70.00355854514287,
+          "CB_S_S_angles_deg": [
+            105.86478362286071,
+            102.43588459980525
+          ],
+          "strain_gate_pass": true
+        }
+      ],
+      "disulfide_strain_warnings": [],
+      "intended_extra_pairs_present": true,
+      "pass": true,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  },
+  {
+    "trajectory": "NATIVE_3EAK_v2_s198003",
+    "candidate_id": "NATIVE_3EAK",
+    "warmup_ps": 2.0,
+    "production_ps": 20.0,
+    "seed": 198003,
+    "global_loop_displacement_mean_A": 1.0949351248966996,
+    "loop_internal_deformation_mean_A": [
+      0.6571308108950839,
+      0.5674869088826011,
+      0.5527449782466697
+    ],
+    "loop_internal_deformation_final_A": [
+      0.4134728843369247,
+      0.6412850107830051,
+      0.6203681550949262
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        38
+      ],
+      [
+        52,
+        67
+      ],
+      [
+        99,
+        117
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "NATIVE_3EAK",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [
+        {
+          "previous_position": 64,
+          "next_position": 65,
+          "omega_deg": -150.47771751052997,
+          "next_is_proline": false
+        },
+        {
+          "previous_position": 110,
+          "next_position": 111,
+          "omega_deg": 154.4737829204517,
+          "next_is_proline": false
+        },
+        {
+          "previous_position": 111,
+          "next_position": 112,
+          "omega_deg": 149.186910744374,
+          "next_is_proline": false
+        }
+      ],
+      "actual_cystines": [
+        {
+          "positions": [
+            22,
+            99
+          ],
+          "SG_distance_A": 2.018790231797252,
+          "chi3_deg": 74.07989129414912,
+          "CB_S_S_angles_deg": [
+            103.87334694093661,
+            108.0164584250056
+          ],
+          "strain_gate_pass": true
+        }
+      ],
+      "disulfide_strain_warnings": [],
+      "intended_extra_pairs_present": true,
+      "pass": false,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  },
+  {
+    "trajectory": "S00017_v2_s198002",
+    "candidate_id": "S00017",
+    "warmup_ps": 2.0,
+    "production_ps": 4.0,
+    "seed": 198002,
+    "global_loop_displacement_mean_A": 1.376015123643981,
+    "loop_internal_deformation_mean_A": [
+      0.8426671770763446,
+      0.9058800856923184,
+      0.7828319127357026
+    ],
+    "loop_internal_deformation_final_A": [
+      0.9430326128994291,
+      1.18303501157302,
+      0.8871024074755146
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "S00017",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [
+        {
+          "previous_position": 82,
+          "next_position": 83,
+          "omega_deg": 154.64367027945175,
+          "next_is_proline": false
+        }
+      ],
+      "actual_cystines": [
+        {
+          "positions": [
+            22,
+            97
+          ],
+          "SG_distance_A": 2.030815107290675,
+          "chi3_deg": 80.5748670261384,
+          "CB_S_S_angles_deg": [
+            104.35362388709918,
+            107.00393249811562
+          ],
+          "strain_gate_pass": true
+        }
+      ],
+      "disulfide_strain_warnings": [],
+      "intended_extra_pairs_present": true,
+      "pass": false,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  },
+  {
+    "trajectory": "S00022_v2_s198002",
+    "candidate_id": "S00022",
+    "warmup_ps": 2.0,
+    "production_ps": 4.0,
+    "seed": 198002,
+    "global_loop_displacement_mean_A": 1.3328707030843916,
+    "loop_internal_deformation_mean_A": [
+      0.8391881520536766,
+      0.8713309149679276,
+      0.9663228182136374
+    ],
+    "loop_internal_deformation_final_A": [
+      0.8060762448643508,
+      1.1055480888527363,
+      1.3124327760550452
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "S00022",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [
+        {
+          "previous_position": 99,
+          "next_position": 100,
+          "omega_deg": 151.49810104932726,
+          "next_is_proline": false
+        },
+        {
+          "previous_position": 112,
+          "next_position": 113,
+          "omega_deg": 154.82512745880982,
+          "next_is_proline": false
+        }
+      ],
+      "actual_cystines": [
+        {
+          "positions": [
+            22,
+            97
+          ],
+          "SG_distance_A": 2.071002172862206,
+          "chi3_deg": 88.02880569510087,
+          "CB_S_S_angles_deg": [
+            106.25720100564921,
+            102.7837866177775
+          ],
+          "strain_gate_pass": true
+        }
+      ],
+      "disulfide_strain_warnings": [],
+      "intended_extra_pairs_present": true,
+      "pass": false,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  },
+  {
+    "trajectory": "S00022_v2_s198003",
+    "candidate_id": "S00022",
+    "warmup_ps": 2.0,
+    "production_ps": 20.0,
+    "seed": 198003,
+    "global_loop_displacement_mean_A": 1.9153354166332055,
+    "loop_internal_deformation_mean_A": [
+      1.052015815475723,
+      0.9282358690710937,
+      1.2438737619995073
+    ],
+    "loop_internal_deformation_final_A": [
+      1.0235872011212104,
+      0.8944708261259219,
+      1.3100495982873492
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "S00022",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [
+        {
+          "previous_position": 57,
+          "next_position": 58,
+          "omega_deg": -143.48357363501597,
+          "next_is_proline": false
+        }
+      ],
+      "actual_cystines": [
+        {
+          "positions": [
+            22,
+            97
+          ],
+          "SG_distance_A": 2.0042205467462897,
+          "chi3_deg": 95.69379546147064,
+          "CB_S_S_angles_deg": [
+            98.15377201593228,
+            101.96631656115736
+          ],
+          "strain_gate_pass": true
+        }
+      ],
+      "disulfide_strain_warnings": [],
+      "intended_extra_pairs_present": true,
+      "pass": false,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  },
+  {
+    "trajectory": "S00028_v2_s198002",
+    "candidate_id": "S00028",
+    "warmup_ps": 2.0,
+    "production_ps": 4.0,
+    "seed": 198002,
+    "global_loop_displacement_mean_A": 1.223653315115539,
+    "loop_internal_deformation_mean_A": [
+      0.6987645348465032,
+      1.1283502201529767,
+      0.7609953563468654
+    ],
+    "loop_internal_deformation_final_A": [
+      0.6601844665173718,
+      1.5893104238170361,
+      1.0301976739379428
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "S00028",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [
+        {
+          "previous_position": 15,
+          "next_position": 16,
+          "omega_deg": -154.59088307997948,
+          "next_is_proline": false
+        },
+        {
+          "previous_position": 18,
+          "next_position": 19,
+          "omega_deg": 150.75411392401958,
+          "next_is_proline": false
+        },
+        {
+          "previous_position": 19,
+          "next_position": 20,
+          "omega_deg": 151.6725545345445,
+          "next_is_proline": false
+        },
+        {
+          "previous_position": 66,
+          "next_position": 67,
+          "omega_deg": -153.52136816152455,
+          "next_is_proline": false
+        }
+      ],
+      "actual_cystines": [
+        {
+          "positions": [
+            57,
+            60
+          ],
+          "SG_distance_A": 2.0291180350093008,
+          "chi3_deg": 84.86845143054786,
+          "CB_S_S_angles_deg": [
+            107.1549341464693,
+            103.16887218898682
+          ],
+          "strain_gate_pass": true
+        },
+        {
+          "positions": [
+            22,
+            97
+          ],
+          "SG_distance_A": 1.992641964829604,
+          "chi3_deg": 69.78692298697796,
+          "CB_S_S_angles_deg": [
+            102.6547232424813,
+            105.13521051190938
+          ],
+          "strain_gate_pass": true
+        }
+      ],
+      "disulfide_strain_warnings": [],
+      "intended_extra_pairs_present": true,
+      "pass": false,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  },
+  {
+    "trajectory": "S00028_v2_s198003",
+    "candidate_id": "S00028",
+    "warmup_ps": 2.0,
+    "production_ps": 20.0,
+    "seed": 198003,
+    "global_loop_displacement_mean_A": 1.7652600057211454,
+    "loop_internal_deformation_mean_A": [
+      1.0924797438184224,
+      1.011478736508908,
+      1.259090307023196
+    ],
+    "loop_internal_deformation_final_A": [
+      1.8249123268945104,
+      1.451250749465616,
+      1.7132276485603366
+    ],
+    "loop_intervals_zero_based_half_open": [
+      [
+        25,
+        36
+      ],
+      [
+        50,
+        65
+      ],
+      [
+        97,
+        115
+      ]
+    ],
+    "end_point_independent_geometry": {
+      "candidate_id": "S00028",
+      "absolute_alpha_inversions": [],
+      "peptide_omega_warnings": [
+        {
+          "previous_position": 11,
+          "next_position": 12,
+          "omega_deg": 152.83316008394542,
+          "next_is_proline": false
+        },
+        {
+          "previous_position": 81,
+          "next_position": 82,
+          "omega_deg": 154.93591841390094,
+          "next_is_proline": false
+        }
+      ],
+      "actual_cystines": [
+        {
+          "positions": [
+            57,
+            60
+          ],
+          "SG_distance_A": 2.0323909564844995,
+          "chi3_deg": 83.53682679792452,
+          "CB_S_S_angles_deg": [
+            101.40178816966497,
+            99.76216710881555
+          ],
+          "strain_gate_pass": true
+        },
+        {
+          "positions": [
+            22,
+            97
+          ],
+          "SG_distance_A": 2.050295100711117,
+          "chi3_deg": 68.63684615557385,
+          "CB_S_S_angles_deg": [
+            106.21391484750384,
+            99.51574276646572
+          ],
+          "strain_gate_pass": true
+        }
+      ],
+      "disulfide_strain_warnings": [],
+      "intended_extra_pairs_present": true,
+      "pass": false,
+      "thresholds": {
+        "omega_max_deviation_from_trans_deg": 25,
+        "SS_A": [
+          1.9,
+          2.2
+        ],
+        "absolute_chi3_deviation_from90_max_deg": 35,
+        "CB_S_S_angles_deg": [
+          80,
+          130
+        ]
+      },
+      "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+    },
+    "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+    "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+    "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+  }
+]

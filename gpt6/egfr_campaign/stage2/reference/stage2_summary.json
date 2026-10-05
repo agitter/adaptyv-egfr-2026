@@ -1,0 +1,164 @@
+{
+  "status": "CHECKPOINT - NOT A SUBMISSION PACKAGE",
+  "date_utc": "2026-10-01",
+  "design_count": 366,
+  "unique_sequences": 366,
+  "unique_cdr3": 346,
+  "poses_with_sequences": 41,
+  "length_range": [
+    119,
+    127
+  ],
+  "geometry_prefilter_pass": 211,
+  "geometry_prefilter_rejected": 155,
+  "coarse_acid_on_all_12_scenarios": 185,
+  "geometry_pass_but_direction_not_robust": 26,
+  "candidates_with_no_glycosylation_sequon_and_robust_coarse_direction": 127,
+  "geometry_failure_counts_overlapping": {
+    "human6ARU": 27,
+    "mouseAF": 18,
+    "resolved_target_glycans": 128
+  },
+  "alternate_target_conformation_zero_clash_counts_among_geometry_pass": {
+    "1IVO": 0,
+    "1NQL": 154
+  },
+  "interpretation": "Positive surrogate pH contrast is only a direction check. It does not establish no detectable binding at pH 7.4, affinity, expression, or cross-species binding.",
+  "third_phone_a_friend_used": false,
+  "novelty": {
+    "candidates": 366,
+    "unique_cdr3_queries": 346,
+    "reference_cdr3": 203818,
+    "below_70pct": 366,
+    "max_identity": 0.6111111111111112,
+    "distance_tests": [
+      [
+        "ARDYYGMDV",
+        "ARDYYGMDV",
+        0
+      ],
+      [
+        "ARDYYGMDV",
+        "ARDYFGMDV",
+        1
+      ],
+      [
+        "AAAA",
+        "YYYY",
+        4
+      ],
+      [
+        "HGDHGEYY",
+        "DHGEY",
+        3
+      ],
+      [
+        "",
+        "AAAA",
+        4
+      ]
+    ],
+    "positive_control_exact_match": true,
+    "seconds": 8.765182733535767,
+    "qualification": "Local, motif-based coverage only; not organizer eligibility certification."
+  },
+  "novelty_reference": {
+    "numbered_H_rows": 386323,
+    "validated_annotated_cdr3": 335857,
+    "anchor_or_length_rejected": 50466,
+    "numbered_variable_domains": 673958,
+    "cdr3_total": 203818,
+    "old_cdr3": 133050,
+    "new_unique_domain_references": 72515,
+    "antibody_total": 446966
+  },
+  "tests": {
+    "classical_tests": 264,
+    "proton_polynomial_tests": 132
+  },
+  "allatom_joint_audit": {
+    "heavy_atom_count": 2260,
+    "severe_nonbonded_clashes": [],
+    "close_nonbonded_contacts_below_2p1A": [],
+    "stereochemical_inversions": [],
+    "bond_length_outliers": [],
+    "pass": true,
+    "initial_energy_kjmol": -30241.5926844709,
+    "final_energy_kjmol": -42967.90271335099,
+    "seconds": 69.28245234489441,
+    "iterations_limit": 500,
+    "restraints_in_energy": true,
+    "physical_claim": "geometry-only control; not binding or folding validation",
+    "alpha_centers": 260,
+    "beta_centers": 43,
+    "ca_rms_displacement_A": 0.2369592247513545,
+    "candidate_id": "P00024_07",
+    "species": "human6ARU",
+    "target_crop": [
+      334,
+      505
+    ],
+    "joint_refinement": true,
+    "glycan_obstacle_count": 150
+  },
+  "joint_mmgbsa_diagnostic": {
+    "candidate_id": "P00024_07",
+    "neutral_reference_kcal_proxy": 21.77115308964858,
+    "protonation_shifts": [
+      {
+        "partner": "target",
+        "position": 370,
+        "delta_delta_binding_kcal_proxy": -1.1724877254810053
+      },
+      {
+        "partner": "target",
+        "position": 433,
+        "delta_delta_binding_kcal_proxy": -6.216425199368132
+      },
+      {
+        "partner": "binder",
+        "position": 108,
+        "delta_delta_binding_kcal_proxy": 1.9071339762613206
+      },
+      {
+        "partner": "binder",
+        "position": 109,
+        "delta_delta_binding_kcal_proxy": 3.227877799237831
+      }
+    ],
+    "interpretation": "Positive matched-component protonation shift opposes acid-on binding in this diagnostic. This is not a binding free energy or calibrated affinity prediction. Joint relaxation corrects large steric artifacts of the earlier monomer-only diagnostic."
+  },
+  "receptor_histidine_opportunities": [
+    {
+      "human_uniprot_position": 358,
+      "human_aa": "H",
+      "mouse_aa": "H",
+      "sasa_A2": 112.48341805923866
+    },
+    {
+      "human_uniprot_position": 370,
+      "human_aa": "H",
+      "mouse_aa": "H",
+      "sasa_A2": 31.670238461206026
+    },
+    {
+      "human_uniprot_position": 383,
+      "human_aa": "H",
+      "mouse_aa": "R",
+      "sasa_A2": 155.39504158359642
+    },
+    {
+      "human_uniprot_position": 418,
+      "human_aa": "H",
+      "mouse_aa": "H",
+      "sasa_A2": 7.131729482914189
+    },
+    {
+      "human_uniprot_position": 433,
+      "human_aa": "H",
+      "mouse_aa": "H",
+      "sasa_A2": 144.1600213871608
+    }
+  ],
+  "conformation_warning": "All 211 current human/mouse geometry survivors collide with the ligand-bound 1IVO domain-I arrangement. This is a state-selectivity limitation, not evidence of active-state binding. 154 do not collide with the unliganded 1NQL conformation."
+}

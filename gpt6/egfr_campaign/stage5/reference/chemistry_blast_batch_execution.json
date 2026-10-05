@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    {
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/blast_chemistry.py",
+        "swissprot"
+      ],
+      "log": "blast_chemistry_swissprot.log",
+      "returncode": 0,
+      "seconds": 11.003382921218872
+    },
+    {
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/blast_chemistry.py",
+        "pdb"
+      ],
+      "log": "blast_chemistry_pdb.log",
+      "returncode": 0,
+      "seconds": 33.00372767448425
+    },
+    {
+      "args": [
+        "/mnt/data/egfr_campaign/stage5/code/blast_chemistry.py",
+        "antibodies_augmented"
+      ],
+      "log": "blast_chemistry_antibodies_augmented.log",
+      "returncode": 0,
+      "seconds": 139.02187991142273
+    }
+  ],
+  "seconds": 183.0504858493805,
+  "all_finished": true
+}

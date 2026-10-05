@@ -1,0 +1,1205 @@
+{
+  "checks": 237,
+  "passed": 237,
+  "coordinate_models_independently_sequence_checked": 61,
+  "active_workers": [],
+  "results": [
+    {
+      "check": "FASTA_100_unique",
+      "pass": true
+    },
+    {
+      "check": "FASTA_matches_private_records",
+      "pass": true
+    },
+    {
+      "check": "format_standard_AA_and_length",
+      "pass": true
+    },
+    {
+      "check": "CSV_required_columns_only",
+      "pass": true
+    },
+    {
+      "check": "CSV_top20_order_and_sequence",
+      "pass": true
+    },
+    {
+      "check": "CSV_all_nanobody",
+      "pass": true
+    },
+    {
+      "check": "no_functional_success_labels",
+      "pass": true
+    },
+    {
+      "check": "all_official_novelty_pending",
+      "pass": true
+    },
+    {
+      "check": "local_CDR3_gate",
+      "pass": true
+    },
+    {
+      "check": "top20_two_species_detailed_geometry",
+      "pass": true
+    },
+    {
+      "check": "glycan_results_explicit",
+      "pass": true
+    },
+    {
+      "check": "source_001_SilentLigand_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_002_Stereosecret_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_003_CatalyticCaper_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_004_ChiralCipher_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_005_PolypeptidePlot_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_006_BondVoyage_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_007_IsoelectricAlias_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_008_MotifMisdirect_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_009_IsoelectricAlias_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_010_SilentLigand_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_011_IsoelectricAlias_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_012_PeptidePhantom_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_013_SilentLigand_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_014_MolarMirage_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_015_MolarMirage_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_016_EnzymeEnigma_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_017_Covertase_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_018_AmideAlibi_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_019_MolarMirage_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_020_CatalyticCaper_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_021_CovalentCover_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_022_EnzymeEnigma_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_023_AmideAlibi_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_024_IonCurtain_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_025_MotifMisdirect_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_026_IonCurtain_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_027_CatalyticCaper_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_028_Stereosecret_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_029_MolarMirage_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_030_PolypeptidePlot_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_031_AmideAlibi_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_032_FoldAndDagger_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_033_KineticCloak_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_034_IonCurtain_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_035_HelixHush_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_036_AmideAlibi_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_037_BondVoyage_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_038_BondVoyage_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_039_PeptidePhantom_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_040_CovalentCover_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_041_FoldAndDagger_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_042_FoldAndDagger_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_043_KineticCloak_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_044_ChiralCipher_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_045_IonCurtain_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_046_HelixHush_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_047_EnzymeEnigma_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_048_CovalentCover_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_049_Stereosecret_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_050_BufferBandit_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_051_HelixHush_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_052_MolarMirage_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_053_PeptidePhantom_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_054_KineticCloak_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_055_EnzymeEnigma_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_056_ChiralCipher_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_057_KineticCloak_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_058_ResidueRuse_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_059_CatalyticCaper_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_060_HelixHush_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_061_PeptidePhantom_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_062_CatalyticCaper_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_063_CovalentCover_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_064_BufferBandit_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_065_IsoelectricAlias_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_066_FoldAndDagger_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_067_MotifMisdirect_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_068_BondVoyage_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_069_PeptidePhantom_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_070_PolypeptidePlot_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_071_BondVoyage_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_072_SilentLigand_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_073_BufferBandit_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_074_ChiralCipher_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_075_AmideAlibi_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_076_PolypeptidePlot_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_077_MotifMisdirect_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_078_ResidueRuse_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_079_SilentLigand_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_080_KineticCloak_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_081_IonCurtain_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_082_BufferBandit_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_083_Covertase_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_084_Covertase_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_085_CovalentCover_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_086_HelixHush_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_087_ResidueRuse_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_088_PolypeptidePlot_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_089_Stereosecret_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_090_IsoelectricAlias_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_091_Stereosecret_Onyx",
+      "pass": true
+    },
+    {
+      "check": "source_092_ResidueRuse_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_093_Covertase_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_094_MotifMisdirect_Nightfall",
+      "pass": true
+    },
+    {
+      "check": "source_095_Covertase_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_096_EnzymeEnigma_Cipher",
+      "pass": true
+    },
+    {
+      "check": "source_097_FoldAndDagger_Cinder",
+      "pass": true
+    },
+    {
+      "check": "source_098_ResidueRuse_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_099_ChiralCipher_Velvet",
+      "pass": true
+    },
+    {
+      "check": "source_100_BufferBandit_Cinder",
+      "pass": true
+    },
+    {
+      "check": "complex_chain_B_present_J00008_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00008_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00008_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00008_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00008_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00008_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00014_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00014_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00014_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00014_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00014_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00014_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00002_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00002_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00002_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00002_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00002_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00002_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00009_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00009_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00009_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00009_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00009_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00009_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00005_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00005_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00005_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00005_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00005_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00005_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_H00021_human6ARU_acid_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_H00021_human6ARU_acid_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/H00021_human6ARU_acid_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_H00021_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_H00021_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/H00021_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00004_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00004_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00004_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_H00021_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_H00021_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/H00021_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00004_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00004_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00004_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00010_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00010_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00010_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00010_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00010_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00010_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00006_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00006_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00006_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00006_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00006_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00006_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00001_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00001_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00001_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00001_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00001_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00001_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_N2070600_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_N2070600_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/N2070600_human6ARU_relaxed.pdb",
+        "sequence_length": 121
+      }
+    },
+    {
+      "check": "complex_chain_B_present_N2070600_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_N2070600_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/N2070600_mouseAF_relaxed.pdb",
+        "sequence_length": 121
+      }
+    },
+    {
+      "check": "complex_chain_B_present_B00000_human6ARU_acid_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_B00000_human6ARU_acid_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/B00000_human6ARU_acid_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_B00000_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_B00000_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/B00000_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00000_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00000_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00000_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_C00003_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_C00003_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage3/intermediate/refined/C00003_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_B00000_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_B00000_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/B00000_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00000_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00000_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00000_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_S00048_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_S00048_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00048_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_L00001_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_L00001_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/L00001_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_H00018_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_H00018_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/H00018_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_L00002_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_L00002_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/L00002_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00020_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00020_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00020_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00020_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00020_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00020_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00015_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00015_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00015_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00015_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00015_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00015_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00013_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00013_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00013_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00013_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00013_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00013_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_S00022_human6ARU_acid_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_S00022_human6ARU_acid_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00022_human6ARU_acid_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_S00022_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_S00022_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00022_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_S00022_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_S00022_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00022_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_T3080600_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_T3080600_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/T3080600_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_L00003_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_L00003_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/L00003_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_T3070900_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_T3070900_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/T3070900_human6ARU_relaxed.pdb",
+        "sequence_length": 124
+      }
+    },
+    {
+      "check": "complex_chain_B_present_L00004_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_L00004_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/L00004_mouseAF_relaxed.pdb",
+        "sequence_length": 124
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00019_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00019_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00019_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00019_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00019_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00019_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_H00007_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_H00007_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/H00007_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_L00005_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_L00005_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/L00005_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00011_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00011_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00011_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_J00011_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_J00011_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/J00011_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_H00016_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_H00016_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/H00016_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_L00006_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_L00006_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/L00006_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_N2070802_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_N2070802_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/N2070802_human6ARU_relaxed.pdb",
+        "sequence_length": 121
+      }
+    },
+    {
+      "check": "complex_chain_B_present_N2070802_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_N2070802_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/N2070802_mouseAF_relaxed.pdb",
+        "sequence_length": 121
+      }
+    },
+    {
+      "check": "complex_chain_B_present_K00007_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_K00007_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/K00007_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_K00007_mouseAF_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_K00007_mouseAF_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage6/intermediate/refined/K00007_mouseAF_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_S00062_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_S00062_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00062_human6ARU_relaxed.pdb",
+        "sequence_length": 125
+      }
+    },
+    {
+      "check": "complex_chain_B_present_N3060700_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_N3060700_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/N3060700_human6ARU_relaxed.pdb",
+        "sequence_length": 119
+      }
+    },
+    {
+      "check": "complex_chain_B_present_R3060700_human6ARU_relaxed",
+      "pass": true
+    },
+    {
+      "check": "coordinate_sequence_R3060700_human6ARU_relaxed",
+      "pass": true,
+      "details": {
+        "coordinate_file": "/mnt/data/egfr_campaign/stage5/intermediate/refined/R3060700_human6ARU_relaxed.pdb",
+        "sequence_length": 119
+      }
+    },
+    {
+      "check": "all_top20_models_are_positive_human_direction",
+      "pass": true
+    },
+    {
+      "check": "real_panel_formatter_exit",
+      "pass": true,
+      "details": {
+        "stdout": "Wrote 20 entries to /mnt/data/egfr_campaign/stage6/intermediate/formatter_tests/real_panel_roundtrip.csv. Official eligibility and biological function remain unverified.\n",
+        "stderr": ""
+      }
+    },
+    {
+      "check": "real_panel_formatter_byte_identical",
+      "pass": true
+    },
+    {
+      "check": "no_remaining_campaign_workers",
+      "pass": true,
+      "details": []
+    }
+  ]
+}

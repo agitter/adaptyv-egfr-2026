@@ -1,0 +1,253 @@
+{
+  "candidate_id": "S00017",
+  "seed": 198002,
+  "rng": "MT19937",
+  "warmup_ps": 2.0,
+  "production_ps": 4.0,
+  "timestep_ps": 0.002,
+  "protocol": "v2:Andersen-style constraint-group collisions every0.05ps,5/ps;synchronized velocity-Verlet/RATTLE;300K;NoCutoff",
+  "forcefield": "Amber99SB2006/OBC2004",
+  "chirality_restraints": true,
+  "position_restraints_production": false,
+  "metadata": {
+    "source": "/mnt/data/egfr_campaign/stage4/intermediate/refined/S00017_human6ARU_relaxed.pdb",
+    "source_sha256": "0befeb9f82e9eb7bc832096dca71468b6901e31a4e328dd9ab53a61b8830e2da",
+    "role": "untested de novo computational design",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEAQWFRQAPGQGLEAVAANNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSAQGQYWGQGTLVTVS"
+  },
+  "frames": [
+    {
+      "step": 0,
+      "time_ps": 0.0,
+      "phase": "warmup",
+      "ramp": 1.0,
+      "temperature_K": 287.7166441250081,
+      "potential_kj": -19382.42667343278,
+      "framework_CA_RMSD_A": 0.045987468253690406,
+      "loop_CA_RMSD_A": 0.08654034272433511,
+      "CDR_CA_RMSD_A": [
+        0.08701582154841668,
+        0.08607521211066615,
+        0.08663548898611846
+      ],
+      "maximum_CA_displacement_A": 0.1608132761881118
+    },
+    {
+      "step": 250,
+      "time_ps": 0.5,
+      "phase": "warmup",
+      "ramp": 0.75,
+      "temperature_K": 254.32534719804238,
+      "potential_kj": -14811.045200659679,
+      "framework_CA_RMSD_A": 0.22133562362442827,
+      "loop_CA_RMSD_A": 0.3160886651431479,
+      "CDR_CA_RMSD_A": [
+        0.3083827089480371,
+        0.2356367426330938,
+        0.37395491276552906
+      ],
+      "maximum_CA_displacement_A": 0.6308612057279958
+    },
+    {
+      "step": 500,
+      "time_ps": 1.0,
+      "phase": "warmup",
+      "ramp": 0.5,
+      "temperature_K": 279.6870110854002,
+      "potential_kj": -14027.978949822476,
+      "framework_CA_RMSD_A": 0.2939017708203289,
+      "loop_CA_RMSD_A": 0.44516839452780216,
+      "CDR_CA_RMSD_A": [
+        0.5867292101243845,
+        0.3081313102623441,
+        0.44150998389362117
+      ],
+      "maximum_CA_displacement_A": 1.399234250509267
+    },
+    {
+      "step": 750,
+      "time_ps": 1.5,
+      "phase": "warmup",
+      "ramp": 0.25,
+      "temperature_K": 279.8445914619295,
+      "potential_kj": -13844.031609326832,
+      "framework_CA_RMSD_A": 0.30244095431943674,
+      "loop_CA_RMSD_A": 0.5123556372689528,
+      "CDR_CA_RMSD_A": [
+        0.5573299336229823,
+        0.43518149306795295,
+        0.5422605961850365
+      ],
+      "maximum_CA_displacement_A": 1.592219325513446
+    },
+    {
+      "step": 1000,
+      "time_ps": 2.0,
+      "phase": "production",
+      "ramp": 0.0,
+      "temperature_K": 292.67642053404245,
+      "potential_kj": -13703.941387055087,
+      "framework_CA_RMSD_A": 0.3859704199181942,
+      "loop_CA_RMSD_A": 0.7034659006100216,
+      "CDR_CA_RMSD_A": [
+        0.8644461395584785,
+        0.5525062785106966,
+        0.7061295836006232
+      ],
+      "maximum_CA_displacement_A": 1.8269581539236233
+    },
+    {
+      "step": 1250,
+      "time_ps": 2.5,
+      "phase": "production",
+      "ramp": 0.0,
+      "temperature_K": 313.13590498840284,
+      "potential_kj": -13445.684859589755,
+      "framework_CA_RMSD_A": 0.5483394979671826,
+      "loop_CA_RMSD_A": 0.9273486607370137,
+      "CDR_CA_RMSD_A": [
+        1.104511171491371,
+        0.649411010321478,
+        1.002594123726855
+      ],
+      "maximum_CA_displacement_A": 1.8021856122616913
+    },
+    {
+      "step": 1500,
+      "time_ps": 3.0,
+      "phase": "production",
+      "ramp": 0.0,
+      "temperature_K": 322.65855562709777,
+      "potential_kj": -13553.13603498999,
+      "framework_CA_RMSD_A": 0.610689125247057,
+      "loop_CA_RMSD_A": 0.9968067036782112,
+      "CDR_CA_RMSD_A": [
+        1.2356083488258887,
+        0.9090691649187865,
+        0.8984347342350907
+      ],
+      "maximum_CA_displacement_A": 2.561415058840186
+    },
+    {
+      "step": 1750,
+      "time_ps": 3.5,
+      "phase": "production",
+      "ramp": 0.0,
+      "temperature_K": 303.5792800317118,
+      "potential_kj": -13645.676552308707,
+      "framework_CA_RMSD_A": 0.588830033998023,
+      "loop_CA_RMSD_A": 1.2170502608926366,
+      "CDR_CA_RMSD_A": [
+        1.551322185993137,
+        1.1830958928668471,
+        0.9917704344485536
+      ],
+      "maximum_CA_displacement_A": 2.656129606912682
+    },
+    {
+      "step": 2000,
+      "time_ps": 4.0,
+      "phase": "production",
+      "ramp": 0.0,
+      "temperature_K": 293.6808606228854,
+      "potential_kj": -13364.319151828891,
+      "framework_CA_RMSD_A": 0.6311900439545411,
+      "loop_CA_RMSD_A": 1.6130606012526856,
+      "CDR_CA_RMSD_A": [
+        2.0161792653830792,
+        1.5131908761908002,
+        1.402883371988411
+      ],
+      "maximum_CA_displacement_A": 3.0147704613767248
+    },
+    {
+      "step": 2250,
+      "time_ps": 4.5,
+      "phase": "production",
+      "ramp": 0.0,
+      "temperature_K": 290.75479241705636,
+      "potential_kj": -13453.195478053032,
+      "framework_CA_RMSD_A": 0.6321787638492011,
+      "loop_CA_RMSD_A": 1.6971698692595043,
+      "CDR_CA_RMSD_A": [
+        2.080114996257953,
+        1.6348799483118273,
+        1.472881073313862
+      ],
+      "maximum_CA_displacement_A": 2.9824638870773326
+    },
+    {
+      "step": 2500,
+      "time_ps": 5.0,
+      "phase": "production",
+      "ramp": 0.0,
+      "temperature_K": 305.54966802608266,
+      "potential_kj": -13718.336995560636,
+      "framework_CA_RMSD_A": 0.615897839862789,
+      "loop_CA_RMSD_A": 1.6805665739074553,
+      "CDR_CA_RMSD_A": [
+        1.9155971244575913,
+        1.7469408443731151,
+        1.4554057458150051
+      ],
+      "maximum_CA_displacement_A": 2.8409944864721877
+    },
+    {
+      "step": 2750,
+      "time_ps": 5.5,
+      "phase": "production",
+      "ramp": 0.0,
+      "temperature_K": 308.02418103000076,
+      "potential_kj": -13510.490596206619,
+      "framework_CA_RMSD_A": 0.6713948797350585,
+      "loop_CA_RMSD_A": 1.722999220896028,
+      "CDR_CA_RMSD_A": [
+        1.84375924465574,
+        1.9777724316218843,
+        1.3855658957248487
+      ],
+      "maximum_CA_displacement_A": 3.9321985455074464
+    },
+    {
+      "step": 3000,
+      "time_ps": 6.0,
+      "phase": "production",
+      "ramp": 0.0,
+      "temperature_K": 304.6952510697329,
+      "potential_kj": -13511.512135679339,
+      "framework_CA_RMSD_A": 0.7398095630178575,
+      "loop_CA_RMSD_A": 1.8256683215622727,
+      "CDR_CA_RMSD_A": [
+        2.0364144075818884,
+        1.9251816728081748,
+        1.5889053702757299
+      ],
+      "maximum_CA_displacement_A": 3.6062342634001068
+    }
+  ],
+  "summary": {
+    "production_mean_temperature_K": 303.8616571496681,
+    "production_mean_loop_RMSD_A": 1.376015123643981,
+    "final_CDR_RMSD_A": [
+      2.0364144075818884,
+      1.9251816728081748,
+      1.5889053702757299
+    ],
+    "final_framework_RMSD_A": 0.7398095630178575,
+    "production_mean_CDR_RMSD_A": [
+      1.6275503204672364,
+      1.3435609022137345,
+      1.2116189259032197
+    ]
+  },
+  "final_geometry_audit": {
+    "heavy_atom_count": 948,
+    "severe_nonbonded_clashes": [],
+    "close_nonbonded_contacts_below_2p1A": [],
+    "stereochemical_inversions": [],
+    "bond_length_outliers": [],
+    "pass": true
+  },
+  "seconds": 193.4434826374054,
+  "limitation": "Very short nonconverged thermal stress test, not equilibrium folding stability, physical kinetics or binding free energy."
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "archived_previous_source": "/mnt/data/egfr_campaign/stage6/code/unbound_one_v1_failed_chain_audit.py",
+    "previous_sha256": "52546c4fdf28604100d6a8cf63b051e104841f31e7f616bfbd6574e8acf1935f",
+    "current_source": "/mnt/data/egfr_campaign/stage6/code/unbound_one.py",
+    "current_sha256": "335c19bb30578639606e6732e17ad4e5c91f77c2496b2ba5c4f7ee4b53807ec4",
+    "scope": "All ten initial matched_unbound jobs used the preserved v1 code; current code fixes the future postprocessing chain selection. Physics outputs unchanged."
+  },
+  {
+    "archived_previous_source": "/mnt/data/egfr_campaign/stage6/code/glycan_screen_v1_filtered_pool_bug.py",
+    "previous_sha256": "5a135e08c86d398902ae16ab03f9d7e4e743c3ef3a85e6e674d01b77fa69264b",
+    "current_source": "/mnt/data/egfr_campaign/stage6/code/glycan_screen.py",
+    "current_sha256": "38aafac2f3cc9ea3afa1c84c78e4a12b452ad4e93a2530d3b8d5f8c5ac4789d7",
+    "scope": "Exploratory glycan-pool screening preceded a persistent-gate correction. Only recomputed final-gate outputs support release."
+  },
+  {
+    "archived_previous_source": "/mnt/data/egfr_campaign/stage6/code/select_panel_v2_before_persistent_glycan_gate.py",
+    "previous_sha256": "1903db3a41aeea843348fed2a87faf8ecc1e5dfc5de5f39743320fcb00ebe52d",
+    "current_source": "/mnt/data/egfr_campaign/stage6/code/select_panel.py",
+    "current_sha256": "307d498f9e0ca70cd56103b9a6e444c9134734393afd363940e18e82114a270e",
+    "scope": "Final selection uses complete glycan screening, not missing-record reentry."
+  },
+  {
+    "archived_previous_source": "/mnt/data/egfr_campaign/stage6/code/release_panel_v1_before_query_completion.py",
+    "previous_sha256": "04a1a4eaee5d158cee11df51fff923020207114af05cc7ee9b0c20350106f716",
+    "current_source": "/mnt/data/egfr_campaign/stage6/code/release_panel.py",
+    "current_sha256": "d6b5a4511e035da44ef5f3887a990c77fea05746a7fe434e1b65ca809edf379d",
+    "scope": "Earlier exporter was authored/compiled but not used to release files. Final exporter requires reconciled BLAST coverage."
+  }
+]

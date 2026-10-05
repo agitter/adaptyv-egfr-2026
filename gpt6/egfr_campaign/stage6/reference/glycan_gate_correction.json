@@ -1,0 +1,10 @@
+{
+  "issue": "Refreshing glycan screening from an already glycan-filtered pool could drop the rejected entries and allow them back into the next selection.",
+  "correction": "Compute the screening population with every other gate applied but the glycan gate disabled; screening includes all potential candidates on every refresh. The final selector applies the resulting complete gate.",
+  "preserved_source_versions": [
+    "/mnt/data/egfr_campaign/stage6/code/select_panel_v2_before_persistent_glycan_gate.py",
+    "/mnt/data/egfr_campaign/stage6/code/glycan_screen_v1_filtered_pool_bug.py"
+  ],
+  "utc": "2026-10-02T21:39:13.435967+00:00",
+  "required_final_test": "Every final selected sequence has an explicit passing glycan record, every eligible-before-glycan sequence has a screening record, and a repeated selection is idempotent."
+}

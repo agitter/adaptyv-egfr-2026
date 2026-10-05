@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/data/egfr_campaign/stage3/code/run_mm_batch.py", line 11, in <module>
+    else:candidate=item['candidate_id'];species=item.get('species','human6ARU')
+                   ~~~~^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str

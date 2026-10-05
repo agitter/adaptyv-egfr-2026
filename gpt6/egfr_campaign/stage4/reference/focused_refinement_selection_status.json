@@ -1,0 +1,97 @@
+{
+  "config": "/mnt/data/egfr_campaign/stage4/reference/focused_refinement_selection.json",
+  "jobs": [
+    {
+      "name": "mouse_S00017",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/refine_candidate.py",
+        "S00017",
+        "mouseAF"
+      ],
+      "timeout": 1200
+    },
+    {
+      "name": "acid_S00017",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/refine_acid_candidate.py",
+        "S00017",
+        "human6ARU"
+      ],
+      "timeout": 1200
+    },
+    {
+      "name": "mouse_S00022",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/refine_candidate.py",
+        "S00022",
+        "mouseAF"
+      ],
+      "timeout": 1200
+    },
+    {
+      "name": "acid_S00022",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/refine_acid_candidate.py",
+        "S00022",
+        "human6ARU"
+      ],
+      "timeout": 1200
+    },
+    {
+      "name": "mouse_S00028",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/refine_candidate.py",
+        "S00028",
+        "mouseAF"
+      ],
+      "timeout": 1200
+    },
+    {
+      "name": "acid_S00028",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/refine_acid_candidate.py",
+        "S00028",
+        "human6ARU"
+      ],
+      "timeout": 1200
+    }
+  ],
+  "completed": [
+    {
+      "name": "mouse_S00017",
+      "returncode": 0,
+      "seconds": 51.89775991439819,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/mouse_S00017.log"
+    },
+    {
+      "name": "acid_S00017",
+      "returncode": 0,
+      "seconds": 83.52111840248108,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/acid_S00017.log"
+    },
+    {
+      "name": "mouse_S00022",
+      "returncode": 0,
+      "seconds": 47.12370491027832,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/mouse_S00022.log"
+    },
+    {
+      "name": "acid_S00022",
+      "returncode": 0,
+      "seconds": 71.41161823272705,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/acid_S00022.log"
+    },
+    {
+      "name": "mouse_S00028",
+      "returncode": 0,
+      "seconds": 56.150747299194336,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/mouse_S00028.log"
+    },
+    {
+      "name": "acid_S00028",
+      "returncode": 0,
+      "seconds": 101.00243258476257,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/acid_S00028.log"
+    }
+  ]
+}

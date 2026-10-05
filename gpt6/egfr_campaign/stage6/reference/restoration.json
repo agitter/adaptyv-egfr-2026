@@ -1,0 +1,45 @@
+{
+  "verified_stage5_payloads": 6240,
+  "failures": [],
+  "archives": [
+    {
+      "path": "/mnt/data/egfr_stage5_checkpoint.zip",
+      "sha256": "ea08cc85f23cba3bcd131310be634611c358fc95fc764ed83d3f17ce9a0856c5",
+      "entries": 6243,
+      "expanded_bytes": 370462899
+    },
+    {
+      "path": "/mnt/data/resources.zip",
+      "sha256": "65bf7c62a70ef02dad83f926082a444c3a91d10a24003deb2b99434c07bc0d74",
+      "entries": 45,
+      "expanded_bytes": 24921068
+    },
+    {
+      "path": "/mnt/data/egfr_inputs.zip",
+      "sha256": "ed9e9e6fbee34c3ee386cf1c33e33aaaf0e28fd2a0d053f2dbad797905750b18",
+      "entries": 33,
+      "expanded_bytes": 462932645
+    },
+    {
+      "path": "/mnt/data/egfr_refinement_inputs.zip",
+      "sha256": "bd333ef25a5a68a03e130c78323e1a734b8df31c06d639551ca3adef5be3d2d9",
+      "entries": 35,
+      "expanded_bytes": 88835042
+    },
+    {
+      "path": "/mnt/data/egfr_campaign/inputs/transfer2/egfr_refinement_fetch/openmm-8.4.0.post2-cp313-cp313-manylinux_2_34_x86_64.whl",
+      "sha256": "70cdd3309064b95bd304af1f195377e54b6f7060b15b37af725d15764b756b09",
+      "entries": 559,
+      "expanded_bytes": 86875520
+    }
+  ],
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "biopython": "1.86",
+    "numba": "0.65.1",
+    "rapidfuzz": "3.14.3"
+  }
+}

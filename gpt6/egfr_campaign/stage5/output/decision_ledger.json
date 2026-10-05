@@ -1,0 +1,52 @@
+[
+  {
+    "candidate_id": "H00011",
+    "decision": "Retain for further evaluation as conditional pH improvement over matched C00003 parent",
+    "minimum_engineered_acid_scope_contrast_kcal": 0.6971394447581574,
+    "difference_from_matched_parent_kcal": 0.0962428299596425,
+    "human_geometry_pass": true,
+    "mouse_geometry_pass": true,
+    "no_claim_of_experimental_success": true,
+    "no_thermal_trajectory_for_this_variant": true
+  },
+  {
+    "candidate_id": "H00020",
+    "decision": "Human pH improvement only: exclude current mouse hypothesis until strict peptide-geometry failure is repaired",
+    "minimum_engineered_acid_scope_contrast_kcal": 0.7091988050424405,
+    "difference_from_matched_parent_kcal": 0.10830219024392562,
+    "human_geometry_pass": true,
+    "mouse_geometry_pass": false,
+    "no_claim_of_experimental_success": true,
+    "no_thermal_trajectory_for_this_variant": true
+  },
+  {
+    "candidate_id": "H00021",
+    "decision": "Retain for further evaluation as conditional pH improvement over matched C00003 parent",
+    "minimum_engineered_acid_scope_contrast_kcal": 0.6654958913649054,
+    "difference_from_matched_parent_kcal": 0.06459927656639053,
+    "human_geometry_pass": true,
+    "mouse_geometry_pass": true,
+    "no_claim_of_experimental_success": true,
+    "no_thermal_trajectory_for_this_variant": true
+  },
+  {
+    "candidate_id": "N3081002",
+    "decision": "EXCLUDE: local CDR3 identity reaches71.43%, exceeding local70% threshold"
+  },
+  {
+    "candidate_id": "N2070600",
+    "decision": "Do not claim stabilization from shortening; two-seed thermal comparison and mean retained-contact motion remain cautionary."
+  },
+  {
+    "candidate_id": "N2091100",
+    "decision": "Do not promote from one favorable trajectory; more glycan-grid clashes and weaker conservative pH contrast than matched parent."
+  },
+  {
+    "branch": "aggressive_H3_return_rebuild",
+    "decision": "Contact audit found loss of E106. Some sequences reverse acid-on direction. Preserve failed data; do not extrapolate from coarse scores."
+  },
+  {
+    "candidate_id": "T3070400",
+    "decision": "Retain the contact-preserving branch for repair, not this pose for promotion: fixed 1IVO context clash. No matched thermal or mouse evaluation completed."
+  }
+]

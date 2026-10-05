@@ -1,0 +1,572 @@
+{
+  "database": "swissprot",
+  "candidate_queries": 1,
+  "all_query_ids_verified": true,
+  "positive_control_exact_match": true,
+  "command": [
+    "/mnt/data/egfr_campaign/stage6/runtime/bin/blastp",
+    "-task",
+    "blastp",
+    "-query",
+    "/mnt/data/egfr_campaign/stage6/intermediate/blast/panel_supplement_swissprot.fasta",
+    "-db",
+    "/mnt/data/egfr_campaign/stage6/intermediate/blast/swissprot",
+    "-out",
+    "/mnt/data/egfr_campaign/stage6/intermediate/blast/panel_supplement_swissprot.tsv",
+    "-outfmt",
+    "7 qseqid sseqid pident length qlen slen qcovhsp evalue bitscore qstart qend sstart send",
+    "-max_target_seqs",
+    "50",
+    "-num_threads",
+    "2",
+    "-seg",
+    "no",
+    "-comp_based_stats",
+    "0",
+    "-word_size",
+    "3",
+    "-matrix",
+    "BLOSUM62",
+    "-evalue",
+    "0.001"
+  ],
+  "seconds": 1.7354273796081543,
+  "query_sha256": "72c40476bbc4d1fd3af6ea1468975f7e2582bd4c21b645e6bea4ab45d8445607",
+  "result_sha256": "eb9381145afcc2265913598f868d9379f4b0ac39c8ddc63149f643694f47ad4f",
+  "hits": {
+    "Q8c6b3716442415be21de": [
+      {
+        "subject": "sp|P01784|HV01_CANLF",
+        "identity_pct": 62.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 114,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.71e-42,
+        "bitscore": 138.0
+      },
+      {
+        "subject": "sp|P0DP03|HVC05_HUMAN",
+        "identity_pct": 71.134,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 6.83e-38,
+        "bitscore": 127.0
+      },
+      {
+        "subject": "sp|P01768|HV330_HUMAN",
+        "identity_pct": 71.134,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 6.83e-38,
+        "bitscore": 127.0
+      },
+      {
+        "subject": "sp|P01764|HV323_HUMAN",
+        "identity_pct": 70.103,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 6.83e-38,
+        "bitscore": 127.0
+      },
+      {
+        "subject": "sp|P0DP02|HVC33_HUMAN",
+        "identity_pct": 71.134,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 9.69e-38,
+        "bitscore": 126.0
+      },
+      {
+        "subject": "sp|A0A0J9YX35|HV64D_HUMAN",
+        "identity_pct": 69.072,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 9.69e-38,
+        "bitscore": 126.0
+      },
+      {
+        "subject": "sp|P01780|HV307_HUMAN",
+        "identity_pct": 69.072,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 1.95e-37,
+        "bitscore": 125.0
+      },
+      {
+        "subject": "sp|P01763|HV348_HUMAN",
+        "identity_pct": 69.072,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 2.77e-37,
+        "bitscore": 125.0
+      },
+      {
+        "subject": "sp|P01772|HV333_HUMAN",
+        "identity_pct": 71.134,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 3.93e-37,
+        "bitscore": 125.0
+      },
+      {
+        "subject": "sp|A0A0B4J1V1|HV321_HUMAN",
+        "identity_pct": 67.01,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 1.59e-36,
+        "bitscore": 123.0
+      },
+      {
+        "subject": "sp|A0A0B4J1X5|HV374_HUMAN",
+        "identity_pct": 70.103,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 2.26e-36,
+        "bitscore": 123.0
+      },
+      {
+        "subject": "sp|A0A0C4DH42|HV366_HUMAN",
+        "identity_pct": 70.103,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 116,
+        "query_coverage_pct": 77.0,
+        "evalue": 6.27e-36,
+        "bitscore": 122.0
+      },
+      {
+        "subject": "sp|P01767|HV353_HUMAN",
+        "identity_pct": 69.072,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 116,
+        "query_coverage_pct": 77.0,
+        "evalue": 6.27e-36,
+        "bitscore": 122.0
+      },
+      {
+        "subject": "sp|A0A075B6Q5|HV364_HUMAN",
+        "identity_pct": 68.041,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 118,
+        "query_coverage_pct": 77.0,
+        "evalue": 6.65e-36,
+        "bitscore": 122.0
+      },
+      {
+        "subject": "sp|P01805|HVR01_RAT",
+        "identity_pct": 54.688,
+        "alignment_length": 128,
+        "query_length": 121,
+        "subject_length": 142,
+        "query_coverage_pct": 100.0,
+        "evalue": 6.71e-36,
+        "bitscore": 122.0
+      },
+      {
+        "subject": "sp|P01807|HVM37_MOUSE",
+        "identity_pct": 54.4,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 6.85e-36,
+        "bitscore": 122.0
+      },
+      {
+        "subject": "sp|P19181|HV05_CARAU",
+        "identity_pct": 69.072,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 116,
+        "query_coverage_pct": 77.0,
+        "evalue": 1.26e-35,
+        "bitscore": 121.0
+      },
+      {
+        "subject": "sp|P01762|HV311_HUMAN",
+        "identity_pct": 68.041,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 1.3e-35,
+        "bitscore": 121.0
+      },
+      {
+        "subject": "sp|A0A0C4DH36|HV338_HUMAN",
+        "identity_pct": 67.347,
+        "alignment_length": 98,
+        "query_length": 121,
+        "subject_length": 116,
+        "query_coverage_pct": 79.0,
+        "evalue": 2.54e-35,
+        "bitscore": 120.0
+      },
+      {
+        "subject": "sp|A0A0C4DH35|HV335_HUMAN",
+        "identity_pct": 68.041,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 2.62e-35,
+        "bitscore": 120.0
+      },
+      {
+        "subject": "sp|A0A0C4DH32|HV320_HUMAN",
+        "identity_pct": 67.01,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 2.62e-35,
+        "bitscore": 120.0
+      },
+      {
+        "subject": "sp|P0DOX5|IGG1_HUMAN",
+        "identity_pct": 60.0,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 449,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.18e-35,
+        "bitscore": 128.0
+      },
+      {
+        "subject": "sp|P01790|HVM21_MOUSE",
+        "identity_pct": 55.385,
+        "alignment_length": 130,
+        "query_length": 121,
+        "subject_length": 122,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.31e-35,
+        "bitscore": 120.0
+      },
+      {
+        "subject": "sp|P01766|HV313_HUMAN",
+        "identity_pct": 67.708,
+        "alignment_length": 96,
+        "query_length": 121,
+        "subject_length": 116,
+        "query_coverage_pct": 77.0,
+        "evalue": 5.12e-35,
+        "bitscore": 119.0
+      },
+      {
+        "subject": "sp|P01782|HV309_HUMAN",
+        "identity_pct": 68.041,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 118,
+        "query_coverage_pct": 77.0,
+        "evalue": 5.43e-35,
+        "bitscore": 119.0
+      },
+      {
+        "subject": "sp|A0A0B4J1Y9|HV372_HUMAN",
+        "identity_pct": 67.327,
+        "alignment_length": 101,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 77.0,
+        "evalue": 5.59e-35,
+        "bitscore": 119.0
+      },
+      {
+        "subject": "sp|P01787|HVM18_MOUSE",
+        "identity_pct": 54.962,
+        "alignment_length": 131,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.27e-34,
+        "bitscore": 119.0
+      },
+      {
+        "subject": "sp|P01810|HVM40_MOUSE",
+        "identity_pct": 52.8,
+        "alignment_length": 125,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.6e-34,
+        "bitscore": 118.0
+      },
+      {
+        "subject": "sp|P01793|HVM24_MOUSE",
+        "identity_pct": 53.846,
+        "alignment_length": 130,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.8e-34,
+        "bitscore": 118.0
+      },
+      {
+        "subject": "sp|P01788|HVM19_MOUSE",
+        "identity_pct": 54.962,
+        "alignment_length": 131,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.8e-34,
+        "bitscore": 118.0
+      },
+      {
+        "subject": "sp|P01799|HVM30_MOUSE",
+        "identity_pct": 54.762,
+        "alignment_length": 126,
+        "query_length": 121,
+        "subject_length": 113,
+        "query_coverage_pct": 99.0,
+        "evalue": 1.9e-34,
+        "bitscore": 118.0
+      },
+      {
+        "subject": "sp|P01801|HVM32_MOUSE",
+        "identity_pct": 54.331,
+        "alignment_length": 127,
+        "query_length": 121,
+        "subject_length": 115,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.01e-34,
+        "bitscore": 118.0
+      },
+      {
+        "subject": "sp|P01792|HVM23_MOUSE",
+        "identity_pct": 53.846,
+        "alignment_length": 130,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 2.55e-34,
+        "bitscore": 118.0
+      },
+      {
+        "subject": "sp|P0DTE1|HV383_HUMAN",
+        "identity_pct": 68.421,
+        "alignment_length": 95,
+        "query_length": 121,
+        "subject_length": 115,
+        "query_coverage_pct": 77.0,
+        "evalue": 8.16e-34,
+        "bitscore": 116.0
+      },
+      {
+        "subject": "sp|P01808|HVM38_MOUSE",
+        "identity_pct": 52.756,
+        "alignment_length": 127,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 100.0,
+        "evalue": 9.17e-34,
+        "bitscore": 116.0
+      },
+      {
+        "subject": "sp|P01800|HVM31_MOUSE",
+        "identity_pct": 53.968,
+        "alignment_length": 126,
+        "query_length": 121,
+        "subject_length": 113,
+        "query_coverage_pct": 99.0,
+        "evalue": 1.09e-33,
+        "bitscore": 116.0
+      },
+      {
+        "subject": "sp|P01786|HVM17_MOUSE",
+        "identity_pct": 53.543,
+        "alignment_length": 127,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.23e-33,
+        "bitscore": 116.0
+      },
+      {
+        "subject": "sp|P0DP04|HV43D_HUMAN",
+        "identity_pct": 65.979,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 118,
+        "query_coverage_pct": 77.0,
+        "evalue": 1.26e-33,
+        "bitscore": 116.0
+      },
+      {
+        "subject": "sp|P01796|HVM27_MOUSE",
+        "identity_pct": 53.968,
+        "alignment_length": 126,
+        "query_length": 121,
+        "subject_length": 113,
+        "query_coverage_pct": 99.0,
+        "evalue": 1.55e-33,
+        "bitscore": 115.0
+      },
+      {
+        "subject": "sp|P01785|HV02_CANLF",
+        "identity_pct": 54.331,
+        "alignment_length": 127,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.74e-33,
+        "bitscore": 115.0
+      },
+      {
+        "subject": "sp|A0A0B4J1X8|HV343_HUMAN",
+        "identity_pct": 64.948,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 118,
+        "query_coverage_pct": 77.0,
+        "evalue": 3.61e-33,
+        "bitscore": 115.0
+      },
+      {
+        "subject": "sp|A0A0B4J1V0|HV315_HUMAN",
+        "identity_pct": 64.356,
+        "alignment_length": 101,
+        "query_length": 121,
+        "subject_length": 119,
+        "query_coverage_pct": 77.0,
+        "evalue": 3.72e-33,
+        "bitscore": 115.0
+      },
+      {
+        "subject": "sp|P01795|HVM26_MOUSE",
+        "identity_pct": 52.672,
+        "alignment_length": 131,
+        "query_length": 121,
+        "subject_length": 144,
+        "query_coverage_pct": 100.0,
+        "evalue": 3.81e-33,
+        "bitscore": 115.0
+      },
+      {
+        "subject": "sp|P01794|HVM25_MOUSE",
+        "identity_pct": 53.788,
+        "alignment_length": 132,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 4.18e-33,
+        "bitscore": 115.0
+      },
+      {
+        "subject": "sp|P18526|HVM55_MOUSE",
+        "identity_pct": 62.887,
+        "alignment_length": 97,
+        "query_length": 121,
+        "subject_length": 117,
+        "query_coverage_pct": 77.0,
+        "evalue": 4.97e-33,
+        "bitscore": 114.0
+      },
+      {
+        "subject": "sp|P01789|HVM20_MOUSE",
+        "identity_pct": 53.488,
+        "alignment_length": 129,
+        "query_length": 121,
+        "subject_length": 122,
+        "query_coverage_pct": 100.0,
+        "evalue": 5.75e-33,
+        "bitscore": 114.0
+      },
+      {
+        "subject": "sp|P01791|HVM22_MOUSE",
+        "identity_pct": 53.488,
+        "alignment_length": 129,
+        "query_length": 121,
+        "subject_length": 123,
+        "query_coverage_pct": 100.0,
+        "evalue": 5.92e-33,
+        "bitscore": 114.0
+      },
+      {
+        "subject": "sp|P01802|HVM33_MOUSE",
+        "identity_pct": 52.756,
+        "alignment_length": 127,
+        "query_length": 121,
+        "subject_length": 115,
+        "query_coverage_pct": 100.0,
+        "evalue": 9.43e-33,
+        "bitscore": 114.0
+      },
+      {
+        "subject": "sp|P01809|HVM39_MOUSE",
+        "identity_pct": 52.756,
+        "alignment_length": 127,
+        "query_length": 121,
+        "subject_length": 118,
+        "query_coverage_pct": 100.0,
+        "evalue": 1.03e-32,
+        "bitscore": 114.0
+      },
+      {
+        "subject": "sp|P01804|HVM35_MOUSE",
+        "identity_pct": 52.893,
+        "alignment_length": 121,
+        "query_length": 121,
+        "subject_length": 111,
+        "query_coverage_pct": 96.0,
+        "evalue": 1.19e-32,
+        "bitscore": 113.0
+      }
+    ],
+    "POSITIVE_CONTROL": [
+      {
+        "subject": "sp|Q6GZX4|001R_FRG3G",
+        "identity_pct": 100.0,
+        "alignment_length": 256,
+        "query_length": 256,
+        "subject_length": 256,
+        "query_coverage_pct": 100.0,
+        "evalue": 0.0,
+        "bitscore": 528.0
+      },
+      {
+        "subject": "sp|Q91FP2|VF282_IIV6",
+        "identity_pct": 33.721,
+        "alignment_length": 172,
+        "query_length": 256,
+        "subject_length": 383,
+        "query_coverage_pct": 62.0,
+        "evalue": 3.77e-25,
+        "bitscore": 105.0
+      },
+      {
+        "subject": "sp|Q196Y1|VF282_IIV3",
+        "identity_pct": 29.524,
+        "alignment_length": 210,
+        "query_length": 256,
+        "subject_length": 395,
+        "query_coverage_pct": 74.0,
+        "evalue": 2.86e-19,
+        "bitscore": 89.4
+      }
+    ]
+  }
+}

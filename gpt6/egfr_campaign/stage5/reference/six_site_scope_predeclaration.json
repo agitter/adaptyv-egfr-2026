@@ -1,0 +1,28 @@
+{
+  "basis_source": "/mnt/data/egfr_campaign/stage3/code/acid_histidine_ensemble.py",
+  "basis_sha256": "03e6495a964cb883e58967e6498383a33fbf4cca9ff3a2a198b5ee747fb51a00",
+  "only_scientific_code_change": "Raise explicit exhaustive-state guard from five to six sites. Same forcefield, geometry, states, priors and equations. No truncation.",
+  "designs": {
+    "H00011": [
+      54,
+      103,
+      104,
+      106
+    ],
+    "H00020": [
+      54,
+      104,
+      106
+    ],
+    "H00021": [
+      54,
+      104,
+      106
+    ]
+  },
+  "histidines_expected": 2,
+  "maximum_sites": 6,
+  "maximum_microstates": 729,
+  "reason": "H00011 adds a fourth nearby binder carboxylate; must not silently omit an existing acid to keep the old state-count limit. H20/H21 replace E103 with Q so have three selected acids.",
+  "scope_limit": "Focused engineered sites only; remaining distant and receptor ionizable groups are not all enumerated."
+}

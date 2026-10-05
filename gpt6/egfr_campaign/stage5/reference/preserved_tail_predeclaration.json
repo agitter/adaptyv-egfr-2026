@@ -1,0 +1,14 @@
+{
+  "reason": "Aggressive H3 shortening removed residues Y104/Q105/E106/F107 and mostly weakened pH contrast. Preserve these own-designed contact residues, rebuild only the distal eight-residue return (108-115) between F107 and W116.",
+  "source_geometry": "same unchanged stage4 C00003 matched source as original stage5 branches; B00000 remains matched control",
+  "trial_new_lengths": [
+    4,
+    5,
+    6
+  ],
+  "backbone_attempt_limit_per_length": 1200,
+  "max_retained_per_length": 12,
+  "seed_formula": "200319980+400+new_length, MT19937",
+  "sequence_palette": "neutral palette in replacement only, original intended carboxylates retained",
+  "selection_rule": "At most two geometries per length, initial sequence/geometry and novel-CDR gates, alternative-target context before packing heuristic. Predeclared before generation or refinement."
+}

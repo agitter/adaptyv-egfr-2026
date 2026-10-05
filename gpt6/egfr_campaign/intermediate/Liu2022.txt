@@ -1,0 +1,1136 @@
+
+=== PAGE 1 ===
+Original Article
+A cross-reactive pH-dependent EGFR antibody
+with improved tumor selectivity and penetration
+obtained by structure-guided engineering
+Ximing Liu,1,2,6 Xinxin Tian,1,2,6 Xinyan Hao,1 Huixiang Zhang,1 Kailun Wang,1,3 Zhizhong Wei,1,3 Xin Wei,1,4
+Yulu Li,1,2 and Jianhua Sui1,5
+1National Institute of Biological Sciences, 7 Science Park Road, Beijing 102206, China; 2Peking University-Tsinghua University-National Institute of Biological Sciences
+(PTN) Joint Graduate Program, Peking University, Beijing 100871, China; 3PTN Joint Graduate Program, School of Life Sciences, Tsinghua University, Beijing 100084,
+China; 4College of Life Sciences, Beijing Normal University, Beijing 100875, China; 5Tsinghua Institute of Multidisciplinary Biomedical Research, Tsinghua University,
+Beijing 102206, China
+The clinical use of anti-EGFR antibody-based cancer therapy
+has been limited by antibody-EGFR binding in normal tis-
+sues, so developing pH-dependent anti-EGFR antibodies
+that selectively bind with EGFR in tumors—by taking advan-
+tage of the acidity of tumor microenvironment relative to
+normal tissues—may overcome these limitations. Here, we
+generated pH-dependent anti-EGFR antibodies with cross-
+species reactivity for human and mouse EGFR, and we demon-
+strate that pH-dependent antibodies exhibit tumor-selective
+binding by binding strongly to EGFR under acidic conditions
+(pH 6.5) but binding weakly under neutral (pH 7.4) condi-
+tions. Based on screening a non-immune human antibody
+library
+and
+antibody
+afﬁnity
+maturation,
+we
+initially
+generated antibodies with cross-species reactivity for human
+and mouse EGFR. A structure model was subsequently
+constructed and interrogated for hotspots affecting pH-
+dependent binding, which supported development of a
+cross-reactive pH-dependent anti-EGFR antibody, G532.
+Compared with its non-pH-dependent antibody variant,
+G532 exhibits improved tumor selectivity, tumor penetration,
+and antitumor activity. Thus, beyond showing that pH-
+dependent anti-EGFR antibodies can overcome multiple
+limitations with antibody-based cancer therapies targeting
+EGFR, our study illustrates a structure-guided antibody-
+antigen binding pH-dependency engineering strategy to
+enhance antibody tumor selectivity and tumor penetration,
+which can inform the future development of antibody-based
+cancer therapies targeting other ubiquitously expressed
+molecules.
+INTRODUCTION
+The human epidermal growth factor receptor (hEGFR) is a trans-
+membrane glycoprotein with an amino-terminal 621 amino acid
+(Leu25-Ser645) extracellular region (ECR) comprising four domains
+(I–IV).1,2 EGFR can be activated by at least seven different growth fac-
+tors (EGF, transforming growth factor-a [TGFa], betacellulin [BTC],
+heparin binding EGF-like growth factor [HB-EGF], epiregulin
+[EREG], epigen [EPGN], and amphiregulin [AREG])—with varying
+receptor-binding afﬁnities—to regulate cell proliferation and differ-
+entiation.3,4 EGF is a high-afﬁnity ligand of EGFR: it binds with
+EGFR domains I and III to stabilize EGFR dimerization, which pro-
+motes activation of receptor tyrosine kinases.2,4 EGFR plays a causal
+role in the development and maintenance of many types of cancer and
+is a well-validated oncology target.5,6 Therapeutic anti-EGFR anti-
+bodies, including Cetuximab, Panitumumab, and Necitumumab,
+which bind to domain III of human EGFR, are in use for the clinical
+treatment of solid tumors including colorectal cancer and non-small-
+cell lung cancer.7–11 In addition, many investigations based on anti-
+EGFR antibodies (and related antibody-based therapies) for cancer
+therapy are ongoing.12–15
+Four mechanisms of action (MOA) have been reported to contribute
+to the antitumor activity of anti-EGFR antibodies: inhibiting ligand
+binding to block oncogenic signaling; triggering EGFR internalization
+and degradation to down-regulate oncogenic signaling; antibody-
+dependent cell-mediated cytotoxicity; and indirectly activating tu-
+mor-reactive T cells for tumor regression by increasing dendritic
+cell (DC) cross-presentation.16–22 However, given that EGFR is ex-
+pressed in normal tissues of diverse origins (e.g., epithelial, mesen-
+chymal, and neuronal), and considering that EGFR is known to affect
+normal cellular processes including proliferation, differentiation, and
+development,23,24 there are problems with on-target/off-tumor
+toxicity that have limited the clinical utility of anti-EGFR anti-
+bodies.25–28 Thus, obtaining tumor-selective anti-EGFR antibodies
+should substantially improve the efﬁcacy of these therapies in cancer
+treatment.
+Received 25 May 2022; accepted 9 November 2022;
+https://doi.org/10.1016/j.omto.2022.11.001.
+6These authors contributed equally
+Correspondence: Jianhua Sui, MD, PhD, National Institute of Biological Sciences, 7
+Science Park Road, Beijing 102206, China.
+E-mail: suijianhua@nibs.ac.cn
+256
+Molecular Therapy: Oncolytics Vol. 27 December 2022 ª 2022 The Authors.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+
+=== PAGE 2 ===
+Generally, three strategies are used to acquire therapeutic antibodies
+with tumor selectivity: modulating antibody binding afﬁnity, devel-
+oping antibodies targeting tumor-speciﬁc antigens, or developing
+antibodies that selectively bind with their targets in the tumor micro-
+environment.29–33 Antibodies with high afﬁnity would recognize tu-
+mors with lower target expression as well as normal tissues, so devel-
+oping antibodies with intermediate afﬁnity can enhance antibody
+selectivity toward tumors with highly up-regulated antigens.32,33
+Nimotuzumab is an anti-EGFR antibody with 10-fold lower bind-
+ing afﬁnity than Cetuximab.34 In contrast to Cetuximab’s binding
+to normal cells with low EGFR expression levels, Nimotuzumab selec-
+tively binds with tumor cells with high EGFR levels, so it follows that
+Nimotuzumab treatment exhibits relatively low on-target/off-tumor
+toxicity and is suitable for patients with high EGFR expression or
+gene ampliﬁcation.34,35
+EGFRvIII is a common ECR truncation mutant of EGFR found with
+glioblastoma multiforme (GBM), head and neck cancer, and breast
+cancer; it has an in-frame deletion of 267 amino acids from EGFR
+ECR domains I and II.36 EGFRvIII is tumor speciﬁc, and there is
+no evidence that it occurs in normal tissues.36 Illustrating the iden-
+tiﬁcation of a tumor-selective anti-EGFR antibody (DH8.3) by
+targeting tumor-speciﬁc antigens, an antibody with higher binding
+afﬁnity for EGFRvIII than wild-type (WT) EGFR showed tumor
+selectivity in glioblastoma expressing EGFRvIII29,37; note that anti-
+body-speciﬁc targeting EGFRvIII cannot exhibit tumor selectivity in
+cancer types expressing WT EGFR but not EGFRvIII (e.g., colorectal
+cancer and pancreatic cancer).36 Another strategy to acquire tumor-
+selective antibodies frequently takes advantage of the acidic extracel-
+lular pH in the tumor microenvironment resulting from the
+Warburg effect,38–41 and investigators have successfully developed
+tumor-selective pH-dependent antibodies that bind strongly to their
+antigens under acidic conditions in solid tumors (pH of solid tu-
+mors ranges 6.5 and 6.9, and can be as low as 6.0) but bind weakly
+(or not at all) under neutral (pH 7.2–7.5) conditions in normal
+tissues.30,42
+Mouse tumor models are widely used during the preclinical devel-
+opment of antitumor therapies.43 While many anti-EGFR antibodies
+can elicit potent antitumor activity in preclinical mouse tumor
+models, most therapeutic anti-EGFR antibodies can recognize
+human EGFR but not mouse EGFR (mEGFR); thus, the on-
+target/off-tumor effects and other problems resulting from antibody
+binding with EGFR in normal tissues cannot be predicted based on
+experimental programs using mouse tumor models. Humanized
+mice provide a solution for evaluating the performance of therapeu-
+tic antibodies in vivo.44,45 However, EGFR humanized mice are difﬁ-
+cult to obtain, owing to the essential function of mouse EGFR bind-
+ing with its diverse ligands, and EGFR deﬁciency is known to lead to
+multiple abnormalities in mice.6,46 Thus, developing anti-EGFR an-
+tibodies with adequate cross-reactive binding with hEGFR and
+mEGFR should greatly aid evaluations (e.g., pharmacokinetics,
+safety, and therapeutic efﬁcacy) of anti-EGFR antibodies in mouse
+tumor models.
+Here, we aimed to develop pH-dependent anti-EGFR antibodies to
+overcome limitations with anti-EGFR antibodies owing to EGFR
+expression in normal tissues. We initially generated antibodies with
+cross-species reactivity for human and mouse EGFR by screening a
+non-immune human antibody library and through antibody afﬁnity
+maturation. We then generated a structure model of an anti-EGFR
+antibody in complex with EGFR, and interrogated it for residues
+affecting pH-dependent binding, which supported development of
+a cross-reactive pH-dependent anti-EGFR antibody, G532, as well
+as a non-pH-dependent variant of G532 (G532Ctrl). We also experi-
+mentally conﬁrmed that the pH-dependent binding of G532
+improves its tumor selectivity, tumor penetration, and antitumor
+activity over G532Ctrl. Thus, our study shows how use of pH-depen-
+dent antibodies for cancer therapies targeting EGFR can improve
+antibody tumor selectivity and tumor penetration. Our study also
+practically demonstrates a structure-guided antibody-antigen binding
+pH-dependency engineering strategy that can be applied for devel-
+oping pH-dependent antibodies targeting other tumor-associated an-
+tigens that are expressed in normal tissues.
+RESULTS
+Selection of a pH-dependent anti-EGFR antibody interacting
+with EGFR H370 and H433 from a non-immune human antibody
+library
+To identify pH-dependent human antibodies against EGFR, we pro-
+duced a recombinant protein containing the extracellular region
+(ECR) of hEGFR (residues Leu25-Lys642) and used it to select pH-
+dependent antibodies from our non-immune phage display human
+scFv antibody library (library size: 1.1  1010).47 To screen for pH-
+dependent antibodies, the non-immune phage display library was
+incubated with the hEGFR ECR in a pH 6.0 solution, washed with
+pH 6.0 washing buffer, and then eluted using pH 7.4 buffer (Fig-
+ure S1). Single clones were then randomly picked and screened for
+binding to the hEGFR ECR at pH 6.0 and pH 7.4 using ELISA. A total
+of 31 phage-scFv antibodies with unique sequences were thusly
+selected, and both their binding afﬁnity and pH-dependency were
+evaluated (Figure S2, Table S1), antibodies with poor binding pH-de-
+pendency (e.g., 11C04) or poor binding afﬁnity at pH 6.0 (e.g., 11C05)
+were excluded from further evaluation. At last, 14C07 and 11A10
+were selected for their relatively high binding afﬁnity and pH-depen-
+dency, and both were converted into the full-length human immuno-
+globulin (Ig)G1 format (Figure S2).
+We next compared the binding afﬁnity of 14C07, 11A10, and the
+Food and Drug Administration (FDA)-approved therapeutic anti-
+EGFR mAb Cetuximab for hEGFR at pH 6.0 and pH 7.4, and found
+that both 14C07 and 11A10 exhibited potent pH-dependent binding,
+with dramatically higher binding afﬁnity at pH 6.0 than at pH 7.4
+(Figure 1A). In contrast, the binding afﬁnity of Cetuximab was quite
+similar at the two pH values (Figure 1A). We then compared the
+ligand-blocking ability of 14C07, 11A10, and Cetuximab in assays
+with EGFR and one of its ligands (EGF) at pH 6.0 with ELISA.
+Both 14C07 and Cetuximab could block EGFR-EGF binding at pH
+6.0, doing so in a dose-dependent manner (Figure 1B). In contrast,
+www.moleculartherapy.org
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+257
+
+
+=== PAGE 3 ===
+A
+B
+C
+D
+(legend on next page)
+Molecular Therapy: Oncolytics
+258
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+
+
+=== PAGE 4 ===
+11A10 did not block EGFR-EGF binding (Figure 1B). Given that
+binding afﬁnity of 14C07 and Cetuximab is comparable at pH 6.0 (as-
+sessed with ELISA), the dramatic difference detected for Cetuximab
+and 14C07 in blocking EGF-EGFR binding strongly suggests that
+Cetuximab and 14C07 do not have identical binding epitopes
+(Figures 1A and 1B). Considering that inhibition of ligand binding
+to therapeutically block an oncogenic signal is one of the known
+MOAs with the anti-EGFR antibodies used in clinical treatment,6
+we chose 14C07 as the lead antibody for further investigation.
+Histidine (H) has been repeatedly demonstrated to contribute to the
+binding between pH-dependent antibodies and their antigens.30,48 A
+previously reported crystal structure of EGFR/EGF complex revealed
+that two histidines (H370 and H433) in EGFR’s domain III (residues
+Lys335-Lys538) participate in the EGFR-EGF interaction.2 This moti-
+vated our speculation that EGFR H370 and H433 may participate in
+EGFR-14C07 binding. Pursuing this, we produced two hEGFR ECR
+variants containing H370A or H433A mutations, and assayed the
+binding of both Cetuximab and 14C07 with WT hEGFR ECR and
+the mutant variants at both pH 6.5 and pH 7.4. 14C07 binding with
+EGFR was greatly impaired by both H370A and H433A mutations,
+whereas Cetuximab binding with EGFR was impaired by the
+H433A mutation but not the H370A mutation (Figure 1C). Also
+note that the pH-dependency of binding between 14C07 and EGFR
+ECR H370A was more than 2-fold weaker than the pH-dependency
+between 14C07 and WT EGFR ECR (Figure 1C). These ﬁndings pro-
+vide four insights into 14C07’s epitope on the hEGFR ECR: (1) The
+epitopes of 14C07 and Cetuximab are not identical; (2) 14C07 can
+block EGF-EGFR binding, and residues H370 and H433 in EGFR’s
+domain III participate in EGFR-14C07 binding, indicating that the
+binding epitope of 14C07 is located on EGFR domain III; (3) EGFR
+H370 affects both the binding afﬁnity and the pH-dependency of
+14C07-EGFR binding; and (4) H433A abolishes 14C07-EGFR bind-
+ing, indicating that H433 may exert a stronger inﬂuence on 14C07-
+EGFR pH-dependent binding than H370. Considering H370 and
+H433 residues are conserved between hEGFR and mEGFR, we spec-
+ulated that 14C07 may exhibit cross-reactive, pH-dependent binding
+to both hEGFR and mEGFR. Assessing 14C07 binding with hEGFR
+and mEGFR showed that 14C07 bound with both hEGFR and
+mEGFR, consistently doing so in a dose-dependent and pH-depen-
+dent manner (Figure 1D). Distinct from 14C07, our analysis showed
+that Cetuximab elicits only weak cross-reactive binding with mEGFR
+(Figure S3).
+Antibody afﬁnity maturation of 14C07 generates an anti-EGFR
+antibody with cross-reactivity with both human and mouse
+EGFR
+To generate pH-dependent anti-EGFR antibodies with higher binding
+afﬁnity than 14C07, we ﬁrst used point mutation scanning to select
+permissive amino acid sites in six CDRs of 14C07 (Figure S4), after
+which we constructed sub-libraries of 14C07 containing random mu-
+tations of these selected permissive amino acid sites. Selection of
+14C07 sub-libraries was then performed based on improved binding
+afﬁnity over 14C07 at pH 6.5 (Figure S5). However, we failed to
+generate antibodies with signiﬁcantly improved binding afﬁnity and
+pH-dependency over 14C07. But we serendipitously obtained an
+anti-EGFR antibody G5V2 with improved cross-reactivity (i.e., with
+improved binding to both human and mouse EGFR over 14C07):
+G5V2’s binding afﬁnity for hEGFR and mEGFR at pH 6.5 (half
+maximal effective concentration [EC50] ratio, mEGFR/hEGFR =
+1.233) is much closer than 14C07’s binding afﬁnity for hEGFR and
+mEGFR at pH 6.5 (EC50 ratio, mEGFR/hEGFR = 8.729) (Figure 1D,
+Table S2). The difference in afﬁnity between the pH 7.4 and pH 6.5
+conditions was much less pronounced for G5V2 as compared with
+14C07 (Figure 1D). Thus, adopting a traditional antibody engineering
+strategy—screening libraries containing CDR random mutations based
+on alanine scanning—failed to generate an antibody with adequate
+binding afﬁnity and binding pH-dependency. We therefore adopted
+a rational approach for the further development of the highly cross-
+reactive G5V2.
+A G5V2-hEGFR structure model enables identiﬁcation of a
+hotspot increasing the pH-dependency of G5V2-hEGFR binding
+To support the rational engineering of G5V2, we initially adopted a
+structural approach and sought candidatehotspotsaffectingpH-depen-
+dent binding between G5V2 and EGFR. We generated a G5V2 scFv
+structure model using ABodyBuilder.49 We then manually docked a
+complex structure model of G5V2-hEGFR (Figure 2A) with the help
+of a previously reported crystal structure of a Cetuximab/EGFR com-
+plex (PDB: 1YY9),2,50 as guided by the following four considerations:
+(1) previous results suggesting the binding epitope of the parental anti-
+body of G5V2 (14C07) is located on EGFR domain III (Figures 1B and
+1C) and that both G5V2 and Cetuximab exhibit comparablebinding af-
+ﬁnity with EGFR domain III and the EGFR ECR (Figure S6), suggesting
+that the binding epitope of G5V2 and Cetuximab is located on EGFR
+domain III; (2) 14C07 can block EGFR-EGF binding, indicating that
+its variant G5V2 interacts with EGFR at the EGFR-EGF binding
+Figure 1. Characterization of pH-dependent anti-human EGFR antibodies selected from a phage display non-immune human scFv library
+(A) Cetuximab, 11A10, and 14C07 binding with hEGFR ECR at pH 6.0, and pH 7.4, analyzed with ELISA. Different antibodies in human IgG1 form at the indicated con-
+centrations were added to 96-well plates coated with hEGFR ECR, followed by extensive washing. Then antibody-hEGFR binding was detected with an HRP-conjugated
+anti-hFc secondary antibody. The EC50 values are shown. (B) Ligand-binding blocking activity of Cetuximab, 11A10, and 14C07 for EGF binding to hEGFR at pH 6.0,
+analyzed with ELISA. EGF-mFc was mixed with different antibodies in human IgG1 form at the indicated concentrations, and added to 96-well plates coated with hEGFR
+ECR, followed by extensive washing. Then EGF-hEGFR binding was measured using an HRP-conjugated anti-mFc secondary antibody. The IC50 values are shown. n.m.,
+not measurable. (C) Cetuximab and 14C07 (in human IgG1 form) binding with WT hEGFR ECR, and its two variants containing H370A or H433A mutation at pH 6.5 and pH
+7.4. The binding assay was performed similarly as in Figure 1A. The EC50 values and binding pH-dependency (EC50 ratio [pH 7.4/pH 6.5]) are shown in the table at the right.
+n.m., not measurable. (D) Binding cross-reactivity of 14C07 and G5V2 to human and mouse EGFR at pH 6.5 and pH 7.4. 14C07 and G5V2 (in human IgG1 form) at the
+indicated concentrations were added to 96-well plates coated with hEGFR ECR or mEGFR ECR. Then antibody binding with hEGFR or mEGFR was measured with an HRP-
+conjugated anti-hFc secondary antibody. The EC50 values and binding pH-dependency (EC50 ratio [pH 7.4/pH 6.5]) are shown in the table at the right.
+www.moleculartherapy.org
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+259
+
+
+=== PAGE 5 ===
+interface; (3) 14C07-EGFR binding was abolished by the H433A muta-
+tion and was impaired by the H370A mutation (Figure 1C), indicating
+thatbothH433and H370 may bepositioned atthe binding interface be-
+tween hEGFR and G5V2 (a 14C07 variant); (4) G5V2 exhibits compa-
+rable binding afﬁnity with human and mouse EGFR, indicating that the
+G5V2-EGFR binding interface conserves highly similar or identical res-
+idues between mouse and human EGFR (Figure 2B).
+Supporting the reliability of the conformational epitope indicated
+by the G5V2-EGFR structure model, ELISA-based binding analysis
+showed that alanine substitution of ﬁve amino acids—positioned at
+the binding interface revealed by the G5V2-hEGFR complex structure
+model (R377A, L406A, H433A, Q435A, and K489A)—signiﬁcantly
+reduced the binding of G5V2 to hEGFR (Figures 2A and 2C).
+Previous studies have shown that protonation of ionizable residues
+like histidine can contribute to pH-dependent binding,30,42,51 so we
+hypothesized that increasing the extent of interactions between H
+and acidic amino acids (aspartate [D] or glutamate [E]) may promote
+pH-dependent binding between G5V2 and EGFR. ELISA assessment
+A
+E
+C
+B
+D
+Figure 2. A G5V2-hEGFR structure model reveals a hotspot determining the pH-dependency of G5V2-hEGFR binding
+(A) A complex structure model of G5V2-hEGFR. A G5V2 scFv structure model was ﬁrst generated with ABodyBuilder. Then a complex structure model of G5V2-hEGFR was
+manually docked using PyMOL. Carbon atoms are colored in cyan for the VL of G5V2, green for the VH of G5V2, and gray for the hEGFR ECR. Ribbon representation of G5V2
+scFv and hEGFR ECR in orthogonal views (left). A detailed view of the G5V2-hEGFR interface revealing the locations of G5V2 CDRs and hEGFR residues H370, H433, R377,
+L406, Q435, and K489 (right). (B) A detailed view of the G5V2-hEGFR complex model revealing the locations of amino acids on hEGFR domain III that are distinct from mouse
+EGFR (colored in orange). (C) G5V2 binding at pH 7.4 with the WT hEGFR ECR and its variants containing multiple mutations analyzed with ELISA. (D) The G5V2-hEGFR
+complex model indicated that the G5V2 LCDR1 Y32 residue is positioned in close proximity with hEGFR H433, and that the G5V2 LCDR2 D52D53 residues face hEGFR
+H370. (E) Binding activity of the phage display Fab form of WT G5V2, and its variants (G5V2 Y32E, G5V2 Y32D, G5V2 Y32H) to hEGFR ECR at pH 6.5 and pH 7.4. Multiple
+phage-Fab antibodies at the indicated concentrations were added to coated hEGFR ECR, followed by extensive washing. Then antibody-hEGFR binding was analyzed with
+an HRP-conjugated anti-M13 secondary antibody. The EC50 values, and binding pH-dependency (EC50 ratio [pH 7.4/pH 6.5]) are shown in the table. n.m., not measurable.
+Molecular Therapy: Oncolytics
+260
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+
+
+=== PAGE 6 ===
+A
+B
+C
+D
+E
+(legend on next page)
+www.moleculartherapy.org
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+261
+
+
+=== PAGE 7 ===
+of G5V2 binding with WT hEGFR ECR and the mutant variants
+containing H433A or H370A mutations showed that G5V2-hEGFR
+binding was impaired by the H433A mutation but not the H370A
+mutation (Figure 2C). Consistent with this result, examining the
+G5V2-hEGFR complex structure model indicated a close contact
+between G5V2 LCDR1 Y32 and hEGFR H433, yet relatively weak
+contact between G5V2 LCDR2 D52D53 and hEGFR H370 (Fig-
+ure 2D). These results support the targeting of H433 for engineering
+of pH-dependency. Collectively, we speculate that introducing a new
+H-D/E interaction between hEGFR H433 and G5V2 LCDR1 Y32
+might enhance the pH-dependency of G5V2.
+We then generated three G5V2 variants containing LCDR1 Y32E,
+Y32D, or Y32H mutations in phage display Fab antibody form, and
+compared the binding of these antibodies with hEGFR ECR at pH
+6.5 and pH 7.4. The Y32H mutation did not signiﬁcantly affect bind-
+ing pH-dependency or afﬁnity (Figure 2E). In sharp contrast, the
+Y32E and Y32D mutations dramatically increased binding pH-
+dependency (Figure 2E). Thus, our result indicates that the close
+interaction of G5V2 LCDR1 Y32-EGFR H433 suggested by the
+G5V2-EGFR structure model is a hotspot determining G5V2-EGFR
+pH-dependent binding, and by introducing an H-D/E interaction be-
+tween G5V2 LCDR1 Y32 and EGFR H433, we greatly increased the
+pH-dependency of G5V2-EGFR binding.
+Generating a pH-dependent anti-EGFR antibody, G532, based
+on structure-guided engineering of G5V2
+G5V2 Y32E was then selected for further engineering owing to its
+13-fold higher pH-dependent binding over WT G5V2 and its
+3-fold higher binding afﬁnity over G5V2 Y32D (Figure 2E). Note
+that the Y32E mutation decreased the binding afﬁnity of G5V2 at
+pH 6.5 by 8-fold (Figure 2E), suggesting that the antitumor activity
+of G5V2 Y32E is likely weaker than G5V2, owing to its lower binding
+afﬁnity than G5V2. Given our goal of generating a pH-dependent
+anti-EGFR antibody with improved binding afﬁnity while maintain-
+ing adequate pH-dependency to support selective binding in the
+acidic tumor microenvironment, we next focused on HCDR2, which
+our structural analysis indicated had no obvious impact on pH-
+dependency (Figure 2A). We then constructed and screened a sub-
+library of G5V2 Y32E HCDR2 random mutations (Figure S5).
+Ultimately, a candidate pH-dependent anti-EGFR antibody (G532)
+was selected from the sub-library based on its adequate binding afﬁn-
+ity at pH 6.5 and its obvious pH-dependent binding with hEGFR ECR
+(EC50 ratio, pH 7.4/pH 6.5 = 8.083) (Figures 3A and 3B).
+To assess the speciﬁc impact of H-D/E interactions on the observed
+pH-dependent binding, we disrupted two H-D/E interactions be-
+tween G532 and EGFR (G532 LCDR1 E32 and EGFR H433; G532
+LCDR2 D52D53 and EGFR H370) indicated by the G5V2-hEGFR
+complex structure model, and generated the G532 variant G532V,
+which had 5-fold lower binding pH-dependency with hEGFR
+ECR than G532 (Figures 3A and 3B). Notably, G532V retained
+weak binding pH-dependency (EC50 ratio, pH 7.4/pH 6.5 = 1.636)
+(Figure 3B). We then mutated amino acids positioned close to
+G532V LCDR1 H32 into amino acids with smaller sidechains, aiming
+to generate a G532 variant with abolished binding selectivity at pH6.5.
+Finally, introducing a LCDR1 K31N mutation into G532V generated a
+non-pH-dependent G532 variant, G532Ctrl, with no binding selec-
+tivity at pH 6.5 (EC50 ratio, pH 7.4/pH 6.5 = 0.759) (Figures 3A
+and 3B).
+We next used SPR to assess binding afﬁnity of G532, and G532Ctrl
+binding with hEGFR and with mEGFR. Despite that G532 and its var-
+iants exhibited weak binding afﬁnity, G532 exhibited potent binding
+selectivity for both hEGFR and mEGFR at pH 6.5 than pH 7.4; in
+contrast, G532Ctrl exhibited similar binding afﬁnity for both hEGFR
+and mEGFR at pH 6.5 and pH 7.4 (Table 1 and Figure S7). We
+then compared binding afﬁnity and selectivity of G532, and
+G532Ctrl in ﬂuorescence-activated cell sorting (FACS) with cell lines
+(A-431 cell line and a mouse colon carcinoma cell line expressing
+hEGFR [CT26-hEGFR] [Figure S8]) expressing full-length EGFR.
+G532 exhibited obvious pH-dependent binding with both A-431
+and CT26-hEGFR cells; in contrast, G532Ctrl exhibited similar bind-
+ing afﬁnity for both tested cell lines at pH 6.5 and pH 7.4 (Figures 3C
+Figure 3. Generation and characterization of a pH-dependent cross-reactive anti-EGFR antibody (G532) from structure-guided engineering of G5V2
+(A) Schematic depicting the process of structure-guided engineering of G5V2. The schematic diagram illustrates relationships between indicated antibodies (left), and
+sequence alignment of HCDR2, LCDR1, and LCDR2 of the indicated antibodies (right) are shown. (B) G5V2, G532, G532V, and G532Ctrl (in human IgG1 form) binding with
+hEGFR ECR at pH 6.5 and pH 7.4. The binding assay was performed similarly as in Figure 1A. The EC50 values and binding pH-dependency (EC50 ratio [pH 7.4/pH 6.5]) are
+shown in the table at the right. (C and D) FACS analysis of G532 and G532Ctrl (in human IgG1 form) binding with A-431 cells (C), and CT26-hEGFR cells (D) at pH 6.5 and
+pH 7.4. The cells were incubated with the indicated antibodies prior to staining with FITC-conjugated anti-human IgG secondary antibody. Antibody binding to cells was then
+assessed based on the ﬂuorescence intensity for FITC. Representative histograms showing antibody-cell binding at the antibody concentration of 0.823 nM (left); binding
+curves of median ﬂuorescence intensity (MFI) versus antibody concentration (right) are shown. (E) Ligand-binding blocking activity of Control IgG, G532, and G532Ctrl (in
+human IgG1 form) for EGF binding to hEGFR at pH 6.5 and pH 7.4. The assay was performed similarly as in Figure 1B. The half maximal inhibitory concentration (IC50) values
+are shown in the table at the right. n.m., not measurable.
+Table 1. SPR analysis of the binding afﬁnity and pH-dependency of G532
+and G532Ctrl
+Human EGFR
+Mouse EGFR
+KD (M)
+pH 6.5
+KD (M)
+pH 7.4
+KD ratio
+(pH 7.4/6.5)
+KD (M)
+pH 6.5
+KD (M)
+pH 7.4
+KD ratio
+(pH 7.4/6.5)
+G532
+2.94E-07
+3.90E-06
+13.262
+5.47E-07
+1.81E-06
+3.309
+G532Ctrl
+4.06E-07
+2.43E-07
+0.599
+1.27E-06
+7.43E-07
+0.586
+The dissociation constant (KD) values were calculated with a steady-state afﬁnity model
+using Biacore T200 evaluation software.
+Molecular Therapy: Oncolytics
+262
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+
+
+=== PAGE 8 ===
+and 3D, Table S3). We further compared the ligand-blocking ability
+of G532 and G532Ctrl at pH 6.5 and pH 7.4 with ELISA: G532 could
+block EGFR-EGF binding at pH 6.5 but not at pH 7.4, in contrast,
+G532Ctrl could block EGFR-EGF binding at both pH 6.5 and
+pH 7.4 (Figure 3E). This result indicates that G532 exhibits pH-
+dependent ligand-blocking ability.
+Collectively, our structure-guided engineering successfully generated
+G532, a pH-dependent anti-EGFR antibody with potent pH-depen-
+dent ligand-blocking ability. In addition, we generated a non-pH-
+dependent variant of G532Ctrl, which can be used for further charac-
+terization of the therapeutic utility of G532 in mice tumor models.
+The binding pH-dependency of G532 promotes tumor
+penetration, tumor selectivity, and antitumor activity
+Both G532 and its variant G532Ctrl exhibit strong binding cross-reac-
+tivity with human and mouse EGFR (Table 1 and Figure S7), thus
+enabling us to assess their binding selectivity between normal tissues
+and tumors in mouse models. We ﬁrst monitored the distributions of
+G532 and G532Ctrl in mouse tumors. We treated CB-17 SCID mice
+bearing A-431 tumors with G532, G532Ctrl, or Control IgG; 48 h later,
+the A-431 tumors and mice livers were collected for immunoﬂuores-
+cence staining against human IgG to detect antibody accumulation.
+In repeated experiments, tumors from mice treated with G532
+showed stronger, and more uniform human IgG ﬂuorescence signals
+than did tumors from mice treated with G532Ctrl (Figures 4A–4C
+and S9), indicating that G532 achieves superior tumor penetration
+compared with G532Ctrl. We speculate that two factors may have
+contributed to this ﬁnding: (1) The higher binding afﬁnity of
+G532Ctrl over G532 at pH 7.4 would suggest that a higher proportion
+of the G532Ctrl population would engage in binding to EGFR in
+normal tissues than G532. Subsequently, less G532Ctrl would be avail-
+able to reach tumor sites than G532 after intraperitoneal injection. (2)
+Previous research has shown that the pH in tumors tends to decrease
+with increasing distance from capillaries.52 Thus, G532’s superior
+tumor penetration may relate to its increasing binding selectivity at
+acidic pH along with increasing distance from capillaries in tumors.
+When assessing human IgG signals in livers of mice treated with G532
+or G532Ctrl, we found that the average intensity of the human IgG
+signal in the G532 group appeared to be much lower (9-fold)
+than the G532Ctrl group (Figures 4B, 4C, and S9). In addition, calcu-
+lating the human IgG signal ratio between A-431 tumors and mice
+livers showed that all of the A-431 tumors in the G532 group had
+higher human IgG signals than mice livers (intensity ratio, tumor/
+liver >1); in contrast, all of the A-431 tumors in the G532Ctrl group
+had lower human IgG signals than mice livers (intensity ratio, tu-
+mor/liver <1); (Figure 4D). These results indicate that the pH-depen-
+dency of the G532 antibody increases its tumor selectivity relative to
+G532Ctrl.
+We next evaluated the antitumor activity of G532 and G532Ctrl in
+A-431 xenograft tumor models established with CB-17 SCID mice,
+as well as CT26-EGFR syngeneic tumor models established with
+Balb/c mice. In A-431 xenograft tumor models, both G532 and
+G532Ctrl inhibited tumor growth (Figure 5A). However, a signiﬁcant
+difference was only observed between the Control IgG treatment
+group and the G532 treatment group (Figure 5A). In CT26-EGFR
+syngeneic tumor models, G532Ctrl failed to induce signiﬁcant tumor
+growth inhibition; in contrast, G532 treatment signiﬁcantly inhibited
+tumor growth (Figure 5B). These results indicate that G532’s superior
+tumor penetration increases its antitumor performance. Finally, we
+found that G532 elicited comparable antitumor activity with the
+FDA-approved therapeutic anti-EGFR mAb Cetuximab (an antibody
+that cannot recognize mouse EGFR) in A-431 xenograft models (Fig-
+ure 5C), supporting that G532 is an anti-EGFR antibody with clini-
+cally relevant antitumor activity.
+DISCUSSION
+On-target/off-tumor binding-induced toxicity is a major obstacle
+limiting the utility of anti-EGFR antibody-based therapies in clinical
+cancer treatment. Developing pH-dependent anti-EGFR antibodies
+could enable selective antibody binding in the acidic tumor microen-
+vironment. In the present study, using a combination of phage display
+library selection and structure-guided antibody engineering, we
+generated pH-dependent anti-EGFR antibodies with cross-reactivity
+between human and mouse EGFR. Subsequently, with characteriza-
+tion in immune-compromised and immune-competent mice models,
+we found that compared with the control antibody lacking binding
+selectivity at acidic pH, a pH-dependent anti-EGFR antibody elicited
+improved tumor selectivity, tumor penetration, and antitumor
+activity. Our study thus demonstrates that pH-dependent anti-
+EGFR antibodies can overcome on-target/off-tumor binding issues
+of anti-EGFR antibodies by eliciting pH-dependent tumor selectivity.
+Beyond that, our study indicates that developing pH-dependent anti-
+bodies apparently represents a general strategy for improving anti-
+body penetration into tumors.
+Previous studies have shown that protonation of ionizable residues
+like histidine can contribute to pH-dependent binding, and several
+strategies have been reported to introduce pH-dependency into anti-
+body-antigen binding. Note that in former studies, the development
+of pH-dependent antibodies was either based on large-scale histidine
+scanning, or was highly dependent on histidine-rich epitopes on the
+antigen.30,42,51,53–55 Sulea et al. (2020) reported a structure-guided
+computational approach implemented with dual-pH histidine-scan-
+ning mutagenesis to engineer an anti-HER2 antibody into variants
+capable of selective binding with HER2 at acidic pH in in vitro exper-
+iments.42 Johnston et al. (2019) reported engineering an anti-VISTA
+antibody with selective binding in acidic environments by taking
+advantage of a histidine-rich epitope (over 10 histidines within amino
+acid residues 94–165 of VISTA ECR) of VISTA.30
+In our study, we hypothesized that increasing the extent of interac-
+tions between H and acidic amino acids (D or E) may promote pH-
+dependent antibody-antigen binding. Integration of an antibody-an-
+tigen structure helped us to engineer our antibodies in two ways: (1)
+We identiﬁed a candidate hotspot (H433 in hEGFR domain III)
+www.moleculartherapy.org
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+263
+
+
+=== PAGE 9 ===
+determining binding pH-dependency, and introduced an H-D/E
+interaction at the hotspot, which did increase the binding pH-depen-
+dency of the antibody. (2) We engineered an antibody CDR that does
+not participate in antibody-antigen pH-dependent binding to
+improve the binding afﬁnity and avoid disturbing binding pH-depen-
+dency. Ultimately, an antibody named G532 with adequate binding
+C
+B
+D
+A
+Figure 4. Characterization of tumor selectivity and tumor penetration of G532 and G532Ctrl
+(A) Immunoﬂuorescence images of whole-tumor specimens showing penetration of Control IgG, G532, or G532Ctrl into A-431 tumors. CB17-SCID mice bearing A-431 tumors
+were treated with Control IgG, G532, or G532Ctrl (10 mg/kg, in human IgG1 form) by intraperitoneal injection, and then killed 48 h later to collect A-431 tumors. Frozen sections of
+A-431 tumors were prepared, and ﬁxed in pH 6.5 4% PFA before staining with Alexa Fluor 633-conjugated anti-human IgG secondary antibody. The penetration of indicated
+antibodies was then assessed based on the ﬂuorescence intensity of Alexa Fluor 633. Each image uses its individual scale bar. (B–D) The accumulation of G532 and G532Ctrl in
+A-431 tumors and mouse livers was analyzed by immunoﬂuorescence staining. CB17-SCID mice bearing A-431 tumors were treated with Control IgG, G532, or G532Ctrl
+(10 mg/kg, in human IgG1 form) by intraperitoneal injection, and then killed 48 h later to collect mice livers and A-431 tumors. Frozen sections of mice livers and A-431 tumors were
+prepared, and ﬁxed in pH 6.5 4% PFA before staining. The sections were then incubated with Rat anti-mouse CD31 prior to staining with FITC-conjugated anti-human IgG
+secondary antibody and Alexa Fluor 647-conjugated anti-Rat IgG secondary antibody. The Alexa Fluor 647 signal indicates tumor vasculature. Antibody enrichment was
+assessed based on the ﬂuorescence intensity for FITC. (B) Representative immunoﬂuorescence images (above), and their human IgG immunohistochemistry images (below)
+converted by Inform software. Scale bar, 100 mm. (C) Integrated density of FTIC in mouse livers, and A-431 tumors analyzed with ImageJ. (D) Integrated density ratio of FITC in
+A-431 tumors and related mouse livers. (C and D) Data are means ± SE; statistical signiﬁcance was determined using two-tailed unpaired Student’s t tests.
+Molecular Therapy: Oncolytics
+264
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+
+
+=== PAGE 10 ===
+pH-dependency and binding afﬁnity was generated with this two-
+pronged structure-guided engineering strategy. It bears mentioning
+that manual positioning of an antibody structure model near the an-
+tigen structure to construct an antibody-antigen structure cannot be
+assumed to yield reliably accurate epitope information for developing
+pH-dependent antibodies, and such efforts require personal experi-
+ence. Where possible, solving the structure of an antibody-antigen
+complex can be reliably expected to give better guidance for pH-
+dependent antibody engineering.
+Similar to previous reports about the development of pH-dependent
+antibodies, our study indicates that (1) even a single histidine at the
+antibody-antigen binding interface can contribute to pH-dependent
+binding; (2) speciﬁcally introducing H-D/E interactions between
+the antibody and antigen can efﬁciently adjust binding pH-depen-
+dency; and (3) beyond histidine, aspartate and glutamate residues
+on the antibody-antigen binding interface can be used to develop
+pH-dependent antibodies.
+Binding pH-dependency, afﬁnity, and cross-species reactivity are
+three assessed properties of our ﬁnal anti-EGFR antibodies: Binding
+pH-dependency and afﬁnity are two properties that were engineered
+for; the cross-species reactivity was obtained serendipitously. Our
+strategy is to engineer binding pH-dependency at ﬁrst to select anti-
+bodies with greatly improved binding pH-dependency, then engineer
+binding afﬁnity to improve the binding afﬁnity of the pH-dependent
+antibodies at pH 6.5.
+Investigators have reported attempts to develop tumor-selective anti-
+EGFR antibodies and related therapies by developing antibodies
+targeting tumor-speciﬁc EGFR. Antibodies, and antibody-drug
+conjugates (ADCs) with selective binding for tumor-speciﬁc EGFR
+mutations or overexpressed EGFR, have shown potent antitumor
+activity
+in
+tumor
+models
+constructed
+with
+immunodeﬁcient
+mice.14,15,56–59 In the present study, we developed a pH-dependent
+anti-EGFR antibody (G532) with selective binding for EGFR in acidic
+tumor microenvironments. Distinct from previously reported tumor-
+selective anti-EGFR antibodies, binding of G532 with EGFR is not
+limited to certain EGFR mutations or EGFR overexpression. Thus,
+G532 is apparently a universally applicable tumor-selective anti-
+EGFR antibody for cancer patients.
+Beyond tumor selectivity, we observed that G532 penetrated more
+readily into tumors than the non-pH-dependent variant. Poor tissue
+penetration is a major obstacle for successful usage of antibodies and
+antibody-based therapies60–63; one study showed that the antitumor
+activity of Panitumumab (an FDA-approved anti-EGFR antibody)
+is limited by its poor penetration into tumor tissue.64 Improving
+C
+B
+A
+Figure 5. Characterization of antitumor activity of G532
+(A) Antitumor activity of G532 and G532Ctrl in A-431 tumor models. CB-17 SCID mice bearing A-431 tumors were randomized into three groups with similar tumor volumes:
+Control IgG, G532, or G532Ctrl (10 mg/kg, in human IgG1 form). (B) Antitumor activity of G532 and G532Ctrl in CT-26-hEGFR tumor models. Balb/c mice bearing CT-26-
+hEGFR tumors were randomized into three groups with similar tumor volumes: Control IgG, G532, or G532Ctrl (10 mg/kg, in human IgG1 form). (C) Antitumor activity of
+G532, and Cetuximab in A-431 tumor models. CB-17 SCID mice bearing A-431 tumors were randomized into three groups with similar tumor volumes: Control IgG, G532, or
+Cetuximab (10 mg/kg, in human IgG1 form). (A–C) Antibodies were tested at 10 mg/kg. The time points for antibody treatment are marked by arrows. Data are means ± SE;
+statistical signiﬁcance was determined using two-way ANOVA.
+www.moleculartherapy.org
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+265
+
+
+=== PAGE 11 ===
+penetration has been demonstrated as useful for enhancing the anti-
+tumor activity of antibodies and antibody-based therapies,64–66 but
+this strategy can raise safety concerns related to increasing on-
+target/off-tumor binding in normal tissues. Notably, our study illus-
+trates that developing pH-dependent antibodies can enable a strategy
+for improve tumor antibody penetration that takes advantage of the
+decreased pH gradient with increasing distance away from capillaries
+in tumors.
+Considering the advantages of tumor selectivity and improved tumor
+penetration of G532 over traditional non-pH-dependent antibodies,
+developing antibody-based therapies (ADC or Chimeric antigen re-
+ceptor [CAR] T cell) based on G532 seems like an attractive prospect.
+Such therapies could be reasonably expected to reduce safety concerns
+while also conferring excellent therapeutic effects. Finally, we know
+that many tumor-associated proteins are also expressed in normal tis-
+sues, and on-target/off-tumor binding and poor tumor penetration
+are major limitations for antibodies targeting these proteins.66,67
+Thus, beyond developing an anti-EGFR antibody with pH-dependent
+tumor selectivity, our study provides insights and illustrates practical
+strategies for developing tumor-selective antibodies targeting other
+tumor-associated antigens expressed in normal tissues.
+MATERIALS AND METHODS
+Animals
+All mouse experiments were conducted following the National
+Guidelines for Housing and Care of Laboratory Animals in China
+and were performed under the approved IACUC protocols at the
+National Institute of Biological Sciences, Beijing. Balb/c and CB-17
+SCID mice were purchased from Charles River.
+Cell lines
+A-431 cells were provided by Dr. Zhiyuan Zhang (National Institute
+of Biological Sciences, Beijing); CT26 cells were from the Cell Bank of
+Type Culture Collection, Chinese Academy of Sciences. The CT26-
+hEGFR cell line (expressing human EGFR) was generated via trans-
+fection followed by G418 selection. A-431 and CT26 cells were
+cultured with RPMI 1640 medium supplemented with 10% fetal
+bovine serum. These cells were cultured at 37C in a humidiﬁed incu-
+bator with a 5% CO2 atmosphere. The FreeStyle 293F cells were from
+Life Technologies and were cultured following the manufacturer’s
+instructions.
+Expression and puriﬁcation of proteins
+The ECR of human and mouse EGFR were produced as His6-Avi-
+tagged fusion proteins by transient transfection of FreeStyle 293F cells
+and were puriﬁed by afﬁnity chromatography. For full-length IgG an-
+tibodies, the coding sequences of the VH and VL were subcloned into
+a human IgG1 H chain (HC) expression vector and an L chain (LC)
+expression vector, respectively. The 293F cells were co-transfected
+with the two IgG expression plasmids (HC + LC plasmids) at a 1:1
+ratio. After 3 to 6 days of transfection, the cell culture supernatants
+were collected for puriﬁcation of IgG1 via protein A bead afﬁnity
+chromatography.
+Antibody library panning and screening of pH-dependent
+antibodies
+hEGFR ECR was fused with an His6-Avi tag and biotinylated using
+BirA ligase. Then an hEGFR ECR fusion protein was used an antigen
+in the panning experiments with a non-immune phage display hu-
+man scFv antibody library (Library size, 1.1  1010).47 For screening
+pH-dependent antibodies from the human non-immune antibody li-
+brary, we incubated the library with antigens in a pH 6.0 solution, and
+washed with pH 6.0 washing buffer, followed by elution with pH 7.4
+buffer (Figure S1). Then single clones were randomly picked and
+screened for binding to the corresponding antigen at pH 6.0 and
+pH 7.4 with ELISA. Similar strategies were used for screening of
+sub-libraries derived from 14C07 or G5V2, except that pH of acidic
+buffer was changed from pH 6.0 to pH 6.5 (Figure S6). Amino acid
+numbering and CDR deﬁnition were conducted based on Kabat,
+using the abYsis tool (http://www.abysis.org/abysis/).
+ELISA-based binding assays
+For the ELISA-based analysis of IgG antibody binding with the
+antigens, biotinylated protein antigens (1 mg/mL) were captured with
+streptavidin (3 mg/mL) (Sigma-Aldrich, Cat # 189730) coated 96-well
+plates (Thermo Fisher Scientiﬁc, Cat # 449824). Then, serially diluted
+antibodies were added, and detected by adding an horseradish perox-
+idase (HRP)-labeled goat polyclonal anti-Human IgG Fc (Thermo
+Fisher Scientiﬁc, Cat # 31413). For the ELISA-based analysis of IgG
+antibody competition with EGF, biotinylated EGFR protein antigens
+(1 mg/mL) were captured with streptavidin (3 mg/mL) (Sigma-
+Aldrich, Cat # 189730) coated 96-well plates (Thermo Fisher Scientiﬁc,
+Cat # 449824). Then serially diluted antibodies that had been mixed
+with EGF-mFc (50 nM at pH 6.0–6.5, 15 nM at pH 7.4) were added,
+followed by detection based on adding an HRP-conjugated anti-mouse
+Fc secondary antibody (Thermo Fisher Scientiﬁc, Cat # 31437).
+For the ELISA-based analysis of phage-scFv or phage-Fab antibody
+binding with the antigens, biotinylated protein antigens (1 mg/mL)
+were captured with streptavidin (3 mg/mL) (Sigma-Aldrich, Cat #
+189730) coated 96-well plates (Thermo Fisher Scientiﬁc, Cat #
+449824). Then serially diluted antibodies were added, and detected
+by adding an HRP-conjugated anti-M13 antibody (GE Healthcare,
+Cat # 27-9421-01). For the ELISA-based analysis of antibody binding
+with EGFR and its variants, antibodies (5 mg/mL) were coated on
+96-well plates (Thermo Fisher Scientiﬁc, Cat # 449824). Then serially
+diluted EGFR and its variants were added, followed by detection
+based on adding an HRP-labeled His-Tag antibody (Mei5Bio, Cat #
+MF082-HRP-01). A nonlinear regression model was used to ﬁt
+ELISA curves; each curve was ﬁtted independently.
+Construction of a G5V2-hEGFR complex structure model
+The Cetuximab/EGFR complex structure (PDB: 1YY9) and the G5V2
+(in scFv form) structure model that we generated using ABodyBuider
+were imported in PyMOL. After hiding Cetuximab in the Cetuximab/
+EGFR complex, we moved and rotated G5V2 and hEGFR to form a
+model of G5V2-hEGFR complex using the 3-Button Editing mode,
+based on the following steps: (1) G5V2 exhibited comparable binding
+Molecular Therapy: Oncolytics
+266
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+
+
+=== PAGE 12 ===
+afﬁnity with the hEGFR ECR and hEGFR domain III (Figure S6),
+indicating that the binding epitope of G5V2 is likely located on
+hEGFR domain III. Thus, we moved G5V2 to face hEGFR domain
+III. (2) The EGFR H433A mutation abolished 14C07-hEGFR binding,
+while the EGFR H370A mutation reduced 14C07-hEGFR binding
+(Figure 1C), indicating that the H433 and H370 residues are likely
+located on the binding interface between hEGFR and 14C07 (the
+parent antibody of G5V2). Thus, we presented EGFR H370 and
+H433 at the binding interface, ensuring that EGFR H433 is positioned
+closer to G5V2 than EGFR H370 (since EGFR H433 contributes more
+to the binding than EGFR H370 according to EGFR H433A mutation
+exhibiting stronger impact on decreasing binding afﬁnity than EGFR
+H370A mutation [Figure 1C]). (3) G5V2 exhibits comparable binding
+afﬁnity to human and mouse EGFR (Figure 1D), indicating that the
+binding epitope of G5V2 conserves the same or highly similar resi-
+dues between human and mouse EGFR. Thus, we adjusted the posi-
+tion of G5V2 and hEGFR to avoid the presentation of non-conserved
+residues between human EGFR and murine EGFR to the greatest
+extent (Figure 2B).
+Binding kinetic analysis by surface plasmon resonance
+Kinetics analyses of the binding of anti-EGFR antibodies to the ECR
+of mouse and human EGFR were performed on a Biacore T200 in-
+strument (Biacore, GE Healthcare). Anti-hFc Ab or protein A/G
+(Thermo Fisher Scientiﬁc) was covalently attached to the surface of
+a CM5 sensor chip using an amine coupling kit (GE Healthcare). An-
+tibodies (1 mg/mL) were captured on the chip and the analytes were
+then injected at serially diluted concentrations (3200 nM, 1600 nM,
+800 nM, 400 nM, 200 nM, 100 nM, 50 nM). Binding kinetics were
+evaluated using a 1:1 Langmuir binding model. The dissociation con-
+stant (KD) values were calculated with a steady-state afﬁnity model
+using the Biacore T200 evaluation software.
+Flow cytometry analysis of cell lines
+For examining binding of antibodies with cells, cells were stained with
+G532, G532Ctrl, or Cetuximab followed by staining with a goat poly-
+clonal anti-Human IgG Fc ﬂuorescein isothiocyanate (FITC)
+(Thermo Fisher Scientiﬁc, Cat # A18830).
+In vivo tumor assays
+Six- to 8-week-old mice were inoculated subcutaneously with A-431
+or CT26-hEGFR tumor cells (in 100 mL DPBS or medium). CB-17
+SCID mice were inoculated with 5  106 A-431 cells, Balb/c mice
+were inoculated with 1  105 CT26-hEGFR cells. Tumor volume
+was measured with a digital caliper and calculated using the modiﬁed
+ellipsoid formula 1/2  (length  width2). Based on similar mean tu-
+mor volumes, mice were randomized into groups (n = 4–6/group)
+and received intraperitoneal injection of the examined therapeutic
+antibodies. When the tumor reached 2 cm in length or when weak-
+ness was observed, the mice were killed.
+Immunoﬂuorescence assays
+For detecting enrichment of antibodies in mice livers and A-431 tu-
+mors, CB-17 SCID mice bearing A-431 tumors were killed 48 h after
+injection with Control IgG, G532, or G532Ctrl. Then mice livers and
+tumors were harvested to prepare frozen sections. To detect antibody
+accumulation, sections were ﬁxed with pre-cold pH 6.5 4% PFA
+buffer, then sections were stained with FITC-conjugated anti-human
+IgG secondary antibody or Alexa Fluor 633-conjugated anti-human
+IgG secondary antibody (Thermo Fisher Scientiﬁc, Cat # A-21091).
+To evaluate tumor vasculature, sections were ﬁxed with pre-cold
+pH 6.5 4% PFA buffer, then sections were incubated with Rat anti-
+mouse CD31 (BD Pharmingen, Cat # 557355) prior to staining
+with Alexa Fluor 647-conjugated anti-Rat IgG secondary antibody
+(Thermo Fisher Scientiﬁc, Cat # A-21247). Antibody enrichment
+was assessed based on the ﬂuorescence intensity for FITC (Thermo
+Fisher Scientiﬁc, Cat # A18830). Immunoﬂuorescence intensities
+were analyzed with ImageJ.
+Statistics
+GraphPad Prism 6 was used for comparisons throughout the manu-
+script, with p values indicated in the relevant ﬁgures. Two-way
+ANOVA or two-tailed unpaired Student’s t tests were applied.
+Two-way ANOVA was applied for analyzing antitumor activity.
+p values <0.05 were regarded as statistically signiﬁcant.
+DATA AVAILABILITY
+The data that support the ﬁndings of this study are included within
+the article and its supplemental information. The raw and analyzed
+datasets generated during the study are available from the corre-
+sponding author upon reasonable request.
+SUPPLEMENTAL INFORMATION
+Supplemental information can be found online at https://doi.org/10.
+1016/j.omto.2022.11.001.
+ACKNOWLEDGMENTS
+We thank W. Chen, Z. Wang, F. Yang, and L. Zhao in the Sui lab for
+their technical assistance. We would also like to thank the NIBS An-
+imal Facility for their help in the handling and care of mice, and thank
+the NIBS Biological Resource Center for DNA sequencing, and the
+NIBS imaging facility for assistance with the microscope experiment.
+This work was supported by grants from Ministry of Science and
+Technology of the People’s Republic of China (973 Program
+#2012CB837600 to J.S.), Beijing Municipal Science and Technology
+Commission, and Beijing Key Laboratory of Pathogen Invasion and
+Immune Defense (Z171100002217064 to J.S.).
+AUTHOR CONTRIBUTIONS
+X.L., X.T., and J.S. conceptualized this study, interpreted the results,
+and drafted the manuscript. X.L., X.T., X.H., H.Z., K.W., Z.W.,
+X.W., and Y.L. performed experiments. X.T. and X.L. prepared the
+ﬁgures. J.S. supervised the study. All authors commented on the
+manuscript.
+DECLARATION OF INTERESTS
+The authors declare no competing interests.
+www.moleculartherapy.org
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+267
+
+
+=== PAGE 13 ===
+REFERENCES
+1. Ullrich, A., Coussens, L., Hayﬂick, J.S., Dull, T.J., Gray, A., Tam, A.W., Lee, J., Yarden,
+Y., Libermann, T.A., Schlessinger, J., et al. (1984). Human epidermal growth factor
+receptor cDNA sequence and aberrant expression of the ampliﬁed gene in A431
+epidermoid carcinoma cells. Nature 309, 418–425.
+2. Ogiso, H., Ishitani, R., Nureki, O., Fukai, S., Yamanaka, M., Kim, J.H., Saito, K.,
+Sakamoto, A., Inoue, M., Shirouzu, M., and Yokoyama, S. (2002). Crystal structure
+of the complex of human epidermal growth factor and receptor extracellular do-
+mains. Cell 110, 775–787.
+3. Harris, R.C., Chung, E., and Coffey, R.J. (2003). EGF receptor ligands. Exp. Cell Res.
+284, 2–13.
+4. Freed, D.M., Bessman, N.J., Kiyatkin, A., Salazar-Cavazos, E., Byrne, P.O., Moore,
+J.O., Valley, C.C., Ferguson, K.M., Leahy, D.J., Lidke, D.S., and Lemmon, M.A.
+(2017). EGFR ligands differentially stabilize receptor dimers to specify signaling ki-
+netics. Cell 171, 683–695.e18.
+5. Burgess, A.W. (2008). EGFR family: structure physiology signalling and therapeutic
+targets. Growth Factors 26, 263–274.
+6. Roskoski, R., Jr. (2014). The ErbB/HER family of protein-tyrosine kinases and cancer.
+Pharmacol. Res. 79, 34–74.
+7. Cunningham, D., Humblet, Y., Siena, S., Khayat, D., Bleiberg, H., Santoro, A., Bets,
+D., Mueser, M., Harstrick, A., Verslype, C., et al. (2004). Cetuximab monotherapy
+and cetuximab plus irinotecan in irinotecan-refractory metastatic colorectal cancer.
+N. Engl. J. Med. 351, 337–345.
+8. Van Cutsem, E., Peeters, M., Siena, S., Humblet, Y., Hendlisz, A., Neyns, B., Canon,
+J.L., Van Laethem, J.L., Maurel, J., Richardson, G., et al. (2007). Open-label phase III
+trial of panitumumab plus best supportive care compared with best supportive care
+alone in patients with chemotherapy-refractory metastatic colorectal cancer.
+J. Clin. Oncol. 25, 1658–1664.
+9. Jonker, D.J., O’Callaghan, C.J., Karapetis, C.S., Zalcberg, J.R., Tu, D., Au, H.J., Berry,
+S.R., Krahn, M., Price, T., Simes, R.J., et al. (2007). Cetuximab for the treatment of
+colorectal cancer. N. Engl. J. Med. 357, 2040–2048.
+10. Thatcher, N., Hirsch, F.R., Luft, A.V., Szczesna, A., Ciuleanu, T.E., Dediu, M.,
+Ramlau, R., Galiulin, R.K., Bálint, B., Losonczy, G., et al. (2015). Necitumumab
+plus gemcitabine and cisplatin versus gemcitabine and cisplatin alone as ﬁrst-line
+therapy in patients with stage IV squamous non-small-cell lung cancer (SQUIRE):
+an open-label, randomised, controlled phase 3 trial. Lancet Oncol. 16, 763–774.
+11. Cai, W.Q., Zeng, L.S., Wang, L.F., Wang, Y.Y., Cheng, J.T., Zhang, Y., Han, Z.W.,
+Zhou, Y., Huang, S.L., Wang, X.W., et al. (2020). The latest battles between EGFR
+monoclonal antibodies and resistant tumor cells. Front. Oncol. 10, 1249.
+12. Kaplon, H., and Reichert, J.M. (2021). Antibodies to watch in 2021. MAbs 13,
+1860476.
+13. Dienstmann, R., Patnaik, A., Garcia-Carbonero, R., Cervantes, A., Benavent, M.,
+Roselló, S., Tops, B.B.J., van der Post, R.S., Argilés, G., Skartved, N.J., et al. (2015).
+Safety and activity of the ﬁrst-in-class Sym004 anti-EGFR antibody mixture in pa-
+tients with refractory colorectal cancer. Cancer Discov. 5, 598–609.
+14. Anderson, M.G., Falls, H.D., Mitten, M.J., Oleksijew, A., Vaidya, K.S., Boghaert, E.R.,
+Gao, W., Palma, J.P., Cao, D., Chia, P.L., et al. (2020). Targeting multiple EGFR-ex-
+pressing tumors with a highly potent tumor-selective antibody-drug conjugate. Mol.
+Cancer Ther. 19, 2117–2125.
+15. Reilly, E.B., Phillips, A.C., Buchanan, F.G., Kingsbury, G., Zhang, Y., Meulbroek, J.A.,
+Cole, T.B., DeVries, P.J., Falls, H.D., Beam, C., et al. (2015). Characterization of ABT-
+806, a humanized tumor-speciﬁc anti-EGFR monoclonal antibody. Mol. Cancer
+Ther. 14, 1141–1151.
+16. Spangler, J.B., Neil, J.R., Abramovitch, S., Yarden, Y., White, F.M., Lauffenburger,
+D.A., and Wittrup, K.D. (2010). Combination antibody treatment down-regulates
+epidermal growth factor receptor by inhibiting endosomal recycling. Proc. Natl.
+Acad. Sci. USA 107, 13252–13257.
+17. Yang, X., Zhang, X., Mortenson, E.D., Radkevich-Brown, O., Wang, Y., and Fu, Y.X.
+(2013). Cetuximab-mediated tumor regression depends on innate and adaptive im-
+mune responses. Mol. Ther. 21, 91–100.
+18. Pedersen, M.W., Jacobsen, H.J., Koefoed, K., Hey, A., Pyke, C., Haurum, J.S., and
+Kragh, M. (2010). Sym004: a novel synergistic anti-epidermal growth factor receptor
+antibody mixture with superior anticancer efﬁcacy. Cancer Res. 70, 588–597.
+19. Lammerts van Bueren, J.J., Bleeker, W.K., Bøgh, H.O., Houtkamp, M., Schuurman, J.,
+van de Winkel, J.G.J., and Parren, P.W.H.I. (2006). Effect of target dynamics on phar-
+macokinetics of a novel therapeutic antibody against the epidermal growth factor re-
+ceptor: implications for the mechanisms of action. Cancer Res. 66, 7630–7638.
+20. Kimura, H., Sakai, K., Arao, T., Shimoyama, T., Tamura, T., and Nishio, K. (2007).
+Antibody-dependent cellular cytotoxicity of cetuximab against tumor cells with
+wild-type or mutant epidermal growth factor receptor. Cancer Sci. 98, 1275–1280.
+21. Vincenzi, B., Schiavon, G., Silletta, M., Santini, D., and Tonini, G. (2008). The biolog-
+ical properties of cetuximab. Crit. Rev. Oncol. Hematol. 68, 93–106.
+22. Srivastava, R.M., Lee, S.C., Andrade Filho, P.A., Lord, C.A., Jie, H.B., Davidson, H.C.,
+López-Albaitero, A., Gibson, S.P., Gooding, W.E., Ferrone, S., and Ferris, R.L. (2013).
+Cetuximab-activated natural killer and dendritic cells collaborate to trigger tumor an-
+tigen-speciﬁc T-cell immunity in head and neck cancer patients. Clin. Cancer Res. 19,
+1858–1872.
+23. Yano, S., Kondo, K., Yamaguchi, M., Richmond, G., Hutchison, M., Wakeling, A.,
+Averbuch, S., and Wadsworth, P. (2003). Distribution and function of EGFR in hu-
+man tissue and the effect of EGFR tyrosine kinase inhibition. Anticancer Res. 23,
+3639–3650.
+24. Olayioye, M.A., Neve, R.M., Lane, H.A., and Hynes, N.E. (2000). The ErbB signaling
+network: receptor heterodimerization in development and cancer. EMBO J. 19,
+3159–3167.
+25. Baselga, J., and Swain, S.M. (2009). Novel anticancer targets: revisiting ERBB2 and
+discovering ERBB3. Nat. Rev. Cancer 9, 463–475.
+26. Hansel, T.T., Kropshofer, H., Singer, T., Mitchell, J.A., and George, A.J.T. (2010). The
+safety and side effects of monoclonal antibodies. Nat. Rev. Drug Discov. 9, 325–338.
+27. Shitara, K., Yokota, T., and Utsunomiya, S. (2009). Cetuximab for patients with colon
+cancer and hepatic metastasis complicated by liver dysfunction and icterus.
+Gastrointest. Cancer Res. 3, 171–172.
+28. Achermann, Y., Frauenfelder, T., Obrist, S., Zaugg, K., Corti, N., and Günthard, H.F.
+(2012). A rare but severe pulmonary side effect of cetuximab in two patients. BMJ
+Case Rep. 2012. bcr0320125973.
+29. Jungbluth, A.A., Stockert, E., Huang, H.J.S., Collins, V.P., Coplan, K., Iversen, K.,
+Kolb, D., Johns, T.J., Scott, A.M., Gullick, W.J., et al. (2003). A monoclonal antibody
+recognizing human cancers with ampliﬁcation/overexpression of the human
+epidermal growth factor receptor. Proc. Natl. Acad. Sci. USA 100, 639–644.
+30. Johnston, R.J., Su, L.J., Pinckney, J., Critton, D., Boyer, E., Krishnakumar, A., Corbett,
+M., Rankin, A.L., Dibella, R., Campbell, L., et al. (2019). VISTA is an acidic pH-selec-
+tive ligand for PSGL-1. Nature 574, 565–570.
+31. Scott, A.M., Wolchok, J.D., and Old, L.J. (2012). Antibody therapy of cancer. Nat.
+Rev. Cancer 12, 278–287.
+32. Drent, E., Themeli, M., Poels, R., de Jong-Korlaar, R., Yuan, H., de Bruijn, J., Martens,
+A.C.M., Zweegman, S., van de Donk, N.W.C.J., Groen, R.W.J., et al. (2017). A rational
+strategy for reducing on-target off-tumor effects of CD38-chimeric antigen receptors
+by afﬁnity optimization. Mol. Ther. 25, 1946–1958.
+33. Mazor, Y., Sachsenmeier, K.F., Yang, C., Hansen, A., Filderman, J., Mulgrew, K., Wu,
+H., and Dall’Acqua, W.F. (2017). Enhanced tumor-targeting selectivity by modu-
+lating bispeciﬁc antibody binding afﬁnity and format valence. Sci. Rep. 7, 40098.
+34. Crombet Ramos, T., Mestre Fernández, B., Mazorra Herrera, Z., and Iznaga Escobar,
+N.E. (2020). Nimotuzumab for patients with inoperable cancer of the head and neck.
+Front. Oncol. 10, 817.
+35. Garrido, G., Tikhomirov, I.A., Rabasa, A., Yang, E., Gracia, E., Iznaga, N., Fernández,
+L.E., Crombet, T., Kerbel, R.S., and Pérez, R. (2011). Bivalent binding by intermediate
+afﬁnity of nimotuzumab: a contribution to explain antibody clinical proﬁle. Cancer
+Biol. Ther. 11, 373–382.
+36. Gan, H.K., Burgess, A.W., Clayton, A.H.A., and Scott, A.M. (2012). Targeting of a
+conformationally exposed, tumor-speciﬁc epitope of EGFR as a strategy for cancer
+therapy. Cancer Res. 72, 2924–2930.
+Molecular Therapy: Oncolytics
+268
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+
+
+=== PAGE 14 ===
+37. Hills, D., Rowlinson-Busza, G., and Gullick, W.J. (1995). Speciﬁc targeting of a
+mutant, activated FGF receptor found in glioblastoma using a monoclonal antibody.
+Int. J. Cancer 63, 537–543.
+38. Vander Heiden, M.G., Cantley, L.C., and Thompson, C.B. (2009). Understanding the
+Warburg effect: the metabolic requirements of cell proliferation. Science 324,
+1029–1033.
+39. Warburg, O. (1956). On the origin of cancer cells. Science 123, 309–314.
+40. Corbet, C., and Feron, O. (2017). Tumour acidosis: from the passenger to the driver’s
+seat. Nat. Rev. Cancer 17, 577–593.
+41. Gatenby, R.A., and Gillies, R.J. (2004). Why do cancers have high aerobic glycolysis?
+Nat. Rev. Cancer 4, 891–899.
+42. Sulea, T., Rohani, N., Baardsnes, J., Corbeil, C.R., Deprez, C., Cepero-Donates, Y.,
+Robert, A., Schrag, J.D., Parat, M., Duchesne, M., et al. (2020). Structure-based engi-
+neering of pH-dependent antibody binding for selective targeting of solid-tumor
+microenvironment. MAbs 12, 1682866.
+43. Guerin, M.V., Finisguerra, V., Van den Eynde, B.J., Bercovici, N., and Trautmann, A.
+(2020). Preclinical murine tumor models: a structural and functional perspective.
+Elife 9, e50740.
+44. Shultz, L.D., Ishikawa, F., and Greiner, D.L. (2007). Humanized mice in translational
+biomedical research. Nat. Rev. Immunol. 7, 118–130.
+45. Du, X., Liu, M., Su, J., Zhang, P., Tang, F., Ye, P., Devenport, M., Wang, X., Zhang, Y.,
+Liu, Y., and Zheng, P. (2018). Uncoupling therapeutic from immunotherapy-related
+adverse effects for safer and effective anti-CTLA-4 antibodies in CTLA4 humanized
+mice. Cell Res. 28, 433–447.
+46. Threadgill, D.W., Dlugosz, A.A., Hansen, L.A., Tennenbaum, T., Lichti, U., Yee, D.,
+LaMantia, C., Mourton, T., Herrup, K., Harris, R.C., et al. (1995). Targeted disruption
+of mouse EGF receptor: effect of genetic background on mutant phenotype. Science
+269, 230–234.
+47. Li, D., He, W., Liu, X., Zheng, S., Qi, Y., Li, H., Mao, F., Liu, J., Sun, Y., Pan, L., et al.
+(2017). A potent human neutralizing antibody Fc-dependently reduces established
+HBV infections. Elife 6, 26738.
+48. Kang, J.C., Sun, W., Khare, P., Karimi, M., Wang, X., Shen, Y., Ober, R.J., and Ward,
+E.S. (2019). Engineering a HER2-speciﬁc antibody-drug conjugate to increase lyso-
+somal delivery and therapeutic efﬁcacy. Nat. Biotechnol. 37, 523–526.
+49. Leem, J., Dunbar, J., Georges, G., Shi, J., and Deane, C.M. (2016). ABodyBuilder: auto-
+mated antibody structure prediction with data-driven accuracy estimation. MAbs 8,
+1259–1268.
+50. Li, S., Schmitz, K.R., Jeffrey, P.D., Wiltzius, J.J.W., Kussie, P., and Ferguson, K.M.
+(2005). Structural basis for inhibition of the epidermal growth factor receptor by ce-
+tuximab. Cancer Cell 7, 301–311.
+51. Chaparro-Riggers, J., Liang, H., DeVay, R.M., Bai, L., Sutton, J.E., Chen, W., Geng, T.,
+Lindquist, K., Casas, M.G., Boustany, L.M., et al. (2012). Increasing serum half-life
+and extending cholesterol lowering in vivo by engineering antibody with pH-sensitive
+binding to PCSK9. J. Biol. Chem. 287, 11090–11097.
+52. Helmlinger, G., Yuan, F., Dellian, M., and Jain, R.K. (1997). Interstitial pH and pO2
+gradients in solid tumors in vivo: high-resolution measurements reveal a lack of cor-
+relation. Nat. Med. 3, 177–182.
+53. Sarkar, C.A., Lowenhaupt, K., Horan, T., Boone, T.C., Tidor, B., and Lauffenburger,
+D.A. (2002). Rational cytokine design for increased lifetime and enhanced potency
+using pH-activated "histidine switching". Nat. Biotechnol. 20, 908–913.
+54. Igawa, T., Ishii, S., Tachibana, T., Maeda, A., Higuchi, Y., Shimaoka, S., Moriyama, C.,
+Watanabe, T., Takubo, R., Doi, Y., et al. (2010). Antibody recycling by engineered
+pH-dependent antigen binding improves the duration of antigen neutralization.
+Nat. Biotechnol. 28, 1203–1207.
+55. Wei, W., Corbeil, C.R., Gaudreault, F., Deprez, C., Purisima, E.O., and Sulea, T.
+(2022). Antibody mutations favouring pH-dependent binding in solid tumour micro-
+environments: insights from large-scale structure-based calculations. Proteins 90,
+1538–1546.
+56. Garrett, T.P.J., Burgess, A.W., Gan, H.K., Luwor, R.B., Cartwright, G., Walker, F.,
+Orchard, S.G., Clayton, A.H.A., Nice, E.C., Rothacker, J., et al. (2009). Antibodies spe-
+ciﬁcally targeting a locally misfolded region of tumor associated EGFR. Proc. Natl.
+Acad. Sci. USA 106, 5082–5087.
+57. Phillips, A.C., Boghaert, E.R., Vaidya, K.S., Mitten, M.J., Norvell, S., Falls, H.D.,
+DeVries, P.J., Cheng, D., Meulbroek, J.A., Buchanan, F.G., et al. (2016). ABT-414,
+an antibody-drug conjugate targeting a tumor-selective EGFR epitope. Mol. Cancer
+Ther. 15, 661–669.
+58. Phillips, A.C., Boghaert, E.R., Vaidya, K.S., Falls, H.D., Mitten, M.J., DeVries, P.J.,
+Benatuil,
+L.,
+Hsieh,
+C.M.,
+Meulbroek,
+J.A.,
+Panchal,
+S.C.,
+et
+al.
+(2018).
+Characterization of ABBV-221, a tumor-selective EGFR-targeting antibody drug
+conjugate. Mol. Cancer Ther. 17, 795–805.
+59. Hamblett, K.J., Kozlosky, C.J., Siu, S., Chang, W.S., Liu, H., Foltz, I.N., Trueblood,
+E.S., Meininger, D., Arora, T., Twomey, B., et al. (2015). AMG 595, an anti-
+EGFRvIII antibody-drug conjugate, induces potent antitumor activity against
+EGFRvIII-expressing glioblastoma. Mol. Cancer Ther. 14, 1614–1624.
+60. Ackerman, M.E., Pawlowski, D., and Wittrup, K.D. (2008). Effect of antigen turnover
+rate and expression level on antibody penetration into tumor spheroids. Mol. Cancer
+Ther. 7, 2233–2240.
+61. Thurber, G.M., Schmidt, M.M., and Wittrup, K.D. (2008). Antibody tumor penetra-
+tion: transport opposed by systemic and antigen-mediated clearance. Adv. Drug
+Deliv. Rev. 60, 1421–1434.
+62. Lu, G., Fakurnejad, S., Martin, B.A., van den Berg, N.S., van Keulen, S., Nishio, N.,
+Zhu, A.J., Chirita, S.U., Zhou, Q., Gao, R.W., et al. (2020). Predicting therapeutic anti-
+body delivery into human head and neck cancers. Clin. Cancer Res. 26, 2582–2594.
+63. Wu, Y., Li, Q., Kong, Y., Wang, Z., Lei, C., Li, J., Ding, L., Wang, C., Cheng, Y., Wei, Y.,
+et al. (2022). A highly stable human single-domain antibody-drug conjugate exhibits
+superior penetration and treatment of solid tumors. Mol. Ther. 30, 2785–2799.
+64. Freeman, D.J., McDorman, K., Ogbagabriel, S., Kozlosky, C., Yang, B.B., Doshi, S.,
+Perez-Ruxio, J.J., Fanslow, W., Starnes, C., and Radinsky, R. (2012). Tumor penetra-
+tion and epidermal growth factor receptor saturation by panitumumab correlate with
+antitumor activity in a preclinical model of human cancer. Mol. Cancer 11, 47.
+65. Ponte, J.F., Lanieri, L., Khera, E., Laleau, R., Ab, O., Espelin, C., Kohli, N., Matin, B.,
+Setiady, Y., Miller, M.L., et al. (2021). Antibody Co-administration can improve sys-
+temic and local distribution of antibody-drug conjugates to increase in vivo efﬁcacy.
+Mol. Cancer Ther. 20, 203–212.
+66. Cilliers, C., Menezes, B., Nessler, I., Linderman, J., and Thurber, G.M. (2018).
+Improved tumor penetration and single-cell targeting of antibody-drug conjugates
+increases anticancer efﬁcacy and host survival. Cancer Res. 78, 758–768.
+67. Lu, G., Nishio, N., van den Berg, N.S., Martin, B.A., Fakurnejad, S., van Keulen, S.,
+Colevas, A.D., Thurber, G.M., and Rosenthal, E.L. (2020). Co-administered antibody
+improves penetration of antibody-dye conjugate into human cancers with implica-
+tions for antibody-drug conjugates. Nat. Commun. 11, 5667.
+www.moleculartherapy.org
+Molecular Therapy: Oncolytics Vol. 27 December 2022
+269

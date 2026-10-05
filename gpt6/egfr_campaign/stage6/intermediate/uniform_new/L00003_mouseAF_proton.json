@@ -1,0 +1,144 @@
+{
+  "key": "stage6:L00003",
+  "stage": "stage6",
+  "id": "L00003",
+  "species": "mouse",
+  "model": "/mnt/data/egfr_campaign/stage6/intermediate/refined/L00003_mouseAF_proton.json",
+  "coordinate_source": "/mnt/data/egfr_campaign/stage6/intermediate/refined/L00003_mouseAF_relaxed.pdb",
+  "n_sites": 1,
+  "minimum_contrast": -0.04264162987412945,
+  "maximum_contrast": 0.7829003361243139,
+  "sequence_sha256": "386f46ab82e893f8a6dca97d8cea5e910bc7b987d4d5b1574cc70e62278849b4",
+  "branch": "shortened_CCD_contact_preserving_H3_tail",
+  "acid_refined": false,
+  "sites": [
+    {
+      "residue_index": 24,
+      "chain": "A",
+      "pdb_residue_id": "25",
+      "partner": "target",
+      "nearest_partner_A": 4.8354593370227015,
+      "human_position": 358
+    }
+  ],
+  "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFQYNPPQFYWGQGTLVTVS",
+  "design_source": "/mnt/data/egfr_campaign/stage6/intermediate/designs/L00003.json",
+  "acid_proxy": -37.93057714997323,
+  "neutral_proxy": -37.68972350179641,
+  "source_sha256": "bc3f8d38a0c8356cbeb0c8b67c16bfacf2dc7c86d14796cd0e7efc33896cd056",
+  "design_sha256": "dd3829303077460f808f7a27499e2acbd1dcbb4537a9310f91ecc19ae06cb2fe",
+  "strict_geometry": {
+    "candidate_id": "L00003",
+    "absolute_alpha_inversions": [],
+    "peptide_omega_warnings": [],
+    "actual_cystines": [
+      {
+        "positions": [
+          22,
+          97
+        ],
+        "SG_distance_A": 2.0263045180821235,
+        "chi3_deg": 65.35987931357921,
+        "CB_S_S_angles_deg": [
+          103.98272087007498,
+          104.24815566956774
+        ],
+        "strain_gate_pass": true
+      }
+    ],
+    "disulfide_strain_warnings": [],
+    "intended_extra_pairs_present": true,
+    "pass": true,
+    "thresholds": {
+      "omega_max_deviation_from_trans_deg": 25,
+      "SS_A": [
+        1.9,
+        2.2
+      ],
+      "absolute_chi3_deviation_from90_max_deg": 35,
+      "CB_S_S_angles_deg": [
+        80,
+        130
+      ]
+    },
+    "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+  },
+  "reference_geometry": {
+    "human6ARU": {
+      "minimum_heavy_distance_A": 2.467902496452579,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.729408548700863
+    },
+    "mouseAF": {
+      "minimum_heavy_distance_A": 2.402507910949411,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 2.8893514084030465
+    },
+    "1NQL": {
+      "minimum_heavy_distance_A": 2.5872961875027998,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.351216381586527
+    },
+    "1IVO": {
+      "minimum_heavy_distance_A": 2.382464736569196,
+      "heavy_atoms_below_2A": 0,
+      "minimum_backbone_distance_A": 4.34569730014082
+    },
+    "resolved_glycans": {
+      "min_heavy_distance_A": 3.8704857915521216,
+      "atoms_below_2A": 0
+    },
+    "alpha_inversions": [],
+    "peptide_bond_outliers": [],
+    "geometry_prefilter_pass": true
+  },
+  "same_species_relaxed_context": {
+    "minimum_A": 2.72653644758326,
+    "atoms_below2A": 0
+  },
+  "sequence_audit": {
+    "length": 125,
+    "format_pass": true,
+    "liabilities": {
+      "glycosylation_sequons": [],
+      "NG_motifs": [],
+      "DG_motifs": [],
+      "unpaired_cdr_cysteines": 0,
+      "max_repeat": 3,
+      "hydrophobic_runs": [],
+      "net_formal_charge_without_histidine": -4
+    },
+    "cdr_lengths": [
+      11,
+      15,
+      18
+    ]
+  },
+  "minimizer_audit_present": true,
+  "minimizer_geometry_pass": true,
+  "combined_geometry_pass": true,
+  "independent_priors": {
+    "status": "complete",
+    "minimum_contrast_kcal": -0.04264162987412945,
+    "maximum_contrast_kcal": 0.7829003361243139,
+    "scenario_count": 54,
+    "all_acid_on": false,
+    "tied_subset_max_error_kcal": 0.0,
+    "worst_case": {
+      "pKas": [
+        6.8
+      ],
+      "HIE_fractions": [
+        0.8
+      ],
+      "physical": {
+        "solute_dielectric": 1.0,
+        "kappa_nm_inverse": 1.25,
+        "delta_kcal_proxy": -16.341263656539432
+      },
+      "acid_proxy": -16.17788975078953,
+      "neutral_proxy": -16.220531380663658
+    },
+    "qualification": "Assumed independent priors; fixed-coordinate proxy, not calibrated affinity or nondetection."
+  }
+}

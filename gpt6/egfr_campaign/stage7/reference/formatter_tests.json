@@ -1,0 +1,111 @@
+{
+  "passed": 13,
+  "count": 13,
+  "results": [
+    {
+      "test": "baseline20",
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "stdout": "Wrote 20 entries to /mnt/data/egfr_campaign/stage7/intermediate/formatter_tests/baseline.csv. Official eligibility and biological function remain unverified.\n",
+      "stderr": "",
+      "pass": true
+    },
+    {
+      "test": "reserve_replacement",
+      "expected_returncode": 0,
+      "actual_returncode": 0,
+      "stdout": "Wrote 20 entries to /mnt/data/egfr_campaign/stage7/intermediate/formatter_tests/revised.csv. Official eligibility and biological function remain unverified.\n",
+      "stderr": "",
+      "pass": true
+    },
+    {
+      "test": "track3_cap",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "usage: make_submission_v2.py [-h] [--fasta FASTA] [--reject-file REJECT_FILE]\n                             [--count 1..20] [--output OUTPUT]\nmake_submission_v2.py: error: argument --count: invalid choice: '21' (choose from 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)\n",
+      "pass": true
+    },
+    {
+      "test": "unknown_rejection",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "Error: Unknown rejected identifiers: UNKNOWN_IDENTIFIER\n",
+      "pass": true
+    },
+    {
+      "test": "insufficient_reserves",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "Error: Only 0 non-rejected entries remain; requested 20.\n",
+      "pass": true
+    },
+    {
+      "test": "invalid_amino_acid",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "Error: Invalid amino acids or length in BAD.\n",
+      "pass": true
+    },
+    {
+      "test": "short_sequence",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "Error: Invalid amino acids or length in BAD.\n",
+      "pass": true
+    },
+    {
+      "test": "duplicate_sequence",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "Error: Duplicate sequences in the FASTA.\n",
+      "pass": true
+    },
+    {
+      "test": "duplicate_identifier",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "Error: Duplicate identifiers in the FASTA.\n",
+      "pass": true
+    },
+    {
+      "test": "invalid_identifier",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "Error: Invalid FASTA identifier on line 1: 'A instruction'\n",
+      "pass": true
+    },
+    {
+      "test": "header_missing",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "Error: Sequence before first header on line 1\n",
+      "pass": true
+    },
+    {
+      "test": "empty",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "Error: The FASTA contains no records.\n",
+      "pass": true
+    },
+    {
+      "test": "prevent_input_overwrite",
+      "expected_returncode": 2,
+      "actual_returncode": 2,
+      "stdout": "",
+      "stderr": "Error: The output must not overwrite an input.\n",
+      "pass": true
+    }
+  ],
+  "synthetic_inputs": "FORMAT TESTS ONLY, not candidate protein designs."
+}

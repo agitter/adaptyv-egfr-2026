@@ -1,0 +1,107 @@
+{
+  "name": "cluster_acids",
+  "concurrency": 4,
+  "selection": "All five unchanged-sequence controls and six high-His-contrast combinations; before any new expanded-acid results. Not selected using mouse pH direction.",
+  "historical_source": "https://doi.org/10.1371/journal.pcbi.0020063",
+  "jobs": [
+    {
+      "id": "J00000",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00000"
+      ],
+      "timeout": 2400
+    },
+    {
+      "id": "J00001",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00001"
+      ],
+      "timeout": 2400
+    },
+    {
+      "id": "J00002",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00002"
+      ],
+      "timeout": 2400
+    },
+    {
+      "id": "J00003",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00003"
+      ],
+      "timeout": 2400
+    },
+    {
+      "id": "J00004",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00004"
+      ],
+      "timeout": 2400
+    },
+    {
+      "id": "J00005",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00005"
+      ],
+      "timeout": 2400
+    },
+    {
+      "id": "J00006",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00006"
+      ],
+      "timeout": 2400
+    },
+    {
+      "id": "J00008",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00008"
+      ],
+      "timeout": 2400
+    },
+    {
+      "id": "J00009",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00009"
+      ],
+      "timeout": 2400
+    },
+    {
+      "id": "J00010",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00010"
+      ],
+      "timeout": 2400
+    },
+    {
+      "id": "J00014",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/egfr_campaign/stage6/code/cluster_acids.py",
+        "J00014"
+      ],
+      "timeout": 2400
+    }
+  ]
+}

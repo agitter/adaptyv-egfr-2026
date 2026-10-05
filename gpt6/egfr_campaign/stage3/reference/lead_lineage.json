@@ -1,0 +1,705 @@
+[
+  {
+    "candidate_id": "G00117_C04",
+    "pose_id": "G00117",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGKWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYKEFTGSGQGQYWGQGTLVTVS",
+    "cdr_sequences": [
+      "GSQSGTYDEGK",
+      "GNNDNQQSNYEEYKG",
+      "GGYGGEYKEFTGSGQGQY"
+    ],
+    "seed": 20041704,
+    "historical_rng": "MT19937",
+    "ancestry": {
+      "pose_record": {
+        "selection": {
+          "H1": [
+            "H111",
+            3
+          ],
+          "H2": [
+            "H215",
+            9
+          ],
+          "H3": [
+            "H318",
+            5
+          ]
+        },
+        "rotation": [
+          [
+            0.5116935489144749,
+            0.09750902940573722,
+            0.8536168351102627
+          ],
+          [
+            0.8505934274246405,
+            -0.1975110209617852,
+            -0.48731942073001416
+          ],
+          [
+            0.12108068888684559,
+            0.9754390733320994,
+            -0.18400565479273312
+          ]
+        ],
+        "translation": [
+          12.004504920791852,
+          4.921704047351739,
+          -18.127076692718575
+        ],
+        "patch": "I",
+        "rama_mean": 1.8096380498670028,
+        "closure_max": 0.07491191674682868,
+        "score": 4.982983315851244,
+        "h_opportunity": 0.7017166794211593,
+        "acid_opportunity": 0.4955267243632346,
+        "contact_residues": 9,
+        "nonconserved_nearest": 1,
+        "minimum_human_backbone_distance": 4.668121575919314,
+        "minimum_mouse_backbone_distance": 2.64841725562722,
+        "glycan_anchor_min": 10.266104109952003,
+        "histidine_positions": [
+          358,
+          370,
+          383,
+          433
+        ],
+        "histidine_opportunity": [
+          0.6675312255324214,
+          5.071038040024283e-10,
+          0.9172784484042394,
+          1.7416398104914374e-25
+        ],
+        "independent_his_opportunities": 2,
+        "ancestor_backbone_pose": "P00233",
+        "generation": "stage3 receptor-His rigid docking",
+        "source_pose_id": null,
+        "pose_id": "G00117"
+      },
+      "CDR_sequence_initialization": "independent MT19937 choices, no donor binding-loop sequence",
+      "framework_source": "3EAK generic framework only; original loops removed"
+    },
+    "record_sha256": "f13fbc4714dcbb55dc2299df5928b4c978fb5ef4536edb3cb055bb4c761a4e9f",
+    "pose": {
+      "selection": {
+        "H1": [
+          "H111",
+          3
+        ],
+        "H2": [
+          "H215",
+          9
+        ],
+        "H3": [
+          "H318",
+          5
+        ]
+      },
+      "rotation": [
+        [
+          0.5116935489144749,
+          0.09750902940573722,
+          0.8536168351102627
+        ],
+        [
+          0.8505934274246405,
+          -0.1975110209617852,
+          -0.48731942073001416
+        ],
+        [
+          0.12108068888684559,
+          0.9754390733320994,
+          -0.18400565479273312
+        ]
+      ],
+      "translation": [
+        12.004504920791852,
+        4.921704047351739,
+        -18.127076692718575
+      ],
+      "patch": "I",
+      "rama_mean": 1.8096380498670028,
+      "closure_max": 0.07491191674682868,
+      "score": 4.982983315851244,
+      "h_opportunity": 0.7017166794211593,
+      "acid_opportunity": 0.4955267243632346,
+      "contact_residues": 9,
+      "nonconserved_nearest": 1,
+      "minimum_human_backbone_distance": 4.668121575919314,
+      "minimum_mouse_backbone_distance": 2.64841725562722,
+      "glycan_anchor_min": 10.266104109952003,
+      "histidine_positions": [
+        358,
+        370,
+        383,
+        433
+      ],
+      "histidine_opportunity": [
+        0.6675312255324214,
+        5.071038040024283e-10,
+        0.9172784484042394,
+        1.7416398104914374e-25
+      ],
+      "independent_his_opportunities": 2,
+      "ancestor_backbone_pose": "P00233",
+      "generation": "stage3 receptor-His rigid docking",
+      "source_pose_id": null,
+      "pose_id": "G00117"
+    }
+  },
+  {
+    "candidate_id": "B00013",
+    "pose_id": "G00117",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGKWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYKEFTGSGQGQYWGQGTLVTVS",
+    "cdr_sequences": [
+      "GSQSGTYDEGK",
+      "GNNDNQQSNYEEYKG",
+      "GGYGGEYKEFTGSGQGQY"
+    ],
+    "seed": null,
+    "historical_rng": "MT19937",
+    "ancestry": {
+      "parent_candidate": "G00117_C04",
+      "parent_sha256": "f13fbc4714dcbb55dc2299df5928b4c978fb5ef4536edb3cb055bb4c761a4e9f",
+      "parent_type": "own untested de novo computational design",
+      "relaxed_backbone_source": "/mnt/data/egfr_campaign/stage3/intermediate/refined/G00117_C04_human6ARU_relaxed.pdb"
+    },
+    "record_sha256": "5e2e74dff71f4658325ea3b3a03d7934b355e9c2dd34bb691ce080a524782937",
+    "pose": {
+      "selection": {
+        "H1": [
+          "H111",
+          3
+        ],
+        "H2": [
+          "H215",
+          9
+        ],
+        "H3": [
+          "H318",
+          5
+        ]
+      },
+      "rotation": [
+        [
+          0.5116935489144749,
+          0.09750902940573722,
+          0.8536168351102627
+        ],
+        [
+          0.8505934274246405,
+          -0.1975110209617852,
+          -0.48731942073001416
+        ],
+        [
+          0.12108068888684559,
+          0.9754390733320994,
+          -0.18400565479273312
+        ]
+      ],
+      "translation": [
+        12.004504920791852,
+        4.921704047351739,
+        -18.127076692718575
+      ],
+      "patch": "I",
+      "rama_mean": 1.8096380498670028,
+      "closure_max": 0.07491191674682868,
+      "score": 4.982983315851244,
+      "h_opportunity": 0.7017166794211593,
+      "acid_opportunity": 0.4955267243632346,
+      "contact_residues": 9,
+      "nonconserved_nearest": 1,
+      "minimum_human_backbone_distance": 4.668121575919314,
+      "minimum_mouse_backbone_distance": 2.64841725562722,
+      "glycan_anchor_min": 10.266104109952003,
+      "histidine_positions": [
+        358,
+        370,
+        383,
+        433
+      ],
+      "histidine_opportunity": [
+        0.6675312255324214,
+        5.071038040024283e-10,
+        0.9172784484042394,
+        1.7416398104914374e-25
+      ],
+      "independent_his_opportunities": 2,
+      "ancestor_backbone_pose": "P00233",
+      "generation": "stage3 receptor-His rigid docking",
+      "source_pose_id": null,
+      "pose_id": "G00117"
+    }
+  },
+  {
+    "candidate_id": "C00003",
+    "pose_id": "G00117",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGNNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSGQGQYWGQGTLVTVS",
+    "cdr_sequences": [
+      "GSQSGTYDEGQ",
+      "GNNDNQQSNYEEYKG",
+      "GGYGGEYQEFTGSGQGQY"
+    ],
+    "seed": null,
+    "historical_rng": "MT19937",
+    "ancestry": {
+      "parent_candidate": "B00013",
+      "parent_sha256": "5e2e74dff71f4658325ea3b3a03d7934b355e9c2dd34bb691ce080a524782937",
+      "parent_type": "own untested de novo computational design",
+      "relaxed_backbone_source": "/mnt/data/egfr_campaign/stage3/intermediate/refined/B00013_human6ARU_relaxed.pdb",
+      "relaxed_backbone_sha256": "752a49ff9c312c7b428329418a8c3ffb1ea182c68e9123cd8b60cefe2f93012d"
+    },
+    "record_sha256": "c426e082fa2f851b49838884fd2bc345dcef41ce7f6772f54e178716eddaa77a",
+    "pose": {
+      "selection": {
+        "H1": [
+          "H111",
+          3
+        ],
+        "H2": [
+          "H215",
+          9
+        ],
+        "H3": [
+          "H318",
+          5
+        ]
+      },
+      "rotation": [
+        [
+          0.5116935489144749,
+          0.09750902940573722,
+          0.8536168351102627
+        ],
+        [
+          0.8505934274246405,
+          -0.1975110209617852,
+          -0.48731942073001416
+        ],
+        [
+          0.12108068888684559,
+          0.9754390733320994,
+          -0.18400565479273312
+        ]
+      ],
+      "translation": [
+        12.004504920791852,
+        4.921704047351739,
+        -18.127076692718575
+      ],
+      "patch": "I",
+      "rama_mean": 1.8096380498670028,
+      "closure_max": 0.07491191674682868,
+      "score": 4.982983315851244,
+      "h_opportunity": 0.7017166794211593,
+      "acid_opportunity": 0.4955267243632346,
+      "contact_residues": 9,
+      "nonconserved_nearest": 1,
+      "minimum_human_backbone_distance": 4.668121575919314,
+      "minimum_mouse_backbone_distance": 2.64841725562722,
+      "glycan_anchor_min": 10.266104109952003,
+      "histidine_positions": [
+        358,
+        370,
+        383,
+        433
+      ],
+      "histidine_opportunity": [
+        0.6675312255324214,
+        5.071038040024283e-10,
+        0.9172784484042394,
+        1.7416398104914374e-25
+      ],
+      "independent_his_opportunities": 2,
+      "ancestor_backbone_pose": "P00233",
+      "generation": "stage3 receptor-His rigid docking",
+      "source_pose_id": null,
+      "pose_id": "G00117"
+    }
+  },
+  {
+    "candidate_id": "C00009",
+    "pose_id": "G00117",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGENDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSGQGQYWGQGTLVTVS",
+    "cdr_sequences": [
+      "GSQSGTYDEGQ",
+      "GENDNQQSNYEEYKG",
+      "GGYGGEYQEFTGSGQGQY"
+    ],
+    "seed": null,
+    "historical_rng": "MT19937",
+    "ancestry": {
+      "parent_candidate": "B00013",
+      "parent_sha256": "5e2e74dff71f4658325ea3b3a03d7934b355e9c2dd34bb691ce080a524782937",
+      "parent_type": "own untested de novo computational design",
+      "relaxed_backbone_source": "/mnt/data/egfr_campaign/stage3/intermediate/refined/B00013_human6ARU_relaxed.pdb",
+      "relaxed_backbone_sha256": "752a49ff9c312c7b428329418a8c3ffb1ea182c68e9123cd8b60cefe2f93012d"
+    },
+    "record_sha256": "9a44e74c91857a9cbfcde1ee04cac7207ee635480e8fd8f4888c18be3bf196c5",
+    "pose": {
+      "selection": {
+        "H1": [
+          "H111",
+          3
+        ],
+        "H2": [
+          "H215",
+          9
+        ],
+        "H3": [
+          "H318",
+          5
+        ]
+      },
+      "rotation": [
+        [
+          0.5116935489144749,
+          0.09750902940573722,
+          0.8536168351102627
+        ],
+        [
+          0.8505934274246405,
+          -0.1975110209617852,
+          -0.48731942073001416
+        ],
+        [
+          0.12108068888684559,
+          0.9754390733320994,
+          -0.18400565479273312
+        ]
+      ],
+      "translation": [
+        12.004504920791852,
+        4.921704047351739,
+        -18.127076692718575
+      ],
+      "patch": "I",
+      "rama_mean": 1.8096380498670028,
+      "closure_max": 0.07491191674682868,
+      "score": 4.982983315851244,
+      "h_opportunity": 0.7017166794211593,
+      "acid_opportunity": 0.4955267243632346,
+      "contact_residues": 9,
+      "nonconserved_nearest": 1,
+      "minimum_human_backbone_distance": 4.668121575919314,
+      "minimum_mouse_backbone_distance": 2.64841725562722,
+      "glycan_anchor_min": 10.266104109952003,
+      "histidine_positions": [
+        358,
+        370,
+        383,
+        433
+      ],
+      "histidine_opportunity": [
+        0.6675312255324214,
+        5.071038040024283e-10,
+        0.9172784484042394,
+        1.7416398104914374e-25
+      ],
+      "independent_his_opportunities": 2,
+      "ancestor_backbone_pose": "P00233",
+      "generation": "stage3 receptor-His rigid docking",
+      "source_pose_id": null,
+      "pose_id": "G00117"
+    }
+  },
+  {
+    "candidate_id": "C00017",
+    "pose_id": "G00117",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGEDDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSGQGQYWGQGTLVTVS",
+    "cdr_sequences": [
+      "GSQSGTYDEGQ",
+      "GEDDNQQSNYEEYKG",
+      "GGYGGEYQEFTGSGQGQY"
+    ],
+    "seed": null,
+    "historical_rng": "MT19937",
+    "ancestry": {
+      "parent_candidate": "B00013",
+      "parent_sha256": "5e2e74dff71f4658325ea3b3a03d7934b355e9c2dd34bb691ce080a524782937",
+      "parent_type": "own untested de novo computational design",
+      "relaxed_backbone_source": "/mnt/data/egfr_campaign/stage3/intermediate/refined/B00013_human6ARU_relaxed.pdb",
+      "relaxed_backbone_sha256": "752a49ff9c312c7b428329418a8c3ffb1ea182c68e9123cd8b60cefe2f93012d"
+    },
+    "record_sha256": "8d19e1a42bfa9bb536c76fd6d9afa2aab9c067f429bcfa43ad9dfd7f918cd263",
+    "pose": {
+      "selection": {
+        "H1": [
+          "H111",
+          3
+        ],
+        "H2": [
+          "H215",
+          9
+        ],
+        "H3": [
+          "H318",
+          5
+        ]
+      },
+      "rotation": [
+        [
+          0.5116935489144749,
+          0.09750902940573722,
+          0.8536168351102627
+        ],
+        [
+          0.8505934274246405,
+          -0.1975110209617852,
+          -0.48731942073001416
+        ],
+        [
+          0.12108068888684559,
+          0.9754390733320994,
+          -0.18400565479273312
+        ]
+      ],
+      "translation": [
+        12.004504920791852,
+        4.921704047351739,
+        -18.127076692718575
+      ],
+      "patch": "I",
+      "rama_mean": 1.8096380498670028,
+      "closure_max": 0.07491191674682868,
+      "score": 4.982983315851244,
+      "h_opportunity": 0.7017166794211593,
+      "acid_opportunity": 0.4955267243632346,
+      "contact_residues": 9,
+      "nonconserved_nearest": 1,
+      "minimum_human_backbone_distance": 4.668121575919314,
+      "minimum_mouse_backbone_distance": 2.64841725562722,
+      "glycan_anchor_min": 10.266104109952003,
+      "histidine_positions": [
+        358,
+        370,
+        383,
+        433
+      ],
+      "histidine_opportunity": [
+        0.6675312255324214,
+        5.071038040024283e-10,
+        0.9172784484042394,
+        1.7416398104914374e-25
+      ],
+      "independent_his_opportunities": 2,
+      "ancestor_backbone_pose": "P00233",
+      "generation": "stage3 receptor-His rigid docking",
+      "source_pose_id": null,
+      "pose_id": "G00117"
+    }
+  },
+  {
+    "candidate_id": "C00024",
+    "pose_id": "G00117",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGSQSGTYDEGQWFRQAPGQGLEAVAGDNDNQQSNYEEYKGKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCGGYGGEYQEFTGSGQGQYWGQGTLVTVS",
+    "cdr_sequences": [
+      "GSQSGTYDEGQ",
+      "GDNDNQQSNYEEYKG",
+      "GGYGGEYQEFTGSGQGQY"
+    ],
+    "seed": null,
+    "historical_rng": "MT19937",
+    "ancestry": {
+      "parent_candidate": "B00013",
+      "parent_sha256": "5e2e74dff71f4658325ea3b3a03d7934b355e9c2dd34bb691ce080a524782937",
+      "parent_type": "own untested de novo computational design",
+      "relaxed_backbone_source": "/mnt/data/egfr_campaign/stage3/intermediate/refined/B00013_human6ARU_relaxed.pdb",
+      "relaxed_backbone_sha256": "752a49ff9c312c7b428329418a8c3ffb1ea182c68e9123cd8b60cefe2f93012d"
+    },
+    "record_sha256": "dba99ea775789286e95de6a2322968edf0f1c0c6aca8e63a999188fc5b5057a0",
+    "pose": {
+      "selection": {
+        "H1": [
+          "H111",
+          3
+        ],
+        "H2": [
+          "H215",
+          9
+        ],
+        "H3": [
+          "H318",
+          5
+        ]
+      },
+      "rotation": [
+        [
+          0.5116935489144749,
+          0.09750902940573722,
+          0.8536168351102627
+        ],
+        [
+          0.8505934274246405,
+          -0.1975110209617852,
+          -0.48731942073001416
+        ],
+        [
+          0.12108068888684559,
+          0.9754390733320994,
+          -0.18400565479273312
+        ]
+      ],
+      "translation": [
+        12.004504920791852,
+        4.921704047351739,
+        -18.127076692718575
+      ],
+      "patch": "I",
+      "rama_mean": 1.8096380498670028,
+      "closure_max": 0.07491191674682868,
+      "score": 4.982983315851244,
+      "h_opportunity": 0.7017166794211593,
+      "acid_opportunity": 0.4955267243632346,
+      "contact_residues": 9,
+      "nonconserved_nearest": 1,
+      "minimum_human_backbone_distance": 4.668121575919314,
+      "minimum_mouse_backbone_distance": 2.64841725562722,
+      "glycan_anchor_min": 10.266104109952003,
+      "histidine_positions": [
+        358,
+        370,
+        383,
+        433
+      ],
+      "histidine_opportunity": [
+        0.6675312255324214,
+        5.071038040024283e-10,
+        0.9172784484042394,
+        1.7416398104914374e-25
+      ],
+      "independent_his_opportunities": 2,
+      "ancestor_backbone_pose": "P00233",
+      "generation": "stage3 receptor-His rigid docking",
+      "source_pose_id": null,
+      "pose_id": "G00117"
+    }
+  },
+  {
+    "candidate_id": "G00053_C05",
+    "pose_id": "G00053",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASNTDYYGYTERKWFRQAPGQGLEAVAGEGDGTYYEYGSTADKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTFYDSKSDKSESYYQTDQRDWGQGTLVTVS",
+    "cdr_sequences": [
+      "NTDYYGYTERK",
+      "GEGDGTYYEYGSTAD",
+      "TFYDSKSDKSESYYQTDQRD"
+    ],
+    "seed": 20035305,
+    "historical_rng": "MT19937",
+    "ancestry": {
+      "pose_record": {
+        "backbone": 63,
+        "patch": "A",
+        "selection": {
+          "H1": [
+            "H111",
+            2
+          ],
+          "H2": [
+            "H215",
+            14
+          ],
+          "H3": [
+            "H320",
+            8
+          ]
+        },
+        "rotation": [
+          [
+            -0.029618990626509814,
+            -0.8247935180994999,
+            -0.5646577440320085
+          ],
+          [
+            -0.44956793633628267,
+            -0.49355123323388944,
+            0.7445104772880253
+          ],
+          [
+            -0.8927549417463916,
+            0.2759036655689034,
+            -0.3561822304846774
+          ]
+        ],
+        "translation": [
+          54.26340761654417,
+          86.00962142956837,
+          109.19409057845823
+        ],
+        "rama_mean": 2.159730064152957,
+        "closure_max": 0.07477796821585693,
+        "score": 5.7524648245483405,
+        "h_opportunity": 1.0091128354819814,
+        "acid_opportunity": 1.5382058101012133,
+        "contact_residues": 13,
+        "nonconserved_nearest": 0,
+        "minimum_human_backbone_distance": 3.0814104207793234,
+        "minimum_mouse_backbone_distance": 2.6830550794621173,
+        "glycan_anchor_min": 16.38630216821024,
+        "pose_id": "G00053",
+        "ancestor_backbone_pose": "P00050",
+        "generation": "stage2 MT19937 pose, redesigned from empty CDR sequence",
+        "source_pose_id": "P00050"
+      },
+      "CDR_sequence_initialization": "independent MT19937 choices, no donor binding-loop sequence",
+      "framework_source": "3EAK generic framework only; original loops removed"
+    },
+    "record_sha256": "c1b9e542e2c5a2ba4e80cbfd53344c269a80e14e0f0363e1adb36e6c5f44d155",
+    "pose": {
+      "backbone": 63,
+      "patch": "A",
+      "selection": {
+        "H1": [
+          "H111",
+          2
+        ],
+        "H2": [
+          "H215",
+          14
+        ],
+        "H3": [
+          "H320",
+          8
+        ]
+      },
+      "rotation": [
+        [
+          -0.029618990626509814,
+          -0.8247935180994999,
+          -0.5646577440320085
+        ],
+        [
+          -0.44956793633628267,
+          -0.49355123323388944,
+          0.7445104772880253
+        ],
+        [
+          -0.8927549417463916,
+          0.2759036655689034,
+          -0.3561822304846774
+        ]
+      ],
+      "translation": [
+        54.26340761654417,
+        86.00962142956837,
+        109.19409057845823
+      ],
+      "rama_mean": 2.159730064152957,
+      "closure_max": 0.07477796821585693,
+      "score": 5.7524648245483405,
+      "h_opportunity": 1.0091128354819814,
+      "acid_opportunity": 1.5382058101012133,
+      "contact_residues": 13,
+      "nonconserved_nearest": 0,
+      "minimum_human_backbone_distance": 3.0814104207793234,
+      "minimum_mouse_backbone_distance": 2.6830550794621173,
+      "glycan_anchor_min": 16.38630216821024,
+      "pose_id": "G00053",
+      "ancestor_backbone_pose": "P00050",
+      "generation": "stage2 MT19937 pose, redesigned from empty CDR sequence",
+      "source_pose_id": "P00050"
+    }
+  }
+]

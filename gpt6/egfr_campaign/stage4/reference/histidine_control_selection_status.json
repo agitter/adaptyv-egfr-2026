@@ -1,0 +1,35 @@
+{
+  "config": "/mnt/data/egfr_campaign/stage4/reference/histidine_control_selection.json",
+  "jobs": [
+    {
+      "name": "histidine_control_S00062",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/histidine_matched_controls.py",
+        "S00062"
+      ],
+      "timeout": 800
+    },
+    {
+      "name": "histidine_control_S00063",
+      "args": [
+        "/mnt/data/egfr_campaign/stage4/code/histidine_matched_controls.py",
+        "S00063"
+      ],
+      "timeout": 800
+    }
+  ],
+  "completed": [
+    {
+      "name": "histidine_control_S00062",
+      "returncode": 0,
+      "seconds": 57.58251595497131,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/histidine_control_S00062.log"
+    },
+    {
+      "name": "histidine_control_S00063",
+      "returncode": 0,
+      "seconds": 96.11720275878906,
+      "log": "/mnt/data/egfr_campaign/stage4/logs/histidine_control_S00063.log"
+    }
+  ]
+}

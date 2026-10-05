@@ -1,0 +1,115 @@
+{
+  "parent_sequence_source": "/mnt/data/egfr_campaign/stage5/intermediate/designs/B00000.json",
+  "parent_sha256": "92f8247b7fe3a2408fc94b7921c21a2d21d413cc561548799275f2910b77d223",
+  "shared_backbone_source": "/mnt/data/egfr_campaign/stage5/intermediate/refined/B00000_human6ARU_relaxed.pdb",
+  "shared_backbone_sha256": "4dcacea3e986cf2a54af4f1adc77b8cb2ff76f97784a2c035d2e2de285c38ae6",
+  "controls": [
+    {},
+    {
+      "52": "E"
+    },
+    {
+      "52": "E",
+      "53": "D"
+    },
+    {
+      "104": "E"
+    },
+    {
+      "54": "E",
+      "103": "Q",
+      "104": "E"
+    }
+  ],
+  "experimental": [
+    {
+      "52": "E",
+      "104": "E"
+    },
+    {
+      "53": "D",
+      "104": "E"
+    },
+    {
+      "53": "E",
+      "104": "E"
+    },
+    {
+      "52": "E",
+      "53": "D",
+      "104": "E"
+    },
+    {
+      "52": "E",
+      "53": "E",
+      "104": "E"
+    },
+    {
+      "52": "D",
+      "104": "E"
+    },
+    {
+      "52": "E",
+      "103": "Q",
+      "104": "E"
+    },
+    {
+      "53": "E",
+      "103": "Q",
+      "104": "E"
+    },
+    {
+      "52": "E",
+      "53": "D",
+      "103": "Q",
+      "104": "E"
+    },
+    {
+      "52": "E",
+      "54": "E",
+      "104": "E"
+    },
+    {
+      "52": "E",
+      "54": "E",
+      "103": "Q",
+      "104": "E"
+    },
+    {
+      "53": "D",
+      "54": "E",
+      "103": "Q",
+      "104": "E"
+    },
+    {
+      "52": "D",
+      "54": "E",
+      "103": "Q",
+      "104": "E"
+    },
+    {
+      "52": "E",
+      "53": "D",
+      "54": "E",
+      "103": "Q",
+      "104": "E"
+    },
+    {
+      "52": "E",
+      "53": "E",
+      "54": "E",
+      "103": "Q",
+      "104": "E"
+    },
+    {
+      "52": "D",
+      "53": "E",
+      "103": "Q",
+      "104": "E"
+    }
+  ],
+  "method": "Deterministic finite empirical rotamer search; factorial combination of earlier physical hypotheses. All energetic metrics recomputed; modern implementations of historical algorithms only.",
+  "refinement_iterations": 450,
+  "unchanged_controls_receive_same_refinement": true,
+  "selection": "Evaluate every sterically feasible generated sequence with human MM; prioritize followup by strict geometry plus conservative independent-prior contrast, not search score."
+}

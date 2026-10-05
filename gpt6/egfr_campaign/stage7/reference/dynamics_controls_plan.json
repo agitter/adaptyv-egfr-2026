@@ -1,0 +1,26 @@
+{
+  "tasks": [
+    [
+      "M00000",
+      198005
+    ],
+    [
+      "M00000",
+      198006
+    ],
+    [
+      "NATIVE_3EAK",
+      198005
+    ],
+    [
+      "NATIVE_3EAK",
+      198006
+    ]
+  ],
+  "workers": 4,
+  "threads_each": 1,
+  "production_ps": 20,
+  "warmup_ps": 2,
+  "source": "preserved stage4 dynamics.py",
+  "definition": "Replica seeds fixed before observing trajectories. Report both complete trajectories, not selected early segments. RMSD is not folding free energy."
+}

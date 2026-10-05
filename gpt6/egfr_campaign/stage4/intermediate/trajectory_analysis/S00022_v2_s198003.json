@@ -1,0 +1,78 @@
+{
+  "trajectory": "S00022_v2_s198003",
+  "candidate_id": "S00022",
+  "warmup_ps": 2.0,
+  "production_ps": 20.0,
+  "seed": 198003,
+  "global_loop_displacement_mean_A": 1.9153354166332055,
+  "loop_internal_deformation_mean_A": [
+    1.052015815475723,
+    0.9282358690710937,
+    1.2438737619995073
+  ],
+  "loop_internal_deformation_final_A": [
+    1.0235872011212104,
+    0.8944708261259219,
+    1.3100495982873492
+  ],
+  "loop_intervals_zero_based_half_open": [
+    [
+      25,
+      36
+    ],
+    [
+      50,
+      65
+    ],
+    [
+      97,
+      115
+    ]
+  ],
+  "end_point_independent_geometry": {
+    "candidate_id": "S00022",
+    "absolute_alpha_inversions": [],
+    "peptide_omega_warnings": [
+      {
+        "previous_position": 57,
+        "next_position": 58,
+        "omega_deg": -143.48357363501597,
+        "next_is_proline": false
+      }
+    ],
+    "actual_cystines": [
+      {
+        "positions": [
+          22,
+          97
+        ],
+        "SG_distance_A": 2.0042205467462897,
+        "chi3_deg": 95.69379546147064,
+        "CB_S_S_angles_deg": [
+          98.15377201593228,
+          101.96631656115736
+        ],
+        "strain_gate_pass": true
+      }
+    ],
+    "disulfide_strain_warnings": [],
+    "intended_extra_pairs_present": true,
+    "pass": false,
+    "thresholds": {
+      "omega_max_deviation_from_trans_deg": 25,
+      "SS_A": [
+        1.9,
+        2.2
+      ],
+      "absolute_chi3_deviation_from90_max_deg": 35,
+      "CB_S_S_angles_deg": [
+        80,
+        130
+      ]
+    },
+    "qualification": "Heuristic geometry gates; not a folding, oxidation-yield or binding prediction."
+  },
+  "end_point_geometry_qualification": "The omega/disulfide thresholds were designed for minimized structures. Thermal excursions at one instantaneous endpoint are diagnostic only, not automatic exclusion. Chirality inversion or severe bond/clash defects remain separate warnings.",
+  "reference_qualification": "Reference for all internal-deformation comparisons is the initial recorded, minimized unbound frame.",
+  "limitations": "Descriptive averages of correlated frames from a short nonequilibrium stress test; not a stability free energy, not statistical significance and not equilibrium folding."
+}
